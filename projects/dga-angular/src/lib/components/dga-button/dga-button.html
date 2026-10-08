@@ -1,0 +1,21 @@
+<button
+  class="dga-button"
+  [class.dga-button--primary]="variant === 'primary'"
+  [class.dga-button--secondary]="variant === 'secondary'"
+  [class.dga-button--outline]="variant === 'outline'"
+  [class.dga-button--ghost]="variant === 'ghost'"
+  [class.dga-button--destructive]="variant === 'destructive'"
+  [class.dga-button--link]="variant === 'link'"
+  [class.dga-button--sm]="size === 'sm'"
+  [class.dga-button--md]="size === 'md'"
+  [class.dga-button--lg]="size === 'lg'"
+  [type]="type"
+  [disabled]="disabled || loading"
+  [attr.aria-busy]="loading"
+  (click)="clicked.emit($event)"
+>
+  @if (loading) {
+    <span class="dga-button__spinner" aria-hidden="true"></span>
+  }
+  <span class="dga-button__content"><ng-content></ng-content></span>
+</button>

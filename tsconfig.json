@@ -3,6 +3,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "dga-angular": ["./dist/dga-angular"]
+    },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -26,6 +29,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/dga-angular/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/dga-angular/tsconfig.spec.json"
     }
   ]
 }

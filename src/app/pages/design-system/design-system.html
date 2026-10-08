@@ -1,0 +1,485 @@
+<div class="docs-shell">
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="DGA Design System home">
+      <span class="brand__mark">DGA</span>
+      <span class="brand__name">Design System</span>
+    </a>
+    <div class="topbar__meta">
+      <span class="version">Angular · 1.0</span>
+      <span class="language-label">Saudi Arabia</span>
+    </div>
+  </header>
+
+  <aside class="sidebar" aria-label="Design system sections">
+    <p class="sidebar__heading">FOUNDATIONS</p>
+    <a href="#colors">Colors</a>
+    <a href="#typography">Typography</a>
+    <a href="#spacing">Spacing & shapes</a>
+    <p class="sidebar__heading">COMPONENTS</p>
+    <a href="#buttons">Buttons</a>
+    <a href="#forms">Form controls</a>
+    <a href="#status">Badges & tags</a>
+    <a href="#surfaces">Cards & surfaces</a>
+    <a href="#alerts">Alerts</a>
+    <a href="#navigation">Navigation</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#data">Data</a>
+    <a href="#composites">Composite patterns</a>
+    <a href="#direction">RTL / LTR</a>
+  </aside>
+
+  <main class="main" id="top">
+    <section class="hero">
+      <div class="hero__copy">
+        <div class="eyebrow"><span class="eyebrow__dot"></span> DESIGN SYSTEM · ANGULAR</div>
+        <p class="hero__arabic" lang="ar" dir="rtl">منظومة التصميم للخدمات الحكومية الرقمية</p>
+        <h1>DGA Design<br />System</h1>
+        <p class="hero__description">
+          A thoughtful, accessible component foundation for Saudi Arabia's digital government services.
+          Built with the official DGA-inspired token set and native Angular.
+        </p>
+        <div class="hero__actions">
+          <a class="hero__action" href="#buttons">Explore components <span aria-hidden="true">↓</span></a>
+          <span class="hero__note"><span class="status-dot"></span> 24 standalone components</span>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="orbit orbit--one"></div>
+        <div class="orbit orbit--two"></div>
+        <div class="hero-card hero-card--back"><span class="hero-card__glyph">✓</span></div>
+        <div class="hero-card hero-card--front">
+          <span class="hero-card__label">SAUDI ARABIA</span>
+          <span class="hero-card__seal">DGA</span>
+          <span class="hero-card__caption">Digital government<br />by design.</span>
+          <span class="hero-card__line"></span>
+        </div>
+        <span class="hero__spark hero__spark--one"></span>
+        <span class="hero__spark hero__spark--two"></span>
+      </div>
+    </section>
+
+    <div class="content">
+      <section class="doc-section" id="colors">
+        <div class="section-heading">
+          <div><span class="section-index">01 / FOUNDATIONS</span><h2>Color</h2></div>
+          <p>A purposeful palette rooted in Saudi green, supported by balanced neutrals and clear status colors.</p>
+        </div>
+        <div class="palette-list">
+          @for (palette of palettes; track palette.key) {
+            <div class="palette-row">
+              <div class="palette-title">{{ palette.title }}<code>--ddga-{{ palette.key }}-*</code></div>
+              <div class="swatches">
+                @for (step of palette.steps; track step) {
+                  <div class="swatch">
+                    <span class="swatch__color" [style.background-color]="'var(--ddga-' + palette.key + '-' + step + ')'"></span>
+                    <span class="swatch__step">{{ step }}</span>
+                  </div>
+                }
+              </div>
+            </div>
+          }
+        </div>
+        <div class="semantic-colors">
+          <div><span class="semantic-chip semantic-chip--primary"></span><span>Primary</span><code>--ddga-color-primary</code></div>
+          <div><span class="semantic-chip semantic-chip--surface"></span><span>Surface</span><code>--ddga-color-card</code></div>
+          <div><span class="semantic-chip semantic-chip--border"></span><span>Border</span><code>--ddga-color-border</code></div>
+          <div><span class="semantic-chip semantic-chip--error"></span><span>Error</span><code>--ddga-color-error</code></div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="typography">
+        <div class="section-heading">
+          <div><span class="section-index">02 / FOUNDATIONS</span><h2>Typography</h2></div>
+          <p>IBM Plex Sans Arabic leads across scripts. Type scales, weights, and line heights are tokenized.</p>
+        </div>
+        <div class="type-card">
+          <div class="type-intro">
+            <div><span class="sample-label">ENGLISH · IBM PLEX</span><p class="font-preview">The quick brown fox<br />jumps over the lazy dog.</p></div>
+            <div dir="rtl" lang="ar"><span class="sample-label">العربية · IBM PLEX SANS ARABIC</span><p class="font-preview font-preview--arabic">الحكومة الرقمية<br />تبدأ بتجربة واضحة</p></div>
+          </div>
+          <dga-divider />
+          <div class="type-scale">
+            @for (sample of typeSamples; track sample.token) {
+              <div class="type-row">
+                <span class="type-row__label">{{ sample.label }}</span>
+                <span class="type-row__sample" [style.font-size]="'var(--ddga-font-size-' + sample.token + ')'">Aa — Digital services</span>
+                <code>--ddga-font-size-{{ sample.token }}</code>
+              </div>
+            }
+          </div>
+          <div class="type-meta">
+            <div><span>WEIGHTS</span><b>Regular 400</b><b>Medium 500</b><b>Semibold 600</b><b>Bold 700</b></div>
+            <code>--ddga-font-ar · --ddga-font-en · --ddga-font-mono</code>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="spacing">
+        <div class="section-heading">
+          <div><span class="section-index">03 / FOUNDATIONS</span><h2>Space, radius & elevation</h2></div>
+          <p>Consistent rhythm and soft, restrained elevations create a clear hierarchy.</p>
+        </div>
+        <div class="foundation-grid">
+          <article class="foundation-card">
+            <h3>Spacing scale</h3><p class="muted">A 4px base unit keeps layouts in rhythm.</p>
+            <div class="space-list">
+              @for (space of spaces; track space) {
+                <div class="space-row"><code>{{ space }}</code><span class="space-bar" [style.inline-size]="'var(--ddga-space-' + space + ')'"></span><small>--ddga-space-{{ space }}</small></div>
+              }
+            </div>
+          </article>
+          <article class="foundation-card">
+            <h3>Corner radius</h3><p class="muted">Friendly geometry for every surface.</p>
+            <div class="radius-list">
+              @for (radius of radii; track radius) {
+                <div class="radius-item"><span [style.border-radius]="'var(--ddga-radius-' + radius + ')'"></span><small>{{ radius }}</small></div>
+              }
+            </div>
+            <h3 class="subheading">Shadows</h3>
+            <div class="shadow-list">
+              @for (shadow of shadows; track shadow) {
+                <span [style.box-shadow]="'var(--ddga-shadow-' + shadow + ')'">{{ shadow }}</span>
+              }
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="doc-section" id="buttons">
+        <div class="section-heading">
+          <div><span class="section-index">04 / CORE</span><h2>Buttons</h2></div>
+          <p>Clear, decisive actions with six semantic treatments and three comfortable touch sizes.</p>
+        </div>
+        <div class="specimen">
+          <div class="specimen__label">VARIANTS <span>default · hover · focus · active</span></div>
+          <div class="button-row">
+            @for (variant of buttonVariants; track variant) {
+              <dga-button [variant]="variant">{{ variant | titlecase }}</dga-button>
+            }
+          </div>
+          <dga-divider />
+          <div class="specimen__label">SIZES & STATES <span>disabled · loading</span></div>
+          <div class="button-row">
+            @for (size of buttonSizes; track size) {
+              <dga-button [size]="size">{{ size | uppercase }}</dga-button>
+            }
+            <dga-button [disabled]="true">Disabled</dga-button>
+            <dga-button [loading]="true">Saving</dga-button>
+            <dga-icon-button label="More options" icon="more-horizontal" />
+            <dga-icon-button label="Search services" icon="search" variant="primary" size="sm" />
+            <dga-icon-button label="Close" icon="close" variant="destructive" />
+          </div>
+          <div class="usage"><code>&lt;dga-button variant="primary" size="md"&gt;Save&lt;/dga-button&gt;</code><span>Projected content · typed inputs · native button semantics</span></div>
+        </div>
+        <div class="specimen icon-specimen">
+          <div class="specimen__label">DGA ICONS <span>Inline SVG · currentColor · decorative by default</span></div>
+          <div class="icon-grid">
+            @for (icon of iconNames; track icon) {
+              <div class="icon-sample"><dga-icon [name]="icon" /><code>{{ icon }}</code></div>
+            }
+          </div>
+          <div class="usage"><code>&lt;dga-icon name="search" /&gt;</code><span>Typed icon names · accessible label available · icons are not a full React registry port</span></div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="forms">
+        <div class="section-heading">
+          <div><span class="section-index">05 / CORE</span><h2>Form controls</h2></div>
+          <p>Labels, helper text, validation, and keyboard-visible focus are built into the controls.</p>
+        </div>
+        <div class="form-showcase">
+          <span class="demo-label">FIELD STATES · DEFAULT / HOVER / FOCUS / ACTIVE / ERROR / SUCCESS / DISABLED / READONLY</span>
+          <div class="form-grid">
+            <dga-input id="demo-full-name" label="Full name" placeholder="Enter your name" [(ngModel)]="name" helperText="Use your official name." />
+            <dga-input id="demo-email" label="Email address" type="email" placeholder="name@example.com" [(ngModel)]="email" [required]="true" />
+            <dga-input id="demo-invalid" label="National ID" value="123" error="Enter a valid 10-digit national ID." />
+            <dga-input id="demo-success" label="Verified email" value="person@example.sa" [success]="true" helperText="Email address verified." />
+            <dga-input id="demo-readonly" label="Application ID" value="DGA-2048" [readOnly]="true" />
+            <dga-input id="demo-disabled" label="Reference number" value="Not available" [disabled]="true" variant="filled-lighter" />
+            <dga-textarea id="demo-description" label="Description" placeholder="Tell us a little more…" [(ngModel)]="description" helperText="Up to 500 characters." />
+            <dga-textarea id="demo-readonly-description" label="Submitted notes" value="This application is read-only." [readOnly]="true" />
+            <dga-select id="demo-service" label="Service area" [options]="selectOptions" [(ngModel)]="selectedService" helperText="Choose the area that best fits." />
+            <dga-select id="demo-disabled-select" label="Unavailable category" [options]="selectOptions" [disabled]="true" />
+          </div>
+          <div class="choices"><span class="demo-label">UNCHECKED / CHECKED / MIXED / DISABLED / VALIDATION / SWITCH OFF / ON STATES</span>
+            <dga-checkbox id="terms" name="terms" [(ngModel)]="acceptedTerms">I agree to the terms and conditions</dga-checkbox>
+            <dga-checkbox id="indeterminate" name="indeterminate" [indeterminate]="true" helperText="Mixed selection state">Select all services</dga-checkbox>
+            <dga-checkbox id="error-choice" name="error-choice" errorMessage="This confirmation is required">Confirm your details</dga-checkbox>
+            <dga-checkbox id="disabled-choice" name="disabled-choice" [disabled]="true">Unavailable option</dga-checkbox>
+            <dga-radio-group name="account-type" label="Account type" [options]="radioOptions" [(ngModel)]="selectedRadio" helperText="Choose one account type." />
+            <dga-switch id="notifications" name="notifications" [(ngModel)]="notificationsEnabled">Enable notifications</dga-switch>
+            <dga-switch id="notifications-off" name="notifications-off" [checked]="false">Notifications off</dga-switch>
+            <dga-switch id="disabled-switch" name="disabled-switch" [checked]="true" [disabled]="true">Managed by administrator</dga-switch>
+          </div>
+          <div class="usage"><code>&lt;dga-input label="Email" type="email" required /&gt;</code><span>Angular Forms ControlValueAccessor · helper, error, success, disabled and read-only states</span></div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="status">
+        <div class="section-heading">
+          <div><span class="section-index">06 / FEEDBACK</span><h2>Badges, tags & avatars</h2></div>
+          <p>Compact status and identity components with color that reinforces meaning.</p>
+        </div>
+        <div class="specimen component-row">
+          <div class="status-row">
+            <dga-badge variant="success" size="sm">Active</dga-badge>
+            <dga-badge variant="warning" size="md">In review</dga-badge>
+            <dga-badge variant="error" size="lg">Failed</dga-badge>
+            <dga-badge variant="info">Information</dga-badge>
+            <dga-badge variant="neutral">Draft</dga-badge>
+          </div>
+          <div class="status-row">
+            <dga-badge tone="success" status="ghost">Ghost status</dga-badge>
+            <dga-badge tone="info" status="subtle">Subtle status</dga-badge>
+            <dga-badge tone="warning" status="inverted">Inverted status</dga-badge>
+          </div>
+          <div class="status-row"><dga-tag variant="primary">Digital identity</dga-tag><dga-tag variant="outline" size="sm">Public service</dga-tag><dga-tag variant="success-subtle">Available</dga-tag><dga-tag variant="secondary" size="lg" shape="squared">Large squared</dga-tag><dga-tag [removable]="true" label="Remove tag">Filter: citizen</dga-tag></div>
+          <div class="status-row avatar-row"><dga-avatar size="xs" initials="AM" alt="Amina Mohammed" /><dga-avatar initials="DG" alt="Digital Government" /><dga-avatar size="lg" initials="KS" alt="Kingdom services" /><dga-avatar size="xl" shape="square" initials="SA" alt="Saudi Arabia" status="online" /><dga-avatar size="sm" src="/assets/avatar-not-found.png" initials="FB" alt="Fallback after image load failure" /><span class="muted">Avatar sizes · circle / square · fallback · presence</span></div>
+          <div class="status-row avatar-row">
+            <dga-avatar-group [max]="3" size="sm" label="Service team">
+              <dga-avatar initials="AM" alt="Amina Mohammed" />
+              <dga-avatar initials="FK" alt="Fahad Khan" colorScheme="primary" />
+              <dga-avatar initials="SA" alt="Sara Ahmed" colorScheme="success" />
+              <dga-avatar initials="NA" alt="Noura Ali" colorScheme="warning" />
+            </dga-avatar-group>
+            <span class="muted">AvatarGroup · inherited size and shape · +N overflow</span>
+          </div>
+          <div class="status-row avatar-row">
+            <dga-avatar size="md" shape="circle" status="online" statusLabel="Available">
+              <dga-avatar-image src="/assets/avatar-not-found.png" alt="Composed avatar image" />
+              <dga-avatar-fallback colorScheme="primary">AM</dga-avatar-fallback>
+            </dga-avatar>
+            <span class="muted">Composable root · image · loading/error fallback</span>
+          </div>
+          <div class="usage"><code>&lt;dga-badge variant="success"&gt;Active&lt;/dga-badge&gt;</code><span>Status palette · removable tag output · initials or image avatar</span></div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="surfaces">
+        <div class="section-heading">
+          <div><span class="section-index">07 / SURFACES</span><h2>Cards & dividers</h2></div>
+          <p>Calm, bordered containers give content room to breathe without unnecessary decoration.</p>
+        </div>
+        <div class="card-grid">
+          <dga-card>
+            <div class="service-card">
+              <div class="service-card__top"><span class="service-icon">01</span><dga-badge variant="success">Available</dga-badge></div>
+              <h3>Government service</h3>
+              <p>Digital-first support to help residents access the services they need.</p>
+              <dga-divider />
+              <a href="#navigation">View service <span aria-hidden="true">↗</span></a>
+            </div>
+          </dga-card>
+          <dga-card variant="elevated" padding="lg">
+            <dga-card-image src="/assets/service-preview.svg" alt="Abstract green digital government artwork" aspectRatio="16 / 6" />
+            <div class="service-card">
+              <div class="service-card__top"><span class="service-icon service-icon--gold">02</span><span class="muted">FEATURED</span></div>
+              <h3>Digital transformation</h3>
+              <p>One connected government, designed around people and their journeys.</p>
+              <dga-divider />
+              <dga-card-footer><a href="#navigation">Explore initiative <span aria-hidden="true">↗</span></a></dga-card-footer>
+            </div>
+          </dga-card>
+          <dga-card variant="outline" [selectable]="true" [defaultSelected]="true" id="selectable-card-example">
+            <dga-card-header>
+              <dga-card-icon [featured]="true"><dga-icon name="home" /></dga-card-icon>
+              <dga-card-title>Selectable service</dga-card-title>
+              <dga-card-description>Click or press Space to toggle this service selection.</dga-card-description>
+            </dga-card-header>
+            <dga-card-content><span class="muted">Selected / unselected · checkbox semantics</span></dga-card-content>
+          </dga-card>
+          <dga-card variant="filled" [expandable]="true" [defaultExpanded]="true" id="expandable-card-example">
+            <dga-card-header>
+              <dga-card-title>Expandable details</dga-card-title>
+              <dga-card-description>Toggle the chevron to reveal or hide more information.</dga-card-description>
+            </dga-card-header>
+            <dga-card-expandable-content>
+              <p>Expandable content remains associated with the card and follows its open / closed state.</p>
+            </dga-card-expandable-content>
+          </dga-card>
+        </div>
+        <div class="divider-demo">
+          <span class="demo-label">DIVIDER VARIANTS</span>
+          <dga-divider label="OR" variant="dashed" />
+          <dga-divider label="Featured" tone="primary" />
+        </div>
+        <div class="usage"><code>&lt;dga-card variant="elevated" padding="lg"&gt;…&lt;/dga-card&gt;</code><span>Content projection · variants · selectable state · responsive orientation</span></div>
+      </section>
+
+      <section class="doc-section" id="alerts">
+        <div class="section-heading">
+          <div><span class="section-index">08 / FEEDBACK</span><h2>Alerts</h2></div>
+          <p>Accessible, meaningful messages communicate status and next steps at a glance.</p>
+        </div>
+        <div class="alert-stack">
+          <dga-alert variant="success" title="Request submitted">Your application has been received successfully.</dga-alert>
+          <dga-alert variant="info" title="Service update">Scheduled maintenance is planned for Friday evening.</dga-alert>
+          <dga-alert variant="warning" title="Action required">Some documents are missing from your application.</dga-alert>
+          <dga-alert variant="error" title="Unable to continue" [dismissible]="true">Check the highlighted fields and try again.</dga-alert>
+        </div>
+        <div class="usage"><code>&lt;dga-alert variant="info" title="Service update"&gt;…&lt;/dga-alert&gt;</code><span>Role=status / alert · optional dismiss control</span></div>
+      </section>
+
+      <section class="doc-section" id="navigation">
+        <div class="section-heading">
+          <div><span class="section-index">09 / NAVIGATION</span><h2>Navigation</h2></div>
+          <p>Lightweight navigation primitives with predictable focus order and responsive overflow.</p>
+        </div>
+        <div class="navigation-stack">
+          <div class="nav-demo"><span class="demo-label">BREADCRUMB · OVERFLOW DISCLOSURE</span><dga-breadcrumb [items]="breadcrumbItems" [overflowItems]="breadcrumbOverflowItems" /></div>
+          <div class="nav-demo"><span class="demo-label">TABS · ARROW KEY NAVIGATION</span><dga-tabs [tabs]="tabItems" selected="overview" /></div>
+          <div class="nav-demo nav-demo--inline"><div><span class="demo-label">DROPDOWN · OPEN STATE</span><dga-dropdown label="Service actions" [options]="menuOptions" [defaultOpen]="true" /></div><div><span class="demo-label">PAGINATION · INTERACTIVE OVERFLOW</span><dga-pagination [currentPage]="overflowPage" [totalPages]="100" (pageChange)="overflowPage = $event" /></div></div>
+          <div class="nav-demo"><span class="demo-label">HEADER · DESKTOP / MOBILE BREAKPOINT · ACTIVE / EXPANDABLE</span>
+            <dga-header>
+              <dga-header-menu-button [expanded]="mobileMenuOpen" (pressed)="mobileMenuOpen = !mobileMenuOpen" />
+              <dga-header-brand><span class="header-brand-mark">DGA</span><strong>Digital services</strong></dga-header-brand>
+              <dga-header-nav>
+                <dga-header-item [selected]="true">Home</dga-header-item>
+                <dga-header-item [expandable]="true" [expanded]="headerSubmenuOpen" (expandedChange)="headerSubmenuOpen = $event">Services</dga-header-item>
+                <dga-header-item>About</dga-header-item>
+              </dga-header-nav>
+              <dga-header-actions>
+                <dga-header-action icon="search">Search</dga-header-action>
+                <dga-header-action>Sign in</dga-header-action>
+                <dga-header-utility-button />
+              </dga-header-actions>
+              <dga-header-submenu [open]="headerSubmenuOpen" closeLabel="Close submenu" (close)="headerSubmenuOpen = false">
+                <dga-header-submenu-group label="Popular services">
+                  <dga-header-submenu-item href="#forms" icon="calendar" description="Access your government services">Service directory</dga-header-submenu-item>
+                  <dga-header-submenu-item href="#data" icon="upload" iconStyle="boxed" description="Track submitted requests">My applications</dga-header-submenu-item>
+                </dga-header-submenu-group>
+              </dga-header-submenu>
+            </dga-header>
+            <dga-slideout-menu [open]="mobileMenuOpen" (openChange)="mobileMenuOpen = $event" triggerLabel=""
+              title="Government services" label="Mobile navigation">
+              <a href="#buttons">Service directory</a><a href="#forms">Applications</a><a href="#data">Documents</a>
+            </dga-slideout-menu>
+          </div>
+          <div class="nav-demo nav-demo--inline">
+            <div><span class="demo-label">MENUBAR · OPEN WITH ARROW DOWN / ENTER</span><dga-menubar [menus]="menuBarItems" label="Example application menu" /></div>
+            <div><span class="demo-label">SIDEBAR · ACTIVE ITEM / COLLAPSE</span><dga-sidebar [items]="sidebarItems" [selectedValue]="selectedSideNav" [(expanded)]="sidebarExpanded" /></div>
+          </div>
+          <div class="nav-demo"><span class="demo-label">SLIDEOUT MENU · OPEN / CLOSE / ESCAPE / FOCUS TRAP</span>
+            <dga-slideout-menu triggerLabel="Open mobile navigation" title="Government services">
+              <a href="#buttons">Service directory</a><a href="#forms">Applications</a><a href="#data">Documents</a>
+            </dga-slideout-menu>
+          </div>
+        </div>
+        <div class="usage"><code>&lt;dga-header&gt;…navigation…&lt;/dga-header&gt;</code><span>Responsive DGA Header, menubar, collapsible sidebar, and keyboard-operable slideout menu</span></div>
+      </section>
+
+      <section class="doc-section" id="feedback">
+        <div class="section-heading">
+          <div><span class="section-index">10 / FEEDBACK</span><h2>Feedback & overlays</h2></div>
+          <p>Small moments of guidance, progress, and confirmation keep people oriented.</p>
+        </div>
+        <div class="specimen feedback-grid">
+          <div class="feedback-item"><span class="demo-label">TOOLTIP · HOVER OR FOCUS</span><dga-tooltip text="Your information is protected." tooltipId="privacy-tip"><span class="help-link">How is this used?</span></dga-tooltip></div>
+          <div class="feedback-item"><span class="demo-label">MODAL · ESCAPE TO CLOSE</span><dga-modal title="Service information" triggerLabel="Open details">Review the service details before continuing.</dga-modal></div>
+          <div class="feedback-item"><span class="demo-label">SPINNER · LOADING STATE</span><div class="inline-feedback"><dga-spinner /><dga-spinner size="sm" label="Loading small item" /><dga-spinner size="lg" tone="neutral" label="Loading a large item" /><span class="muted">Loading services…</span></div></div>
+          <div class="feedback-item"><span class="demo-label">SKELETON · CONTENT PLACEHOLDER</span><div class="skeleton-example"><dga-skeleton width="3rem" height="3rem" /><div><dga-skeleton width="11rem" /><dga-skeleton width="7rem" height=".75rem" /></div></div></div>
+        </div>
+        <div class="usage"><code>&lt;dga-modal title="Confirm"&gt;…content…&lt;/dga-modal&gt;</code><span>Keyboard dismiss · reduced-motion aware loading feedback</span></div>
+      </section>
+
+      <section class="doc-section" id="data">
+        <div class="section-heading">
+          <div><span class="section-index">11 / DATA</span><h2>Data table</h2></div>
+          <p>Structured information stays readable, scrollable, and usable across viewport sizes.</p>
+        </div>
+        <div class="table-card">
+          <div class="table-card__header"><div><h3>Services overview</h3><p>Recently updated government services</p></div><dga-button variant="outline" size="sm">Export list</dga-button></div>
+          <dga-table [columns]="tableColumns" [rows]="tableRows" caption="Recently updated government services" />
+          <div class="table-card__footer"><span>Showing 1–3 of 24 services</span><dga-pagination [currentPage]="currentPage" [totalPages]="8" (pageChange)="currentPage = $event" /></div>
+        </div>
+        <div class="table-state-grid">
+          <div><span class="demo-label">LOADING</span><dga-table [columns]="tableColumns" [rows]="emptyTableRows" caption="Loading services" [loading]="true" size="sm" /></div>
+          <div><span class="demo-label">EMPTY</span><dga-table [columns]="tableColumns" [rows]="emptyTableRows" caption="No matching services" emptyMessage="No services match these filters." size="sm" /></div>
+        </div>
+        <div class="table-composition">
+          <span class="demo-label">COMPOSITIONAL TABLE · KEYBOARD-SORTABLE HEADER</span>
+          <dga-table caption="Recently submitted requests" [striped]="true" size="sm">
+            <caption dga-table-caption>Recently submitted requests</caption>
+            <thead dga-table-header>
+              <tr dga-table-row>
+                <th dga-table-head sortable sortLabel="Sort by service" [sortDirection]="tableSortDirection"
+                  (sortChange)="tableSortDirection = $event">Service</th>
+                <th dga-table-head>Status
+                  <button dga-table-filter [active]="statusFilterActive" label="Filter by status"
+                    (activeChange)="statusFilterActive = $event"><span class="ddga-table__visually-hidden">Filter</span></button>
+                </th>
+                <th dga-table-head align="end">Updated</th>
+              </tr>
+            </thead>
+            <tbody dga-table-body>
+              <tr dga-table-row [selected]="true"><td dga-table-cell>National Address</td><td dga-table-cell>Submitted</td><td dga-table-cell align="end">Today</td></tr>
+              <tr dga-table-row><td dga-table-cell>Business License</td><td dga-table-cell>In review</td><td dga-table-cell align="end">Yesterday</td></tr>
+            </tbody>
+            <tfoot dga-table-footer><tr dga-table-row><td dga-table-cell colspan="3">2 service requests</td></tr></tfoot>
+          </dga-table>
+        </div>
+        <div class="usage"><code>&lt;dga-table [columns]="columns" [rows]="rows" /&gt;</code><span>Semantic headers, rows and cells · loading and empty states · responsive overflow</span></div>
+      </section>
+
+      <section class="doc-section" id="direction">
+        <div class="section-heading">
+          <div><span class="section-index">12 / GLOBAL SUPPORT</span><h2>RTL & LTR, by design</h2></div>
+          <p>One component library. Logical spacing and direction-aware behavior for Arabic and English.</p>
+        </div>
+        <div class="direction-grid">
+          <article class="direction-card" dir="ltr">
+            <span class="demo-label">LEFT TO RIGHT · ENGLISH</span>
+            <h3>Government services</h3><p>Clear, connected services for everyone.</p>
+            <div class="direction-card__actions"><dga-button size="sm">Explore services</dga-button><dga-icon-button icon="external-link" label="Open services" /></div>
+          </article>
+          <article class="direction-card" dir="rtl" lang="ar">
+            <span class="demo-label">من اليمين إلى اليسار · العربية</span>
+            <h3>الخدمات الحكومية</h3><p>خدمات مترابطة وواضحة للجميع.</p>
+            <div class="direction-card__actions"><dga-button size="sm">استكشف الخدمات</dga-button><dga-icon-button icon="external-link" label="فتح الخدمات" /></div>
+          </article>
+        </div>
+        <div class="usage"><code>&lt;section dir="rtl" lang="ar"&gt;…&lt;/section&gt;</code><span>Arabic / English font variables · logical CSS properties · no duplicated components</span></div>
+      </section>
+
+      <section class="doc-section" id="composites">
+        <div class="section-heading">
+          <div><span class="section-index">13 / COMPOSITES</span><h2>Composite patterns</h2></div>
+          <p>Higher-level patterns ported from the React DGA library: disclosure, progress, verification, and helpful empty states.</p>
+        </div>
+        <div class="composite-grid">
+          <article class="composite-card composite-card--stamp">
+            <span class="demo-label">DIGITAL STAMP · VERIFIED DOMAIN / HTTPS</span>
+            <dga-digital-stamp id="demo-digital-stamp" extension="gov.sa" [defaultOpen]="true"
+              registrationNumber="DGA-2048" registrationHref="#top" />
+            <div class="usage"><code>&lt;dga-digital-stamp extension="gov.sa"&gt;</code><span>Expandable official domain and HTTPS verification pattern</span></div>
+          </article>
+          <article class="composite-card">
+            <span class="demo-label">ACCORDION · SINGLE ITEM</span>
+            <dga-accordion [items]="accordionItems" [(value)]="accordionValue" iconAlign="trailing" />
+            <div class="usage"><code>&lt;dga-accordion [items]="items"&gt;</code><span>Native details/summary keyboard behavior · single / multiple selection</span></div>
+          </article>
+          <article class="composite-card composite-card--progress">
+            <span class="demo-label">PROGRESS · DEFAULT / SUCCESS / ERROR</span>
+            <dga-progress id="application-progress" label="Application completion" [value]="68" [showValue]="true" helperText="You can save and return at any time." />
+            <dga-progress id="upload-progress" label="Documents uploaded" [value]="100" state="success" size="sm" />
+            <dga-progress id="error-progress" label="Validation" [value]="35" state="error" helperText="Some required details are missing." />
+            <dga-progress id="indeterminate-progress" label="Uploading documents" [value]="null" helperText="Upload in progress." />
+          </article>
+          <article class="composite-card composite-card--empty">
+            <span class="demo-label">EMPTY STATE · WITH ACTION</span>
+            <dga-empty-state variant="default" size="sm" icon="⌕" title="No services found" description="Try changing your search or filters.">
+              <dga-button variant="outline" size="sm">Clear filters</dga-button>
+            </dga-empty-state>
+          </article>
+        </div>
+        <div class="usage"><code>&lt;dga-empty-state title="No results"&gt;…actions…&lt;/dga-empty-state&gt;</code><span>React-backed composites · projected actions · status and progress semantics</span></div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__brand"><span class="brand__mark">DGA</span><span>Design System</span></div>
+        <span>Designed for clarity. Built for everyone.</span>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </div>
+  </main>
+</div>

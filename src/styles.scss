@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@use './styles/dga-tokens';
+@use './styles/dga-table';
+@use './styles/dga-navigation';
+@use './app/pages/design-system/design-system';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-inline-size: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-inline-size: 320px;
+  margin: 0;
+  background: var(--ddga-color-background);
+  color: var(--ddga-color-foreground);
+  font-family: var(--ddga-font-en);
+  font-size: var(--ddga-font-size-base);
+  line-height: var(--ddga-font-line-height-base);
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--ddga-sa-100);
+  color: var(--ddga-sa-950);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
