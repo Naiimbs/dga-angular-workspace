@@ -51,6 +51,10 @@
     <a href="#doc-getting-started">Getting Started</a>
     <a href="#doc-accessibility">Accessibility</a>
     <a href="#doc-theming">Theming & Tokens</a>
+    <p class="sidebar__heading">TEMPLATES</p>
+    <a routerLink="/templates/faq">FAQ</a>
+    <a routerLink="/templates/service-guide">Service guide</a>
+    <a routerLink="/templates/contact">Contact us</a>
   </aside>
 
 
@@ -257,6 +261,10 @@
             <dga-textarea id="demo-readonly-description" label="Submitted notes" value="This application is read-only." [readOnly]="true" />
             <dga-select id="demo-service" label="Service area" [options]="selectOptions" [(ngModel)]="selectedService" helperText="Choose the area that best fits." />
             <dga-select id="demo-disabled-select" label="Unavailable category" [options]="selectOptions" [disabled]="true" />
+          </div>
+          <div class="choices">
+            <span class="demo-label">FILE UPLOAD · BROWSE → LOADING → UPLOADED / ERROR (RTL-aware)</span>
+            <dga-file-upload label="Upload files" hint="Maximum file size 2 MB. Supported formats: .jpg, .png, .pdf." style="max-inline-size:28rem" />
           </div>
           <div class="choices">
             <span class="demo-label">CHECKBOX · PHASE 4 STATE MATRIX · DEFAULT / CHECKED / INDETERMINATE / HOVER / FOCUS / DISABLED / ERROR / READONLY / REQUIRED / SIZES / NEUTRAL</span>

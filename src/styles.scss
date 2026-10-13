@@ -52,3 +52,19 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* DGA accordion arrow (icon-font glyph) — <dga-accordion> renders its expand/collapse chevron as a
+   hardcoded Unicode '⌄' with no icon input, so blank it and inject dga-icon-arrow-down-01
+   (font 'dga-fonts-icons-arrows', U+E939) via ::before. The library's rotate-on-open rule still
+   targets .accordion__chevron, so open rotation keeps working. */
+dga-accordion .accordion__chevron {
+  font-size: 0;
+}
+dga-accordion .accordion__chevron::before {
+  font-family: 'dga-fonts-icons-arrows';
+  content: "\e939";
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--ddga-text-secondary, #9da4ae);
+}
+

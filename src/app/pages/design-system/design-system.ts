@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import {
   DgaAlert,
   DgaAccordion,
@@ -50,6 +51,7 @@ import {
   DgaRadio,
   DgaRadioGroup,
   DgaSelect,
+  DgaFileUpload,
   DgaSkeleton,
   DgaSlider,
   DgaSpinner,
@@ -83,6 +85,7 @@ import { inject } from '@angular/core';
     TitleCasePipe,
     UpperCasePipe,
     FormsModule,
+    RouterLink,
     DgaAlert,
     DgaAccordion,
     DgaAvatar,
@@ -131,6 +134,7 @@ import { inject } from '@angular/core';
     DgaRadio,
     DgaRadioGroup,
     DgaSelect,
+    DgaFileUpload,
     DgaSkeleton,
     DgaSlider,
     DgaSpinner,
