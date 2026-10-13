@@ -259,6 +259,10 @@
             <dga-select id="demo-disabled-select" label="Unavailable category" [options]="selectOptions" [disabled]="true" />
           </div>
           <div class="choices">
+            <span class="demo-label">FILE UPLOAD · BROWSE → LOADING → UPLOADED / ERROR (RTL-aware)</span>
+            <dga-file-upload label="Upload files" hint="Maximum file size 2 MB. Supported formats: .jpg, .png, .pdf." style="max-inline-size:28rem" />
+          </div>
+          <div class="choices">
             <span class="demo-label">CHECKBOX · PHASE 4 STATE MATRIX · DEFAULT / CHECKED / INDETERMINATE / HOVER / FOCUS / DISABLED / ERROR / READONLY / REQUIRED / SIZES / NEUTRAL</span>
             <div class="state-matrix" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:var(--ddga-space-4)">
               <!-- Default (unchecked) -->

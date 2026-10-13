@@ -13,6 +13,9 @@ export type { DgaSelectOption, DgaRadioOption, DgaFieldVariant, DgaFieldSize } f
 export { DgaSlider } from './lib/forms/dga-slider';
 export type { DgaSliderValue, DgaSliderSize } from './lib/forms/dga-slider';
 
+export { DgaFileUpload } from './lib/forms/dga-file-upload';
+export type { DgaFileUploadState } from './lib/forms/dga-file-upload';
+
 export { DgaIconButton, DgaAvatar, DgaAvatarImage, DgaAvatarFallback, DgaAvatarGroup, DgaDivider, DgaSpinner, DgaSkeleton } from './lib/foundation/dga-foundation';
 export type { DgaAvatarSize } from './lib/foundation/dga-foundation';
 
