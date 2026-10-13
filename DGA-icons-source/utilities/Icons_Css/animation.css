@@ -1,0 +1,2864 @@
+.dga-icon-bounce-left {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-bounce-left:before, 
+.dga-icon-bounce-left.stroke.rounded:before {
+  content: "\e900";
+}
+.dga-icon-bounce-left.twotone.rounded:before {
+  content: "\e901";
+}
+.dga-icon-bounce-left.twotone.rounded:after {
+  content: "\e902";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bounce-left.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bounce-left.duotone.rounded:before {
+  content: "\e903";
+  opacity: 0.4;
+}
+.dga-icon-bounce-left.duotone.rounded:after {
+  content: "\e904";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bounce-left.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bounce-left.solid.rounded:before {
+  content: "\e905";
+}
+.dga-icon-bounce-left.bulk.rounded:before {
+  content: "\e906";
+  opacity: 0.4;
+}
+.dga-icon-bounce-left.bulk.rounded:after {
+  content: "\e907";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bounce-left.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bounce-left.stroke.sharp:before {
+  content: "\e908";
+}
+.dga-icon-bounce-left.solid.sharp:before {
+  content: "\e909";
+}
+.dga-icon-bounce-right {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-bounce-right:before, 
+.dga-icon-bounce-right.stroke.rounded:before {
+  content: "\e90a";
+}
+.dga-icon-bounce-right.twotone.rounded:before {
+  content: "\e90b";
+}
+.dga-icon-bounce-right.twotone.rounded:after {
+  content: "\e90c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bounce-right.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bounce-right.duotone.rounded:before {
+  content: "\e90d";
+  opacity: 0.4;
+}
+.dga-icon-bounce-right.duotone.rounded:after {
+  content: "\e90e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bounce-right.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bounce-right.solid.rounded:before {
+  content: "\e90f";
+}
+.dga-icon-bounce-right.bulk.rounded:before {
+  content: "\e910";
+  opacity: 0.4;
+}
+.dga-icon-bounce-right.bulk.rounded:after {
+  content: "\e911";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bounce-right.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bounce-right.stroke.sharp:before {
+  content: "\e912";
+}
+.dga-icon-bounce-right.solid.sharp:before {
+  content: "\e913";
+}
+.dga-icon-ease-curve-control-points {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-ease-curve-control-points:before, 
+.dga-icon-ease-curve-control-points.stroke.rounded:before {
+  content: "\e914";
+}
+.dga-icon-ease-curve-control-points.twotone.rounded:before {
+  content: "\e915";
+}
+.dga-icon-ease-curve-control-points.twotone.rounded:after {
+  content: "\e916";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-curve-control-points.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-curve-control-points.duotone.rounded:before {
+  content: "\e917";
+  opacity: 0.4;
+}
+.dga-icon-ease-curve-control-points.duotone.rounded:after {
+  content: "\e918";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-curve-control-points.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-curve-control-points.solid.rounded:before {
+  content: "\e919";
+}
+.dga-icon-ease-curve-control-points.bulk.rounded:before {
+  content: "\e91a";
+}
+.dga-icon-ease-curve-control-points.bulk.rounded:after {
+  content: "\e91b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-curve-control-points.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-curve-control-points.stroke.sharp:before {
+  content: "\e91c";
+}
+.dga-icon-ease-curve-control-points.solid.sharp:before {
+  content: "\e91d";
+}
+.dga-icon-ease-in {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-ease-in:before, 
+.dga-icon-ease-in.stroke.rounded:before {
+  content: "\e91e";
+}
+.dga-icon-ease-in.twotone.rounded:before {
+  content: "\e91f";
+  opacity: 0.4;
+}
+.dga-icon-ease-in.twotone.rounded:after {
+  content: "\e920";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-in.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in.duotone.rounded:before {
+  content: "\e921";
+}
+.dga-icon-ease-in.solid.rounded:before {
+  content: "\e922";
+}
+.dga-icon-ease-in.bulk.rounded:before {
+  content: "\e923";
+  opacity: 0.4;
+}
+.dga-icon-ease-in.bulk.rounded:after {
+  content: "\e924";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-in.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in.stroke.sharp:before {
+  content: "\e925";
+}
+.dga-icon-ease-in.solid.sharp:before {
+  content: "\e926";
+}
+.dga-icon-ease-in-control-point {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-ease-in-control-point:before, 
+.dga-icon-ease-in-control-point.stroke.rounded:before {
+  content: "\e927";
+}
+.dga-icon-ease-in-control-point.twotone.rounded:before {
+  content: "\e928";
+}
+.dga-icon-ease-in-control-point.twotone.rounded:after {
+  content: "\e929";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-in-control-point.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in-control-point.duotone.rounded:before {
+  content: "\e92a";
+  opacity: 0.4;
+}
+.dga-icon-ease-in-control-point.duotone.rounded:after {
+  content: "\e92b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-in-control-point.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in-control-point.solid.rounded:before {
+  content: "\e92c";
+}
+body:has(.active-screen) .dga-icon-ease-in-control-point.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-ease-in-control-point.bulk.rounded .path1:before {
+  content: "\e92d";
+}
+.dga-icon-ease-in-control-point.bulk.rounded .path2:before {
+  content: "\e92e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-in-control-point.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in-control-point.bulk.rounded .path3:before {
+  content: "\e92f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-in-control-point.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in-control-point.stroke.sharp:before {
+  content: "\e930";
+}
+.dga-icon-ease-in-control-point.solid.sharp:before {
+  content: "\e931";
+}
+.dga-icon-ease-in-out {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-ease-in-out:before, 
+.dga-icon-ease-in-out.stroke.rounded:before {
+  content: "\e932";
+}
+.dga-icon-ease-in-out.twotone.rounded:before {
+  content: "\e933";
+  opacity: 0.4;
+}
+.dga-icon-ease-in-out.twotone.rounded:after {
+  content: "\e934";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-in-out.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in-out.duotone.rounded:before {
+  content: "\e935";
+}
+.dga-icon-ease-in-out.solid.rounded:before {
+  content: "\e936";
+}
+.dga-icon-ease-in-out.bulk.rounded:before {
+  content: "\e937";
+  opacity: 0.4;
+}
+.dga-icon-ease-in-out.bulk.rounded:after {
+  content: "\e938";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-in-out.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-in-out.stroke.sharp:before {
+  content: "\e939";
+}
+.dga-icon-ease-in-out.solid.sharp:before {
+  content: "\e93a";
+}
+.dga-icon-ease-out {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-ease-out:before, 
+.dga-icon-ease-out.stroke.rounded:before {
+  content: "\e93b";
+}
+.dga-icon-ease-out.twotone.rounded:before {
+  content: "\e93c";
+  opacity: 0.4;
+}
+.dga-icon-ease-out.twotone.rounded:after {
+  content: "\e93d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-out.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-out.duotone.rounded:before {
+  content: "\e93e";
+}
+.dga-icon-ease-out.solid.rounded:before {
+  content: "\e93f";
+}
+.dga-icon-ease-out.bulk.rounded:before {
+  content: "\e940";
+  opacity: 0.4;
+}
+.dga-icon-ease-out.bulk.rounded:after {
+  content: "\e941";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-out.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-out.stroke.sharp:before {
+  content: "\e942";
+}
+.dga-icon-ease-out.solid.sharp:before {
+  content: "\e943";
+}
+.dga-icon-ease-out-control-point {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-ease-out-control-point:before, 
+.dga-icon-ease-out-control-point.stroke.rounded:before {
+  content: "\e944";
+}
+.dga-icon-ease-out-control-point.twotone.rounded:before {
+  content: "\e945";
+}
+.dga-icon-ease-out-control-point.twotone.rounded:after {
+  content: "\e946";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-out-control-point.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-out-control-point.duotone.rounded:before {
+  content: "\e947";
+  opacity: 0.4;
+}
+.dga-icon-ease-out-control-point.duotone.rounded:after {
+  content: "\e948";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ease-out-control-point.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-out-control-point.solid.rounded:before {
+  content: "\e949";
+}
+body:has(.active-screen) .dga-icon-ease-out-control-point.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-ease-out-control-point.bulk.rounded .path1:before {
+  content: "\e94a";
+}
+.dga-icon-ease-out-control-point.bulk.rounded .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-out-control-point.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-out-control-point.bulk.rounded .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ease-out-control-point.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ease-out-control-point.stroke.sharp:before {
+  content: "\e94d";
+}
+.dga-icon-ease-out-control-point.solid.sharp:before {
+  content: "\e94e";
+}
+.dga-icon-keyframe {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe:before, 
+.dga-icon-keyframe.stroke.rounded:before {
+  content: "\e94f";
+}
+.dga-icon-keyframe.twotone.rounded:before {
+  content: "\e950";
+  opacity: 0.4;
+}
+.dga-icon-keyframe.twotone.rounded:after {
+  content: "\e951";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe.duotone.rounded:before {
+  content: "\e952";
+  opacity: 0.4;
+}
+.dga-icon-keyframe.duotone.rounded:after {
+  content: "\e953";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe.solid.rounded:before {
+  content: "\e954";
+}
+.dga-icon-keyframe.bulk.rounded:before {
+  content: "\e955";
+  opacity: 0.4;
+}
+.dga-icon-keyframe.bulk.rounded:after {
+  content: "\e956";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe.stroke.sharp:before {
+  content: "\e957";
+}
+.dga-icon-keyframe.solid.sharp:before {
+  content: "\e958";
+}
+.dga-icon-keyframe-add {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-add:before, 
+.dga-icon-keyframe-add.stroke.rounded:before {
+  content: "\e959";
+}
+.dga-icon-keyframe-add.twotone.rounded:before {
+  content: "\e95a";
+}
+.dga-icon-keyframe-add.twotone.rounded:after {
+  content: "\e95b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-add.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-add.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-add.duotone.rounded .path1:before {
+  content: "\e95c";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-add.duotone.rounded .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-add.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-add.duotone.rounded .path3:before {
+  content: "\e95e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-add.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-add.solid.rounded:before {
+  content: "\e95f";
+}
+.dga-icon-keyframe-add.bulk.rounded:before {
+  content: "\e960";
+}
+.dga-icon-keyframe-add.bulk.rounded:after {
+  content: "\e961";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-add.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-add.stroke.sharp:before {
+  content: "\e962";
+}
+.dga-icon-keyframe-add.solid.sharp:before {
+  content: "\e963";
+}
+.dga-icon-keyframe-align-center {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-align-center:before, 
+.dga-icon-keyframe-align-center.stroke.rounded:before {
+  content: "\e964";
+}
+body:has(.active-screen) .dga-icon-keyframe-align-center.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-center.twotone.rounded .path1:before {
+  content: "\e965";
+}
+.dga-icon-keyframe-align-center.twotone.rounded .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.twotone.rounded .path3:before {
+  content: "\e967";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.twotone.rounded .path4:before {
+  content: "\e968";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.twotone.rounded .path5:before {
+  content: "\e969";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-align-center.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-center.duotone.rounded .path1:before {
+  content: "\e96a";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-align-center.duotone.rounded .path2:before {
+  content: "\e96b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-center.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.duotone.rounded .path3:before {
+  content: "\e96c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-center.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.duotone.rounded .path4:before {
+  content: "\e96d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-center.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.duotone.rounded .path5:before {
+  content: "\e96e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-center.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.duotone.rounded .path6:before {
+  content: "\e96f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-center.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.solid.rounded:before {
+  content: "\e970";
+}
+body:has(.active-screen) .dga-icon-keyframe-align-center.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-center.bulk.rounded .path1:before {
+  content: "\e971";
+}
+.dga-icon-keyframe-align-center.bulk.rounded .path2:before {
+  content: "\e972";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.bulk.rounded .path3:before {
+  content: "\e973";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.bulk.rounded .path4:before {
+  content: "\e974";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.bulk.rounded .path5:before {
+  content: "\e975";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-center.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-center.stroke.sharp:before {
+  content: "\e976";
+}
+.dga-icon-keyframe-align-center.solid.sharp:before {
+  content: "\e977";
+}
+.dga-icon-keyframe-align-horizontal {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-align-horizontal:before, 
+.dga-icon-keyframe-align-horizontal.stroke.rounded:before {
+  content: "\e978";
+}
+body:has(.active-screen) .dga-icon-keyframe-align-horizontal.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-horizontal.twotone.rounded .path1:before {
+  content: "\e979";
+}
+.dga-icon-keyframe-align-horizontal.twotone.rounded .path2:before {
+  content: "\e97a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-horizontal.twotone.rounded .path3:before {
+  content: "\e97b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-align-horizontal.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-horizontal.duotone.rounded .path1:before {
+  content: "\e97c";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-align-horizontal.duotone.rounded .path2:before {
+  content: "\e97d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-horizontal.duotone.rounded .path3:before {
+  content: "\e97e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-horizontal.duotone.rounded .path4:before {
+  content: "\e97f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-horizontal.solid.rounded:before {
+  content: "\e980";
+}
+body:has(.active-screen) .dga-icon-keyframe-align-horizontal.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-horizontal.bulk.rounded .path1:before {
+  content: "\e981";
+}
+.dga-icon-keyframe-align-horizontal.bulk.rounded .path2:before {
+  content: "\e982";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-horizontal.bulk.rounded .path3:before {
+  content: "\e983";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-horizontal.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-horizontal.stroke.sharp:before {
+  content: "\e984";
+}
+.dga-icon-keyframe-align-horizontal.solid.sharp:before {
+  content: "\e985";
+}
+.dga-icon-keyframe-align-vertical {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-align-vertical:before, 
+.dga-icon-keyframe-align-vertical.stroke.rounded:before {
+  content: "\e986";
+}
+body:has(.active-screen) .dga-icon-keyframe-align-vertical.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-vertical.twotone.rounded .path1:before {
+  content: "\e987";
+}
+.dga-icon-keyframe-align-vertical.twotone.rounded .path2:before {
+  content: "\e988";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-vertical.twotone.rounded .path3:before {
+  content: "\e989";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-align-vertical.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-vertical.duotone.rounded .path1:before {
+  content: "\e98a";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-align-vertical.duotone.rounded .path2:before {
+  content: "\e98b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-vertical.duotone.rounded .path3:before {
+  content: "\e98c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-vertical.duotone.rounded .path4:before {
+  content: "\e98d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-vertical.solid.rounded:before {
+  content: "\e98e";
+}
+body:has(.active-screen) .dga-icon-keyframe-align-vertical.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-align-vertical.bulk.rounded .path1:before {
+  content: "\e98f";
+}
+.dga-icon-keyframe-align-vertical.bulk.rounded .path2:before {
+  content: "\e990";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-vertical.bulk.rounded .path3:before {
+  content: "\e991";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-align-vertical.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-align-vertical.stroke.sharp:before {
+  content: "\e992";
+}
+.dga-icon-keyframe-align-vertical.solid.sharp:before {
+  content: "\e993";
+}
+.dga-icon-keyframe-bottom {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-bottom:before, 
+.dga-icon-keyframe-bottom.stroke.rounded:before {
+  content: "\e994";
+}
+.dga-icon-keyframe-bottom.twotone.rounded:before {
+  content: "\e995";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-bottom.twotone.rounded:after {
+  content: "\e996";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-bottom.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-bottom.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-bottom.duotone.rounded .path1:before {
+  content: "\e997";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-bottom.duotone.rounded .path2:before {
+  content: "\e998";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-bottom.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-bottom.duotone.rounded .path3:before {
+  content: "\e999";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-bottom.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-bottom.solid.rounded:before {
+  content: "\e99a";
+}
+.dga-icon-keyframe-bottom.bulk.rounded:before {
+  content: "\e99b";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-bottom.bulk.rounded:after {
+  content: "\e99c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-bottom.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-bottom.stroke.sharp:before {
+  content: "\e99d";
+}
+.dga-icon-keyframe-bottom.solid.sharp:before {
+  content: "\e99e";
+}
+.dga-icon-keyframe-left {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-left:before, 
+.dga-icon-keyframe-left.stroke.rounded:before {
+  content: "\e99f";
+}
+.dga-icon-keyframe-left.twotone.rounded:before {
+  content: "\e9a0";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-left.twotone.rounded:after {
+  content: "\e9a1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-left.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-left.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-left.duotone.rounded .path1:before {
+  content: "\e9a2";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-left.duotone.rounded .path2:before {
+  content: "\e9a3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-left.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-left.duotone.rounded .path3:before {
+  content: "\e9a4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-left.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-left.solid.rounded:before {
+  content: "\e9a5";
+}
+.dga-icon-keyframe-left.bulk.rounded:before {
+  content: "\e9a6";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-left.bulk.rounded:after {
+  content: "\e9a7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-left.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-left.stroke.sharp:before {
+  content: "\e9a8";
+}
+.dga-icon-keyframe-left.solid.sharp:before {
+  content: "\e9a9";
+}
+.dga-icon-keyframe-remove {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-remove:before, 
+.dga-icon-keyframe-remove.stroke.rounded:before {
+  content: "\e9aa";
+}
+.dga-icon-keyframe-remove.twotone.rounded:before {
+  content: "\e9ab";
+}
+.dga-icon-keyframe-remove.twotone.rounded:after {
+  content: "\e9ac";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-remove.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-remove.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-remove.duotone.rounded .path1:before {
+  content: "\e9ad";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-remove.duotone.rounded .path2:before {
+  content: "\e9ae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-remove.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-remove.duotone.rounded .path3:before {
+  content: "\e9af";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-remove.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-remove.solid.rounded:before {
+  content: "\e9b0";
+}
+.dga-icon-keyframe-remove.bulk.rounded:before {
+  content: "\e9b1";
+}
+.dga-icon-keyframe-remove.bulk.rounded:after {
+  content: "\e9b2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframe-remove.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-remove.stroke.sharp:before {
+  content: "\e9b3";
+}
+.dga-icon-keyframe-remove.solid.sharp:before {
+  content: "\e9b4";
+}
+.dga-icon-keyframe-right {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-right:before, 
+.dga-icon-keyframe-right.stroke.rounded:before {
+  content: "\e9b5";
+}
+.dga-icon-keyframe-right.twotone.rounded:before {
+  content: "\e9b6";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-right.twotone.rounded:after {
+  content: "\e9b7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-right.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-right.duotone.rounded:before {
+  content: "\e9b8";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-right.duotone.rounded:after {
+  content: "\e9b9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-right.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-right.solid.rounded:before {
+  content: "\e9ba";
+}
+.dga-icon-keyframe-right.bulk.rounded:before {
+  content: "\e9bb";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-right.bulk.rounded:after {
+  content: "\e9bc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-right.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-right.stroke.sharp:before {
+  content: "\e9bd";
+}
+.dga-icon-keyframe-right.solid.sharp:before {
+  content: "\e9be";
+}
+.dga-icon-keyframes-double {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframes-double:before, 
+.dga-icon-keyframes-double.stroke.rounded:before {
+  content: "\e9bf";
+}
+.dga-icon-keyframes-double.twotone.rounded:before {
+  content: "\e9c0";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double.twotone.rounded:after {
+  content: "\e9c1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframes-double.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double.duotone.rounded .path1:before {
+  content: "\e9c2";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double.duotone.rounded .path2:before {
+  content: "\e9c3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double.duotone.rounded .path3:before {
+  content: "\e9c4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double.solid.rounded:before {
+  content: "\e9c5";
+}
+.dga-icon-keyframes-double.bulk.rounded:before {
+  content: "\e9c6";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double.bulk.rounded:after {
+  content: "\e9c7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double.stroke.sharp:before {
+  content: "\e9c8";
+}
+.dga-icon-keyframes-double.solid.sharp:before {
+  content: "\e9c9";
+}
+.dga-icon-keyframes-double-add {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframes-double-add:before, 
+.dga-icon-keyframes-double-add.stroke.rounded:before {
+  content: "\e9ca";
+}
+body:has(.active-screen) .dga-icon-keyframes-double-add.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double-add.twotone.rounded .path1:before {
+  content: "\e9cb";
+}
+.dga-icon-keyframes-double-add.twotone.rounded .path2:before {
+  content: "\e9cc";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-double-add.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-add.twotone.rounded .path3:before {
+  content: "\e9cd";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-double-add.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframes-double-add.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double-add.duotone.rounded .path1:before {
+  content: "\e9ce";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double-add.duotone.rounded .path2:before {
+  content: "\e9cf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-add.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-add.duotone.rounded .path3:before {
+  content: "\e9d0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-add.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-add.duotone.rounded .path4:before {
+  content: "\e9d1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-add.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-add.solid.rounded:before {
+  content: "\e9d2";
+}
+body:has(.active-screen) .dga-icon-keyframes-double-add.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double-add.bulk.rounded .path1:before {
+  content: "\e9d3";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double-add.bulk.rounded .path2:before {
+  content: "\e9d4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-double-add.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-add.bulk.rounded .path3:before {
+  content: "\e9d5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-add.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-add.stroke.sharp:before {
+  content: "\e9d6";
+}
+.dga-icon-keyframes-double-add.solid.sharp:before {
+  content: "\e9d7";
+}
+.dga-icon-keyframes-double-remove {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframes-double-remove:before, 
+.dga-icon-keyframes-double-remove.stroke.rounded:before {
+  content: "\e9d8";
+}
+body:has(.active-screen) .dga-icon-keyframes-double-remove.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double-remove.twotone.rounded .path1:before {
+  content: "\e9d9";
+}
+.dga-icon-keyframes-double-remove.twotone.rounded .path2:before {
+  content: "\e9da";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-remove.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-remove.twotone.rounded .path3:before {
+  content: "\e9db";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-double-remove.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframes-double-remove.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double-remove.duotone.rounded .path1:before {
+  content: "\e9dc";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double-remove.duotone.rounded .path2:before {
+  content: "\e9dd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-remove.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-remove.duotone.rounded .path3:before {
+  content: "\e9de";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-remove.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-remove.duotone.rounded .path4:before {
+  content: "\e9df";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-remove.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-remove.solid.rounded:before {
+  content: "\e9e0";
+}
+body:has(.active-screen) .dga-icon-keyframes-double-remove.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-double-remove.bulk.rounded .path1:before {
+  content: "\e9e1";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-double-remove.bulk.rounded .path2:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-double-remove.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-remove.bulk.rounded .path3:before {
+  content: "\e9e3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-double-remove.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-double-remove.stroke.sharp:before {
+  content: "\e9e4";
+}
+.dga-icon-keyframes-double-remove.solid.sharp:before {
+  content: "\e9e5";
+}
+.dga-icon-keyframes-multiple {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframes-multiple:before, 
+.dga-icon-keyframes-multiple.stroke.rounded:before {
+  content: "\e9e6";
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple.twotone.rounded .path1:before {
+  content: "\e9e7";
+}
+.dga-icon-keyframes-multiple.twotone.rounded .path2:before {
+  content: "\e9e8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple.twotone.rounded .path3:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple.duotone.rounded .path1:before {
+  content: "\e9ea";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-multiple.duotone.rounded .path2:before {
+  content: "\e9eb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple.duotone.rounded .path3:before {
+  content: "\e9ec";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple.duotone.rounded .path4:before {
+  content: "\e9ed";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple.solid.rounded:before {
+  content: "\e9ee";
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple.bulk.rounded .path1:before {
+  content: "\e9ef";
+}
+.dga-icon-keyframes-multiple.bulk.rounded .path2:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple.bulk.rounded .path3:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple.stroke.sharp:before {
+  content: "\e9f2";
+}
+.dga-icon-keyframes-multiple.solid.sharp:before {
+  content: "\e9f3";
+}
+.dga-icon-keyframes-multiple-add {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframes-multiple-add:before, 
+.dga-icon-keyframes-multiple-add.stroke.rounded:before {
+  content: "\e9f4";
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple-add.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple-add.twotone.rounded .path1:before {
+  content: "\e9f5";
+}
+.dga-icon-keyframes-multiple-add.twotone.rounded .path2:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.twotone.rounded .path3:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.twotone.rounded .path4:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple-add.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple-add.duotone.rounded .path1:before {
+  content: "\e9f9";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-multiple-add.duotone.rounded .path2:before {
+  content: "\e9fa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.duotone.rounded .path3:before {
+  content: "\e9fb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.duotone.rounded .path4:before {
+  content: "\e9fc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.duotone.rounded .path5:before {
+  content: "\e9fd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.solid.rounded:before {
+  content: "\e9fe";
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple-add.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple-add.bulk.rounded .path1:before {
+  content: "\e9ff";
+}
+.dga-icon-keyframes-multiple-add.bulk.rounded .path2:before {
+  content: "\ea00";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.bulk.rounded .path3:before {
+  content: "\ea01";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.bulk.rounded .path4:before {
+  content: "\ea02";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-add.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-add.stroke.sharp:before {
+  content: "\ea03";
+}
+.dga-icon-keyframes-multiple-add.solid.sharp:before {
+  content: "\ea04";
+}
+.dga-icon-keyframes-multiple-remove {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframes-multiple-remove:before, 
+.dga-icon-keyframes-multiple-remove.stroke.rounded:before {
+  content: "\ea05";
+}
+.dga-icon-keyframes-multiple-remove.twotone.rounded:before {
+  content: "\ea06";
+}
+.dga-icon-keyframes-multiple-remove.twotone.rounded:after {
+  content: "\ea07";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple-remove.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple-remove.duotone.rounded .path1:before {
+  content: "\ea08";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-multiple-remove.duotone.rounded .path2:before {
+  content: "\ea09";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.duotone.rounded .path3:before {
+  content: "\ea0a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.duotone.rounded .path4:before {
+  content: "\ea0b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.duotone.rounded .path5:before {
+  content: "\ea0c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.solid.rounded:before {
+  content: "\ea0d";
+}
+body:has(.active-screen) .dga-icon-keyframes-multiple-remove.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keyframes-multiple-remove.bulk.rounded .path1:before {
+  content: "\ea0e";
+  opacity: 0.4;
+}
+.dga-icon-keyframes-multiple-remove.bulk.rounded .path2:before {
+  content: "\ea0f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.bulk.rounded .path3:before {
+  content: "\ea10";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.bulk.rounded .path4:before {
+  content: "\ea11";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframes-multiple-remove.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframes-multiple-remove.stroke.sharp:before {
+  content: "\ea12";
+}
+.dga-icon-keyframes-multiple-remove.solid.sharp:before {
+  content: "\ea13";
+}
+.dga-icon-keyframe-top {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-keyframe-top:before, 
+.dga-icon-keyframe-top.stroke.rounded:before {
+  content: "\ea14";
+}
+.dga-icon-keyframe-top.twotone.rounded:before {
+  content: "\ea15";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-top.twotone.rounded:after {
+  content: "\ea16";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-top.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-keyframe-top.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-keyframe-top.duotone.rounded .path1:before {
+  content: "\ea17";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-top.duotone.rounded .path2:before {
+  content: "\ea18";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-top.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-top.duotone.rounded .path3:before {
+  content: "\ea19";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-top.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-top.solid.rounded:before {
+  content: "\ea1a";
+}
+.dga-icon-keyframe-top.bulk.rounded:before {
+  content: "\ea1b";
+  opacity: 0.4;
+}
+.dga-icon-keyframe-top.bulk.rounded:after {
+  content: "\ea1c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keyframe-top.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keyframe-top.stroke.sharp:before {
+  content: "\ea1d";
+}
+.dga-icon-keyframe-top.solid.sharp:before {
+  content: "\ea1e";
+}
+.dga-icon-liner {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-liner:before, 
+.dga-icon-liner.stroke.rounded:before {
+  content: "\ea1f";
+}
+.dga-icon-liner.twotone.rounded:before {
+  content: "\ea20";
+  opacity: 0.4;
+}
+.dga-icon-liner.twotone.rounded:after {
+  content: "\ea21";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-liner.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-liner.duotone.rounded:before {
+  content: "\ea22";
+}
+.dga-icon-liner.solid.rounded:before {
+  content: "\ea23";
+}
+.dga-icon-liner.bulk.rounded:before {
+  content: "\ea24";
+  opacity: 0.4;
+}
+.dga-icon-liner.bulk.rounded:after {
+  content: "\ea25";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-liner.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-liner.stroke.sharp:before {
+  content: "\ea26";
+}
+.dga-icon-liner.solid.sharp:before {
+  content: "\ea27";
+}
+.dga-icon-motion-01 {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-motion-01:before, 
+.dga-icon-motion-01.stroke.rounded:before {
+  content: "\ea28";
+}
+body:has(.active-screen) .dga-icon-motion-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-motion-01.twotone.rounded .path1:before {
+  content: "\ea29";
+  opacity: 0.4;
+}
+.dga-icon-motion-01.twotone.rounded .path2:before {
+  content: "\ea2a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-01.twotone.rounded .path3:before {
+  content: "\ea2b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-motion-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-motion-01.duotone.rounded .path1:before {
+  content: "\ea2c";
+  opacity: 0.4;
+}
+.dga-icon-motion-01.duotone.rounded .path2:before {
+  content: "\ea2d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-01.duotone.rounded .path3:before {
+  content: "\ea2e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-01.duotone.rounded .path4:before {
+  content: "\ea2f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-01.solid.rounded:before {
+  content: "\ea30";
+}
+body:has(.active-screen) .dga-icon-motion-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-motion-01.bulk.rounded .path1:before {
+  content: "\ea31";
+}
+.dga-icon-motion-01.bulk.rounded .path2:before {
+  content: "\ea32";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-01.bulk.rounded .path3:before {
+  content: "\ea33";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-01.stroke.sharp:before {
+  content: "\ea34";
+}
+.dga-icon-motion-01.solid.sharp:before {
+  content: "\ea35";
+}
+.dga-icon-motion-02 {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-motion-02:before, 
+.dga-icon-motion-02.stroke.rounded:before {
+  content: "\ea36";
+}
+body:has(.active-screen) .dga-icon-motion-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-motion-02.twotone.rounded .path1:before {
+  content: "\ea37";
+}
+.dga-icon-motion-02.twotone.rounded .path2:before {
+  content: "\ea38";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-02.twotone.rounded .path3:before {
+  content: "\ea39";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-motion-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-motion-02.duotone.rounded .path1:before {
+  content: "\ea3a";
+  opacity: 0.4;
+}
+.dga-icon-motion-02.duotone.rounded .path2:before {
+  content: "\ea3b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-02.duotone.rounded .path3:before {
+  content: "\ea3c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-02.duotone.rounded .path4:before {
+  content: "\ea3d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-motion-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-02.solid.rounded:before {
+  content: "\ea3e";
+}
+body:has(.active-screen) .dga-icon-motion-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-motion-02.bulk.rounded .path1:before {
+  content: "\ea3f";
+}
+.dga-icon-motion-02.bulk.rounded .path2:before {
+  content: "\ea40";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-02.bulk.rounded .path3:before {
+  content: "\ea41";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-motion-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-motion-02.stroke.sharp:before {
+  content: "\ea42";
+}
+.dga-icon-motion-02.solid.sharp:before {
+  content: "\ea43";
+}
+.dga-icon-move-bottom {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-move-bottom:before, 
+.dga-icon-move-bottom.stroke.rounded:before {
+  content: "\ea44";
+}
+.dga-icon-move-bottom.twotone.rounded:before {
+  content: "\ea45";
+}
+.dga-icon-move-bottom.twotone.rounded:after {
+  content: "\ea46";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-move-bottom.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-move-bottom.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-move-bottom.duotone.rounded .path1:before {
+  content: "\ea47";
+  opacity: 0.4;
+}
+.dga-icon-move-bottom.duotone.rounded .path2:before {
+  content: "\ea48";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-bottom.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-bottom.duotone.rounded .path3:before {
+  content: "\ea49";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-bottom.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-bottom.solid.rounded:before {
+  content: "\ea4a";
+}
+.dga-icon-move-bottom.bulk.rounded:before {
+  content: "\ea4b";
+}
+.dga-icon-move-bottom.bulk.rounded:after {
+  content: "\ea4c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-move-bottom.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-bottom.stroke.sharp:before {
+  content: "\ea4d";
+}
+.dga-icon-move-bottom.solid.sharp:before {
+  content: "\ea4e";
+}
+.dga-icon-move-left {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-move-left:before, 
+.dga-icon-move-left.stroke.rounded:before {
+  content: "\ea4f";
+}
+.dga-icon-move-left.twotone.rounded:before {
+  content: "\ea50";
+  opacity: 0.4;
+}
+.dga-icon-move-left.twotone.rounded:after {
+  content: "\ea51";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-left.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-move-left.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-move-left.duotone.rounded .path1:before {
+  content: "\ea52";
+  opacity: 0.4;
+}
+.dga-icon-move-left.duotone.rounded .path2:before {
+  content: "\ea53";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-left.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-left.duotone.rounded .path3:before {
+  content: "\ea54";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-left.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-left.solid.rounded:before {
+  content: "\ea55";
+}
+.dga-icon-move-left.bulk.rounded:before {
+  content: "\ea56";
+}
+.dga-icon-move-left.bulk.rounded:after {
+  content: "\ea57";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-move-left.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-left.stroke.sharp:before {
+  content: "\ea58";
+}
+.dga-icon-move-left.solid.sharp:before {
+  content: "\ea59";
+}
+.dga-icon-move-right {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-move-right:before, 
+.dga-icon-move-right.stroke.rounded:before {
+  content: "\ea5a";
+}
+.dga-icon-move-right.twotone.rounded:before {
+  content: "\ea5b";
+  opacity: 0.4;
+}
+.dga-icon-move-right.twotone.rounded:after {
+  content: "\ea5c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-right.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-move-right.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-move-right.duotone.rounded .path1:before {
+  content: "\ea5d";
+  opacity: 0.4;
+}
+.dga-icon-move-right.duotone.rounded .path2:before {
+  content: "\ea5e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-right.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-right.duotone.rounded .path3:before {
+  content: "\ea5f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-right.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-right.solid.rounded:before {
+  content: "\ea60";
+}
+.dga-icon-move-right.bulk.rounded:before {
+  content: "\ea61";
+}
+.dga-icon-move-right.bulk.rounded:after {
+  content: "\ea62";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-move-right.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-right.stroke.sharp:before {
+  content: "\ea63";
+}
+.dga-icon-move-right.solid.sharp:before {
+  content: "\ea64";
+}
+.dga-icon-move-top {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-move-top:before, 
+.dga-icon-move-top.stroke.rounded:before {
+  content: "\ea65";
+}
+.dga-icon-move-top.twotone.rounded:before {
+  content: "\ea66";
+  opacity: 0.4;
+}
+.dga-icon-move-top.twotone.rounded:after {
+  content: "\ea67";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-top.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-move-top.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-move-top.duotone.rounded .path1:before {
+  content: "\ea68";
+  opacity: 0.4;
+}
+.dga-icon-move-top.duotone.rounded .path2:before {
+  content: "\ea69";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-top.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-top.duotone.rounded .path3:before {
+  content: "\ea6a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-move-top.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-top.solid.rounded:before {
+  content: "\ea6b";
+}
+.dga-icon-move-top.bulk.rounded:before {
+  content: "\ea6c";
+}
+.dga-icon-move-top.bulk.rounded:after {
+  content: "\ea6d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-move-top.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-move-top.stroke.sharp:before {
+  content: "\ea6e";
+}
+.dga-icon-move-top.solid.sharp:before {
+  content: "\ea6f";
+}
+.dga-icon-transition-bottom {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-transition-bottom:before, 
+.dga-icon-transition-bottom.stroke.rounded:before {
+  content: "\ea70";
+}
+.dga-icon-transition-bottom.twotone.rounded:before {
+  content: "\ea71";
+}
+.dga-icon-transition-bottom.twotone.rounded:after {
+  content: "\ea72";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-bottom.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-transition-bottom.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-transition-bottom.duotone.rounded .path1:before {
+  content: "\ea73";
+  opacity: 0.4;
+}
+.dga-icon-transition-bottom.duotone.rounded .path2:before {
+  content: "\ea74";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-bottom.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-bottom.duotone.rounded .path3:before {
+  content: "\ea75";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-bottom.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-bottom.solid.rounded:before {
+  content: "\ea76";
+}
+body:has(.active-screen) .dga-icon-transition-bottom.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-transition-bottom.bulk.rounded .path1:before {
+  content: "\ea77";
+}
+.dga-icon-transition-bottom.bulk.rounded .path2:before {
+  content: "\ea78";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-bottom.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-bottom.bulk.rounded .path3:before {
+  content: "\ea79";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-bottom.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-bottom.stroke.sharp:before {
+  content: "\ea7a";
+}
+.dga-icon-transition-bottom.solid.sharp:before {
+  content: "\ea7b";
+}
+.dga-icon-transition-left {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-transition-left:before, 
+.dga-icon-transition-left.stroke.rounded:before {
+  content: "\ea7c";
+}
+.dga-icon-transition-left.twotone.rounded:before {
+  content: "\ea7d";
+}
+.dga-icon-transition-left.twotone.rounded:after {
+  content: "\ea7e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-left.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-transition-left.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-transition-left.duotone.rounded .path1:before {
+  content: "\ea7f";
+  opacity: 0.4;
+}
+.dga-icon-transition-left.duotone.rounded .path2:before {
+  content: "\ea80";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-left.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-left.duotone.rounded .path3:before {
+  content: "\ea81";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-left.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-left.solid.rounded:before {
+  content: "\ea82";
+}
+body:has(.active-screen) .dga-icon-transition-left.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-transition-left.bulk.rounded .path1:before {
+  content: "\ea83";
+}
+.dga-icon-transition-left.bulk.rounded .path2:before {
+  content: "\ea84";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-left.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-left.bulk.rounded .path3:before {
+  content: "\ea85";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-left.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-left.stroke.sharp:before {
+  content: "\ea86";
+}
+.dga-icon-transition-left.solid.sharp:before {
+  content: "\ea87";
+}
+.dga-icon-transition-right {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-transition-right:before, 
+.dga-icon-transition-right.stroke.rounded:before {
+  content: "\ea88";
+}
+.dga-icon-transition-right.twotone.rounded:before {
+  content: "\ea89";
+  opacity: 0.4;
+}
+.dga-icon-transition-right.twotone.rounded:after {
+  content: "\ea8a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-right.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-transition-right.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-transition-right.duotone.rounded .path1:before {
+  content: "\ea8b";
+  opacity: 0.4;
+}
+.dga-icon-transition-right.duotone.rounded .path2:before {
+  content: "\ea8c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-right.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-right.duotone.rounded .path3:before {
+  content: "\ea8d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-right.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-right.solid.rounded:before {
+  content: "\ea8e";
+}
+body:has(.active-screen) .dga-icon-transition-right.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-transition-right.bulk.rounded .path1:before {
+  content: "\ea8f";
+}
+.dga-icon-transition-right.bulk.rounded .path2:before {
+  content: "\ea90";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-right.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-right.bulk.rounded .path3:before {
+  content: "\ea91";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-right.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-right.stroke.sharp:before {
+  content: "\ea92";
+}
+.dga-icon-transition-right.solid.sharp:before {
+  content: "\ea93";
+}
+.dga-icon-transition-top {
+  font-family: 'dga-fonts-icons-animation' !important;
+}
+.dga-icon-transition-top:before, 
+.dga-icon-transition-top.stroke.rounded:before {
+  content: "\ea94";
+}
+.dga-icon-transition-top.twotone.rounded:before {
+  content: "\ea95";
+}
+.dga-icon-transition-top.twotone.rounded:after {
+  content: "\ea96";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-top.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-transition-top.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-transition-top.duotone.rounded .path1:before {
+  content: "\ea97";
+  opacity: 0.4;
+}
+.dga-icon-transition-top.duotone.rounded .path2:before {
+  content: "\ea98";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-top.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-top.duotone.rounded .path3:before {
+  content: "\ea99";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-transition-top.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-top.solid.rounded:before {
+  content: "\ea9a";
+}
+body:has(.active-screen) .dga-icon-transition-top.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-transition-top.bulk.rounded .path1:before {
+  content: "\ea9b";
+}
+.dga-icon-transition-top.bulk.rounded .path2:before {
+  content: "\ea9c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-top.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-top.bulk.rounded .path3:before {
+  content: "\ea9d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-transition-top.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-transition-top.stroke.sharp:before {
+  content: "\ea9e";
+}
+.dga-icon-transition-top.solid.sharp:before {
+  content: "\ea9f";
+}

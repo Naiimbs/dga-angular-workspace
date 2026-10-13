@@ -14,48 +14,86 @@
     <p class="sidebar__heading">FOUNDATIONS</p>
     <a href="#colors">Colors</a>
     <a href="#typography">Typography</a>
-    <a href="#spacing">Spacing & shapes</a>
+    <a href="#spacing">Spacing & radius</a>
     <p class="sidebar__heading">COMPONENTS</p>
-    <a href="#buttons">Buttons</a>
-    <a href="#forms">Form controls</a>
-    <a href="#status">Badges & tags</a>
-    <a href="#surfaces">Cards & surfaces</a>
-    <a href="#alerts">Alerts</a>
-    <a href="#navigation">Navigation</a>
-    <a href="#feedback">Feedback</a>
-    <a href="#data">Data</a>
-    <a href="#composites">Composite patterns</a>
+    <p class="sidebar__subheading">Actions</p>
+    <a href="#buttons" class="sidebar__item--sub">Button</a>
+    <p class="sidebar__subheading">Forms</p>
+    <a href="#forms" class="sidebar__item--sub">Input & Textarea</a>
+    <a href="#forms" class="sidebar__item--sub">Checkbox</a>
+    <a href="#forms" class="sidebar__item--sub">Radio</a>
+    <a href="#forms" class="sidebar__item--sub">Switch</a>
+    <a href="#forms" class="sidebar__item--sub">Select</a>
+    <p class="sidebar__subheading">Navigation</p>
+    <a href="#navigation" class="sidebar__item--sub">Tabs</a>
+    <a href="#navigation" class="sidebar__item--sub">Breadcrumb</a>
+    <a href="#navigation" class="sidebar__item--sub">Header</a>
+    <a href="#navigation" class="sidebar__item--sub">Sidebar</a>
+    <p class="sidebar__subheading">Feedback</p>
+    <a href="#alerts" class="sidebar__item--sub">Alert</a>
+    <a href="#feedback" class="sidebar__item--sub">Modal</a>
+    <a href="#feedback" class="sidebar__item--sub">Tooltip</a>
+    <a href="#feedback" class="sidebar__item--sub">Spinner</a>
+    <p class="sidebar__subheading">Data Display</p>
+    <a href="#status" class="sidebar__item--sub">Badge & Tag</a>
+    <a href="#status" class="sidebar__item--sub">Avatar</a>
+    <a href="#data" class="sidebar__item--sub">Table</a>
+    <p class="sidebar__subheading">Surfaces</p>
+    <a href="#surfaces" class="sidebar__item--sub">Card</a>
+    <p class="sidebar__subheading">Composite</p>
+    <a href="#composites" class="sidebar__item--sub">Digital Stamp</a>
+    <a href="#composites" class="sidebar__item--sub">Accordion</a>
+    <a href="#composites" class="sidebar__item--sub">Progress</a>
+    <a href="#composites" class="sidebar__item--sub">Empty State</a>
+    <p class="sidebar__heading">PATTERNS</p>
     <a href="#direction">RTL / LTR</a>
+    <p class="sidebar__heading">DOCUMENTATION</p>
+    <a href="#doc-getting-started">Getting Started</a>
+    <a href="#doc-accessibility">Accessibility</a>
+    <a href="#doc-theming">Theming & Tokens</a>
   </aside>
 
+
   <main class="main" id="top">
-    <section class="hero">
-      <div class="hero__copy">
-        <div class="eyebrow"><span class="eyebrow__dot"></span> DESIGN SYSTEM · ANGULAR</div>
-        <p class="hero__arabic" lang="ar" dir="rtl">منظومة التصميم للخدمات الحكومية الرقمية</p>
-        <h1>DGA Design<br />System</h1>
-        <p class="hero__description">
-          A thoughtful, accessible component foundation for Saudi Arabia's digital government services.
-          Built with the official DGA-inspired token set and native Angular.
-        </p>
-        <div class="hero__actions">
-          <a class="hero__action" href="#buttons">Explore components <span aria-hidden="true">↓</span></a>
-          <span class="hero__note"><span class="status-dot"></span> 24 standalone components</span>
-        </div>
-      </div>
-      <div class="hero__visual" aria-hidden="true">
-        <div class="orbit orbit--one"></div>
-        <div class="orbit orbit--two"></div>
-        <div class="hero-card hero-card--back"><span class="hero-card__glyph">✓</span></div>
-        <div class="hero-card hero-card--front">
-          <span class="hero-card__label">SAUDI ARABIA</span>
-          <span class="hero-card__seal">DGA</span>
-          <span class="hero-card__caption">Digital government<br />by design.</span>
-          <span class="hero-card__line"></span>
-        </div>
-        <span class="hero__spark hero__spark--one"></span>
-        <span class="hero__spark hero__spark--two"></span>
-      </div>
+    <dga-hero ariaLabel="DGA Design System highlights" [slides]="heroSlides" />
+
+    <!-- Component Categories -->
+    <section class="categories-bar" aria-label="Component categories">
+      <a href="#buttons" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">⚡</span>
+        <span class="cat-card__name">Actions</span>
+        <span class="cat-card__count">Button, Icon Button</span>
+      </a>
+      <a href="#forms" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">✎</span>
+        <span class="cat-card__name">Forms</span>
+        <span class="cat-card__count">Input, Checkbox, Radio, Switch, Select</span>
+      </a>
+      <a href="#navigation" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">⇄</span>
+        <span class="cat-card__name">Navigation</span>
+        <span class="cat-card__count">Tabs, Breadcrumb, Header, Sidebar</span>
+      </a>
+      <a href="#alerts" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">◎</span>
+        <span class="cat-card__name">Feedback</span>
+        <span class="cat-card__count">Alert, Modal, Tooltip, Spinner</span>
+      </a>
+      <a href="#status" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">◈</span>
+        <span class="cat-card__name">Data Display</span>
+        <span class="cat-card__count">Badge, Tag, Avatar, Table</span>
+      </a>
+      <a href="#surfaces" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">▣</span>
+        <span class="cat-card__name">Surfaces</span>
+        <span class="cat-card__count">Card, Divider</span>
+      </a>
+      <a href="#composites" class="cat-card">
+        <span class="cat-card__icon" aria-hidden="true">⊞</span>
+        <span class="cat-card__name">Composite</span>
+        <span class="cat-card__count">Digital Stamp, Accordion, Progress</span>
+      </a>
     </section>
 
     <div class="content">
@@ -71,7 +109,7 @@
               <div class="swatches">
                 @for (step of palette.steps; track step) {
                   <div class="swatch">
-                    <span class="swatch__color" [style.background-color]="'var(--ddga-' + palette.key + '-' + step + ')'"></span>
+                    <span class="swatch__color" [style.backgroundColor]="'var(--ddga-' + palette.key + '-' + step + ')'"></span>
                     <span class="swatch__step">{{ step }}</span>
                   </div>
                 }
@@ -102,7 +140,7 @@
             @for (sample of typeSamples; track sample.token) {
               <div class="type-row">
                 <span class="type-row__label">{{ sample.label }}</span>
-                <span class="type-row__sample" [style.font-size]="'var(--ddga-font-size-' + sample.token + ')'">Aa — Digital services</span>
+                <span class="type-row__sample" [style.fontSize]="'var(--ddga-font-size-' + sample.token + ')'">Aa — Digital services</span>
                 <code>--ddga-font-size-{{ sample.token }}</code>
               </div>
             }
@@ -124,7 +162,7 @@
             <h3>Spacing scale</h3><p class="muted">A 4px base unit keeps layouts in rhythm.</p>
             <div class="space-list">
               @for (space of spaces; track space) {
-                <div class="space-row"><code>{{ space }}</code><span class="space-bar" [style.inline-size]="'var(--ddga-space-' + space + ')'"></span><small>--ddga-space-{{ space }}</small></div>
+                <div class="space-row"><code>{{ space }}</code><span class="space-bar" [style.width]="'var(--ddga-space-' + space + ')'"></span><small>--ddga-space-{{ space }}</small></div>
               }
             </div>
           </article>
@@ -132,13 +170,13 @@
             <h3>Corner radius</h3><p class="muted">Friendly geometry for every surface.</p>
             <div class="radius-list">
               @for (radius of radii; track radius) {
-                <div class="radius-item"><span [style.border-radius]="'var(--ddga-radius-' + radius + ')'"></span><small>{{ radius }}</small></div>
+                <div class="radius-item"><span [style.borderRadius]="'var(--ddga-radius-' + radius + ')'"></span><small>{{ radius }}</small></div>
               }
             </div>
             <h3 class="subheading">Shadows</h3>
             <div class="shadow-list">
               @for (shadow of shadows; track shadow) {
-                <span [style.box-shadow]="'var(--ddga-shadow-' + shadow + ')'">{{ shadow }}</span>
+                <span [style.boxShadow]="'var(--ddga-shadow-' + shadow + ')'">{{ shadow }}</span>
               }
             </div>
           </article>
@@ -172,13 +210,32 @@
           <div class="usage"><code>&lt;dga-button variant="primary" size="md"&gt;Save&lt;/dga-button&gt;</code><span>Projected content · typed inputs · native button semantics</span></div>
         </div>
         <div class="specimen icon-specimen">
-          <div class="specimen__label">DGA ICONS <span>Inline SVG · currentColor · decorative by default</span></div>
+          <div class="specimen__label">CENTRALIZED DGA ICON REGISTRY & CATALOG <span>Total Discovered: {{ totalDiscoveredIcons }} icons/variants · Vector SVG & Font Icons · currentColor</span></div>
+
+          <div class="icon-toolbar" style="display: flex; gap: 1rem; align-items: center; margin-block: 1rem; flex-wrap: wrap;">
+            <dga-input id="icon-search-input" placeholder="Search icon name..." [(ngModel)]="iconSearch" style="flex: 1; min-inline-size: 200px;" />
+            <dga-select id="icon-variant-select" label="Variant" [options]="[
+              { label: 'Default', value: 'default' },
+              { label: 'Solid', value: 'solid' },
+              { label: 'Featured', value: 'featured' },
+              { label: 'Stroke Rounded', value: 'stroke-rounded' },
+              { label: 'Twotone Rounded', value: 'twotone-rounded' },
+              { label: 'Duotone Rounded', value: 'duotone-rounded' },
+              { label: 'Solid Rounded', value: 'solid-rounded' },
+              { label: 'Bulk Rounded', value: 'bulk-rounded' }
+            ]" [(ngModel)]="selectedVariant" style="inline-size: 200px;" />
+          </div>
+
           <div class="icon-grid">
-            @for (icon of iconNames; track icon) {
-              <div class="icon-sample"><dga-icon [name]="icon" /><code>{{ icon }}</code></div>
+            @for (iconItem of catalogIcons; track iconItem.name + ':' + iconItem.variant) {
+              <div class="icon-sample" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem; border: 1px solid var(--ddga-color-border); border-radius: var(--ddga-radius-md); background: var(--ddga-color-card);">
+                <dga-icon [name]="iconItem.name" [variant]="selectedVariant !== 'default' ? selectedVariant : (iconItem.variant || 'default')" size="lg" />
+                <code style="font-size: 0.75rem; margin-block-start: 0.5rem; text-align: center;">{{ iconItem.name }}</code>
+                <span class="muted" style="font-size: 0.65rem; text-transform: uppercase; margin-block-start: 0.25rem;">{{ iconItem.type }} · {{ selectedVariant !== 'default' ? selectedVariant : (iconItem.variant || 'default') }}</span>
+              </div>
             }
           </div>
-          <div class="usage"><code>&lt;dga-icon name="search" /&gt;</code><span>Typed icon names · accessible label available · icons are not a full React registry port</span></div>
+          <div class="usage"><code>&lt;dga-icon name="{{ catalogIcons[0]?.name || 'add' }}" variant="{{ selectedVariant }}" /&gt;</code><span>Centralized DgaIconRegistry · Single source of truth · Dynamic SVG & Font support</span></div>
         </div>
       </section>
 
@@ -201,15 +258,154 @@
             <dga-select id="demo-service" label="Service area" [options]="selectOptions" [(ngModel)]="selectedService" helperText="Choose the area that best fits." />
             <dga-select id="demo-disabled-select" label="Unavailable category" [options]="selectOptions" [disabled]="true" />
           </div>
-          <div class="choices"><span class="demo-label">UNCHECKED / CHECKED / MIXED / DISABLED / VALIDATION / SWITCH OFF / ON STATES</span>
-            <dga-checkbox id="terms" name="terms" [(ngModel)]="acceptedTerms">I agree to the terms and conditions</dga-checkbox>
-            <dga-checkbox id="indeterminate" name="indeterminate" [indeterminate]="true" helperText="Mixed selection state">Select all services</dga-checkbox>
-            <dga-checkbox id="error-choice" name="error-choice" errorMessage="This confirmation is required">Confirm your details</dga-checkbox>
-            <dga-checkbox id="disabled-choice" name="disabled-choice" [disabled]="true">Unavailable option</dga-checkbox>
-            <dga-radio-group name="account-type" label="Account type" [options]="radioOptions" [(ngModel)]="selectedRadio" helperText="Choose one account type." />
+          <div class="choices">
+            <span class="demo-label">CHECKBOX · PHASE 4 STATE MATRIX · DEFAULT / CHECKED / INDETERMINATE / HOVER / FOCUS / DISABLED / ERROR / READONLY / REQUIRED / SIZES / NEUTRAL</span>
+            <div class="state-matrix" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:var(--ddga-space-4)">
+              <!-- Default (unchecked) -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Default</span>
+                <dga-checkbox id="sc-default" name="sc-default">Unchecked option</dga-checkbox>
+              </div>
+              <!-- Checked -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Checked</span>
+                <dga-checkbox id="sc-checked" name="sc-checked" [checked]="true">Checked option</dga-checkbox>
+              </div>
+              <!-- Indeterminate -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Indeterminate</span>
+                <dga-checkbox id="sc-indet" name="sc-indet" [indeterminate]="true" helperText="Mixed state · aria-checked=&quot;mixed&quot;">Select all</dga-checkbox>
+              </div>
+              <!-- Disabled unchecked -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Disabled</span>
+                <dga-checkbox id="sc-disabled" name="sc-disabled" [disabled]="true">Unavailable</dga-checkbox>
+              </div>
+              <!-- Disabled checked -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Disabled checked</span>
+                <dga-checkbox id="sc-disabled-checked" name="sc-disabled-checked" [checked]="true" [disabled]="true">Locked on</dga-checkbox>
+              </div>
+              <!-- ReadOnly checked -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">ReadOnly</span>
+                <dga-checkbox id="sc-readonly" name="sc-readonly" [checked]="true" [readOnly]="true">Read-only value</dga-checkbox>
+              </div>
+              <!-- Error unchecked -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Error</span>
+                <dga-checkbox id="sc-error" name="sc-error" errorMessage="This field is required">Confirm details</dga-checkbox>
+              </div>
+              <!-- Required -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Required</span>
+                <dga-checkbox id="sc-required" name="sc-required" [required]="true">Accept terms</dga-checkbox>
+              </div>
+              <!-- Neutral variant -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Neutral variant</span>
+                <dga-checkbox id="sc-neutral" name="sc-neutral" [checked]="true" variant="neutral">Neutral checked</dga-checkbox>
+              </div>
+              <!-- Sizes -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Sizes · xs / sm / md</span>
+                <dga-checkbox id="sc-xs" name="sc-xs" [checked]="true" size="xs">XS (16px)</dga-checkbox>
+                <dga-checkbox id="sc-sm" name="sc-sm" [checked]="true" size="sm">SM (20px)</dga-checkbox>
+                <dga-checkbox id="sc-md" name="sc-md" [checked]="true" size="md">MD (24px) default</dga-checkbox>
+              </div>
+              <!-- ngModel binding -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">ngModel · ControlValueAccessor</span>
+                <dga-checkbox id="terms" name="terms" [(ngModel)]="acceptedTerms">I agree to the terms and conditions</dga-checkbox>
+              </div>
+            </div>
+            <span class="demo-label">RADIO & RADIOGROUP · PHASE 4 STATE MATRIX · DEFAULT / CHECKED / HORIZONTAL / NEUTRAL / READONLY / ERROR / REQUIRED / DISABLED / STANDALONE</span>
+            <div class="state-matrix" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:var(--ddga-space-4);margin-block:var(--ddga-space-4)">
+              <!-- Default / Vertical -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Default · Vertical</span>
+                <dga-radio-group id="sc-rg-default" name="sc-rg-default" label="Account type" [options]="radioOptions" [(ngModel)]="selectedRadio" helperText="Vertical orientation" />
+              </div>
+              <!-- Horizontal -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Horizontal Orientation</span>
+                <dga-radio-group id="sc-rg-horizontal" name="sc-rg-horizontal" label="Service level" orientation="horizontal" [options]="radioOptions" value="business" />
+              </div>
+              <!-- Neutral Variant -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Neutral Variant</span>
+                <dga-radio-group id="sc-rg-neutral" name="sc-rg-neutral" label="Neutral styling" variant="neutral" [options]="radioOptions" value="citizen" />
+              </div>
+              <!-- Required -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Required</span>
+                <dga-radio-group id="sc-rg-required" name="sc-rg-required" label="Mandatory selection" [required]="true" [options]="radioOptions" />
+              </div>
+              <!-- ReadOnly -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">ReadOnly</span>
+                <dga-radio-group id="sc-rg-readonly" name="sc-rg-readonly" label="Immutable value" [readOnly]="true" [options]="radioOptions" value="citizen" />
+              </div>
+              <!-- Error State -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Validation Error</span>
+                <dga-radio-group id="sc-rg-error" name="sc-rg-error" label="Account selection" errorMessage="Please select an account type" [options]="radioOptions" />
+              </div>
+              <!-- Disabled -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Disabled Group</span>
+                <dga-radio-group id="sc-rg-disabled" name="sc-rg-disabled" label="Inactive group" [disabled]="true" [options]="radioOptions" value="business" />
+              </div>
+              <!-- Standalone DgaRadio -->
+              <div class="state-cell" style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                <span class="state-label" style="font-size:0.65rem;text-transform:uppercase;color:var(--ddga-text-secondary);letter-spacing:.05em">Standalone DgaRadio</span>
+                <div style="display:flex;flex-direction:column;gap:var(--ddga-space-2)">
+                  <dga-radio id="sc-radio-1" name="standalone-demo" value="1" [checked]="true">Direct option 1</dga-radio>
+                  <dga-radio id="sc-radio-2" name="standalone-demo" value="2">Direct option 2</dga-radio>
+                  <dga-radio id="sc-radio-3" name="standalone-demo" value="3" [disabled]="true">Direct disabled</dga-radio>
+                </div>
+              </div>
+            </div>
             <dga-switch id="notifications" name="notifications" [(ngModel)]="notificationsEnabled">Enable notifications</dga-switch>
             <dga-switch id="notifications-off" name="notifications-off" [checked]="false">Notifications off</dga-switch>
             <dga-switch id="disabled-switch" name="disabled-switch" [checked]="true" [disabled]="true">Managed by administrator</dga-switch>
+            <dga-divider />
+            <span class="demo-label">SLIDER · SINGLE & RANGE MODES · CVA · ARIA ACCESSIBLE · RTL READY</span>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: var(--ddga-space-6); margin-block: var(--ddga-space-4);">
+              <dga-slider
+                id="demo-slider-single"
+                label="Completion Percentage"
+                helperText="Drag thumb or use arrow keys"
+                [(ngModel)]="sliderValue"
+                [showValue]="true"
+              />
+              <dga-slider
+                id="demo-slider-range"
+                label="Budget Range (SAR)"
+                [min]="0"
+                [max]="100"
+                [step]="5"
+                [(ngModel)]="sliderRange"
+                [thumbLabels]="['Minimum Budget', 'Maximum Budget']"
+                [showValue]="true"
+              />
+              <dga-slider
+                id="demo-slider-error"
+                label="Exceeded Threshold"
+                [value]="90"
+                errorMessage="Value exceeds approved limits"
+                [error]="true"
+                [showValue]="true"
+              />
+              <dga-slider
+                id="demo-slider-disabled"
+                label="Locked Setting"
+                [value]="40"
+                [disabled]="true"
+                helperText="Managed by administrator"
+                [showValue]="true"
+              />
+            </div>
           </div>
           <div class="usage"><code>&lt;dga-input label="Email" type="email" required /&gt;</code><span>Angular Forms ControlValueAccessor · helper, error, success, disabled and read-only states</span></div>
         </div>
@@ -447,11 +643,28 @@
           <p>Higher-level patterns ported from the React DGA library: disclosure, progress, verification, and helpful empty states.</p>
         </div>
         <div class="composite-grid">
-          <article class="composite-card composite-card--stamp">
-            <span class="demo-label">DIGITAL STAMP · VERIFIED DOMAIN / HTTPS</span>
-            <dga-digital-stamp id="demo-digital-stamp" extension="gov.sa" [defaultOpen]="true"
-              registrationNumber="DGA-2048" registrationHref="#top" />
-            <div class="usage"><code>&lt;dga-digital-stamp extension="gov.sa"&gt;</code><span>Expandable official domain and HTTPS verification pattern</span></div>
+          <article class="composite-card composite-card--stamp" style="grid-column: 1 / -1;">
+            <span class="demo-label">DIGITAL STAMP · PHASE 4 STATE & EXTENSION MATRIX · CLOSED / OPEN / EXTENSIONS</span>
+            <div style="display: flex; flex-direction: column; gap: var(--ddga-space-4); margin-block: var(--ddga-space-3);">
+              <!-- Open state -->
+              <div>
+                <span style="font-size: 0.7rem; font-weight: 600; color: var(--ddga-text-secondary); text-transform: uppercase;">1. Open State (gov.sa with Registration)</span>
+                <dga-digital-stamp id="demo-digital-stamp-open" extension="gov.sa" [defaultOpen]="true"
+                  registrationNumber="DGA-2048" registrationHref="#top" />
+              </div>
+              <!-- Closed state -->
+              <div>
+                <span style="font-size: 0.7rem; font-weight: 600; color: var(--ddga-text-secondary); text-transform: uppercase;">2. Closed State (Interactive Chevron Toggle)</span>
+                <dga-digital-stamp id="demo-digital-stamp-closed" extension="edu.sa" [defaultOpen]="false"
+                  registrationNumber="DGA-EDU-99" registrationHref="#top" />
+              </div>
+              <!-- Different extension (med.sa) -->
+              <div>
+                <span style="font-size: 0.7rem; font-weight: 600; color: var(--ddga-text-secondary); text-transform: uppercase;">3. Medical Extension (med.sa)</span>
+                <dga-digital-stamp id="demo-digital-stamp-med" extension="med.sa" [defaultOpen]="false" />
+              </div>
+            </div>
+            <div class="usage"><code>&lt;dga-digital-stamp extension="gov.sa"&gt;</code><span>Expandable official domain and HTTPS verification pattern · DgaIconRegistry chevron & Saudi flag</span></div>
           </article>
           <article class="composite-card">
             <span class="demo-label">ACCORDION · SINGLE ITEM</span>
@@ -475,11 +688,142 @@
         <div class="usage"><code>&lt;dga-empty-state title="No results"&gt;…actions…&lt;/dga-empty-state&gt;</code><span>React-backed composites · projected actions · status and progress semantics</span></div>
       </section>
 
-      <footer class="footer">
-        <div class="footer__brand"><span class="brand__mark">DGA</span><span>Design System</span></div>
-        <span>Designed for clarity. Built for everyone.</span>
-        <a href="#top">Back to top ↑</a>
-      </footer>
+      <!-- DOCUMENTATION -->
+      <section class="doc-section" id="doc-getting-started">
+        <div class="section-heading">
+          <div><span class="section-index">DOC / 01</span><h2>Getting Started</h2></div>
+          <p>Install, import, and use DGA Angular components in your project.</p>
+        </div>
+        <div class="doc-guide">
+          <div class="doc-block">
+            <h3 class="doc-block__title">Installation</h3>
+            <p class="doc-block__text">The DGA Angular library is distributed as <code>@dev-dga/angular</code>. Install it alongside the CSS package:</p>
+            <pre class="doc-code"><code>npm install @dev-dga/angular @dev-dga/css</code></pre>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Load Styles</h3>
+            <p class="doc-block__text">Import the DGA token layer and component styles in your root SCSS or <code>angular.json</code> styles array. The tokens layer must come first:</p>
+            <pre class="doc-code"><code>// styles.scss
+@use '@dev-dga/css/dist/variables.css';
+@use '@dev-dga/css/dist/index.css';</code></pre>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Import Components</h3>
+            <p class="doc-block__text">All components are standalone. Import only what you need:</p>
+            <pre class="doc-code"><code>import &#123;  DgaButtonComponent,
+  DgaCheckbox,
+  DgaRadioGroup,
+  DgaTabs,
+  DgaDigitalStamp,&#125; from '@dev-dga/angular';
+
+@Component(&#123;  imports: [DgaButtonComponent, DgaCheckbox, DgaRadioGroup, DgaTabs],
+  // ...&#125;)</code></pre>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Register Icons</h3>
+            <p class="doc-block__text">Inject <code>DgaIconRegistry</code> at application root to enable icon rendering across all <code>&lt;dga-icon&gt;</code> components:</p>
+            <pre class="doc-code"><code>import &#123; DgaIconRegistry &#125; from '@dev-dga/angular';
+
+// In your root component or app.config.ts providers:
+private iconRegistry = inject(DgaIconRegistry);</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="doc-accessibility">
+        <div class="section-heading">
+          <div><span class="section-index">DOC / 02</span><h2>Accessibility</h2></div>
+          <p>DGA components are designed for keyboard and assistive-technology use from the ground up.</p>
+        </div>
+        <div class="doc-guide">
+          <div class="doc-block">
+            <h3 class="doc-block__title">Keyboard Navigation</h3>
+            <div class="key-table">
+              <div class="key-row"><span class="key-badge">Tab</span><span>Move focus between interactive controls</span></div>
+              <div class="key-row"><span class="key-badge">Space / Enter</span><span>Activate buttons, checkboxes, switches</span></div>
+              <div class="key-row"><span class="key-badge">Arrow Keys</span><span>Navigate tabs (Left/Right), radio groups (Up/Down/Left/Right), dropdowns</span></div>
+              <div class="key-row"><span class="key-badge">Home / End</span><span>Jump to first/last tab or dropdown item</span></div>
+              <div class="key-row"><span class="key-badge">Escape</span><span>Close dropdowns, modals, and slideout menus</span></div>
+            </div>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">ARIA Attributes</h3>
+            <p class="doc-block__text">Components emit the correct ARIA roles and properties automatically:</p>
+            <ul class="doc-list">
+              <li><code>aria-selected</code> on tab triggers, <code>role="tablist"</code> on list</li>
+              <li><code>aria-invalid</code> on inputs and checkboxes with error state</li>
+              <li><code>aria-readonly</code> for read-only form controls</li>
+              <li><code>aria-expanded</code> on accordion, digital stamp, and dropdown triggers</li>
+              <li><code>aria-required</code> on required form fields</li>
+              <li><code>aria-disabled</code> on disabled tab triggers</li>
+            </ul>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Focus Management</h3>
+            <p class="doc-block__text">All interactive elements use <code>:focus-visible</code> with a high-contrast ring. Focus is trapped inside modals and returned to the trigger on close. Radio groups implement roving tabindex per ARIA patterns.</p>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">RTL Support</h3>
+            <p class="doc-block__text">All components use CSS logical properties (<code>inline-start</code>, <code>block-start</code>, etc.). Add <code>dir="rtl"</code> to any ancestor element and the layout mirrors automatically — including arrow-key navigation in tabs and breadcrumbs.</p>
+            <pre class="doc-code"><code>&lt;section dir="rtl" lang="ar"&gt;
+  &lt;dga-tabs [tabs]="tabItems" /&gt;
+&lt;/section&gt;</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="doc-section" id="doc-theming">
+        <div class="section-heading">
+          <div><span class="section-index">DOC / 03</span><h2>Theming & Tokens</h2></div>
+          <p>DGA tokens flow from design primitives down to component styles. No component uses hardcoded colors.</p>
+        </div>
+        <div class="doc-guide">
+          <div class="doc-block">
+            <h3 class="doc-block__title">Token Architecture</h3>
+            <p class="doc-block__text">Tokens are defined as CSS custom properties on <code>:root</code> and split into layers:</p>
+            <ul class="doc-list">
+              <li><strong>Primitive palettes</strong> — <code>--ddga-sa-*</code>, <code>--ddga-gray-*</code>, <code>--ddga-gold-*</code>, <code>--ddga-error-*</code>, etc.</li>
+              <li><strong>Semantic tokens</strong> — <code>--ddga-color-primary</code>, <code>--ddga-color-error</code>, <code>--ddga-text-primary</code>, etc.</li>
+              <li><strong>Component tokens</strong> — <code>--ddga-tabs-indicator-thickness</code>, <code>--dga-icon-size</code>, etc.</li>
+            </ul>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Dark Mode</h3>
+            <p class="doc-block__text">Add <code>data-theme="dark"</code> to any ancestor element to enable dark mode. Components detect this via attribute selectors and adjust colors using the same token layer:</p>
+            <pre class="doc-code"><code>&lt;body data-theme="dark"&gt;
+  &lt;dga-checkbox [checked]="true"&gt;Dark mode checkbox&lt;/dga-checkbox&gt;
+&lt;/body&gt;</code></pre>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Gold & Semantic Tokens</h3>
+            <p class="doc-block__text">The Gold palette (<code>--ddga-gold-*</code>) is available for featured content. Use semantic tokens where possible — they respond to theme changes automatically:</p>
+            <pre class="doc-code"><code>/* Preferred — responds to theme */
+color: var(--ddga-color-primary);
+background: var(--ddga-color-muted);
+
+/* Gold for featured UI only */
+background: var(--ddga-gold-50);
+color: var(--ddga-gold-800);</code></pre>
+          </div>
+          <div class="doc-block">
+            <h3 class="doc-block__title">Migration from React</h3>
+            <p class="doc-block__text">Components share the same CSS class names and token layer as the React DGA library. CSS loaded from <code>@dev-dga/css</code> works in both. Angular component templates differ but emit the same <code>.ddga-*</code> classes to maintain style compatibility.</p>
+          </div>
+        </div>
+      </section>
+
+      <dga-footer
+        variant="dark"
+        ariaLabel="Site footer"
+        navLabel="Footer links"
+        [linkGroups]="footerGroups"
+        [socialLinks]="footerSocial"
+        socialHeading="Social Media"
+        [legalLinks]="footerLegalLinks"
+        copyright="All Rights Reserved for Digital Government Authority © 2026"
+        lastModified="Last Modified Date: 04/12/2026"
+        [logos]="footerLogos" />
+
     </div>
   </main>
 </div>

@@ -1,0 +1,4755 @@
+.dga-icon-adzan {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-adzan:before, 
+.dga-icon-adzan.stroke.rounded:before {
+  content: "\e900";
+}
+body:has(.active-screen) .dga-icon-adzan.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-adzan.twotone.rounded .path1:before {
+  content: "\e901";
+}
+.dga-icon-adzan.twotone.rounded .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-adzan.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.twotone.rounded .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-adzan.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.twotone.rounded .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-adzan.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.twotone.rounded .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-adzan.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.twotone.rounded .path6:before {
+  content: "\e906";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-adzan.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-adzan.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-adzan.duotone.rounded .path1:before {
+  content: "\e907";
+  opacity: 0.4;
+}
+.dga-icon-adzan.duotone.rounded .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.duotone.rounded .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.duotone.rounded .path4:before {
+  content: "\e90a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.duotone.rounded .path5:before {
+  content: "\e90b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.duotone.rounded .path6:before {
+  content: "\e90c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.duotone.rounded .path7:before {
+  content: "\e90d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.duotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.solid.rounded:before {
+  content: "\e90e";
+}
+body:has(.active-screen) .dga-icon-adzan.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-adzan.bulk.rounded .path1:before {
+  content: "\e90f";
+  opacity: 0.4;
+}
+.dga-icon-adzan.bulk.rounded .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.bulk.rounded .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.bulk.rounded .path4:before {
+  content: "\e912";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.bulk.rounded .path5:before {
+  content: "\e913";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.bulk.rounded .path6:before {
+  content: "\e914";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.bulk.rounded .path7:before {
+  content: "\e915";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-adzan.bulk.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-adzan.stroke.sharp:before {
+  content: "\e916";
+}
+.dga-icon-adzan.solid.sharp:before {
+  content: "\e917";
+}
+.dga-icon-al-aqsa-mosque {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-al-aqsa-mosque:before, 
+.dga-icon-al-aqsa-mosque.stroke.rounded:before {
+  content: "\e918";
+}
+body:has(.active-screen) .dga-icon-al-aqsa-mosque.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-al-aqsa-mosque.twotone.rounded .path1:before {
+  content: "\e919";
+  opacity: 0.4;
+}
+.dga-icon-al-aqsa-mosque.twotone.rounded .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.twotone.rounded .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-al-aqsa-mosque.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-al-aqsa-mosque.duotone.rounded .path1:before {
+  content: "\e91c";
+  opacity: 0.4;
+}
+.dga-icon-al-aqsa-mosque.duotone.rounded .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.duotone.rounded .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.duotone.rounded .path4:before {
+  content: "\e91f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.solid.rounded:before {
+  content: "\e920";
+}
+body:has(.active-screen) .dga-icon-al-aqsa-mosque.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-al-aqsa-mosque.bulk.rounded .path1:before {
+  content: "\e921";
+}
+.dga-icon-al-aqsa-mosque.bulk.rounded .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.bulk.rounded .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.bulk.rounded .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.bulk.rounded .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.bulk.rounded .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-al-aqsa-mosque.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-al-aqsa-mosque.stroke.sharp:before {
+  content: "\e927";
+}
+.dga-icon-al-aqsa-mosque.solid.sharp:before {
+  content: "\e928";
+}
+.dga-icon-allah {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-allah:before, 
+.dga-icon-allah.stroke.rounded:before {
+  content: "\e929";
+}
+.dga-icon-allah.twotone.rounded:before {
+  content: "\e92a";
+}
+.dga-icon-allah.twotone.rounded:after {
+  content: "\e92b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-allah.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-allah.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-allah.duotone.rounded .path1:before {
+  content: "\e92c";
+  opacity: 0.4;
+}
+.dga-icon-allah.duotone.rounded .path2:before {
+  content: "\e92d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-allah.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-allah.duotone.rounded .path3:before {
+  content: "\e92e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-allah.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-allah.duotone.rounded .path4:before {
+  content: "\e92f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-allah.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-allah.solid.rounded:before {
+  content: "\e930";
+}
+body:has(.active-screen) .dga-icon-allah.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-allah.bulk.rounded .path1:before {
+  content: "\e931";
+  opacity: 0.4;
+}
+.dga-icon-allah.bulk.rounded .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-allah.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-allah.bulk.rounded .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-allah.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-allah.stroke.sharp:before {
+  content: "\e934";
+}
+.dga-icon-allah.solid.sharp:before {
+  content: "\e935";
+}
+.dga-icon-alms {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-alms:before, 
+.dga-icon-alms.stroke.rounded:before {
+  content: "\e936";
+}
+.dga-icon-alms.twotone.rounded:before {
+  content: "\e937";
+}
+.dga-icon-alms.twotone.rounded:after {
+  content: "\e938";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-alms.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-alms.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-alms.duotone.rounded .path1:before {
+  content: "\e939";
+  opacity: 0.4;
+}
+.dga-icon-alms.duotone.rounded .path2:before {
+  content: "\e93a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-alms.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-alms.duotone.rounded .path3:before {
+  content: "\e93b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-alms.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-alms.duotone.rounded .path4:before {
+  content: "\e93c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-alms.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-alms.solid.rounded:before {
+  content: "\e93d";
+}
+.dga-icon-alms.bulk.rounded:before {
+  content: "\e93e";
+  opacity: 0.4;
+}
+.dga-icon-alms.bulk.rounded:after {
+  content: "\e93f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-alms.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-alms.stroke.sharp:before {
+  content: "\e940";
+}
+.dga-icon-alms.solid.sharp:before {
+  content: "\e941";
+}
+.dga-icon-bedug-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-bedug-01:before, 
+.dga-icon-bedug-01.stroke.rounded:before {
+  content: "\e942";
+}
+.dga-icon-bedug-01.twotone.rounded:before {
+  content: "\e943";
+}
+.dga-icon-bedug-01.twotone.rounded:after {
+  content: "\e944";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bedug-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-bedug-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-bedug-01.duotone.rounded .path1:before {
+  content: "\e945";
+  opacity: 0.4;
+}
+.dga-icon-bedug-01.duotone.rounded .path2:before {
+  content: "\e946";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bedug-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-01.duotone.rounded .path3:before {
+  content: "\e947";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-01.solid.rounded:before {
+  content: "\e948";
+}
+.dga-icon-bedug-01.bulk.rounded:before {
+  content: "\e949";
+}
+.dga-icon-bedug-01.bulk.rounded:after {
+  content: "\e94a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bedug-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-01.stroke.sharp:before {
+  content: "\e94b";
+}
+.dga-icon-bedug-01.solid.sharp:before {
+  content: "\e94c";
+}
+.dga-icon-bedug-02 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-bedug-02:before, 
+.dga-icon-bedug-02.stroke.rounded:before {
+  content: "\e94d";
+}
+body:has(.active-screen) .dga-icon-bedug-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-bedug-02.twotone.rounded .path1:before {
+  content: "\e94e";
+  opacity: 0.4;
+}
+.dga-icon-bedug-02.twotone.rounded .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bedug-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-02.twotone.rounded .path3:before {
+  content: "\e950";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-bedug-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-bedug-02.duotone.rounded .path1:before {
+  content: "\e951";
+  opacity: 0.4;
+}
+.dga-icon-bedug-02.duotone.rounded .path2:before {
+  content: "\e952";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-02.duotone.rounded .path3:before {
+  content: "\e953";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-02.solid.rounded:before {
+  content: "\e954";
+}
+body:has(.active-screen) .dga-icon-bedug-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-bedug-02.bulk.rounded .path1:before {
+  content: "\e955";
+  opacity: 0.4;
+}
+.dga-icon-bedug-02.bulk.rounded .path2:before {
+  content: "\e956";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-02.bulk.rounded .path3:before {
+  content: "\e957";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-02.bulk.rounded .path4:before {
+  content: "\e958";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bedug-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bedug-02.stroke.sharp:before {
+  content: "\e959";
+}
+.dga-icon-bedug-02.solid.sharp:before {
+  content: "\e95a";
+}
+.dga-icon-camel {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-camel:before, 
+.dga-icon-camel.stroke.rounded:before {
+  content: "\e95b";
+}
+.dga-icon-camel.twotone.rounded:before {
+  content: "\e95c";
+}
+.dga-icon-camel.twotone.rounded:after {
+  content: "\e95d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-camel.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-camel.duotone.rounded:before {
+  content: "\e95e";
+  opacity: 0.4;
+}
+.dga-icon-camel.duotone.rounded:after {
+  content: "\e95f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-camel.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-camel.solid.rounded:before {
+  content: "\e960";
+}
+.dga-icon-camel.bulk.rounded:before {
+  content: "\e961";
+}
+.dga-icon-camel.stroke.sharp:before {
+  content: "\e962";
+}
+.dga-icon-camel.solid.sharp:before {
+  content: "\e963";
+}
+.dga-icon-charity {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-charity:before, 
+.dga-icon-charity.stroke.rounded:before {
+  content: "\e964";
+}
+body:has(.active-screen) .dga-icon-charity.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-charity.twotone.rounded .path1:before {
+  content: "\e965";
+  opacity: 0.4;
+}
+.dga-icon-charity.twotone.rounded .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.twotone.rounded .path3:before {
+  content: "\e967";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.twotone.rounded .path4:before {
+  content: "\e968";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-charity.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-charity.duotone.rounded .path1:before {
+  content: "\e969";
+  opacity: 0.4;
+}
+.dga-icon-charity.duotone.rounded .path2:before {
+  content: "\e96a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-charity.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.duotone.rounded .path3:before {
+  content: "\e96b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.duotone.rounded .path4:before {
+  content: "\e96c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.duotone.rounded .path5:before {
+  content: "\e96d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.solid.rounded:before {
+  content: "\e96e";
+}
+body:has(.active-screen) .dga-icon-charity.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-charity.bulk.rounded .path1:before {
+  content: "\e96f";
+  opacity: 0.4;
+}
+.dga-icon-charity.bulk.rounded .path2:before {
+  content: "\e970";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-charity.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.bulk.rounded .path3:before {
+  content: "\e971";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-charity.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-charity.stroke.sharp:before {
+  content: "\e972";
+}
+.dga-icon-charity.solid.sharp:before {
+  content: "\e973";
+}
+.dga-icon-clothes {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-clothes:before, 
+.dga-icon-clothes.stroke.rounded:before {
+  content: "\e974";
+}
+.dga-icon-clothes.twotone.rounded:before {
+  content: "\e975";
+}
+.dga-icon-clothes.twotone.rounded:after {
+  content: "\e976";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-clothes.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-clothes.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-clothes.duotone.rounded .path1:before {
+  content: "\e977";
+  opacity: 0.4;
+}
+.dga-icon-clothes.duotone.rounded .path2:before {
+  content: "\e978";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-clothes.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clothes.duotone.rounded .path3:before {
+  content: "\e979";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-clothes.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clothes.duotone.rounded .path4:before {
+  content: "\e97a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-clothes.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clothes.solid.rounded:before {
+  content: "\e97b";
+}
+.dga-icon-clothes.bulk.rounded:before {
+  content: "\e97c";
+  opacity: 0.4;
+}
+.dga-icon-clothes.bulk.rounded:after {
+  content: "\e97d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-clothes.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clothes.stroke.sharp:before {
+  content: "\e97e";
+}
+.dga-icon-clothes.solid.sharp:before {
+  content: "\e97f";
+}
+.dga-icon-dates {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-dates:before, 
+.dga-icon-dates.stroke.rounded:before {
+  content: "\e980";
+}
+body:has(.active-screen) .dga-icon-dates.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dates.twotone.rounded .path1:before {
+  content: "\e981";
+}
+.dga-icon-dates.twotone.rounded .path2:before {
+  content: "\e982";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.twotone.rounded .path3:before {
+  content: "\e983";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.twotone.rounded .path4:before {
+  content: "\e984";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.twotone.rounded .path5:before {
+  content: "\e985";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dates.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dates.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dates.duotone.rounded .path1:before {
+  content: "\e986";
+  opacity: 0.4;
+}
+.dga-icon-dates.duotone.rounded .path2:before {
+  content: "\e987";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.duotone.rounded .path3:before {
+  content: "\e988";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.duotone.rounded .path4:before {
+  content: "\e989";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.duotone.rounded .path5:before {
+  content: "\e98a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.solid.rounded:before {
+  content: "\e98b";
+}
+body:has(.active-screen) .dga-icon-dates.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dates.bulk.rounded .path1:before {
+  content: "\e98c";
+  opacity: 0.4;
+}
+.dga-icon-dates.bulk.rounded .path2:before {
+  content: "\e98d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.bulk.rounded .path3:before {
+  content: "\e98e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.bulk.rounded .path4:before {
+  content: "\e98f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.bulk.rounded .path5:before {
+  content: "\e990";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.bulk.rounded .path6:before {
+  content: "\e991";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dates.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dates.stroke.sharp:before {
+  content: "\e992";
+}
+.dga-icon-dates.solid.sharp:before {
+  content: "\e993";
+}
+.dga-icon-dirham {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-dirham:before, 
+.dga-icon-dirham.stroke.rounded:before {
+  content: "\e994";
+}
+body:has(.active-screen) .dga-icon-dirham.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dirham.twotone.rounded .path1:before {
+  content: "\e995";
+}
+.dga-icon-dirham.twotone.rounded .path2:before {
+  content: "\e996";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dirham.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.twotone.rounded .path3:before {
+  content: "\e997";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dirham.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.twotone.rounded .path4:before {
+  content: "\e998";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dirham.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.twotone.rounded .path5:before {
+  content: "\e999";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dirham.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dirham.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dirham.duotone.rounded .path1:before {
+  content: "\e99a";
+  opacity: 0.4;
+}
+.dga-icon-dirham.duotone.rounded .path2:before {
+  content: "\e99b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.duotone.rounded .path3:before {
+  content: "\e99c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.duotone.rounded .path4:before {
+  content: "\e99d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.duotone.rounded .path5:before {
+  content: "\e99e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.duotone.rounded .path6:before {
+  content: "\e99f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.solid.rounded:before {
+  content: "\e9a0";
+}
+body:has(.active-screen) .dga-icon-dirham.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dirham.bulk.rounded .path1:before {
+  content: "\e9a1";
+  opacity: 0.4;
+}
+.dga-icon-dirham.bulk.rounded .path2:before {
+  content: "\e9a2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.bulk.rounded .path3:before {
+  content: "\e9a3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.bulk.rounded .path4:before {
+  content: "\e9a4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.bulk.rounded .path5:before {
+  content: "\e9a5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dirham.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dirham.stroke.sharp:before {
+  content: "\e9a6";
+}
+.dga-icon-dirham.solid.sharp:before {
+  content: "\e9a7";
+}
+.dga-icon-dua {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-dua:before, 
+.dga-icon-dua.stroke.rounded:before {
+  content: "\e9a8";
+}
+body:has(.active-screen) .dga-icon-dua.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dua.twotone.rounded .path1:before {
+  content: "\e9a9";
+}
+.dga-icon-dua.twotone.rounded .path2:before {
+  content: "\e9aa";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dua.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.twotone.rounded .path3:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dua.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dua.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dua.duotone.rounded .path1:before {
+  content: "\e9ac";
+  opacity: 0.4;
+}
+.dga-icon-dua.duotone.rounded .path2:before {
+  content: "\e9ad";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dua.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.duotone.rounded .path3:before {
+  content: "\e9ae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dua.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.duotone.rounded .path4:before {
+  content: "\e9af";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dua.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.solid.rounded:before {
+  content: "\e9b0";
+}
+body:has(.active-screen) .dga-icon-dua.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dua.bulk.rounded .path1:before {
+  content: "\e9b1";
+  opacity: 0.4;
+}
+.dga-icon-dua.bulk.rounded .path2:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dua.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.bulk.rounded .path3:before {
+  content: "\e9b3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dua.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.bulk.rounded .path4:before {
+  content: "\e9b4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dua.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dua.stroke.sharp:before {
+  content: "\e9b5";
+}
+.dga-icon-dua.solid.sharp:before {
+  content: "\e9b6";
+}
+.dga-icon-eid-mubarak {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-eid-mubarak:before, 
+.dga-icon-eid-mubarak.stroke.rounded:before {
+  content: "\e9b7";
+}
+.dga-icon-eid-mubarak.twotone.rounded:before {
+  content: "\e9b8";
+}
+.dga-icon-eid-mubarak.twotone.rounded:after {
+  content: "\e9b9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-eid-mubarak.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-eid-mubarak.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-eid-mubarak.duotone.rounded .path1:before {
+  content: "\e9ba";
+  opacity: 0.4;
+}
+.dga-icon-eid-mubarak.duotone.rounded .path2:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-eid-mubarak.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eid-mubarak.duotone.rounded .path3:before {
+  content: "\e9bc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-eid-mubarak.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eid-mubarak.solid.rounded:before {
+  content: "\e9bd";
+}
+.dga-icon-eid-mubarak.bulk.rounded:before {
+  content: "\e9be";
+}
+.dga-icon-eid-mubarak.bulk.rounded:after {
+  content: "\e9bf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-eid-mubarak.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eid-mubarak.stroke.sharp:before {
+  content: "\e9c0";
+}
+.dga-icon-eid-mubarak.solid.sharp:before {
+  content: "\e9c1";
+}
+.dga-icon-haji {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-haji:before, 
+.dga-icon-haji.stroke.rounded:before {
+  content: "\e9c2";
+}
+body:has(.active-screen) .dga-icon-haji.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-haji.twotone.rounded .path1:before {
+  content: "\e9c3";
+  opacity: 0.4;
+}
+.dga-icon-haji.twotone.rounded .path2:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-haji.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-haji.twotone.rounded .path3:before {
+  content: "\e9c5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-haji.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-haji.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-haji.duotone.rounded .path1:before {
+  content: "\e9c6";
+  opacity: 0.4;
+}
+.dga-icon-haji.duotone.rounded .path2:before {
+  content: "\e9c7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-haji.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-haji.duotone.rounded .path3:before {
+  content: "\e9c8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-haji.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-haji.solid.rounded:before {
+  content: "\e9c9";
+}
+body:has(.active-screen) .dga-icon-haji.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-haji.bulk.rounded .path1:before {
+  content: "\e9ca";
+  opacity: 0.4;
+}
+.dga-icon-haji.bulk.rounded .path2:before {
+  content: "\e9cb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-haji.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-haji.bulk.rounded .path3:before {
+  content: "\e9cc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-haji.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-haji.stroke.sharp:before {
+  content: "\e9cd";
+}
+.dga-icon-haji.solid.sharp:before {
+  content: "\e9ce";
+}
+.dga-icon-halal {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-halal:before, 
+.dga-icon-halal.stroke.rounded:before {
+  content: "\e9cf";
+}
+.dga-icon-halal.twotone.rounded:before {
+  content: "\e9d0";
+}
+.dga-icon-halal.twotone.rounded:after {
+  content: "\e9d1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-halal.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-halal.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-halal.duotone.rounded .path1:before {
+  content: "\e9d2";
+  opacity: 0.4;
+}
+.dga-icon-halal.duotone.rounded .path2:before {
+  content: "\e9d3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-halal.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-halal.duotone.rounded .path3:before {
+  content: "\e9d4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-halal.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-halal.duotone.rounded .path4:before {
+  content: "\e9d5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-halal.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-halal.solid.rounded:before {
+  content: "\e9d6";
+}
+body:has(.active-screen) .dga-icon-halal.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-halal.bulk.rounded .path1:before {
+  content: "\e9d7";
+  opacity: 0.4;
+}
+.dga-icon-halal.bulk.rounded .path2:before {
+  content: "\e9d8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-halal.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-halal.bulk.rounded .path3:before {
+  content: "\e9d9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-halal.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-halal.stroke.sharp:before {
+  content: "\e9da";
+}
+.dga-icon-halal.solid.sharp:before {
+  content: "\e9db";
+}
+.dga-icon-hijab {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-hijab:before, 
+.dga-icon-hijab.stroke.rounded:before {
+  content: "\e9dc";
+}
+.dga-icon-hijab.twotone.rounded:before {
+  content: "\e9dd";
+}
+.dga-icon-hijab.twotone.rounded:after {
+  content: "\e9de";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hijab.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hijab.duotone.rounded:before {
+  content: "\e9df";
+  opacity: 0.4;
+}
+.dga-icon-hijab.duotone.rounded:after {
+  content: "\e9e0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hijab.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hijab.solid.rounded:before {
+  content: "\e9e1";
+}
+.dga-icon-hijab.bulk.rounded:before {
+  content: "\e9e2";
+}
+.dga-icon-hijab.stroke.sharp:before {
+  content: "\e9e3";
+}
+.dga-icon-hijab.solid.sharp:before {
+  content: "\e9e4";
+}
+.dga-icon-kaaba-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-kaaba-01:before, 
+.dga-icon-kaaba-01.stroke.rounded:before {
+  content: "\e9e5";
+}
+.dga-icon-kaaba-01.twotone.rounded:before {
+  content: "\e9e6";
+  opacity: 0.4;
+}
+.dga-icon-kaaba-01.twotone.rounded:after {
+  content: "\e9e7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-kaaba-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-kaaba-01.duotone.rounded .path1:before {
+  content: "\e9e8";
+  opacity: 0.4;
+}
+.dga-icon-kaaba-01.duotone.rounded .path2:before {
+  content: "\e9e9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-01.duotone.rounded .path3:before {
+  content: "\e9ea";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-01.duotone.rounded .path4:before {
+  content: "\e9eb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-01.solid.rounded:before {
+  content: "\e9ec";
+}
+body:has(.active-screen) .dga-icon-kaaba-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-kaaba-01.bulk.rounded .path1:before {
+  content: "\e9ed";
+  opacity: 0.4;
+}
+.dga-icon-kaaba-01.bulk.rounded .path2:before {
+  content: "\e9ee";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-01.bulk.rounded .path3:before {
+  content: "\e9ef";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-01.stroke.sharp:before {
+  content: "\e9f0";
+}
+.dga-icon-kaaba-01.solid.sharp:before {
+  content: "\e9f1";
+}
+.dga-icon-kaaba-02 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-kaaba-02:before, 
+.dga-icon-kaaba-02.stroke.rounded:before {
+  content: "\e9f2";
+}
+body:has(.active-screen) .dga-icon-kaaba-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-kaaba-02.twotone.rounded .path1:before {
+  content: "\e9f3";
+}
+.dga-icon-kaaba-02.twotone.rounded .path2:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.twotone.rounded .path3:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.twotone.rounded .path4:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.twotone.rounded .path5:before {
+  content: "\e9f7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.twotone.rounded .path6:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.twotone.rounded .path7:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.twotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-kaaba-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-kaaba-02.duotone.rounded .path1:before {
+  content: "\e9fa";
+  opacity: 0.4;
+}
+.dga-icon-kaaba-02.duotone.rounded .path2:before {
+  content: "\e9fb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.duotone.rounded .path3:before {
+  content: "\e9fc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.duotone.rounded .path4:before {
+  content: "\e9fd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.solid.rounded:before {
+  content: "\e9fe";
+}
+body:has(.active-screen) .dga-icon-kaaba-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-kaaba-02.bulk.rounded .path1:before {
+  content: "\e9ff";
+  opacity: 0.4;
+}
+.dga-icon-kaaba-02.bulk.rounded .path2:before {
+  content: "\ea00";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.bulk.rounded .path3:before {
+  content: "\ea01";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.bulk.rounded .path4:before {
+  content: "\ea02";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kaaba-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.bulk.rounded .path5:before {
+  content: "\ea03";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-02.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.bulk.rounded .path6:before {
+  content: "\ea04";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kaaba-02.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kaaba-02.stroke.sharp:before {
+  content: "\ea05";
+}
+.dga-icon-kaaba-02.solid.sharp:before {
+  content: "\ea06";
+}
+.dga-icon-keffiyeh {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-keffiyeh:before, 
+.dga-icon-keffiyeh.stroke.rounded:before {
+  content: "\ea07";
+}
+.dga-icon-keffiyeh.twotone.rounded:before {
+  content: "\ea08";
+}
+.dga-icon-keffiyeh.twotone.rounded:after {
+  content: "\ea09";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-keffiyeh.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keffiyeh.duotone.rounded:before {
+  content: "\ea0a";
+  opacity: 0.4;
+}
+.dga-icon-keffiyeh.duotone.rounded:after {
+  content: "\ea0b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keffiyeh.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keffiyeh.solid.rounded:before {
+  content: "\ea0c";
+}
+body:has(.active-screen) .dga-icon-keffiyeh.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-keffiyeh.bulk.rounded .path1:before {
+  content: "\ea0d";
+  opacity: 0.4;
+}
+.dga-icon-keffiyeh.bulk.rounded .path2:before {
+  content: "\ea0e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keffiyeh.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keffiyeh.bulk.rounded .path3:before {
+  content: "\ea0f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-keffiyeh.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-keffiyeh.stroke.sharp:before {
+  content: "\ea10";
+}
+.dga-icon-keffiyeh.solid.sharp:before {
+  content: "\ea11";
+}
+.dga-icon-ketupat {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-ketupat:before, 
+.dga-icon-ketupat.stroke.rounded:before {
+  content: "\ea12";
+}
+.dga-icon-ketupat.twotone.rounded:before {
+  content: "\ea13";
+}
+.dga-icon-ketupat.twotone.rounded:after {
+  content: "\ea14";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ketupat.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ketupat.duotone.rounded:before {
+  content: "\ea15";
+  opacity: 0.4;
+}
+.dga-icon-ketupat.duotone.rounded:after {
+  content: "\ea16";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ketupat.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ketupat.solid.rounded:before {
+  content: "\ea17";
+}
+body:has(.active-screen) .dga-icon-ketupat.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-ketupat.bulk.rounded .path1:before {
+  content: "\ea18";
+}
+.dga-icon-ketupat.bulk.rounded .path2:before {
+  content: "\ea19";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ketupat.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ketupat.bulk.rounded .path3:before {
+  content: "\ea1a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ketupat.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ketupat.bulk.rounded .path4:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ketupat.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ketupat.bulk.rounded .path5:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ketupat.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ketupat.stroke.sharp:before {
+  content: "\ea1d";
+}
+.dga-icon-ketupat.solid.sharp:before {
+  content: "\ea1e";
+}
+.dga-icon-kurta-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-kurta-01:before, 
+.dga-icon-kurta-01.stroke.rounded:before {
+  content: "\ea1f";
+}
+body:has(.active-screen) .dga-icon-kurta-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-kurta-01.twotone.rounded .path1:before {
+  content: "\ea20";
+}
+.dga-icon-kurta-01.twotone.rounded .path2:before {
+  content: "\ea21";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kurta-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.twotone.rounded .path3:before {
+  content: "\ea22";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kurta-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.twotone.rounded .path4:before {
+  content: "\ea23";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kurta-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.duotone.rounded:before {
+  content: "\ea24";
+  opacity: 0.4;
+}
+.dga-icon-kurta-01.duotone.rounded:after {
+  content: "\ea25";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kurta-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.solid.rounded:before {
+  content: "\ea26";
+}
+body:has(.active-screen) .dga-icon-kurta-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-kurta-01.bulk.rounded .path1:before {
+  content: "\ea27";
+  opacity: 0.4;
+}
+.dga-icon-kurta-01.bulk.rounded .path2:before {
+  content: "\ea28";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kurta-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.bulk.rounded .path3:before {
+  content: "\ea29";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kurta-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.bulk.rounded .path4:before {
+  content: "\ea2a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kurta-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta-01.stroke.sharp:before {
+  content: "\ea2b";
+}
+.dga-icon-kurta-01.solid.sharp:before {
+  content: "\ea2c";
+}
+.dga-icon-lantern {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-lantern:before, 
+.dga-icon-lantern.stroke.rounded:before {
+  content: "\ea2d";
+}
+body:has(.active-screen) .dga-icon-lantern.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-lantern.twotone.rounded .path1:before {
+  content: "\ea2e";
+}
+.dga-icon-lantern.twotone.rounded .path2:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path3:before {
+  content: "\ea30";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path4:before {
+  content: "\ea31";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path5:before {
+  content: "\ea32";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path6:before {
+  content: "\ea33";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path7:before {
+  content: "\ea34";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path8:before {
+  content: "\ea35";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path8:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path9:before {
+  content: "\ea36";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path9:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path10:before {
+  content: "\ea37";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path10:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.twotone.rounded .path11:before {
+  content: "\ea38";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.twotone.rounded .path11:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-lantern.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-lantern.duotone.rounded .path1:before {
+  content: "\ea39";
+  opacity: 0.4;
+}
+.dga-icon-lantern.duotone.rounded .path2:before {
+  content: "\ea3a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.duotone.rounded .path3:before {
+  content: "\ea3b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.duotone.rounded .path4:before {
+  content: "\ea3c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.duotone.rounded .path5:before {
+  content: "\ea3d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.duotone.rounded .path6:before {
+  content: "\ea3e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.duotone.rounded .path7:before {
+  content: "\ea3f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.duotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.solid.rounded:before {
+  content: "\ea40";
+}
+body:has(.active-screen) .dga-icon-lantern.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-lantern.bulk.rounded .path1:before {
+  content: "\ea41";
+  opacity: 0.4;
+}
+.dga-icon-lantern.bulk.rounded .path2:before {
+  content: "\ea42";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.bulk.rounded .path3:before {
+  content: "\ea43";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.bulk.rounded .path4:before {
+  content: "\ea44";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.bulk.rounded .path5:before {
+  content: "\ea45";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.bulk.rounded .path6:before {
+  content: "\ea46";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.bulk.rounded .path7:before {
+  content: "\ea47";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.bulk.rounded .path8:before {
+  content: "\ea48";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lantern.bulk.rounded .path8:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lantern.stroke.sharp:before {
+  content: "\ea49";
+}
+.dga-icon-lantern.solid.sharp:before {
+  content: "\ea4a";
+}
+.dga-icon-mosque-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-mosque-01:before, 
+.dga-icon-mosque-01.stroke.rounded:before {
+  content: "\ea4b";
+}
+.dga-icon-mosque-01.twotone.rounded:before {
+  content: "\ea4c";
+}
+.dga-icon-mosque-01.twotone.rounded:after {
+  content: "\ea4d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mosque-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-mosque-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-mosque-01.duotone.rounded .path1:before {
+  content: "\ea4e";
+  opacity: 0.4;
+}
+.dga-icon-mosque-01.duotone.rounded .path2:before {
+  content: "\ea4f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mosque-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-01.duotone.rounded .path3:before {
+  content: "\ea50";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-01.solid.rounded:before {
+  content: "\ea51";
+}
+body:has(.active-screen) .dga-icon-mosque-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-mosque-01.bulk.rounded .path1:before {
+  content: "\ea52";
+  opacity: 0.4;
+}
+.dga-icon-mosque-01.bulk.rounded .path2:before {
+  content: "\ea53";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mosque-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-01.bulk.rounded .path3:before {
+  content: "\ea54";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-01.bulk.rounded .path4:before {
+  content: "\ea55";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-01.stroke.sharp:before {
+  content: "\ea56";
+}
+.dga-icon-mosque-01.solid.sharp:before {
+  content: "\ea57";
+}
+.dga-icon-mosque-02 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-mosque-02:before, 
+.dga-icon-mosque-02.stroke.rounded:before {
+  content: "\ea58";
+}
+.dga-icon-mosque-02.twotone.rounded:before {
+  content: "\ea59";
+}
+.dga-icon-mosque-02.twotone.rounded:after {
+  content: "\ea5a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mosque-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-mosque-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-mosque-02.duotone.rounded .path1:before {
+  content: "\ea5b";
+  opacity: 0.4;
+}
+.dga-icon-mosque-02.duotone.rounded .path2:before {
+  content: "\ea5c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-02.duotone.rounded .path3:before {
+  content: "\ea5d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-02.solid.rounded:before {
+  content: "\ea5e";
+}
+body:has(.active-screen) .dga-icon-mosque-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-mosque-02.bulk.rounded .path1:before {
+  content: "\ea5f";
+  opacity: 0.4;
+}
+.dga-icon-mosque-02.bulk.rounded .path2:before {
+  content: "\ea60";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mosque-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-02.bulk.rounded .path3:before {
+  content: "\ea61";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-02.bulk.rounded .path4:before {
+  content: "\ea62";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-02.bulk.rounded .path5:before {
+  content: "\ea63";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-02.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-02.stroke.sharp:before {
+  content: "\ea64";
+}
+.dga-icon-mosque-02.solid.sharp:before {
+  content: "\ea65";
+}
+.dga-icon-mosque-location {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-mosque-location:before, 
+.dga-icon-mosque-location.stroke.rounded:before {
+  content: "\ea66";
+}
+.dga-icon-mosque-location.twotone.rounded:before {
+  content: "\ea67";
+  opacity: 0.4;
+}
+.dga-icon-mosque-location.twotone.rounded:after {
+  content: "\ea68";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-location.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-mosque-location.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-mosque-location.duotone.rounded .path1:before {
+  content: "\ea69";
+  opacity: 0.4;
+}
+.dga-icon-mosque-location.duotone.rounded .path2:before {
+  content: "\ea6a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-location.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-location.duotone.rounded .path3:before {
+  content: "\ea6b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-location.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-location.duotone.rounded .path4:before {
+  content: "\ea6c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mosque-location.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-location.solid.rounded:before {
+  content: "\ea6d";
+}
+.dga-icon-mosque-location.bulk.rounded:before {
+  content: "\ea6e";
+}
+.dga-icon-mosque-location.bulk.rounded:after {
+  content: "\ea6f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mosque-location.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mosque-location.stroke.sharp:before {
+  content: "\ea70";
+}
+.dga-icon-mosque-location.solid.sharp:before {
+  content: "\ea71";
+}
+.dga-icon-muhammad {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-muhammad:before, 
+.dga-icon-muhammad.stroke.rounded:before {
+  content: "\ea72";
+}
+.dga-icon-muhammad.twotone.rounded:before {
+  content: "\ea73";
+}
+.dga-icon-muhammad.twotone.rounded:after {
+  content: "\ea74";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-muhammad.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-muhammad.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-muhammad.duotone.rounded .path1:before {
+  content: "\ea75";
+  opacity: 0.4;
+}
+.dga-icon-muhammad.duotone.rounded .path2:before {
+  content: "\ea76";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muhammad.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muhammad.duotone.rounded .path3:before {
+  content: "\ea77";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muhammad.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muhammad.solid.rounded:before {
+  content: "\ea78";
+}
+.dga-icon-muhammad.bulk.rounded:before {
+  content: "\ea79";
+  opacity: 0.4;
+}
+.dga-icon-muhammad.bulk.rounded:after {
+  content: "\ea7a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muhammad.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muhammad.stroke.sharp:before {
+  content: "\ea7b";
+}
+.dga-icon-muhammad.solid.sharp:before {
+  content: "\ea7c";
+}
+.dga-icon-muslim {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-muslim:before, 
+.dga-icon-muslim.stroke.rounded:before {
+  content: "\ea7d";
+}
+body:has(.active-screen) .dga-icon-muslim.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-muslim.twotone.rounded .path1:before {
+  content: "\ea7e";
+  opacity: 0.4;
+}
+.dga-icon-muslim.twotone.rounded .path2:before {
+  content: "\ea7f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muslim.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muslim.twotone.rounded .path3:before {
+  content: "\ea80";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muslim.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muslim.twotone.rounded .path4:before {
+  content: "\ea81";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muslim.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-muslim.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-muslim.duotone.rounded .path1:before {
+  content: "\ea82";
+  opacity: 0.4;
+}
+.dga-icon-muslim.duotone.rounded .path2:before {
+  content: "\ea83";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-muslim.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muslim.duotone.rounded .path3:before {
+  content: "\ea84";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muslim.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muslim.solid.rounded:before {
+  content: "\ea85";
+}
+.dga-icon-muslim.bulk.rounded:before {
+  content: "\ea86";
+  opacity: 0.4;
+}
+.dga-icon-muslim.bulk.rounded:after {
+  content: "\ea87";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-muslim.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-muslim.stroke.sharp:before {
+  content: "\ea88";
+}
+.dga-icon-muslim.solid.sharp:before {
+  content: "\ea89";
+}
+.dga-icon-niqab {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-niqab:before, 
+.dga-icon-niqab.stroke.rounded:before {
+  content: "\ea8a";
+}
+.dga-icon-niqab.twotone.rounded:before {
+  content: "\ea8b";
+}
+.dga-icon-niqab.twotone.rounded:after {
+  content: "\ea8c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-niqab.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-niqab.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-niqab.duotone.rounded .path1:before {
+  content: "\ea8d";
+  opacity: 0.4;
+}
+.dga-icon-niqab.duotone.rounded .path2:before {
+  content: "\ea8e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-niqab.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-niqab.duotone.rounded .path3:before {
+  content: "\ea8f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-niqab.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-niqab.solid.rounded:before {
+  content: "\ea90";
+}
+body:has(.active-screen) .dga-icon-niqab.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-niqab.bulk.rounded .path1:before {
+  content: "\ea91";
+  opacity: 0.4;
+}
+.dga-icon-niqab.bulk.rounded .path2:before {
+  content: "\ea92";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-niqab.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-niqab.bulk.rounded .path3:before {
+  content: "\ea93";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-niqab.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-niqab.stroke.sharp:before {
+  content: "\ea94";
+}
+.dga-icon-niqab.solid.sharp:before {
+  content: "\ea95";
+}
+.dga-icon-prayer-rug-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-prayer-rug-01:before, 
+.dga-icon-prayer-rug-01.stroke.rounded:before {
+  content: "\ea96";
+}
+body:has(.active-screen) .dga-icon-prayer-rug-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-prayer-rug-01.twotone.rounded .path1:before {
+  content: "\ea97";
+}
+.dga-icon-prayer-rug-01.twotone.rounded .path2:before {
+  content: "\ea98";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.twotone.rounded .path3:before {
+  content: "\ea99";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.twotone.rounded .path4:before {
+  content: "\ea9a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.twotone.rounded .path5:before {
+  content: "\ea9b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-01.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.twotone.rounded .path6:before {
+  content: "\ea9c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-01.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-prayer-rug-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-prayer-rug-01.duotone.rounded .path1:before {
+  content: "\ea9d";
+  opacity: 0.4;
+}
+.dga-icon-prayer-rug-01.duotone.rounded .path2:before {
+  content: "\ea9e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.duotone.rounded .path3:before {
+  content: "\ea9f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.solid.rounded:before {
+  content: "\eaa0";
+}
+body:has(.active-screen) .dga-icon-prayer-rug-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-prayer-rug-01.bulk.rounded .path1:before {
+  content: "\eaa1";
+  opacity: 0.4;
+}
+.dga-icon-prayer-rug-01.bulk.rounded .path2:before {
+  content: "\eaa2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.bulk.rounded .path3:before {
+  content: "\eaa3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.bulk.rounded .path4:before {
+  content: "\eaa4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.bulk.rounded .path5:before {
+  content: "\eaa5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.bulk.rounded .path6:before {
+  content: "\eaa6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-01.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-01.stroke.sharp:before {
+  content: "\eaa7";
+}
+.dga-icon-prayer-rug-01.solid.sharp:before {
+  content: "\eaa8";
+}
+.dga-icon-prayer-rug-02 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-prayer-rug-02:before, 
+.dga-icon-prayer-rug-02.stroke.rounded:before {
+  content: "\eaa9";
+}
+body:has(.active-screen) .dga-icon-prayer-rug-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path1:before {
+  content: "\eaaa";
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path2:before {
+  content: "\eaab";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path3:before {
+  content: "\eaac";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path4:before {
+  content: "\eaad";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path5:before {
+  content: "\eaae";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path6:before {
+  content: "\eaaf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path7:before {
+  content: "\eab0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path8:before {
+  content: "\eab1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path8:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path9:before {
+  content: "\eab2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path9:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.twotone.rounded .path10:before {
+  content: "\eab3";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prayer-rug-02.twotone.rounded .path10:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-prayer-rug-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-prayer-rug-02.duotone.rounded .path1:before {
+  content: "\eab4";
+  opacity: 0.4;
+}
+.dga-icon-prayer-rug-02.duotone.rounded .path2:before {
+  content: "\eab5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.duotone.rounded .path3:before {
+  content: "\eab6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.solid.rounded:before {
+  content: "\eab7";
+}
+body:has(.active-screen) .dga-icon-prayer-rug-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path1:before {
+  content: "\eab8";
+  opacity: 0.4;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path2:before {
+  content: "\eab9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path3:before {
+  content: "\eaba";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path4:before {
+  content: "\eabb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path5:before {
+  content: "\eabc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path6:before {
+  content: "\eabd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path7:before {
+  content: "\eabe";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path8:before {
+  content: "\eabf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path8:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path9:before {
+  content: "\eac0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path9:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.bulk.rounded .path10:before {
+  content: "\eac1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prayer-rug-02.bulk.rounded .path10:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prayer-rug-02.stroke.sharp:before {
+  content: "\eac2";
+}
+.dga-icon-prayer-rug-02.solid.sharp:before {
+  content: "\eac3";
+}
+.dga-icon-quran-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-quran-01:before, 
+.dga-icon-quran-01.stroke.rounded:before {
+  content: "\eac4";
+}
+.dga-icon-quran-01.twotone.rounded:before {
+  content: "\eac5";
+  opacity: 0.4;
+}
+.dga-icon-quran-01.twotone.rounded:after {
+  content: "\eac6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-quran-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-quran-01.duotone.rounded .path1:before {
+  content: "\eac7";
+  opacity: 0.4;
+}
+.dga-icon-quran-01.duotone.rounded .path2:before {
+  content: "\eac8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-01.duotone.rounded .path3:before {
+  content: "\eac9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-01.solid.rounded:before {
+  content: "\eaca";
+}
+.dga-icon-quran-01.bulk.rounded:before {
+  content: "\eacb";
+}
+.dga-icon-quran-01.bulk.rounded:after {
+  content: "\eacc";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-quran-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-01.stroke.sharp:before {
+  content: "\eacd";
+}
+.dga-icon-quran-01.solid.sharp:before {
+  content: "\eace";
+}
+.dga-icon-quran-02 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-quran-02:before, 
+.dga-icon-quran-02.stroke.rounded:before {
+  content: "\eacf";
+}
+.dga-icon-quran-02.twotone.rounded:before {
+  content: "\ead0";
+  opacity: 0.4;
+}
+.dga-icon-quran-02.twotone.rounded:after {
+  content: "\ead1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-quran-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-quran-02.duotone.rounded .path1:before {
+  content: "\ead2";
+  opacity: 0.4;
+}
+.dga-icon-quran-02.duotone.rounded .path2:before {
+  content: "\ead3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-02.duotone.rounded .path3:before {
+  content: "\ead4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-02.solid.rounded:before {
+  content: "\ead5";
+}
+.dga-icon-quran-02.bulk.rounded:before {
+  content: "\ead6";
+  opacity: 0.4;
+}
+.dga-icon-quran-02.bulk.rounded:after {
+  content: "\ead7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-02.stroke.sharp:before {
+  content: "\ead8";
+}
+.dga-icon-quran-02.solid.sharp:before {
+  content: "\ead9";
+}
+.dga-icon-quran-03 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-quran-03:before, 
+.dga-icon-quran-03.stroke.rounded:before {
+  content: "\eada";
+}
+body:has(.active-screen) .dga-icon-quran-03.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-quran-03.twotone.rounded .path1:before {
+  content: "\eadb";
+  opacity: 0.4;
+}
+.dga-icon-quran-03.twotone.rounded .path2:before {
+  content: "\eadc";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-quran-03.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-03.twotone.rounded .path3:before {
+  content: "\eadd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-03.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-quran-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-quran-03.duotone.rounded .path1:before {
+  content: "\eade";
+  opacity: 0.4;
+}
+.dga-icon-quran-03.duotone.rounded .path2:before {
+  content: "\eadf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-03.duotone.rounded .path3:before {
+  content: "\eae0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-03.duotone.rounded .path4:before {
+  content: "\eae1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-03.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-03.solid.rounded:before {
+  content: "\eae2";
+}
+body:has(.active-screen) .dga-icon-quran-03.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-quran-03.bulk.rounded .path1:before {
+  content: "\eae3";
+  opacity: 0.4;
+}
+.dga-icon-quran-03.bulk.rounded .path2:before {
+  content: "\eae4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-03.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-03.bulk.rounded .path3:before {
+  content: "\eae5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-quran-03.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-quran-03.stroke.sharp:before {
+  content: "\eae6";
+}
+.dga-icon-quran-03.solid.sharp:before {
+  content: "\eae7";
+}
+.dga-icon-ramadhan-01 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-ramadhan-01:before, 
+.dga-icon-ramadhan-01.stroke.rounded:before {
+  content: "\eae8";
+}
+.dga-icon-ramadhan-01.twotone.rounded:before {
+  content: "\eae9";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-01.twotone.rounded:after {
+  content: "\eaea";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ramadhan-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ramadhan-01.duotone.rounded .path1:before {
+  content: "\eaeb";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-01.duotone.rounded .path2:before {
+  content: "\eaec";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-01.duotone.rounded .path3:before {
+  content: "\eaed";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-01.solid.rounded:before {
+  content: "\eaee";
+}
+.dga-icon-ramadhan-01.bulk.rounded:before {
+  content: "\eaef";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-01.bulk.rounded:after {
+  content: "\eaf0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-01.stroke.sharp:before {
+  content: "\eaf1";
+}
+.dga-icon-ramadhan-01.solid.sharp:before {
+  content: "\eaf2";
+}
+.dga-icon-ramadhan-02 {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-ramadhan-02:before, 
+.dga-icon-ramadhan-02.stroke.rounded:before {
+  content: "\eaf3";
+}
+body:has(.active-screen) .dga-icon-ramadhan-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-ramadhan-02.twotone.rounded .path1:before {
+  content: "\eaf4";
+}
+.dga-icon-ramadhan-02.twotone.rounded .path2:before {
+  content: "\eaf5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ramadhan-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-02.twotone.rounded .path3:before {
+  content: "\eaf6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ramadhan-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ramadhan-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ramadhan-02.duotone.rounded .path1:before {
+  content: "\eaf7";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-02.duotone.rounded .path2:before {
+  content: "\eaf8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-02.duotone.rounded .path3:before {
+  content: "\eaf9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-02.duotone.rounded .path4:before {
+  content: "\eafa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-02.solid.rounded:before {
+  content: "\eafb";
+}
+.dga-icon-ramadhan-02.bulk.rounded:before {
+  content: "\eafc";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-02.bulk.rounded:after {
+  content: "\eafd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-02.stroke.sharp:before {
+  content: "\eafe";
+}
+.dga-icon-ramadhan-02.solid.sharp:before {
+  content: "\eaff";
+}
+.dga-icon-ramadhan-month {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-ramadhan-month:before, 
+.dga-icon-ramadhan-month.stroke.rounded:before {
+  content: "\eb00";
+}
+body:has(.active-screen) .dga-icon-ramadhan-month.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-ramadhan-month.twotone.rounded .path1:before {
+  content: "\eb01";
+}
+.dga-icon-ramadhan-month.twotone.rounded .path2:before {
+  content: "\eb02";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ramadhan-month.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.twotone.rounded .path3:before {
+  content: "\eb03";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ramadhan-month.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.twotone.rounded .path4:before {
+  content: "\eb04";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ramadhan-month.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ramadhan-month.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ramadhan-month.duotone.rounded .path1:before {
+  content: "\eb05";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-month.duotone.rounded .path2:before {
+  content: "\eb06";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-month.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.duotone.rounded .path3:before {
+  content: "\eb07";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-month.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.duotone.rounded .path4:before {
+  content: "\eb08";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-month.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.solid.rounded:before {
+  content: "\eb09";
+}
+body:has(.active-screen) .dga-icon-ramadhan-month.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-ramadhan-month.bulk.rounded .path1:before {
+  content: "\eb0a";
+  opacity: 0.4;
+}
+.dga-icon-ramadhan-month.bulk.rounded .path2:before {
+  content: "\eb0b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-month.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.bulk.rounded .path3:before {
+  content: "\eb0c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ramadhan-month.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ramadhan-month.stroke.sharp:before {
+  content: "\eb0d";
+}
+.dga-icon-ramadhan-month.solid.sharp:before {
+  content: "\eb0e";
+}
+.dga-icon-reminder {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-reminder:before, 
+.dga-icon-reminder.stroke.rounded:before {
+  content: "\eb0f";
+}
+body:has(.active-screen) .dga-icon-reminder.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-reminder.twotone.rounded .path1:before {
+  content: "\eb10";
+}
+.dga-icon-reminder.twotone.rounded .path2:before {
+  content: "\eb11";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.twotone.rounded .path3:before {
+  content: "\eb12";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-reminder.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.twotone.rounded .path4:before {
+  content: "\eb13";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-reminder.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-reminder.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-reminder.duotone.rounded .path1:before {
+  content: "\eb14";
+  opacity: 0.4;
+}
+.dga-icon-reminder.duotone.rounded .path2:before {
+  content: "\eb15";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.duotone.rounded .path3:before {
+  content: "\eb16";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.duotone.rounded .path4:before {
+  content: "\eb17";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.duotone.rounded .path5:before {
+  content: "\eb18";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.solid.rounded:before {
+  content: "\eb19";
+}
+body:has(.active-screen) .dga-icon-reminder.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-reminder.bulk.rounded .path1:before {
+  content: "\eb1a";
+  opacity: 0.4;
+}
+.dga-icon-reminder.bulk.rounded .path2:before {
+  content: "\eb1b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.bulk.rounded .path3:before {
+  content: "\eb1c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-reminder.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-reminder.stroke.sharp:before {
+  content: "\eb1d";
+}
+.dga-icon-reminder.solid.sharp:before {
+  content: "\eb1e";
+}
+.dga-icon-rub-el-hizb {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-rub-el-hizb:before, 
+.dga-icon-rub-el-hizb.stroke.rounded:before {
+  content: "\eb1f";
+}
+.dga-icon-rub-el-hizb.twotone.rounded:before {
+  content: "\eb20";
+  opacity: 0.4;
+}
+.dga-icon-rub-el-hizb.twotone.rounded:after {
+  content: "\eb21";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-rub-el-hizb.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-rub-el-hizb.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-rub-el-hizb.duotone.rounded .path1:before {
+  content: "\eb22";
+  opacity: 0.4;
+}
+.dga-icon-rub-el-hizb.duotone.rounded .path2:before {
+  content: "\eb23";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-rub-el-hizb.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-rub-el-hizb.duotone.rounded .path3:before {
+  content: "\eb24";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-rub-el-hizb.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-rub-el-hizb.solid.rounded:before {
+  content: "\eb25";
+}
+.dga-icon-rub-el-hizb.bulk.rounded:before {
+  content: "\eb26";
+  opacity: 0.4;
+}
+.dga-icon-rub-el-hizb.bulk.rounded:after {
+  content: "\eb27";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-rub-el-hizb.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-rub-el-hizb.stroke.sharp:before {
+  content: "\eb28";
+}
+.dga-icon-rub-el-hizb.solid.sharp:before {
+  content: "\eb29";
+}
+.dga-icon-ruku {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-ruku:before, 
+.dga-icon-ruku.stroke.rounded:before {
+  content: "\eb2a";
+}
+body:has(.active-screen) .dga-icon-ruku.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-ruku.twotone.rounded .path1:before {
+  content: "\eb2b";
+}
+.dga-icon-ruku.twotone.rounded .path2:before {
+  content: "\eb2c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ruku.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ruku.twotone.rounded .path3:before {
+  content: "\eb2d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ruku.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ruku.duotone.rounded:before {
+  content: "\eb2e";
+  opacity: 0.4;
+}
+.dga-icon-ruku.duotone.rounded:after {
+  content: "\eb2f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ruku.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ruku.solid.rounded:before {
+  content: "\eb30";
+}
+.dga-icon-ruku.bulk.rounded:before {
+  content: "\eb31";
+}
+.dga-icon-ruku.bulk.rounded:after {
+  content: "\eb32";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ruku.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ruku.stroke.sharp:before {
+  content: "\eb33";
+}
+.dga-icon-ruku.solid.sharp:before {
+  content: "\eb34";
+}
+.dga-icon-salah {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-salah:before, 
+.dga-icon-salah.stroke.rounded:before {
+  content: "\eb35";
+}
+.dga-icon-salah.twotone.rounded:before {
+  content: "\eb36";
+  opacity: 0.4;
+}
+.dga-icon-salah.twotone.rounded:after {
+  content: "\eb37";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah.duotone.rounded:before {
+  content: "\eb38";
+  opacity: 0.4;
+}
+.dga-icon-salah.duotone.rounded:after {
+  content: "\eb39";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah.solid.rounded:before {
+  content: "\eb3a";
+}
+.dga-icon-salah.bulk.rounded:before {
+  content: "\eb3b";
+  opacity: 0.4;
+}
+.dga-icon-salah.bulk.rounded:after {
+  content: "\eb3c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah.stroke.sharp:before {
+  content: "\eb3d";
+}
+.dga-icon-salah.solid.sharp:before {
+  content: "\eb3e";
+}
+.dga-icon-salah-time {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-salah-time:before, 
+.dga-icon-salah-time.stroke.rounded:before {
+  content: "\eb3f";
+}
+body:has(.active-screen) .dga-icon-salah-time.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-salah-time.twotone.rounded .path1:before {
+  content: "\eb40";
+  opacity: 0.4;
+}
+.dga-icon-salah-time.twotone.rounded .path2:before {
+  content: "\eb41";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-salah-time.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.twotone.rounded .path3:before {
+  content: "\eb42";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah-time.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-salah-time.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-salah-time.duotone.rounded .path1:before {
+  content: "\eb43";
+  opacity: 0.4;
+}
+.dga-icon-salah-time.duotone.rounded .path2:before {
+  content: "\eb44";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-salah-time.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.duotone.rounded .path3:before {
+  content: "\eb45";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah-time.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.duotone.rounded .path4:before {
+  content: "\eb46";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah-time.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.duotone.rounded .path5:before {
+  content: "\eb47";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-salah-time.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.solid.rounded:before {
+  content: "\eb48";
+}
+body:has(.active-screen) .dga-icon-salah-time.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-salah-time.bulk.rounded .path1:before {
+  content: "\eb49";
+}
+.dga-icon-salah-time.bulk.rounded .path2:before {
+  content: "\eb4a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-salah-time.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.bulk.rounded .path3:before {
+  content: "\eb4b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-salah-time.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-salah-time.stroke.sharp:before {
+  content: "\eb4c";
+}
+.dga-icon-salah-time.solid.sharp:before {
+  content: "\eb4d";
+}
+.dga-icon-sujood {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-sujood:before, 
+.dga-icon-sujood.stroke.rounded:before {
+  content: "\eb4e";
+}
+.dga-icon-sujood.twotone.rounded:before {
+  content: "\eb4f";
+}
+.dga-icon-sujood.twotone.rounded:after {
+  content: "\eb50";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sujood.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sujood.duotone.rounded:before {
+  content: "\eb51";
+  opacity: 0.4;
+}
+.dga-icon-sujood.duotone.rounded:after {
+  content: "\eb52";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sujood.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sujood.solid.rounded:before {
+  content: "\eb53";
+}
+.dga-icon-sujood.bulk.rounded:before {
+  content: "\eb54";
+  opacity: 0.4;
+}
+.dga-icon-sujood.bulk.rounded:after {
+  content: "\eb55";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sujood.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sujood.stroke.sharp:before {
+  content: "\eb56";
+}
+.dga-icon-sujood.solid.sharp:before {
+  content: "\eb57";
+}
+.dga-icon-tasbih {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-tasbih:before, 
+.dga-icon-tasbih.stroke.rounded:before {
+  content: "\eb58";
+}
+.dga-icon-tasbih.twotone.rounded:before {
+  content: "\eb59";
+}
+.dga-icon-tasbih.twotone.rounded:after {
+  content: "\eb5a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tasbih.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tasbih.duotone.rounded:before {
+  content: "\eb5b";
+  opacity: 0.4;
+}
+.dga-icon-tasbih.duotone.rounded:after {
+  content: "\eb5c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tasbih.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tasbih.solid.rounded:before {
+  content: "\eb5d";
+}
+.dga-icon-tasbih.bulk.rounded:before {
+  content: "\eb5e";
+  opacity: 0.4;
+}
+.dga-icon-tasbih.bulk.rounded:after {
+  content: "\eb5f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tasbih.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tasbih.stroke.sharp:before {
+  content: "\eb60";
+}
+.dga-icon-tasbih.solid.sharp:before {
+  content: "\eb61";
+}
+.dga-icon-wudu {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-wudu:before, 
+.dga-icon-wudu.stroke.rounded:before {
+  content: "\eb62";
+}
+.dga-icon-wudu.twotone.rounded:before {
+  content: "\eb63";
+  opacity: 0.4;
+}
+.dga-icon-wudu.twotone.rounded:after {
+  content: "\eb64";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wudu.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-wudu.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-wudu.duotone.rounded .path1:before {
+  content: "\eb65";
+  opacity: 0.4;
+}
+.dga-icon-wudu.duotone.rounded .path2:before {
+  content: "\eb66";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wudu.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wudu.duotone.rounded .path3:before {
+  content: "\eb67";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wudu.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wudu.solid.rounded:before {
+  content: "\eb68";
+}
+.dga-icon-wudu.bulk.rounded:before {
+  content: "\eb69";
+  opacity: 0.4;
+}
+.dga-icon-wudu.bulk.rounded:after {
+  content: "\eb6a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wudu.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wudu.stroke.sharp:before {
+  content: "\eb6b";
+}
+.dga-icon-wudu.solid.sharp:before {
+  content: "\eb6c";
+}
+.dga-icon-zakat {
+  font-family: 'dga-fonts-icons-islamic' !important;
+}
+.dga-icon-zakat:before, 
+.dga-icon-zakat.stroke.rounded:before {
+  content: "\eb6d";
+}
+.dga-icon-zakat.twotone.rounded:before {
+  content: "\eb6e";
+  opacity: 0.4;
+}
+.dga-icon-zakat.twotone.rounded:after {
+  content: "\eb6f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-zakat.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-zakat.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-zakat.duotone.rounded .path1:before {
+  content: "\eb70";
+  opacity: 0.4;
+}
+.dga-icon-zakat.duotone.rounded .path2:before {
+  content: "\eb71";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-zakat.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-zakat.duotone.rounded .path3:before {
+  content: "\eb72";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-zakat.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-zakat.duotone.rounded .path4:before {
+  content: "\eb73";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-zakat.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-zakat.solid.rounded:before {
+  content: "\eb74";
+}
+.dga-icon-zakat.bulk.rounded:before {
+  content: "\eb75";
+  opacity: 0.4;
+}
+.dga-icon-zakat.bulk.rounded:after {
+  content: "\eb76";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-zakat.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-zakat.stroke.sharp:before {
+  content: "\eb77";
+}
+.dga-icon-zakat.solid.sharp:before {
+  content: "\eb78";
+}

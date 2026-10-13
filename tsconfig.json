@@ -4,7 +4,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "dga-angular": ["./dist/dga-angular"]
+      "@dev-dga/angular": ["./projects/dga-angular/src/public-api.ts"],
+      "@dev-dga/angular/styles": ["./projects/dga-angular/src/lib/styles/_dga-tokens.scss"]
     },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,

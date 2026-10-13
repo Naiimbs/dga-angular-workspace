@@ -17,6 +17,8 @@ import {
     DgaDigitalStamp,
   DgaDropdown,
   DgaEmptyState,
+  DgaFooter,
+  DgaHero,
   DgaIconButton,
   DgaIcon,
   DgaCardHeader,
@@ -45,9 +47,11 @@ import {
   DgaModal,
   DgaPagination,
   DgaProgress,
+  DgaRadio,
   DgaRadioGroup,
   DgaSelect,
   DgaSkeleton,
+  DgaSlider,
   DgaSpinner,
   DgaSwitch,
   DgaTable,
@@ -63,11 +67,14 @@ import {
   DgaTag,
   DgaTextarea,
   DgaTooltip,
-} from '../../components';
-import type { DgaButtonSize, DgaButtonVariant } from '../../components';
-import type { DgaBreadcrumbItem, DgaMenuOption, DgaMenubarItem, DgaSelectOption, DgaTab } from '../../components';
-import type { DgaTableColumn, DgaTableRow, DgaTableSortDirection } from '../../components';
-import type { DgaIconName } from '../../components';
+} from '@dev-dga/angular';
+import type { DgaButtonSize, DgaButtonVariant } from '@dev-dga/angular';
+import type { DgaBreadcrumbItem, DgaMenuOption, DgaMenubarItem, DgaSelectOption, DgaTab } from '@dev-dga/angular';
+import type { DgaTableColumn, DgaTableRow, DgaTableSortDirection } from '@dev-dga/angular';
+import type { DgaIconName } from '@dev-dga/angular';
+import type { DgaHeroSlide, DgaFooterLink, DgaFooterLinkGroup, DgaFooterLogo } from '@dev-dga/angular';
+import { DgaIconRegistry } from '@dev-dga/angular';
+import { inject } from '@angular/core';
 
 @Component({
   selector: 'app-design-system',
@@ -91,6 +98,8 @@ import type { DgaIconName } from '../../components';
       DgaDigitalStamp,
     DgaDropdown,
     DgaEmptyState,
+    DgaFooter,
+    DgaHero,
     DgaIconButton,
     DgaIcon,
     DgaCardHeader,
@@ -119,9 +128,11 @@ import type { DgaIconName } from '../../components';
     DgaModal,
     DgaPagination,
     DgaProgress,
+    DgaRadio,
     DgaRadioGroup,
     DgaSelect,
     DgaSkeleton,
+    DgaSlider,
     DgaSpinner,
     DgaSwitch,
     DgaTable,
@@ -260,6 +271,8 @@ export class DesignSystemComponent {
   selectedService = '';
   acceptedTerms = true;
   notificationsEnabled = true;
+  sliderValue = 65;
+  sliderRange: [number, number] = [20, 80];
   selectedRadio = 'citizen';
   currentPage = 2;
   overflowPage = 50;
@@ -270,4 +283,96 @@ export class DesignSystemComponent {
   sidebarExpanded = true;
   mobileMenuOpen = false;
   headerSubmenuOpen = false;
+
+  private iconRegistry = inject(DgaIconRegistry);
+  iconSearch = '';
+  selectedVariant = 'default';
+
+  readonly iconVariants = [
+    'default',
+    'solid',
+    'featured',
+    'stroke-rounded',
+    'twotone-rounded',
+    'duotone-rounded',
+    'solid-rounded',
+    'bulk-rounded',
+  ] as const;
+
+  get catalogIcons() {
+    const all = this.iconRegistry.getAllIcons();
+    const query = this.iconSearch.toLowerCase().trim();
+    if (!query) return all.slice(0, 60);
+    return all.filter(
+      (ic) => ic.name.toLowerCase().includes(query) || (ic.fontClass && ic.fontClass.toLowerCase().includes(query))
+    ).slice(0, 80);
+  }
+
+  get totalDiscoveredIcons(): number {
+    return this.iconRegistry.getAllIcons().length;
+  }
+
+  // --- Hero slider content ---
+  readonly heroSlides: DgaHeroSlide[] = [
+    {
+      title: 'Hero Section',
+      description: 'Here you can add a brief description about the purpose of the portal followed with a call to action button and an image or an illustration on the left hand side.',
+      imageSrc: 'images/hero-photo.jpg',
+      imageAlt: '',
+      action: { label: 'Primary Button', href: '#doc-getting-started' },
+    },
+    {
+      title: 'Accessible by design',
+      description: 'Every component ships with keyboard support, ARIA semantics, RTL layouts, reduced-motion and forced-colors handling out of the box.',
+      imageSrc: 'images/hero-photo.jpg',
+      imageAlt: '',
+      action: { label: 'Browse Components', href: '#buttons' },
+    },
+    {
+      title: 'Built with DGA tokens',
+      description: 'A thoughtful component foundation for Saudi Arabia\'s digital government services, built on the official DGA-inspired token set and native Angular.',
+      imageSrc: 'images/hero-photo.jpg',
+      imageAlt: '',
+      action: { label: 'Get Started', href: '#doc-getting-started' },
+    },
+  ];
+
+  // --- Footer content (dark DGA layout) ---
+  readonly footerGroups: DgaFooterLinkGroup[] = [
+    { links: [
+      { label: 'About [name of the portal]', href: '#' },
+      { label: 'Privacy and terms of use', href: '#' },
+      { label: 'How to use [name of the portal]', href: '#' },
+      { label: 'News and events', href: '#' },
+      { label: 'Service level agreement statistics', href: '#' },
+    ] },
+    { links: [
+      { label: 'National service portal', href: '#' },
+      { label: 'Open government data', href: '#' },
+      { label: 'National strategy for data & Artificial intelligence', href: '#' },
+      { label: 'Open data portal', href: '#' },
+      { label: 'E-Participation portal', href: '#' },
+    ] },
+    { links: [
+      { label: 'Customer hub', href: '#' },
+      { label: 'Contact us', href: '#' },
+      { label: 'Engage with Us', href: '#' },
+      { label: 'Submit complaint', href: '#' },
+      { label: 'Report corruption', href: '#' },
+    ] },
+  ];
+  readonly footerSocial: DgaFooterLink[] = [
+    { label: 'X (Twitter)', href: '#', icon: 'new-twitter' },
+    { label: 'LinkedIn', href: '#', icon: 'linkedin-01' },
+    { label: 'Instagram', href: '#', icon: 'instagram' },
+  ];
+  readonly footerLegalLinks: DgaFooterLink[] = [
+    { label: 'Sitemap', href: '#' },
+    { label: 'RSS', href: '#' },
+    { label: 'Mobile App', href: '#' },
+  ];
+  readonly footerLogos: DgaFooterLogo[] = [
+    { src: 'images/year-of-ai-logo-white.svg', alt: 'Year of Artificial Intelligence' },
+    { src: 'images/logo-placeholder-48.svg', alt: 'Platform logo' },
+  ];
 }

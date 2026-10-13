@@ -1,0 +1,94 @@
+<article class="docs-page">
+  <header class="docs-header">
+    <h1 class="docs-title">@dev-dga/angular</h1>
+    <p class="docs-subtitle">The official DGA Angular Design System library — React parity, accessible, RTL-ready.</p>
+  </header>
+
+  <section class="docs-section">
+    <h2>Introduction</h2>
+    <p>The <strong>@dev-dga/angular</strong> library provides a comprehensive suite of UI components, forms, and icons aligned with the DGA Design System specifications. Every component mirrors the behavior of the React source of truth (<code>@dev-dga/react</code> v1.3.1) while providing an idiomatic Angular API.</p>
+  </section>
+
+  <section class="docs-section">
+    <h2>Installation</h2>
+    <pre class="docs-code"><code>npm install @dev-dga/angular</code></pre>
+  </section>
+
+  <section class="docs-section">
+    <h2>Setup — Importing Styles</h2>
+    <p>Import the DGA design tokens in your application's global <code>styles.scss</code>:</p>
+    <pre class="docs-code"><code>@use '@dev-dga/angular/styles';</code></pre>
+    <p>This provides all CSS custom properties (<code>--ddga-*</code>) required by every component. Access tokens in your components using standard CSS syntax:</p>
+    <pre class="docs-code"><code>.example-card {{ '{' }}
+  color: var(--ddga-color-primary);
+  background-color: var(--ddga-color-background);
+  border: 1px solid var(--ddga-color-border);
+{{ '}' }}</code></pre>
+  </section>
+
+  <section class="docs-section">
+    <h2>Importing Components</h2>
+    <p>All components are standalone. Import only what you need:</p>
+    <pre class="docs-code"><code>import {{ '{' }} DgaButton, DgaInput, DgaIcon {{ '}' }} from '@dev-dga/angular';
+
+&#64;Component({{
+  '{' }} standalone: true,
+  imports: [DgaButton, DgaInput, DgaIcon],
+  template: `&lt;dga-button variant="primary"&gt;Save&lt;/dga-button&gt;`
+{{ '}' }})</code></pre>
+  </section>
+
+  <section class="docs-section">
+    <h2>Buttons</h2>
+    <pre class="docs-code"><code>&lt;dga-button variant="primary"&gt;Submit&lt;/dga-button&gt;
+&lt;dga-button variant="secondary"&gt;Cancel&lt;/dga-button&gt;
+&lt;dga-button variant="ghost" [disabled]="true"&gt;Disabled&lt;/dga-button&gt;</code></pre>
+  </section>
+
+  <section class="docs-section">
+    <h2>Form Controls</h2>
+    <p>All form controls implement <code>ControlValueAccessor</code> and work with both Reactive Forms and Template-Driven Forms.</p>
+    <pre class="docs-code"><code>&lt;dga-input label="Email" [(ngModel)]="email" /&gt;
+&lt;dga-checkbox [(ngModel)]="accepted"&gt;Accept terms&lt;/dga-checkbox&gt;
+&lt;dga-switch [(ngModel)]="notifications"&gt;Notifications&lt;/dga-switch&gt;
+&lt;dga-slider label="Volume" [(ngModel)]="volume" [showValue]="true" /&gt;</code></pre>
+  </section>
+
+  <section class="docs-section">
+    <h2>Icons</h2>
+    <p>Icons use the centralized <code>DgaIconRegistry</code>. Register SVG or font icons before use:</p>
+    <pre class="docs-code"><code>import {{ '{' }} DgaIconRegistry {{ '}' }} from '@dev-dga/angular';
+
+constructor(registry: DgaIconRegistry) {{ '{' }}
+  registry.registerIcon({{ '{' }}
+    name: 'check',
+    type: 'svg',
+    viewBox: '0 0 24 24',
+    svgHtml: '&lt;path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" /&gt;'
+  {{ '}' }});
+{{ '}' }}</code></pre>
+    <pre class="docs-code"><code>&lt;dga-icon name="dga-icon-add-01" variant="stroke-rounded"&gt;&lt;/dga-icon&gt;</code></pre>
+  </section>
+
+  <section class="docs-section">
+    <h2>RTL Support</h2>
+    <p>All components use CSS logical properties. Enable RTL by setting <code>dir="rtl"</code> on the root element or a parent container.</p>
+  </section>
+
+  <section class="docs-section">
+    <h2>Accessibility</h2>
+    <p>Every component ships with correct ARIA roles, states, and keyboard navigation aligned with WCAG 2.1 AA standards.</p>
+  </section>
+
+  <section class="docs-section">
+    <h2>MODHS Integration</h2>
+    <p>MODHS can consume this library directly:</p>
+    <ol>
+      <li>Install: <code>npm install @dev-dga/angular</code></li>
+      <li>Import styles in <code>styles.scss</code></li>
+      <li>Import standalone components per feature module</li>
+      <li>Use <code>DgaIconRegistry</code> to register the icons needed</li>
+    </ol>
+    <p>Full compatibility audit: <a routerLink="/design-system">see docs/modhs-integration-readiness.md</a></p>
+  </section>
+</article>

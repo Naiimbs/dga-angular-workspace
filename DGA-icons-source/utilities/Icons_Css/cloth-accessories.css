@@ -1,0 +1,4995 @@
+.dga-icon-baby-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-baby-01:before, 
+.dga-icon-baby-01.stroke.rounded:before {
+  content: "\e900";
+}
+body:has(.active-screen) .dga-icon-baby-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-baby-01.twotone.rounded .path1:before {
+  content: "\e901";
+  opacity: 0.4;
+}
+.dga-icon-baby-01.twotone.rounded .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-baby-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.twotone.rounded .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-baby-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.twotone.rounded .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-baby-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-baby-01.duotone.rounded .path1:before {
+  content: "\e905";
+  opacity: 0.4;
+}
+.dga-icon-baby-01.duotone.rounded .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.duotone.rounded .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.duotone.rounded .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.duotone.rounded .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.solid.rounded:before {
+  content: "\e90a";
+}
+body:has(.active-screen) .dga-icon-baby-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-baby-01.bulk.rounded .path1:before {
+  content: "\e90b";
+  opacity: 0.4;
+}
+.dga-icon-baby-01.bulk.rounded .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.bulk.rounded .path3:before {
+  content: "\e90d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.bulk.rounded .path4:before {
+  content: "\e90e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.bulk.rounded .path5:before {
+  content: "\e90f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-01.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-01.stroke.sharp:before {
+  content: "\e910";
+}
+.dga-icon-baby-01.solid.sharp:before {
+  content: "\e911";
+}
+.dga-icon-baby-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-baby-02:before, 
+.dga-icon-baby-02.stroke.rounded:before {
+  content: "\e912";
+}
+body:has(.active-screen) .dga-icon-baby-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-baby-02.twotone.rounded .path1:before {
+  content: "\e913";
+  opacity: 0.4;
+}
+.dga-icon-baby-02.twotone.rounded .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.twotone.rounded .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.twotone.rounded .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-baby-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-baby-02.duotone.rounded .path1:before {
+  content: "\e917";
+  opacity: 0.4;
+}
+.dga-icon-baby-02.duotone.rounded .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.duotone.rounded .path3:before {
+  content: "\e919";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.duotone.rounded .path4:before {
+  content: "\e91a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.solid.rounded:before {
+  content: "\e91b";
+}
+body:has(.active-screen) .dga-icon-baby-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-baby-02.bulk.rounded .path1:before {
+  content: "\e91c";
+}
+.dga-icon-baby-02.bulk.rounded .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-baby-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.bulk.rounded .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-baby-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-02.stroke.sharp:before {
+  content: "\e91f";
+}
+.dga-icon-baby-02.solid.sharp:before {
+  content: "\e920";
+}
+.dga-icon-baby-bottle {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-baby-bottle:before, 
+.dga-icon-baby-bottle.stroke.rounded:before {
+  content: "\e921";
+}
+.dga-icon-baby-bottle.twotone.rounded:before {
+  content: "\e922";
+}
+.dga-icon-baby-bottle.twotone.rounded:after {
+  content: "\e923";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-baby-bottle.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-bottle.duotone.rounded:before {
+  content: "\e924";
+  opacity: 0.4;
+}
+.dga-icon-baby-bottle.duotone.rounded:after {
+  content: "\e925";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-bottle.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-bottle.solid.rounded:before {
+  content: "\e926";
+}
+body:has(.active-screen) .dga-icon-baby-bottle.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-baby-bottle.bulk.rounded .path1:before {
+  content: "\e927";
+  opacity: 0.4;
+}
+.dga-icon-baby-bottle.bulk.rounded .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-bottle.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-bottle.bulk.rounded .path3:before {
+  content: "\e929";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-bottle.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-bottle.bulk.rounded .path4:before {
+  content: "\e92a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-bottle.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-bottle.stroke.sharp:before {
+  content: "\e92b";
+}
+.dga-icon-baby-bottle.solid.sharp:before {
+  content: "\e92c";
+}
+.dga-icon-baby-boy-dress {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-baby-boy-dress:before, 
+.dga-icon-baby-boy-dress.stroke.rounded:before {
+  content: "\e92d";
+}
+.dga-icon-baby-boy-dress.twotone.rounded:before {
+  content: "\e92e";
+}
+.dga-icon-baby-boy-dress.twotone.rounded:after {
+  content: "\e92f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-baby-boy-dress.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-boy-dress.duotone.rounded:before {
+  content: "\e930";
+  opacity: 0.4;
+}
+.dga-icon-baby-boy-dress.duotone.rounded:after {
+  content: "\e931";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-boy-dress.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-boy-dress.solid.rounded:before {
+  content: "\e932";
+}
+.dga-icon-baby-boy-dress.bulk.rounded:before {
+  content: "\e933";
+  opacity: 0.4;
+}
+.dga-icon-baby-boy-dress.bulk.rounded:after {
+  content: "\e934";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-boy-dress.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-boy-dress.stroke.sharp:before {
+  content: "\e935";
+}
+.dga-icon-baby-boy-dress.solid.sharp:before {
+  content: "\e936";
+}
+.dga-icon-baby-girl-dress {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-baby-girl-dress:before, 
+.dga-icon-baby-girl-dress.stroke.rounded:before {
+  content: "\e937";
+}
+.dga-icon-baby-girl-dress.twotone.rounded:before {
+  content: "\e938";
+  opacity: 0.4;
+}
+.dga-icon-baby-girl-dress.twotone.rounded:after {
+  content: "\e939";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-girl-dress.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-baby-girl-dress.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-baby-girl-dress.duotone.rounded .path1:before {
+  content: "\e93a";
+  opacity: 0.4;
+}
+.dga-icon-baby-girl-dress.duotone.rounded .path2:before {
+  content: "\e93b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-girl-dress.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-girl-dress.duotone.rounded .path3:before {
+  content: "\e93c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-girl-dress.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-girl-dress.solid.rounded:before {
+  content: "\e93d";
+}
+.dga-icon-baby-girl-dress.bulk.rounded:before {
+  content: "\e93e";
+  opacity: 0.4;
+}
+.dga-icon-baby-girl-dress.bulk.rounded:after {
+  content: "\e93f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-baby-girl-dress.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-baby-girl-dress.stroke.sharp:before {
+  content: "\e940";
+}
+.dga-icon-baby-girl-dress.solid.sharp:before {
+  content: "\e941";
+}
+.dga-icon-belt {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-belt:before, 
+.dga-icon-belt.stroke.rounded:before {
+  content: "\e942";
+}
+body:has(.active-screen) .dga-icon-belt.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-belt.twotone.rounded .path1:before {
+  content: "\e943";
+  opacity: 0.4;
+}
+.dga-icon-belt.twotone.rounded .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-belt.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-belt.twotone.rounded .path3:before {
+  content: "\e945";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-belt.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-belt.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-belt.duotone.rounded .path1:before {
+  content: "\e946";
+  opacity: 0.4;
+}
+.dga-icon-belt.duotone.rounded .path2:before {
+  content: "\e947";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-belt.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-belt.duotone.rounded .path3:before {
+  content: "\e948";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-belt.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-belt.solid.rounded:before {
+  content: "\e949";
+}
+body:has(.active-screen) .dga-icon-belt.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-belt.bulk.rounded .path1:before {
+  content: "\e94a";
+  opacity: 0.4;
+}
+.dga-icon-belt.bulk.rounded .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-belt.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-belt.bulk.rounded .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-belt.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-belt.bulk.rounded .path4:before {
+  content: "\e94d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-belt.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-belt.stroke.sharp:before {
+  content: "\e94e";
+}
+.dga-icon-belt.solid.sharp:before {
+  content: "\e94f";
+}
+.dga-icon-blush-brush-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-blush-brush-01:before, 
+.dga-icon-blush-brush-01.stroke.rounded:before {
+  content: "\e950";
+}
+.dga-icon-blush-brush-01.twotone.rounded:before {
+  content: "\e951";
+  opacity: 0.4;
+}
+.dga-icon-blush-brush-01.twotone.rounded:after {
+  content: "\e952";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-01.duotone.rounded:before {
+  content: "\e953";
+  opacity: 0.4;
+}
+.dga-icon-blush-brush-01.duotone.rounded:after {
+  content: "\e954";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-01.solid.rounded:before {
+  content: "\e955";
+}
+body:has(.active-screen) .dga-icon-blush-brush-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-blush-brush-01.bulk.rounded .path1:before {
+  content: "\e956";
+  opacity: 0.4;
+}
+.dga-icon-blush-brush-01.bulk.rounded .path2:before {
+  content: "\e957";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-01.bulk.rounded .path3:before {
+  content: "\e958";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-01.stroke.sharp:before {
+  content: "\e959";
+}
+.dga-icon-blush-brush-01.solid.sharp:before {
+  content: "\e95a";
+}
+.dga-icon-blush-brush-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-blush-brush-02:before, 
+.dga-icon-blush-brush-02.stroke.rounded:before {
+  content: "\e95b";
+}
+body:has(.active-screen) .dga-icon-blush-brush-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-blush-brush-02.twotone.rounded .path1:before {
+  content: "\e95c";
+}
+.dga-icon-blush-brush-02.twotone.rounded .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blush-brush-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.twotone.rounded .path3:before {
+  content: "\e95e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blush-brush-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-blush-brush-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-blush-brush-02.duotone.rounded .path1:before {
+  content: "\e95f";
+  opacity: 0.4;
+}
+.dga-icon-blush-brush-02.duotone.rounded .path2:before {
+  content: "\e960";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blush-brush-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.duotone.rounded .path3:before {
+  content: "\e961";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blush-brush-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.duotone.rounded .path4:before {
+  content: "\e962";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.duotone.rounded .path5:before {
+  content: "\e963";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-02.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.solid.rounded:before {
+  content: "\e964";
+}
+body:has(.active-screen) .dga-icon-blush-brush-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-blush-brush-02.bulk.rounded .path1:before {
+  content: "\e965";
+  opacity: 0.4;
+}
+.dga-icon-blush-brush-02.bulk.rounded .path2:before {
+  content: "\e966";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.bulk.rounded .path3:before {
+  content: "\e967";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blush-brush-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blush-brush-02.stroke.sharp:before {
+  content: "\e968";
+}
+.dga-icon-blush-brush-02.solid.sharp:before {
+  content: "\e969";
+}
+.dga-icon-body-soap {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-body-soap:before, 
+.dga-icon-body-soap.stroke.rounded:before {
+  content: "\e96a";
+}
+body:has(.active-screen) .dga-icon-body-soap.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-body-soap.twotone.rounded .path1:before {
+  content: "\e96b";
+}
+.dga-icon-body-soap.twotone.rounded .path2:before {
+  content: "\e96c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-body-soap.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-body-soap.twotone.rounded .path3:before {
+  content: "\e96d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-body-soap.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-body-soap.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-body-soap.duotone.rounded .path1:before {
+  content: "\e96e";
+  opacity: 0.4;
+}
+.dga-icon-body-soap.duotone.rounded .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-body-soap.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-body-soap.duotone.rounded .path3:before {
+  content: "\e970";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-body-soap.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-body-soap.duotone.rounded .path4:before {
+  content: "\e971";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-body-soap.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-body-soap.solid.rounded:before {
+  content: "\e972";
+}
+body:has(.active-screen) .dga-icon-body-soap.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-body-soap.bulk.rounded .path1:before {
+  content: "\e973";
+}
+.dga-icon-body-soap.bulk.rounded .path2:before {
+  content: "\e974";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-body-soap.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-body-soap.bulk.rounded .path3:before {
+  content: "\e975";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-body-soap.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-body-soap.stroke.sharp:before {
+  content: "\e976";
+}
+.dga-icon-body-soap.solid.sharp:before {
+  content: "\e977";
+}
+.dga-icon-bow-tie {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-bow-tie:before, 
+.dga-icon-bow-tie.stroke.rounded:before {
+  content: "\e978";
+}
+body:has(.active-screen) .dga-icon-bow-tie.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-bow-tie.twotone.rounded .path1:before {
+  content: "\e979";
+  opacity: 0.4;
+}
+.dga-icon-bow-tie.twotone.rounded .path2:before {
+  content: "\e97a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bow-tie.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bow-tie.twotone.rounded .path3:before {
+  content: "\e97b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bow-tie.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-bow-tie.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-bow-tie.duotone.rounded .path1:before {
+  content: "\e97c";
+  opacity: 0.4;
+}
+.dga-icon-bow-tie.duotone.rounded .path2:before {
+  content: "\e97d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bow-tie.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bow-tie.duotone.rounded .path3:before {
+  content: "\e97e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bow-tie.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bow-tie.solid.rounded:before {
+  content: "\e97f";
+}
+body:has(.active-screen) .dga-icon-bow-tie.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-bow-tie.bulk.rounded .path1:before {
+  content: "\e980";
+}
+.dga-icon-bow-tie.bulk.rounded .path2:before {
+  content: "\e981";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bow-tie.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bow-tie.bulk.rounded .path3:before {
+  content: "\e982";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bow-tie.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bow-tie.stroke.sharp:before {
+  content: "\e983";
+}
+.dga-icon-bow-tie.solid.sharp:before {
+  content: "\e984";
+}
+.dga-icon-boxer {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-boxer:before, 
+.dga-icon-boxer.stroke.rounded:before {
+  content: "\e985";
+}
+.dga-icon-boxer.twotone.rounded:before {
+  content: "\e986";
+}
+.dga-icon-boxer.twotone.rounded:after {
+  content: "\e987";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-boxer.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-boxer.duotone.rounded:before {
+  content: "\e988";
+  opacity: 0.4;
+}
+.dga-icon-boxer.duotone.rounded:after {
+  content: "\e989";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-boxer.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-boxer.solid.rounded:before {
+  content: "\e98a";
+}
+.dga-icon-boxer.bulk.rounded:before {
+  content: "\e98b";
+  opacity: 0.4;
+}
+.dga-icon-boxer.bulk.rounded:after {
+  content: "\e98c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-boxer.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-boxer.stroke.sharp:before {
+  content: "\e98d";
+}
+.dga-icon-boxer.solid.sharp:before {
+  content: "\e98e";
+}
+.dga-icon-breast-pump {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-breast-pump:before, 
+.dga-icon-breast-pump.stroke.rounded:before {
+  content: "\e98f";
+}
+.dga-icon-breast-pump.twotone.rounded:before {
+  content: "\e990";
+  opacity: 0.4;
+}
+.dga-icon-breast-pump.twotone.rounded:after {
+  content: "\e991";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-breast-pump.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-breast-pump.duotone.rounded:before {
+  content: "\e992";
+  opacity: 0.4;
+}
+.dga-icon-breast-pump.duotone.rounded:after {
+  content: "\e993";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-breast-pump.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-breast-pump.solid.rounded:before {
+  content: "\e994";
+}
+body:has(.active-screen) .dga-icon-breast-pump.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-breast-pump.bulk.rounded .path1:before {
+  content: "\e995";
+  opacity: 0.4;
+}
+.dga-icon-breast-pump.bulk.rounded .path2:before {
+  content: "\e996";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-breast-pump.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-breast-pump.bulk.rounded .path3:before {
+  content: "\e997";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-breast-pump.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-breast-pump.bulk.rounded .path4:before {
+  content: "\e998";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-breast-pump.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-breast-pump.bulk.rounded .path5:before {
+  content: "\e999";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-breast-pump.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-breast-pump.stroke.sharp:before {
+  content: "\e99a";
+}
+.dga-icon-breast-pump.solid.sharp:before {
+  content: "\e99b";
+}
+.dga-icon-cap {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-cap:before, 
+.dga-icon-cap.stroke.rounded:before {
+  content: "\e99c";
+}
+.dga-icon-cap.twotone.rounded:before {
+  content: "\e99d";
+  opacity: 0.4;
+}
+.dga-icon-cap.twotone.rounded:after {
+  content: "\e99e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cap.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cap.duotone.rounded:before {
+  content: "\e99f";
+  opacity: 0.4;
+}
+.dga-icon-cap.duotone.rounded:after {
+  content: "\e9a0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cap.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cap.solid.rounded:before {
+  content: "\e9a1";
+}
+.dga-icon-cap.bulk.rounded:before {
+  content: "\e9a2";
+  opacity: 0.4;
+}
+.dga-icon-cap.bulk.rounded:after {
+  content: "\e9a3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cap.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cap.stroke.sharp:before {
+  content: "\e9a4";
+}
+.dga-icon-cap.solid.sharp:before {
+  content: "\e9a5";
+}
+.dga-icon-cardigan {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-cardigan:before, 
+.dga-icon-cardigan.stroke.rounded:before {
+  content: "\e9a6";
+}
+.dga-icon-cardigan.twotone.rounded:before {
+  content: "\e9a7";
+}
+.dga-icon-cardigan.twotone.rounded:after {
+  content: "\e9a8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cardigan.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardigan.duotone.rounded:before {
+  content: "\e9a9";
+  opacity: 0.4;
+}
+.dga-icon-cardigan.duotone.rounded:after {
+  content: "\e9aa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardigan.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardigan.solid.rounded:before {
+  content: "\e9ab";
+}
+body:has(.active-screen) .dga-icon-cardigan.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-cardigan.bulk.rounded .path1:before {
+  content: "\e9ac";
+}
+.dga-icon-cardigan.bulk.rounded .path2:before {
+  content: "\e9ad";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardigan.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardigan.bulk.rounded .path3:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cardigan.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardigan.stroke.sharp:before {
+  content: "\e9af";
+}
+.dga-icon-cardigan.solid.sharp:before {
+  content: "\e9b0";
+}
+.dga-icon-cowboy-hat {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-cowboy-hat:before, 
+.dga-icon-cowboy-hat.stroke.rounded:before {
+  content: "\e9b1";
+}
+.dga-icon-cowboy-hat.twotone.rounded:before {
+  content: "\e9b2";
+}
+.dga-icon-cowboy-hat.twotone.rounded:after {
+  content: "\e9b3";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cowboy-hat.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-cowboy-hat.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-cowboy-hat.duotone.rounded .path1:before {
+  content: "\e9b4";
+  opacity: 0.4;
+}
+.dga-icon-cowboy-hat.duotone.rounded .path2:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cowboy-hat.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cowboy-hat.duotone.rounded .path3:before {
+  content: "\e9b6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cowboy-hat.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cowboy-hat.duotone.rounded .path4:before {
+  content: "\e9b7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cowboy-hat.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cowboy-hat.solid.rounded:before {
+  content: "\e9b8";
+}
+.dga-icon-cowboy-hat.bulk.rounded:before {
+  content: "\e9b9";
+}
+.dga-icon-cowboy-hat.bulk.rounded:after {
+  content: "\e9ba";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cowboy-hat.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cowboy-hat.stroke.sharp:before {
+  content: "\e9bb";
+}
+.dga-icon-cowboy-hat.solid.sharp:before {
+  content: "\e9bc";
+}
+.dga-icon-diaper {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-diaper:before, 
+.dga-icon-diaper.stroke.rounded:before {
+  content: "\e9bd";
+}
+body:has(.active-screen) .dga-icon-diaper.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-diaper.twotone.rounded .path1:before {
+  content: "\e9be";
+}
+.dga-icon-diaper.twotone.rounded .path2:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-diaper.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.twotone.rounded .path3:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-diaper.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.duotone.rounded:before {
+  content: "\e9c1";
+  opacity: 0.4;
+}
+.dga-icon-diaper.duotone.rounded:after {
+  content: "\e9c2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-diaper.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.solid.rounded:before {
+  content: "\e9c3";
+}
+body:has(.active-screen) .dga-icon-diaper.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-diaper.bulk.rounded .path1:before {
+  content: "\e9c4";
+  opacity: 0.4;
+}
+.dga-icon-diaper.bulk.rounded .path2:before {
+  content: "\e9c5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-diaper.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.bulk.rounded .path3:before {
+  content: "\e9c6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-diaper.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.bulk.rounded .path4:before {
+  content: "\e9c7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-diaper.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.bulk.rounded .path5:before {
+  content: "\e9c8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-diaper.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-diaper.stroke.sharp:before {
+  content: "\e9c9";
+}
+.dga-icon-diaper.solid.sharp:before {
+  content: "\e9ca";
+}
+.dga-icon-dress-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-01:before, 
+.dga-icon-dress-01.stroke.rounded:before {
+  content: "\e9cb";
+}
+.dga-icon-dress-01.twotone.rounded:before {
+  content: "\e9cc";
+}
+.dga-icon-dress-01.twotone.rounded:after {
+  content: "\e9cd";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-01.duotone.rounded:before {
+  content: "\e9ce";
+  opacity: 0.4;
+}
+.dga-icon-dress-01.duotone.rounded:after {
+  content: "\e9cf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-01.solid.rounded:before {
+  content: "\e9d0";
+}
+.dga-icon-dress-01.bulk.rounded:before {
+  content: "\e9d1";
+  opacity: 0.4;
+}
+.dga-icon-dress-01.bulk.rounded:after {
+  content: "\e9d2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-01.stroke.sharp:before {
+  content: "\e9d3";
+}
+.dga-icon-dress-01.solid.sharp:before {
+  content: "\e9d4";
+}
+.dga-icon-dress-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-02:before, 
+.dga-icon-dress-02.stroke.rounded:before {
+  content: "\e9d5";
+}
+.dga-icon-dress-02.twotone.rounded:before {
+  content: "\e9d6";
+}
+.dga-icon-dress-02.twotone.rounded:after {
+  content: "\e9d7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dress-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dress-02.duotone.rounded .path1:before {
+  content: "\e9d8";
+  opacity: 0.4;
+}
+.dga-icon-dress-02.duotone.rounded .path2:before {
+  content: "\e9d9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-02.duotone.rounded .path3:before {
+  content: "\e9da";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-02.solid.rounded:before {
+  content: "\e9db";
+}
+.dga-icon-dress-02.bulk.rounded:before {
+  content: "\e9dc";
+  opacity: 0.4;
+}
+.dga-icon-dress-02.bulk.rounded:after {
+  content: "\e9dd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-02.stroke.sharp:before {
+  content: "\e9de";
+}
+.dga-icon-dress-02.solid.sharp:before {
+  content: "\e9df";
+}
+.dga-icon-dress-03 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-03:before, 
+.dga-icon-dress-03.stroke.rounded:before {
+  content: "\e9e0";
+}
+body:has(.active-screen) .dga-icon-dress-03.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dress-03.twotone.rounded .path1:before {
+  content: "\e9e1";
+  opacity: 0.4;
+}
+.dga-icon-dress-03.twotone.rounded .path2:before {
+  content: "\e9e2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-03.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-03.twotone.rounded .path3:before {
+  content: "\e9e3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-03.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-03.duotone.rounded:before {
+  content: "\e9e4";
+  opacity: 0.4;
+}
+.dga-icon-dress-03.duotone.rounded:after {
+  content: "\e9e5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-03.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-03.solid.rounded:before {
+  content: "\e9e6";
+}
+body:has(.active-screen) .dga-icon-dress-03.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dress-03.bulk.rounded .path1:before {
+  content: "\e9e7";
+  opacity: 0.4;
+}
+.dga-icon-dress-03.bulk.rounded .path2:before {
+  content: "\e9e8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-03.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-03.bulk.rounded .path3:before {
+  content: "\e9e9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-03.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-03.bulk.rounded .path4:before {
+  content: "\e9ea";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-03.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-03.stroke.sharp:before {
+  content: "\e9eb";
+}
+.dga-icon-dress-03.solid.sharp:before {
+  content: "\e9ec";
+}
+.dga-icon-dress-04 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-04:before, 
+.dga-icon-dress-04.stroke.rounded:before {
+  content: "\e9ed";
+}
+body:has(.active-screen) .dga-icon-dress-04.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dress-04.twotone.rounded .path1:before {
+  content: "\e9ee";
+}
+.dga-icon-dress-04.twotone.rounded .path2:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-04.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.twotone.rounded .path3:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-04.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.twotone.rounded .path4:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-04.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.twotone.rounded .path5:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-04.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.duotone.rounded:before {
+  content: "\e9f3";
+  opacity: 0.4;
+}
+.dga-icon-dress-04.duotone.rounded:after {
+  content: "\e9f4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-04.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.solid.rounded:before {
+  content: "\e9f5";
+}
+body:has(.active-screen) .dga-icon-dress-04.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dress-04.bulk.rounded .path1:before {
+  content: "\e9f6";
+  opacity: 0.4;
+}
+.dga-icon-dress-04.bulk.rounded .path2:before {
+  content: "\e9f7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-04.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.bulk.rounded .path3:before {
+  content: "\e9f8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-04.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.bulk.rounded .path4:before {
+  content: "\e9f9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-04.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-04.stroke.sharp:before {
+  content: "\e9fa";
+}
+.dga-icon-dress-04.solid.sharp:before {
+  content: "\e9fb";
+}
+.dga-icon-dress-05 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-05:before, 
+.dga-icon-dress-05.stroke.rounded:before {
+  content: "\e9fc";
+}
+.dga-icon-dress-05.twotone.rounded:before {
+  content: "\e9fd";
+  opacity: 0.4;
+}
+.dga-icon-dress-05.twotone.rounded:after {
+  content: "\e9fe";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-05.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-05.duotone.rounded:before {
+  content: "\e9ff";
+  opacity: 0.4;
+}
+.dga-icon-dress-05.duotone.rounded:after {
+  content: "\ea00";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-05.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-05.solid.rounded:before {
+  content: "\ea01";
+}
+.dga-icon-dress-05.bulk.rounded:before {
+  content: "\ea02";
+  opacity: 0.4;
+}
+.dga-icon-dress-05.bulk.rounded:after {
+  content: "\ea03";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-05.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-05.stroke.sharp:before {
+  content: "\ea04";
+}
+.dga-icon-dress-05.solid.sharp:before {
+  content: "\ea05";
+}
+.dga-icon-dress-06 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-06:before, 
+.dga-icon-dress-06.stroke.rounded:before {
+  content: "\ea06";
+}
+.dga-icon-dress-06.twotone.rounded:before {
+  content: "\ea07";
+}
+.dga-icon-dress-06.twotone.rounded:after {
+  content: "\ea08";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dress-06.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-06.duotone.rounded:before {
+  content: "\ea09";
+  opacity: 0.4;
+}
+.dga-icon-dress-06.duotone.rounded:after {
+  content: "\ea0a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-06.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-06.solid.rounded:before {
+  content: "\ea0b";
+}
+.dga-icon-dress-06.bulk.rounded:before {
+  content: "\ea0c";
+}
+.dga-icon-dress-06.stroke.sharp:before {
+  content: "\ea0d";
+}
+.dga-icon-dress-06.solid.sharp:before {
+  content: "\ea0e";
+}
+.dga-icon-dress-07 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-dress-07:before, 
+.dga-icon-dress-07.stroke.rounded:before {
+  content: "\ea0f";
+}
+.dga-icon-dress-07.twotone.rounded:before {
+  content: "\ea10";
+  opacity: 0.4;
+}
+.dga-icon-dress-07.twotone.rounded:after {
+  content: "\ea11";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-07.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dress-07.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dress-07.duotone.rounded .path1:before {
+  content: "\ea12";
+  opacity: 0.4;
+}
+.dga-icon-dress-07.duotone.rounded .path2:before {
+  content: "\ea13";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-07.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-07.duotone.rounded .path3:before {
+  content: "\ea14";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-07.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-07.solid.rounded:before {
+  content: "\ea15";
+}
+.dga-icon-dress-07.bulk.rounded:before {
+  content: "\ea16";
+  opacity: 0.4;
+}
+.dga-icon-dress-07.bulk.rounded:after {
+  content: "\ea17";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dress-07.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dress-07.stroke.sharp:before {
+  content: "\ea18";
+}
+.dga-icon-dress-07.solid.sharp:before {
+  content: "\ea19";
+}
+.dga-icon-ear-rings-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-ear-rings-01:before, 
+.dga-icon-ear-rings-01.stroke.rounded:before {
+  content: "\ea1a";
+}
+.dga-icon-ear-rings-01.twotone.rounded:before {
+  content: "\ea1b";
+}
+.dga-icon-ear-rings-01.twotone.rounded:after {
+  content: "\ea1c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ear-rings-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ear-rings-01.duotone.rounded .path1:before {
+  content: "\ea1d";
+  opacity: 0.4;
+}
+.dga-icon-ear-rings-01.duotone.rounded .path2:before {
+  content: "\ea1e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-01.duotone.rounded .path3:before {
+  content: "\ea1f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-01.solid.rounded:before {
+  content: "\ea20";
+}
+.dga-icon-ear-rings-01.bulk.rounded:before {
+  content: "\ea21";
+}
+.dga-icon-ear-rings-01.bulk.rounded:after {
+  content: "\ea22";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-01.stroke.sharp:before {
+  content: "\ea23";
+}
+.dga-icon-ear-rings-01.solid.sharp:before {
+  content: "\ea24";
+}
+.dga-icon-ear-rings-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-ear-rings-02:before, 
+.dga-icon-ear-rings-02.stroke.rounded:before {
+  content: "\ea25";
+}
+body:has(.active-screen) .dga-icon-ear-rings-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-ear-rings-02.twotone.rounded .path1:before {
+  content: "\ea26";
+  opacity: 0.4;
+}
+.dga-icon-ear-rings-02.twotone.rounded .path2:before {
+  content: "\ea27";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.twotone.rounded .path3:before {
+  content: "\ea28";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.twotone.rounded .path4:before {
+  content: "\ea29";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ear-rings-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ear-rings-02.duotone.rounded .path1:before {
+  content: "\ea2a";
+  opacity: 0.4;
+}
+.dga-icon-ear-rings-02.duotone.rounded .path2:before {
+  content: "\ea2b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.duotone.rounded .path3:before {
+  content: "\ea2c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.duotone.rounded .path4:before {
+  content: "\ea2d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.solid.rounded:before {
+  content: "\ea2e";
+}
+body:has(.active-screen) .dga-icon-ear-rings-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-ear-rings-02.bulk.rounded .path1:before {
+  content: "\ea2f";
+  opacity: 0.4;
+}
+.dga-icon-ear-rings-02.bulk.rounded .path2:before {
+  content: "\ea30";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.bulk.rounded .path3:before {
+  content: "\ea31";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.bulk.rounded .path4:before {
+  content: "\ea32";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-02.stroke.sharp:before {
+  content: "\ea33";
+}
+.dga-icon-ear-rings-02.solid.sharp:before {
+  content: "\ea34";
+}
+.dga-icon-ear-rings-03 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-ear-rings-03:before, 
+.dga-icon-ear-rings-03.stroke.rounded:before {
+  content: "\ea35";
+}
+.dga-icon-ear-rings-03.twotone.rounded:before {
+  content: "\ea36";
+}
+.dga-icon-ear-rings-03.twotone.rounded:after {
+  content: "\ea37";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-03.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ear-rings-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ear-rings-03.duotone.rounded .path1:before {
+  content: "\ea38";
+  opacity: 0.4;
+}
+.dga-icon-ear-rings-03.duotone.rounded .path2:before {
+  content: "\ea39";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-03.duotone.rounded .path3:before {
+  content: "\ea3a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-03.solid.rounded:before {
+  content: "\ea3b";
+}
+body:has(.active-screen) .dga-icon-ear-rings-03.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-ear-rings-03.bulk.rounded .path1:before {
+  content: "\ea3c";
+  opacity: 0.4;
+}
+.dga-icon-ear-rings-03.bulk.rounded .path2:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear-rings-03.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-03.bulk.rounded .path3:before {
+  content: "\ea3e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-03.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-03.bulk.rounded .path4:before {
+  content: "\ea3f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear-rings-03.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear-rings-03.stroke.sharp:before {
+  content: "\ea40";
+}
+.dga-icon-ear-rings-03.solid.sharp:before {
+  content: "\ea41";
+}
+.dga-icon-hair-clips {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-hair-clips:before, 
+.dga-icon-hair-clips.stroke.rounded:before {
+  content: "\ea42";
+}
+body:has(.active-screen) .dga-icon-hair-clips.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hair-clips.twotone.rounded .path1:before {
+  content: "\ea43";
+}
+.dga-icon-hair-clips.twotone.rounded .path2:before {
+  content: "\ea44";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hair-clips.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-clips.twotone.rounded .path3:before {
+  content: "\ea45";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hair-clips.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-clips.duotone.rounded:before {
+  content: "\ea46";
+  opacity: 0.4;
+}
+.dga-icon-hair-clips.duotone.rounded:after {
+  content: "\ea47";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hair-clips.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-clips.solid.rounded:before {
+  content: "\ea48";
+}
+body:has(.active-screen) .dga-icon-hair-clips.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hair-clips.bulk.rounded .path1:before {
+  content: "\ea49";
+  opacity: 0.4;
+}
+.dga-icon-hair-clips.bulk.rounded .path2:before {
+  content: "\ea4a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hair-clips.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-clips.bulk.rounded .path3:before {
+  content: "\ea4b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hair-clips.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-clips.stroke.sharp:before {
+  content: "\ea4c";
+}
+.dga-icon-hair-clips.solid.sharp:before {
+  content: "\ea4d";
+}
+.dga-icon-hair-dryer {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-hair-dryer:before, 
+.dga-icon-hair-dryer.stroke.rounded:before {
+  content: "\ea4e";
+}
+body:has(.active-screen) .dga-icon-hair-dryer.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hair-dryer.twotone.rounded .path1:before {
+  content: "\ea4f";
+}
+.dga-icon-hair-dryer.twotone.rounded .path2:before {
+  content: "\ea50";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hair-dryer.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-dryer.twotone.rounded .path3:before {
+  content: "\ea51";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hair-dryer.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-dryer.duotone.rounded:before {
+  content: "\ea52";
+  opacity: 0.4;
+}
+.dga-icon-hair-dryer.duotone.rounded:after {
+  content: "\ea53";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hair-dryer.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-dryer.solid.rounded:before {
+  content: "\ea54";
+}
+body:has(.active-screen) .dga-icon-hair-dryer.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hair-dryer.bulk.rounded .path1:before {
+  content: "\ea55";
+  opacity: 0.4;
+}
+.dga-icon-hair-dryer.bulk.rounded .path2:before {
+  content: "\ea56";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hair-dryer.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-dryer.bulk.rounded .path3:before {
+  content: "\ea57";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hair-dryer.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hair-dryer.stroke.sharp:before {
+  content: "\ea58";
+}
+.dga-icon-hair-dryer.solid.sharp:before {
+  content: "\ea59";
+}
+.dga-icon-hand-bag-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-hand-bag-01:before, 
+.dga-icon-hand-bag-01.stroke.rounded:before {
+  content: "\ea5a";
+}
+.dga-icon-hand-bag-01.twotone.rounded:before {
+  content: "\ea5b";
+}
+.dga-icon-hand-bag-01.twotone.rounded:after {
+  content: "\ea5c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-bag-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-01.duotone.rounded:before {
+  content: "\ea5d";
+  opacity: 0.4;
+}
+.dga-icon-hand-bag-01.duotone.rounded:after {
+  content: "\ea5e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-bag-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-01.solid.rounded:before {
+  content: "\ea5f";
+}
+body:has(.active-screen) .dga-icon-hand-bag-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hand-bag-01.bulk.rounded .path1:before {
+  content: "\ea60";
+  opacity: 0.4;
+}
+.dga-icon-hand-bag-01.bulk.rounded .path2:before {
+  content: "\ea61";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-bag-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-01.bulk.rounded .path3:before {
+  content: "\ea62";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-bag-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-01.bulk.rounded .path4:before {
+  content: "\ea63";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-bag-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-01.stroke.sharp:before {
+  content: "\ea64";
+}
+.dga-icon-hand-bag-01.solid.sharp:before {
+  content: "\ea65";
+}
+.dga-icon-hand-bag-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-hand-bag-02:before, 
+.dga-icon-hand-bag-02.stroke.rounded:before {
+  content: "\ea66";
+}
+.dga-icon-hand-bag-02.twotone.rounded:before {
+  content: "\ea67";
+  opacity: 0.4;
+}
+.dga-icon-hand-bag-02.twotone.rounded:after {
+  content: "\ea68";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-bag-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-02.duotone.rounded:before {
+  content: "\ea69";
+  opacity: 0.4;
+}
+.dga-icon-hand-bag-02.duotone.rounded:after {
+  content: "\ea6a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-bag-02.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-02.solid.rounded:before {
+  content: "\ea6b";
+}
+body:has(.active-screen) .dga-icon-hand-bag-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hand-bag-02.bulk.rounded .path1:before {
+  content: "\ea6c";
+}
+.dga-icon-hand-bag-02.bulk.rounded .path2:before {
+  content: "\ea6d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-bag-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-02.bulk.rounded .path3:before {
+  content: "\ea6e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-bag-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-bag-02.stroke.sharp:before {
+  content: "\ea6f";
+}
+.dga-icon-hand-bag-02.solid.sharp:before {
+  content: "\ea70";
+}
+.dga-icon-hanger {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-hanger:before, 
+.dga-icon-hanger.stroke.rounded:before {
+  content: "\ea71";
+}
+.dga-icon-hanger.twotone.rounded:before {
+  content: "\ea72";
+}
+.dga-icon-hanger.twotone.rounded:after {
+  content: "\ea73";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hanger.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hanger.duotone.rounded:before {
+  content: "\ea74";
+  opacity: 0.4;
+}
+.dga-icon-hanger.duotone.rounded:after {
+  content: "\ea75";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hanger.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hanger.solid.rounded:before {
+  content: "\ea76";
+}
+.dga-icon-hanger.bulk.rounded:before {
+  content: "\ea77";
+  opacity: 0.4;
+}
+.dga-icon-hanger.bulk.rounded:after {
+  content: "\ea78";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hanger.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hanger.stroke.sharp:before {
+  content: "\ea79";
+}
+.dga-icon-hanger.solid.sharp:before {
+  content: "\ea7a";
+}
+.dga-icon-high-heels-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-high-heels-01:before, 
+.dga-icon-high-heels-01.stroke.rounded:before {
+  content: "\ea7b";
+}
+body:has(.active-screen) .dga-icon-high-heels-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-high-heels-01.twotone.rounded .path1:before {
+  content: "\ea7c";
+  opacity: 0.4;
+}
+.dga-icon-high-heels-01.twotone.rounded .path2:before {
+  content: "\ea7d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-high-heels-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-01.twotone.rounded .path3:before {
+  content: "\ea7e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-high-heels-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-01.duotone.rounded:before {
+  content: "\ea7f";
+  opacity: 0.4;
+}
+.dga-icon-high-heels-01.duotone.rounded:after {
+  content: "\ea80";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-high-heels-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-01.solid.rounded:before {
+  content: "\ea81";
+}
+.dga-icon-high-heels-01.bulk.rounded:before {
+  content: "\ea82";
+  opacity: 0.4;
+}
+.dga-icon-high-heels-01.bulk.rounded:after {
+  content: "\ea83";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-high-heels-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-01.stroke.sharp:before {
+  content: "\ea84";
+}
+.dga-icon-high-heels-01.solid.sharp:before {
+  content: "\ea85";
+}
+.dga-icon-high-heels-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-high-heels-02:before, 
+.dga-icon-high-heels-02.stroke.rounded:before {
+  content: "\ea86";
+}
+.dga-icon-high-heels-02.twotone.rounded:before {
+  content: "\ea87";
+}
+.dga-icon-high-heels-02.twotone.rounded:after {
+  content: "\ea88";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-high-heels-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-high-heels-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-high-heels-02.duotone.rounded .path1:before {
+  content: "\ea89";
+  opacity: 0.4;
+}
+.dga-icon-high-heels-02.duotone.rounded .path2:before {
+  content: "\ea8a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-high-heels-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-02.duotone.rounded .path3:before {
+  content: "\ea8b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-high-heels-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-02.solid.rounded:before {
+  content: "\ea8c";
+}
+body:has(.active-screen) .dga-icon-high-heels-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-high-heels-02.bulk.rounded .path1:before {
+  content: "\ea8d";
+  opacity: 0.4;
+}
+.dga-icon-high-heels-02.bulk.rounded .path2:before {
+  content: "\ea8e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-high-heels-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-02.bulk.rounded .path3:before {
+  content: "\ea8f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-high-heels-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-high-heels-02.stroke.sharp:before {
+  content: "\ea90";
+}
+.dga-icon-high-heels-02.solid.sharp:before {
+  content: "\ea91";
+}
+.dga-icon-hoodie {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-hoodie:before, 
+.dga-icon-hoodie.stroke.rounded:before {
+  content: "\ea92";
+}
+body:has(.active-screen) .dga-icon-hoodie.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hoodie.twotone.rounded .path1:before {
+  content: "\ea93";
+  opacity: 0.4;
+}
+.dga-icon-hoodie.twotone.rounded .path2:before {
+  content: "\ea94";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hoodie.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.twotone.rounded .path3:before {
+  content: "\ea95";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hoodie.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.twotone.rounded .path4:before {
+  content: "\ea96";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hoodie.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.duotone.rounded:before {
+  content: "\ea97";
+  opacity: 0.4;
+}
+.dga-icon-hoodie.duotone.rounded:after {
+  content: "\ea98";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hoodie.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.solid.rounded:before {
+  content: "\ea99";
+}
+body:has(.active-screen) .dga-icon-hoodie.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hoodie.bulk.rounded .path1:before {
+  content: "\ea9a";
+  opacity: 0.4;
+}
+.dga-icon-hoodie.bulk.rounded .path2:before {
+  content: "\ea9b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hoodie.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.bulk.rounded .path3:before {
+  content: "\ea9c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hoodie.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.bulk.rounded .path4:before {
+  content: "\ea9d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hoodie.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hoodie.stroke.sharp:before {
+  content: "\ea9e";
+}
+.dga-icon-hoodie.solid.sharp:before {
+  content: "\ea9f";
+}
+.dga-icon-jogger-pants {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-jogger-pants:before, 
+.dga-icon-jogger-pants.stroke.rounded:before {
+  content: "\eaa0";
+}
+.dga-icon-jogger-pants.twotone.rounded:before {
+  content: "\eaa1";
+}
+.dga-icon-jogger-pants.twotone.rounded:after {
+  content: "\eaa2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-jogger-pants.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-jogger-pants.duotone.rounded:before {
+  content: "\eaa3";
+  opacity: 0.4;
+}
+.dga-icon-jogger-pants.duotone.rounded:after {
+  content: "\eaa4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-jogger-pants.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-jogger-pants.solid.rounded:before {
+  content: "\eaa5";
+}
+.dga-icon-jogger-pants.bulk.rounded:before {
+  content: "\eaa6";
+  opacity: 0.4;
+}
+.dga-icon-jogger-pants.bulk.rounded:after {
+  content: "\eaa7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-jogger-pants.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-jogger-pants.stroke.sharp:before {
+  content: "\eaa8";
+}
+.dga-icon-jogger-pants.solid.sharp:before {
+  content: "\eaa9";
+}
+.dga-icon-kurta {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-kurta:before, 
+.dga-icon-kurta.stroke.rounded:before {
+  content: "\eaaa";
+}
+.dga-icon-kurta.twotone.rounded:before {
+  content: "\eaab";
+}
+.dga-icon-kurta.twotone.rounded:after {
+  content: "\eaac";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kurta.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta.duotone.rounded:before {
+  content: "\eaad";
+  opacity: 0.4;
+}
+.dga-icon-kurta.duotone.rounded:after {
+  content: "\eaae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kurta.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta.solid.rounded:before {
+  content: "\eaaf";
+}
+.dga-icon-kurta.bulk.rounded:before {
+  content: "\eab0";
+  opacity: 0.4;
+}
+.dga-icon-kurta.bulk.rounded:after {
+  content: "\eab1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kurta.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kurta.stroke.sharp:before {
+  content: "\eab2";
+}
+.dga-icon-kurta.solid.sharp:before {
+  content: "\eab3";
+}
+.dga-icon-long-sleeve-shirt {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-long-sleeve-shirt:before, 
+.dga-icon-long-sleeve-shirt.stroke.rounded:before {
+  content: "\eab4";
+}
+.dga-icon-long-sleeve-shirt.twotone.rounded:before {
+  content: "\eab5";
+}
+.dga-icon-long-sleeve-shirt.twotone.rounded:after {
+  content: "\eab6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-long-sleeve-shirt.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-long-sleeve-shirt.duotone.rounded:before {
+  content: "\eab7";
+  opacity: 0.4;
+}
+.dga-icon-long-sleeve-shirt.duotone.rounded:after {
+  content: "\eab8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-long-sleeve-shirt.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-long-sleeve-shirt.solid.rounded:before {
+  content: "\eab9";
+}
+.dga-icon-long-sleeve-shirt.bulk.rounded:before {
+  content: "\eaba";
+  opacity: 0.4;
+}
+.dga-icon-long-sleeve-shirt.bulk.rounded:after {
+  content: "\eabb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-long-sleeve-shirt.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-long-sleeve-shirt.stroke.sharp:before {
+  content: "\eabc";
+}
+.dga-icon-long-sleeve-shirt.solid.sharp:before {
+  content: "\eabd";
+}
+.dga-icon-monocle {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-monocle:before, 
+.dga-icon-monocle.stroke.rounded:before {
+  content: "\eabe";
+}
+.dga-icon-monocle.twotone.rounded:before {
+  content: "\eabf";
+}
+.dga-icon-monocle.twotone.rounded:after {
+  content: "\eac0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-monocle.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-monocle.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-monocle.duotone.rounded .path1:before {
+  content: "\eac1";
+  opacity: 0.4;
+}
+.dga-icon-monocle.duotone.rounded .path2:before {
+  content: "\eac2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.duotone.rounded .path3:before {
+  content: "\eac3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.duotone.rounded .path4:before {
+  content: "\eac4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.duotone.rounded .path5:before {
+  content: "\eac5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.duotone.rounded .path6:before {
+  content: "\eac6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.duotone.rounded .path7:before {
+  content: "\eac7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.duotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.solid.rounded:before {
+  content: "\eac8";
+}
+.dga-icon-monocle.bulk.rounded:before {
+  content: "\eac9";
+  opacity: 0.4;
+}
+.dga-icon-monocle.bulk.rounded:after {
+  content: "\eaca";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-monocle.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-monocle.stroke.sharp:before {
+  content: "\eacb";
+}
+.dga-icon-monocle.solid.sharp:before {
+  content: "\eacc";
+}
+.dga-icon-necklace {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-necklace:before, 
+.dga-icon-necklace.stroke.rounded:before {
+  content: "\eacd";
+}
+body:has(.active-screen) .dga-icon-necklace.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-necklace.twotone.rounded .path1:before {
+  content: "\eace";
+}
+.dga-icon-necklace.twotone.rounded .path2:before {
+  content: "\eacf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-necklace.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-necklace.twotone.rounded .path3:before {
+  content: "\ead0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-necklace.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-necklace.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-necklace.duotone.rounded .path1:before {
+  content: "\ead1";
+  opacity: 0.4;
+}
+.dga-icon-necklace.duotone.rounded .path2:before {
+  content: "\ead2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-necklace.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-necklace.duotone.rounded .path3:before {
+  content: "\ead3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-necklace.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-necklace.duotone.rounded .path4:before {
+  content: "\ead4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-necklace.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-necklace.solid.rounded:before {
+  content: "\ead5";
+}
+body:has(.active-screen) .dga-icon-necklace.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-necklace.bulk.rounded .path1:before {
+  content: "\ead6";
+  opacity: 0.4;
+}
+.dga-icon-necklace.bulk.rounded .path2:before {
+  content: "\ead7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-necklace.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-necklace.bulk.rounded .path3:before {
+  content: "\ead8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-necklace.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-necklace.stroke.sharp:before {
+  content: "\ead9";
+}
+.dga-icon-necklace.solid.sharp:before {
+  content: "\eada";
+}
+.dga-icon-perfume {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-perfume:before, 
+.dga-icon-perfume.stroke.rounded:before {
+  content: "\eadb";
+}
+body:has(.active-screen) .dga-icon-perfume.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-perfume.twotone.rounded .path1:before {
+  content: "\eadc";
+}
+.dga-icon-perfume.twotone.rounded .path2:before {
+  content: "\eadd";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-perfume.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-perfume.twotone.rounded .path3:before {
+  content: "\eade";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-perfume.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-perfume.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-perfume.duotone.rounded .path1:before {
+  content: "\eadf";
+  opacity: 0.4;
+}
+.dga-icon-perfume.duotone.rounded .path2:before {
+  content: "\eae0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-perfume.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-perfume.duotone.rounded .path3:before {
+  content: "\eae1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-perfume.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-perfume.solid.rounded:before {
+  content: "\eae2";
+}
+.dga-icon-perfume.bulk.rounded:before {
+  content: "\eae3";
+  opacity: 0.4;
+}
+.dga-icon-perfume.bulk.rounded:after {
+  content: "\eae4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-perfume.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-perfume.stroke.sharp:before {
+  content: "\eae5";
+}
+.dga-icon-perfume.solid.sharp:before {
+  content: "\eae6";
+}
+.dga-icon-poop {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-poop:before, 
+.dga-icon-poop.stroke.rounded:before {
+  content: "\eae7";
+}
+.dga-icon-poop.twotone.rounded:before {
+  content: "\eae8";
+  opacity: 0.4;
+}
+.dga-icon-poop.twotone.rounded:after {
+  content: "\eae9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-poop.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-poop.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-poop.duotone.rounded .path1:before {
+  content: "\eaea";
+  opacity: 0.4;
+}
+.dga-icon-poop.duotone.rounded .path2:before {
+  content: "\eaeb";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-poop.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-poop.duotone.rounded .path3:before {
+  content: "\eaec";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-poop.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-poop.solid.rounded:before {
+  content: "\eaed";
+}
+body:has(.active-screen) .dga-icon-poop.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-poop.bulk.rounded .path1:before {
+  content: "\eaee";
+}
+.dga-icon-poop.bulk.rounded .path2:before {
+  content: "\eaef";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-poop.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-poop.bulk.rounded .path3:before {
+  content: "\eaf0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-poop.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-poop.stroke.sharp:before {
+  content: "\eaf1";
+}
+.dga-icon-poop.solid.sharp:before {
+  content: "\eaf2";
+}
+.dga-icon-purse-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-purse-01:before, 
+.dga-icon-purse-01.stroke.rounded:before {
+  content: "\eaf3";
+}
+.dga-icon-purse-01.twotone.rounded:before {
+  content: "\eaf4";
+  opacity: 0.4;
+}
+.dga-icon-purse-01.twotone.rounded:after {
+  content: "\eaf5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-purse-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-purse-01.duotone.rounded:before {
+  content: "\eaf6";
+  opacity: 0.4;
+}
+.dga-icon-purse-01.duotone.rounded:after {
+  content: "\eaf7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-purse-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-purse-01.solid.rounded:before {
+  content: "\eaf8";
+}
+.dga-icon-purse-01.bulk.rounded:before {
+  content: "\eaf9";
+  opacity: 0.4;
+}
+.dga-icon-purse-01.bulk.rounded:after {
+  content: "\eafa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-purse-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-purse-01.stroke.sharp:before {
+  content: "\eafb";
+}
+.dga-icon-purse-01.solid.sharp:before {
+  content: "\eafc";
+}
+.dga-icon-safety-pin-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-safety-pin-01:before, 
+.dga-icon-safety-pin-01.stroke.rounded:before {
+  content: "\eafd";
+}
+body:has(.active-screen) .dga-icon-safety-pin-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-safety-pin-01.twotone.rounded .path1:before {
+  content: "\eafe";
+}
+.dga-icon-safety-pin-01.twotone.rounded .path2:before {
+  content: "\eaff";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.twotone.rounded .path3:before {
+  content: "\eb00";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.twotone.rounded .path4:before {
+  content: "\eb01";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-safety-pin-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-safety-pin-01.duotone.rounded .path1:before {
+  content: "\eb02";
+  opacity: 0.4;
+}
+.dga-icon-safety-pin-01.duotone.rounded .path2:before {
+  content: "\eb03";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.duotone.rounded .path3:before {
+  content: "\eb04";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.solid.rounded:before {
+  content: "\eb05";
+}
+body:has(.active-screen) .dga-icon-safety-pin-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-safety-pin-01.bulk.rounded .path1:before {
+  content: "\eb06";
+  opacity: 0.4;
+}
+.dga-icon-safety-pin-01.bulk.rounded .path2:before {
+  content: "\eb07";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.bulk.rounded .path3:before {
+  content: "\eb08";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.bulk.rounded .path4:before {
+  content: "\eb09";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-01.stroke.sharp:before {
+  content: "\eb0a";
+}
+.dga-icon-safety-pin-01.solid.sharp:before {
+  content: "\eb0b";
+}
+.dga-icon-safety-pin-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-safety-pin-02:before, 
+.dga-icon-safety-pin-02.stroke.rounded:before {
+  content: "\eb0c";
+}
+body:has(.active-screen) .dga-icon-safety-pin-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-safety-pin-02.twotone.rounded .path1:before {
+  content: "\eb0d";
+}
+.dga-icon-safety-pin-02.twotone.rounded .path2:before {
+  content: "\eb0e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.twotone.rounded .path3:before {
+  content: "\eb0f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.twotone.rounded .path4:before {
+  content: "\eb10";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-safety-pin-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-safety-pin-02.duotone.rounded .path1:before {
+  content: "\eb11";
+  opacity: 0.4;
+}
+.dga-icon-safety-pin-02.duotone.rounded .path2:before {
+  content: "\eb12";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.duotone.rounded .path3:before {
+  content: "\eb13";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.solid.rounded:before {
+  content: "\eb14";
+}
+body:has(.active-screen) .dga-icon-safety-pin-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-safety-pin-02.bulk.rounded .path1:before {
+  content: "\eb15";
+  opacity: 0.4;
+}
+.dga-icon-safety-pin-02.bulk.rounded .path2:before {
+  content: "\eb16";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-safety-pin-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.bulk.rounded .path3:before {
+  content: "\eb17";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.bulk.rounded .path4:before {
+  content: "\eb18";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safety-pin-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safety-pin-02.stroke.sharp:before {
+  content: "\eb19";
+}
+.dga-icon-safety-pin-02.solid.sharp:before {
+  content: "\eb1a";
+}
+.dga-icon-sandals {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-sandals:before, 
+.dga-icon-sandals.stroke.rounded:before {
+  content: "\eb1b";
+}
+body:has(.active-screen) .dga-icon-sandals.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-sandals.twotone.rounded .path1:before {
+  content: "\eb1c";
+}
+.dga-icon-sandals.twotone.rounded .path2:before {
+  content: "\eb1d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sandals.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.twotone.rounded .path3:before {
+  content: "\eb1e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sandals.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.twotone.rounded .path4:before {
+  content: "\eb1f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sandals.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-sandals.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-sandals.duotone.rounded .path1:before {
+  content: "\eb20";
+  opacity: 0.4;
+}
+.dga-icon-sandals.duotone.rounded .path2:before {
+  content: "\eb21";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sandals.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.duotone.rounded .path3:before {
+  content: "\eb22";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sandals.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.duotone.rounded .path4:before {
+  content: "\eb23";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sandals.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.solid.rounded:before {
+  content: "\eb24";
+}
+body:has(.active-screen) .dga-icon-sandals.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-sandals.bulk.rounded .path1:before {
+  content: "\eb25";
+  opacity: 0.4;
+}
+.dga-icon-sandals.bulk.rounded .path2:before {
+  content: "\eb26";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sandals.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.bulk.rounded .path3:before {
+  content: "\eb27";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sandals.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.bulk.rounded .path4:before {
+  content: "\eb28";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sandals.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sandals.stroke.sharp:before {
+  content: "\eb29";
+}
+.dga-icon-sandals.solid.sharp:before {
+  content: "\eb2a";
+}
+.dga-icon-shampoo {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-shampoo:before, 
+.dga-icon-shampoo.stroke.rounded:before {
+  content: "\eb2b";
+}
+.dga-icon-shampoo.twotone.rounded:before {
+  content: "\eb2c";
+}
+.dga-icon-shampoo.twotone.rounded:after {
+  content: "\eb2d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-shampoo.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-shampoo.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-shampoo.duotone.rounded .path1:before {
+  content: "\eb2e";
+  opacity: 0.4;
+}
+.dga-icon-shampoo.duotone.rounded .path2:before {
+  content: "\eb2f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-shampoo.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shampoo.duotone.rounded .path3:before {
+  content: "\eb30";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-shampoo.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shampoo.solid.rounded:before {
+  content: "\eb31";
+}
+.dga-icon-shampoo.bulk.rounded:before {
+  content: "\eb32";
+  opacity: 0.4;
+}
+.dga-icon-shampoo.bulk.rounded:after {
+  content: "\eb33";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-shampoo.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shampoo.stroke.sharp:before {
+  content: "\eb34";
+}
+.dga-icon-shampoo.solid.sharp:before {
+  content: "\eb35";
+}
+.dga-icon-shirt-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-shirt-01:before, 
+.dga-icon-shirt-01.stroke.rounded:before {
+  content: "\eb36";
+}
+.dga-icon-shirt-01.twotone.rounded:before {
+  content: "\eb37";
+}
+.dga-icon-shirt-01.twotone.rounded:after {
+  content: "\eb38";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-shirt-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shirt-01.duotone.rounded:before {
+  content: "\eb39";
+  opacity: 0.4;
+}
+.dga-icon-shirt-01.duotone.rounded:after {
+  content: "\eb3a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-shirt-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shirt-01.solid.rounded:before {
+  content: "\eb3b";
+}
+.dga-icon-shirt-01.bulk.rounded:before {
+  content: "\eb3c";
+}
+.dga-icon-shirt-01.stroke.sharp:before {
+  content: "\eb3d";
+}
+.dga-icon-shirt-01.solid.sharp:before {
+  content: "\eb3e";
+}
+.dga-icon-shorts-pants {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-shorts-pants:before, 
+.dga-icon-shorts-pants.stroke.rounded:before {
+  content: "\eb3f";
+}
+body:has(.active-screen) .dga-icon-shorts-pants.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-shorts-pants.twotone.rounded .path1:before {
+  content: "\eb40";
+}
+.dga-icon-shorts-pants.twotone.rounded .path2:before {
+  content: "\eb41";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-shorts-pants.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shorts-pants.twotone.rounded .path3:before {
+  content: "\eb42";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-shorts-pants.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shorts-pants.duotone.rounded:before {
+  content: "\eb43";
+  opacity: 0.4;
+}
+.dga-icon-shorts-pants.duotone.rounded:after {
+  content: "\eb44";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-shorts-pants.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shorts-pants.solid.rounded:before {
+  content: "\eb45";
+}
+body:has(.active-screen) .dga-icon-shorts-pants.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-shorts-pants.bulk.rounded .path1:before {
+  content: "\eb46";
+  opacity: 0.4;
+}
+.dga-icon-shorts-pants.bulk.rounded .path2:before {
+  content: "\eb47";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-shorts-pants.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shorts-pants.bulk.rounded .path3:before {
+  content: "\eb48";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-shorts-pants.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-shorts-pants.stroke.sharp:before {
+  content: "\eb49";
+}
+.dga-icon-shorts-pants.solid.sharp:before {
+  content: "\eb4a";
+}
+.dga-icon-sleeveless {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-sleeveless:before, 
+.dga-icon-sleeveless.stroke.rounded:before {
+  content: "\eb4b";
+}
+.dga-icon-sleeveless.twotone.rounded:before {
+  content: "\eb4c";
+}
+.dga-icon-sleeveless.twotone.rounded:after {
+  content: "\eb4d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sleeveless.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sleeveless.duotone.rounded:before {
+  content: "\eb4e";
+  opacity: 0.4;
+}
+.dga-icon-sleeveless.duotone.rounded:after {
+  content: "\eb4f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sleeveless.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sleeveless.solid.rounded:before {
+  content: "\eb50";
+}
+body:has(.active-screen) .dga-icon-sleeveless.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-sleeveless.bulk.rounded .path1:before {
+  content: "\eb51";
+  opacity: 0.4;
+}
+.dga-icon-sleeveless.bulk.rounded .path2:before {
+  content: "\eb52";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sleeveless.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sleeveless.bulk.rounded .path3:before {
+  content: "\eb53";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sleeveless.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sleeveless.bulk.rounded .path4:before {
+  content: "\eb54";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sleeveless.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sleeveless.bulk.rounded .path5:before {
+  content: "\eb55";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sleeveless.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sleeveless.stroke.sharp:before {
+  content: "\eb56";
+}
+.dga-icon-sleeveless.solid.sharp:before {
+  content: "\eb57";
+}
+.dga-icon-suit-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-suit-01:before, 
+.dga-icon-suit-01.stroke.rounded:before {
+  content: "\eb58";
+}
+.dga-icon-suit-01.twotone.rounded:before {
+  content: "\eb59";
+  opacity: 0.4;
+}
+.dga-icon-suit-01.twotone.rounded:after {
+  content: "\eb5a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-suit-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-suit-01.duotone.rounded .path1:before {
+  content: "\eb5b";
+  opacity: 0.4;
+}
+.dga-icon-suit-01.duotone.rounded .path2:before {
+  content: "\eb5c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.duotone.rounded .path3:before {
+  content: "\eb5d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.duotone.rounded .path4:before {
+  content: "\eb5e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.duotone.rounded .path5:before {
+  content: "\eb5f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.solid.rounded:before {
+  content: "\eb60";
+}
+body:has(.active-screen) .dga-icon-suit-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-suit-01.bulk.rounded .path1:before {
+  content: "\eb61";
+  opacity: 0.4;
+}
+.dga-icon-suit-01.bulk.rounded .path2:before {
+  content: "\eb62";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.bulk.rounded .path3:before {
+  content: "\eb63";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.bulk.rounded .path4:before {
+  content: "\eb64";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.bulk.rounded .path5:before {
+  content: "\eb65";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-01.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-01.stroke.sharp:before {
+  content: "\eb66";
+}
+.dga-icon-suit-01.solid.sharp:before {
+  content: "\eb67";
+}
+.dga-icon-suit-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-suit-02:before, 
+.dga-icon-suit-02.stroke.rounded:before {
+  content: "\eb68";
+}
+.dga-icon-suit-02.twotone.rounded:before {
+  content: "\eb69";
+}
+.dga-icon-suit-02.twotone.rounded:after {
+  content: "\eb6a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-suit-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-suit-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-suit-02.duotone.rounded .path1:before {
+  content: "\eb6b";
+  opacity: 0.4;
+}
+.dga-icon-suit-02.duotone.rounded .path2:before {
+  content: "\eb6c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-suit-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-02.duotone.rounded .path3:before {
+  content: "\eb6d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-suit-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-02.duotone.rounded .path4:before {
+  content: "\eb6e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-suit-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-02.solid.rounded:before {
+  content: "\eb6f";
+}
+.dga-icon-suit-02.bulk.rounded:before {
+  content: "\eb70";
+}
+.dga-icon-suit-02.bulk.rounded:after {
+  content: "\eb71";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-suit-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-suit-02.stroke.sharp:before {
+  content: "\eb72";
+}
+.dga-icon-suit-02.solid.sharp:before {
+  content: "\eb73";
+}
+.dga-icon-tank-top {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-tank-top:before, 
+.dga-icon-tank-top.stroke.rounded:before {
+  content: "\eb74";
+}
+body:has(.active-screen) .dga-icon-tank-top.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-tank-top.twotone.rounded .path1:before {
+  content: "\eb75";
+}
+.dga-icon-tank-top.twotone.rounded .path2:before {
+  content: "\eb76";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tank-top.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tank-top.twotone.rounded .path3:before {
+  content: "\eb77";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tank-top.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tank-top.twotone.rounded .path4:before {
+  content: "\eb78";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tank-top.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-tank-top.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-tank-top.duotone.rounded .path1:before {
+  content: "\eb79";
+  opacity: 0.4;
+}
+.dga-icon-tank-top.duotone.rounded .path2:before {
+  content: "\eb7a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tank-top.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tank-top.duotone.rounded .path3:before {
+  content: "\eb7b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tank-top.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tank-top.solid.rounded:before {
+  content: "\eb7c";
+}
+body:has(.active-screen) .dga-icon-tank-top.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-tank-top.bulk.rounded .path1:before {
+  content: "\eb7d";
+  opacity: 0.4;
+}
+.dga-icon-tank-top.bulk.rounded .path2:before {
+  content: "\eb7e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tank-top.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tank-top.bulk.rounded .path3:before {
+  content: "\eb7f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tank-top.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tank-top.stroke.sharp:before {
+  content: "\eb80";
+}
+.dga-icon-tank-top.solid.sharp:before {
+  content: "\eb81";
+}
+.dga-icon-t-shirt {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-t-shirt:before, 
+.dga-icon-t-shirt.stroke.rounded:before {
+  content: "\eb82";
+}
+body:has(.active-screen) .dga-icon-t-shirt.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-t-shirt.twotone.rounded .path1:before {
+  content: "\eb83";
+}
+.dga-icon-t-shirt.twotone.rounded .path2:before {
+  content: "\eb84";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-t-shirt.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-t-shirt.twotone.rounded .path3:before {
+  content: "\eb85";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-t-shirt.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-t-shirt.duotone.rounded:before {
+  content: "\eb86";
+  opacity: 0.4;
+}
+.dga-icon-t-shirt.duotone.rounded:after {
+  content: "\eb87";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-t-shirt.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-t-shirt.solid.rounded:before {
+  content: "\eb88";
+}
+.dga-icon-t-shirt.bulk.rounded:before {
+  content: "\eb89";
+  opacity: 0.4;
+}
+.dga-icon-t-shirt.bulk.rounded:after {
+  content: "\eb8a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-t-shirt.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-t-shirt.stroke.sharp:before {
+  content: "\eb8b";
+}
+.dga-icon-t-shirt.solid.sharp:before {
+  content: "\eb8c";
+}
+.dga-icon-turtle-neck {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-turtle-neck:before, 
+.dga-icon-turtle-neck.stroke.rounded:before {
+  content: "\eb8d";
+}
+.dga-icon-turtle-neck.twotone.rounded:before {
+  content: "\eb8e";
+}
+.dga-icon-turtle-neck.twotone.rounded:after {
+  content: "\eb8f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-turtle-neck.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-turtle-neck.duotone.rounded:before {
+  content: "\eb90";
+  opacity: 0.4;
+}
+.dga-icon-turtle-neck.duotone.rounded:after {
+  content: "\eb91";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-turtle-neck.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-turtle-neck.solid.rounded:before {
+  content: "\eb92";
+}
+.dga-icon-turtle-neck.bulk.rounded:before {
+  content: "\eb93";
+}
+.dga-icon-turtle-neck.bulk.rounded:after {
+  content: "\eb94";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-turtle-neck.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-turtle-neck.stroke.sharp:before {
+  content: "\eb95";
+}
+.dga-icon-turtle-neck.solid.sharp:before {
+  content: "\eb96";
+}
+.dga-icon-underpants-01 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-underpants-01:before, 
+.dga-icon-underpants-01.stroke.rounded:before {
+  content: "\eb97";
+}
+.dga-icon-underpants-01.twotone.rounded:before {
+  content: "\eb98";
+}
+.dga-icon-underpants-01.twotone.rounded:after {
+  content: "\eb99";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-underpants-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-01.duotone.rounded:before {
+  content: "\eb9a";
+  opacity: 0.4;
+}
+.dga-icon-underpants-01.duotone.rounded:after {
+  content: "\eb9b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-01.solid.rounded:before {
+  content: "\eb9c";
+}
+body:has(.active-screen) .dga-icon-underpants-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-underpants-01.bulk.rounded .path1:before {
+  content: "\eb9d";
+  opacity: 0.4;
+}
+.dga-icon-underpants-01.bulk.rounded .path2:before {
+  content: "\eb9e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-underpants-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-01.bulk.rounded .path3:before {
+  content: "\eb9f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-01.stroke.sharp:before {
+  content: "\eba0";
+}
+.dga-icon-underpants-01.solid.sharp:before {
+  content: "\eba1";
+}
+.dga-icon-underpants-02 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-underpants-02:before, 
+.dga-icon-underpants-02.stroke.rounded:before {
+  content: "\eba2";
+}
+body:has(.active-screen) .dga-icon-underpants-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-underpants-02.twotone.rounded .path1:before {
+  content: "\eba3";
+  opacity: 0.4;
+}
+.dga-icon-underpants-02.twotone.rounded .path2:before {
+  content: "\eba4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-underpants-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-02.twotone.rounded .path3:before {
+  content: "\eba5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-02.duotone.rounded:before {
+  content: "\eba6";
+  opacity: 0.4;
+}
+.dga-icon-underpants-02.duotone.rounded:after {
+  content: "\eba7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-02.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-02.solid.rounded:before {
+  content: "\eba8";
+}
+.dga-icon-underpants-02.bulk.rounded:before {
+  content: "\eba9";
+  opacity: 0.4;
+}
+.dga-icon-underpants-02.bulk.rounded:after {
+  content: "\ebaa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-02.stroke.sharp:before {
+  content: "\ebab";
+}
+.dga-icon-underpants-02.solid.sharp:before {
+  content: "\ebac";
+}
+.dga-icon-underpants-03 {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-underpants-03:before, 
+.dga-icon-underpants-03.stroke.rounded:before {
+  content: "\ebad";
+}
+body:has(.active-screen) .dga-icon-underpants-03.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-underpants-03.twotone.rounded .path1:before {
+  content: "\ebae";
+  opacity: 0.4;
+}
+.dga-icon-underpants-03.twotone.rounded .path2:before {
+  content: "\ebaf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-underpants-03.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.twotone.rounded .path3:before {
+  content: "\ebb0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.twotone.rounded .path4:before {
+  content: "\ebb1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-underpants-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-underpants-03.duotone.rounded .path1:before {
+  content: "\ebb2";
+  opacity: 0.4;
+}
+.dga-icon-underpants-03.duotone.rounded .path2:before {
+  content: "\ebb3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.duotone.rounded .path3:before {
+  content: "\ebb4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.solid.rounded:before {
+  content: "\ebb5";
+}
+body:has(.active-screen) .dga-icon-underpants-03.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-underpants-03.bulk.rounded .path1:before {
+  content: "\ebb6";
+  opacity: 0.4;
+}
+.dga-icon-underpants-03.bulk.rounded .path2:before {
+  content: "\ebb7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.bulk.rounded .path3:before {
+  content: "\ebb8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.bulk.rounded .path4:before {
+  content: "\ebb9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-underpants-03.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-underpants-03.stroke.sharp:before {
+  content: "\ebba";
+}
+.dga-icon-underpants-03.solid.sharp:before {
+  content: "\ebbb";
+}
+.dga-icon-vest {
+  font-family: 'dga-fonts-icons-cloth-accessories' !important;
+}
+.dga-icon-vest:before, 
+.dga-icon-vest.stroke.rounded:before {
+  content: "\ebbc";
+}
+body:has(.active-screen) .dga-icon-vest.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-vest.twotone.rounded .path1:before {
+  content: "\ebbd";
+}
+.dga-icon-vest.twotone.rounded .path2:before {
+  content: "\ebbe";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-vest.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vest.twotone.rounded .path3:before {
+  content: "\ebbf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-vest.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-vest.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-vest.duotone.rounded .path1:before {
+  content: "\ebc0";
+  opacity: 0.4;
+}
+.dga-icon-vest.duotone.rounded .path2:before {
+  content: "\ebc1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vest.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vest.duotone.rounded .path3:before {
+  content: "\ebc2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vest.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vest.solid.rounded:before {
+  content: "\ebc3";
+}
+.dga-icon-vest.bulk.rounded:before {
+  content: "\ebc4";
+  opacity: 0.4;
+}
+.dga-icon-vest.bulk.rounded:after {
+  content: "\ebc5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vest.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vest.stroke.sharp:before {
+  content: "\ebc6";
+}
+.dga-icon-vest.solid.sharp:before {
+  content: "\ebc7";
+}

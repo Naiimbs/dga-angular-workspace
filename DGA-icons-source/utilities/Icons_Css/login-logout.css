@@ -1,0 +1,1228 @@
+.dga-icon-login-01 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-01:before, 
+.dga-icon-login-01.stroke.rounded:before {
+  content: "\e900";
+}
+.dga-icon-login-01.twotone.rounded:before {
+  content: "\e901";
+}
+.dga-icon-login-01.twotone.rounded:after {
+  content: "\e902";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-login-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-01.duotone.rounded .path1:before {
+  content: "\e903";
+  opacity: 0.4;
+}
+.dga-icon-login-01.duotone.rounded .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-01.duotone.rounded .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-01.solid.rounded:before {
+  content: "\e906";
+}
+.dga-icon-login-01.bulk.rounded:before {
+  content: "\e907";
+  opacity: 0.4;
+}
+.dga-icon-login-01.bulk.rounded:after {
+  content: "\e908";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-01.stroke.sharp:before {
+  content: "\e909";
+}
+.dga-icon-login-01.solid.sharp:before {
+  content: "\e90a";
+}
+.dga-icon-login-02 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-02:before, 
+.dga-icon-login-02.stroke.rounded:before {
+  content: "\e90b";
+}
+.dga-icon-login-02.twotone.rounded:before {
+  content: "\e90c";
+}
+.dga-icon-login-02.twotone.rounded:after {
+  content: "\e90d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-login-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-02.duotone.rounded .path1:before {
+  content: "\e90e";
+  opacity: 0.4;
+}
+.dga-icon-login-02.duotone.rounded .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-02.duotone.rounded .path3:before {
+  content: "\e910";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-02.solid.rounded:before {
+  content: "\e911";
+}
+.dga-icon-login-02.bulk.rounded:before {
+  content: "\e912";
+  opacity: 0.4;
+}
+.dga-icon-login-02.bulk.rounded:after {
+  content: "\e913";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-02.stroke.sharp:before {
+  content: "\e914";
+}
+.dga-icon-login-02.solid.sharp:before {
+  content: "\e915";
+}
+.dga-icon-login-03 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-03:before, 
+.dga-icon-login-03.stroke.rounded:before {
+  content: "\e916";
+}
+.dga-icon-login-03.twotone.rounded:before {
+  content: "\e917";
+}
+.dga-icon-login-03.twotone.rounded:after {
+  content: "\e918";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-login-03.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-03.duotone.rounded .path1:before {
+  content: "\e919";
+  opacity: 0.4;
+}
+.dga-icon-login-03.duotone.rounded .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-03.duotone.rounded .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-03.solid.rounded:before {
+  content: "\e91c";
+}
+.dga-icon-login-03.bulk.rounded:before {
+  content: "\e91d";
+  opacity: 0.4;
+}
+.dga-icon-login-03.bulk.rounded:after {
+  content: "\e91e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-03.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-03.stroke.sharp:before {
+  content: "\e91f";
+}
+.dga-icon-login-03.solid.sharp:before {
+  content: "\e920";
+}
+.dga-icon-login-circle-01 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-circle-01:before, 
+.dga-icon-login-circle-01.stroke.rounded:before {
+  content: "\e921";
+}
+.dga-icon-login-circle-01.twotone.rounded:before {
+  content: "\e922";
+}
+.dga-icon-login-circle-01.twotone.rounded:after {
+  content: "\e923";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-login-circle-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-circle-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-circle-01.duotone.rounded .path1:before {
+  content: "\e924";
+  opacity: 0.4;
+}
+.dga-icon-login-circle-01.duotone.rounded .path2:before {
+  content: "\e925";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-01.duotone.rounded .path3:before {
+  content: "\e926";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-01.solid.rounded:before {
+  content: "\e927";
+}
+.dga-icon-login-circle-01.bulk.rounded:before {
+  content: "\e928";
+  opacity: 0.4;
+}
+.dga-icon-login-circle-01.bulk.rounded:after {
+  content: "\e929";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-01.stroke.sharp:before {
+  content: "\e92a";
+}
+.dga-icon-login-circle-01.solid.sharp:before {
+  content: "\e92b";
+}
+.dga-icon-login-circle-02 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-circle-02:before, 
+.dga-icon-login-circle-02.stroke.rounded:before {
+  content: "\e92c";
+}
+.dga-icon-login-circle-02.twotone.rounded:before {
+  content: "\e92d";
+}
+.dga-icon-login-circle-02.twotone.rounded:after {
+  content: "\e92e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-login-circle-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-circle-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-circle-02.duotone.rounded .path1:before {
+  content: "\e92f";
+  opacity: 0.4;
+}
+.dga-icon-login-circle-02.duotone.rounded .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-02.duotone.rounded .path3:before {
+  content: "\e931";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-02.duotone.rounded .path4:before {
+  content: "\e932";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-02.solid.rounded:before {
+  content: "\e933";
+}
+body:has(.active-screen) .dga-icon-login-circle-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-login-circle-02.bulk.rounded .path1:before {
+  content: "\e934";
+  opacity: 0.4;
+}
+.dga-icon-login-circle-02.bulk.rounded .path2:before {
+  content: "\e935";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-02.bulk.rounded .path3:before {
+  content: "\e936";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-circle-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-circle-02.stroke.sharp:before {
+  content: "\e937";
+}
+.dga-icon-login-circle-02.solid.sharp:before {
+  content: "\e938";
+}
+.dga-icon-login-square-01 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-square-01:before, 
+.dga-icon-login-square-01.stroke.rounded:before {
+  content: "\e939";
+}
+.dga-icon-login-square-01.twotone.rounded:before {
+  content: "\e93a";
+  opacity: 0.4;
+}
+.dga-icon-login-square-01.twotone.rounded:after {
+  content: "\e93b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-square-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-square-01.duotone.rounded .path1:before {
+  content: "\e93c";
+  opacity: 0.4;
+}
+.dga-icon-login-square-01.duotone.rounded .path2:before {
+  content: "\e93d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-01.duotone.rounded .path3:before {
+  content: "\e93e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-01.solid.rounded:before {
+  content: "\e93f";
+}
+.dga-icon-login-square-01.bulk.rounded:before {
+  content: "\e940";
+  opacity: 0.4;
+}
+.dga-icon-login-square-01.bulk.rounded:after {
+  content: "\e941";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-01.stroke.sharp:before {
+  content: "\e942";
+}
+.dga-icon-login-square-01.solid.sharp:before {
+  content: "\e943";
+}
+.dga-icon-login-square-02 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-login-square-02:before, 
+.dga-icon-login-square-02.stroke.rounded:before {
+  content: "\e944";
+}
+.dga-icon-login-square-02.twotone.rounded:before {
+  content: "\e945";
+}
+.dga-icon-login-square-02.twotone.rounded:after {
+  content: "\e946";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-login-square-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-login-square-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-login-square-02.duotone.rounded .path1:before {
+  content: "\e947";
+  opacity: 0.4;
+}
+.dga-icon-login-square-02.duotone.rounded .path2:before {
+  content: "\e948";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-02.duotone.rounded .path3:before {
+  content: "\e949";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-02.duotone.rounded .path4:before {
+  content: "\e94a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-02.solid.rounded:before {
+  content: "\e94b";
+}
+body:has(.active-screen) .dga-icon-login-square-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-login-square-02.bulk.rounded .path1:before {
+  content: "\e94c";
+  opacity: 0.4;
+}
+.dga-icon-login-square-02.bulk.rounded .path2:before {
+  content: "\e94d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-02.bulk.rounded .path3:before {
+  content: "\e94e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-login-square-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-login-square-02.stroke.sharp:before {
+  content: "\e94f";
+}
+.dga-icon-login-square-02.solid.sharp:before {
+  content: "\e950";
+}
+.dga-icon-logout-01 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-01:before, 
+.dga-icon-logout-01.stroke.rounded:before {
+  content: "\e951";
+}
+.dga-icon-logout-01.twotone.rounded:before {
+  content: "\e952";
+}
+.dga-icon-logout-01.twotone.rounded:after {
+  content: "\e953";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-01.duotone.rounded .path1:before {
+  content: "\e954";
+  opacity: 0.4;
+}
+.dga-icon-logout-01.duotone.rounded .path2:before {
+  content: "\e955";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-01.duotone.rounded .path3:before {
+  content: "\e956";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-01.solid.rounded:before {
+  content: "\e957";
+}
+.dga-icon-logout-01.bulk.rounded:before {
+  content: "\e958";
+  opacity: 0.4;
+}
+.dga-icon-logout-01.bulk.rounded:after {
+  content: "\e959";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-01.stroke.sharp:before {
+  content: "\e95a";
+}
+.dga-icon-logout-01.solid.sharp:before {
+  content: "\e95b";
+}
+.dga-icon-logout-02 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-02:before, 
+.dga-icon-logout-02.stroke.rounded:before {
+  content: "\e95c";
+}
+.dga-icon-logout-02.twotone.rounded:before {
+  content: "\e95d";
+}
+.dga-icon-logout-02.twotone.rounded:after {
+  content: "\e95e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-02.duotone.rounded .path1:before {
+  content: "\e95f";
+  opacity: 0.4;
+}
+.dga-icon-logout-02.duotone.rounded .path2:before {
+  content: "\e960";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-02.duotone.rounded .path3:before {
+  content: "\e961";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-02.solid.rounded:before {
+  content: "\e962";
+}
+.dga-icon-logout-02.bulk.rounded:before {
+  content: "\e963";
+  opacity: 0.4;
+}
+.dga-icon-logout-02.bulk.rounded:after {
+  content: "\e964";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-02.stroke.sharp:before {
+  content: "\e965";
+}
+.dga-icon-logout-02.solid.sharp:before {
+  content: "\e966";
+}
+.dga-icon-logout-03 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-03:before, 
+.dga-icon-logout-03.stroke.rounded:before {
+  content: "\e967";
+}
+.dga-icon-logout-03.twotone.rounded:before {
+  content: "\e968";
+}
+.dga-icon-logout-03.twotone.rounded:after {
+  content: "\e969";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-03.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-03.duotone.rounded .path1:before {
+  content: "\e96a";
+  opacity: 0.4;
+}
+.dga-icon-logout-03.duotone.rounded .path2:before {
+  content: "\e96b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-03.duotone.rounded .path3:before {
+  content: "\e96c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-03.solid.rounded:before {
+  content: "\e96d";
+}
+.dga-icon-logout-03.bulk.rounded:before {
+  content: "\e96e";
+  opacity: 0.4;
+}
+.dga-icon-logout-03.bulk.rounded:after {
+  content: "\e96f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-03.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-03.stroke.sharp:before {
+  content: "\e970";
+}
+.dga-icon-logout-03.solid.sharp:before {
+  content: "\e971";
+}
+.dga-icon-logout-04 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-04:before, 
+.dga-icon-logout-04.stroke.rounded:before {
+  content: "\e972";
+}
+.dga-icon-logout-04.twotone.rounded:before {
+  content: "\e973";
+}
+.dga-icon-logout-04.twotone.rounded:after {
+  content: "\e974";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-04.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-04.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-04.duotone.rounded .path1:before {
+  content: "\e975";
+  opacity: 0.4;
+}
+.dga-icon-logout-04.duotone.rounded .path2:before {
+  content: "\e976";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-04.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-04.duotone.rounded .path3:before {
+  content: "\e977";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-04.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-04.solid.rounded:before {
+  content: "\e978";
+}
+.dga-icon-logout-04.bulk.rounded:before {
+  content: "\e979";
+  opacity: 0.4;
+}
+.dga-icon-logout-04.bulk.rounded:after {
+  content: "\e97a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-04.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-04.stroke.sharp:before {
+  content: "\e97b";
+}
+.dga-icon-logout-04.solid.sharp:before {
+  content: "\e97c";
+}
+.dga-icon-logout-05 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-05:before, 
+.dga-icon-logout-05.stroke.rounded:before {
+  content: "\e97d";
+}
+.dga-icon-logout-05.twotone.rounded:before {
+  content: "\e97e";
+}
+.dga-icon-logout-05.twotone.rounded:after {
+  content: "\e97f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-05.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-05.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-05.duotone.rounded .path1:before {
+  content: "\e980";
+  opacity: 0.4;
+}
+.dga-icon-logout-05.duotone.rounded .path2:before {
+  content: "\e981";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-05.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-05.duotone.rounded .path3:before {
+  content: "\e982";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-05.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-05.solid.rounded:before {
+  content: "\e983";
+}
+.dga-icon-logout-05.bulk.rounded:before {
+  content: "\e984";
+}
+.dga-icon-logout-05.bulk.rounded:after {
+  content: "\e985";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-05.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-05.stroke.sharp:before {
+  content: "\e986";
+}
+.dga-icon-logout-05.solid.sharp:before {
+  content: "\e987";
+}
+.dga-icon-logout-circle-01 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-circle-01:before, 
+.dga-icon-logout-circle-01.stroke.rounded:before {
+  content: "\e988";
+}
+.dga-icon-logout-circle-01.twotone.rounded:before {
+  content: "\e989";
+}
+.dga-icon-logout-circle-01.twotone.rounded:after {
+  content: "\e98a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-circle-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-circle-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-circle-01.duotone.rounded .path1:before {
+  content: "\e98b";
+  opacity: 0.4;
+}
+.dga-icon-logout-circle-01.duotone.rounded .path2:before {
+  content: "\e98c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-01.duotone.rounded .path3:before {
+  content: "\e98d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-01.solid.rounded:before {
+  content: "\e98e";
+}
+.dga-icon-logout-circle-01.bulk.rounded:before {
+  content: "\e98f";
+  opacity: 0.4;
+}
+.dga-icon-logout-circle-01.bulk.rounded:after {
+  content: "\e990";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-01.stroke.sharp:before {
+  content: "\e991";
+}
+.dga-icon-logout-circle-01.solid.sharp:before {
+  content: "\e992";
+}
+.dga-icon-logout-circle-02 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-circle-02:before, 
+.dga-icon-logout-circle-02.stroke.rounded:before {
+  content: "\e993";
+}
+.dga-icon-logout-circle-02.twotone.rounded:before {
+  content: "\e994";
+}
+.dga-icon-logout-circle-02.twotone.rounded:after {
+  content: "\e995";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-circle-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-circle-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-circle-02.duotone.rounded .path1:before {
+  content: "\e996";
+  opacity: 0.4;
+}
+.dga-icon-logout-circle-02.duotone.rounded .path2:before {
+  content: "\e997";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-02.duotone.rounded .path3:before {
+  content: "\e998";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-02.duotone.rounded .path4:before {
+  content: "\e999";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-02.solid.rounded:before {
+  content: "\e99a";
+}
+body:has(.active-screen) .dga-icon-logout-circle-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-logout-circle-02.bulk.rounded .path1:before {
+  content: "\e99b";
+  opacity: 0.4;
+}
+.dga-icon-logout-circle-02.bulk.rounded .path2:before {
+  content: "\e99c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-02.bulk.rounded .path3:before {
+  content: "\e99d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-circle-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-circle-02.stroke.sharp:before {
+  content: "\e99e";
+}
+.dga-icon-logout-circle-02.solid.sharp:before {
+  content: "\e99f";
+}
+.dga-icon-logout-square-01 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-square-01:before, 
+.dga-icon-logout-square-01.stroke.rounded:before {
+  content: "\e9a0";
+}
+.dga-icon-logout-square-01.twotone.rounded:before {
+  content: "\e9a1";
+}
+.dga-icon-logout-square-01.twotone.rounded:after {
+  content: "\e9a2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-square-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-square-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-square-01.duotone.rounded .path1:before {
+  content: "\e9a3";
+  opacity: 0.4;
+}
+.dga-icon-logout-square-01.duotone.rounded .path2:before {
+  content: "\e9a4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-01.duotone.rounded .path3:before {
+  content: "\e9a5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-01.solid.rounded:before {
+  content: "\e9a6";
+}
+.dga-icon-logout-square-01.bulk.rounded:before {
+  content: "\e9a7";
+  opacity: 0.4;
+}
+.dga-icon-logout-square-01.bulk.rounded:after {
+  content: "\e9a8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-01.stroke.sharp:before {
+  content: "\e9a9";
+}
+.dga-icon-logout-square-01.solid.sharp:before {
+  content: "\e9aa";
+}
+.dga-icon-logout-square-02 {
+  font-family: 'dga-fonts-icons-login-logout' !important;
+}
+.dga-icon-logout-square-02:before, 
+.dga-icon-logout-square-02.stroke.rounded:before {
+  content: "\e9ab";
+}
+.dga-icon-logout-square-02.twotone.rounded:before {
+  content: "\e9ac";
+}
+.dga-icon-logout-square-02.twotone.rounded:after {
+  content: "\e9ad";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-logout-square-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-logout-square-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-logout-square-02.duotone.rounded .path1:before {
+  content: "\e9ae";
+  opacity: 0.4;
+}
+.dga-icon-logout-square-02.duotone.rounded .path2:before {
+  content: "\e9af";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-02.duotone.rounded .path3:before {
+  content: "\e9b0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-02.duotone.rounded .path4:before {
+  content: "\e9b1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-02.solid.rounded:before {
+  content: "\e9b2";
+}
+body:has(.active-screen) .dga-icon-logout-square-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-logout-square-02.bulk.rounded .path1:before {
+  content: "\e9b3";
+  opacity: 0.4;
+}
+.dga-icon-logout-square-02.bulk.rounded .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-02.bulk.rounded .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-logout-square-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-logout-square-02.stroke.sharp:before {
+  content: "\e9b6";
+}
+.dga-icon-logout-square-02.solid.sharp:before {
+  content: "\e9b7";
+}

@@ -1,6 +1,6 @@
-@use './styles/dga-tokens';
-@use './styles/dga-table';
-@use './styles/dga-navigation';
+@use '../projects/dga-angular/src/lib/styles/dga-tokens';
+@use '../projects/dga-angular/src/lib/styles/dga-table';
+@use '../projects/dga-angular/src/lib/styles/dga-navigation';
 @use './app/pages/design-system/design-system';
 
 *,

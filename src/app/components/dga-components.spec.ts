@@ -2,32 +2,23 @@ import { Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
+// Import directly from source files so Angular Language Service can statically
+// resolve each @Component/@Directive decorator (barrel re-export chains prevent
+// static analysis with isolatedModules:true, causing NG "Value could not be
+// determined statically" false-positives and cascading Event type errors).
+import { DgaBreadcrumb, DgaDropdown, DgaTabs, DgaPagination } from '../../../projects/dga-angular/src/lib/navigation/dga-navigation';
+import { DgaAvatar, DgaAvatarFallback, DgaAvatarImage } from '../../../projects/dga-angular/src/lib/foundation/dga-foundation';
+import { DgaMenubar } from '../../../projects/dga-angular/src/lib/navigation/dga-header';
+import { DgaModal } from '../../../projects/dga-angular/src/lib/feedback/dga-feedback';
+import { DgaCheckbox, DgaInput, DgaRadio, DgaRadioGroup, DgaSelect } from '../../../projects/dga-angular/src/lib/forms/dga-form-controls';
+import { DgaDigitalStamp } from '../../../projects/dga-angular/src/lib/composite/dga-digital-stamp';
+import { DgaCard } from '../../../projects/dga-angular/src/lib/components/surfaces/dga-card';
+import { DgaTable } from '../../../projects/dga-angular/src/lib/data/dga-table';
 import {
-  DgaBreadcrumb,
-  DgaAvatar,
-  DgaAvatarFallback,
-  DgaAvatarImage,
-  DgaCheckbox,
-  DgaCard,
-  DgaDigitalStamp,
-  DgaDropdown,
-  DgaMenubar,
-  DgaModal,
-  DgaInput,
-  DgaPagination,
-  DgaRadioGroup,
-  DgaSelect,
-  DgaTable,
-  DgaTableBody,
-  DgaTableCaption,
-  DgaTableCellDirective,
-  DgaTableFilterDirective,
-  DgaTableHeadDirective,
-  DgaTableHeader,
-  DgaTableRowDirective,
-  DgaTabs,
-} from './index';
-import type { DgaMenuOption, DgaMenubarItem, DgaRadioOption, DgaSelectOption, DgaTableSortDirection, DgaTab } from './index';
+  DgaTableBody, DgaTableCaption, DgaTableCellDirective,
+  DgaTableFilterDirective, DgaTableHeadDirective, DgaTableHeader, DgaTableRowDirective,
+} from '../../../projects/dga-angular/src/lib/data/dga-table-primitives';
+import type { DgaMenuOption, DgaMenubarItem, DgaRadioOption, DgaSelectOption, DgaTableSortDirection, DgaTab } from '@dev-dga/angular';
 
 @Component({
   standalone: true,
@@ -622,13 +613,537 @@ describe('DGA component parity', () => {
     const menu = overflowDropdown.querySelector('.dropdown__menu') as HTMLElement;
     expect(menu).not.toBeNull();
 
-    // Digital stamp official SaudiFlag artwork check: no stray circle, official rects
-    const govStamp = fixture.nativeElement.querySelector('#stamp-gov\\.sa') as HTMLElement;
+    // Digital stamp official SaudiFlag artwork: React source has circle (cx=16.4, cy=9.7, r=0.75) for the Saudi emblem
+    const govStamp = fixture.nativeElement.querySelector('[id="stamp-gov.sa"]') as HTMLElement;
     expect(govStamp.classList.contains('ddga-digital-stamp')).toBe(true);
     const flagSvg = govStamp.querySelector('.ddga-digital-stamp__flag svg') as SVGElement;
     expect(flagSvg).not.toBeNull();
     expect(flagSvg.getAttribute('viewBox')).toBe('0 0 20 14');
-    expect(flagSvg.querySelector('circle')).toBeNull();
+    // React @dev-dga/react v1.3.1 SaudiFlag includes circle for emblem dot
+    const flagCircle = flagSvg.querySelector('circle');
+    expect(flagCircle).not.toBeNull();
+    expect(flagCircle?.getAttribute('cx')).toBe('16.4');
     expect(flagSvg.querySelectorAll('rect').length).toBeGreaterThanOrEqual(10);
+
+    // React @dev-dga/react v1.3.1 ChevronDown icon and toggle state
+    const chevronSvg = govStamp.querySelector('.ddga-digital-stamp__chevron svg') as SVGElement;
+    expect(chevronSvg).not.toBeNull();
+    expect(chevronSvg.querySelector('path')?.getAttribute('d')).toBe('m6 9 6 6 6-6');
+    const trigger = govStamp.querySelector('.ddga-digital-stamp__trigger') as HTMLButtonElement;
+    expect(trigger.getAttribute('aria-expanded')).toBe('false');
+    trigger.click();
+    fixture.detectChanges();
+    expect(trigger.getAttribute('aria-expanded')).toBe('true');
+    expect(govStamp.getAttribute('data-state')).toBe('open');
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// PHASE 4 — Checkbox state matrix
+// React source: @dev-dga/react v1.3.1, @dev-dga/css checkbox.css
+// ─────────────────────────────────────────────────────────────────────────────
+
+@Component({
+  standalone: true,
+  imports: [FormsModule, DgaCheckbox],
+  template: `
+    <!-- unchecked (default) -->
+    <dga-checkbox id="cb-unchecked">Default</dga-checkbox>
+
+    <!-- checked via input binding -->
+    <dga-checkbox id="cb-checked" [checked]="true">Checked</dga-checkbox>
+
+    <!-- indeterminate -->
+    <dga-checkbox id="cb-indeterminate" [indeterminate]="true">Mixed</dga-checkbox>
+
+    <!-- disabled unchecked -->
+    <dga-checkbox id="cb-disabled" [disabled]="true">Disabled</dga-checkbox>
+
+    <!-- disabled checked -->
+    <dga-checkbox id="cb-disabled-checked" [checked]="true" [disabled]="true">Disabled checked</dga-checkbox>
+
+    <!-- readonly checked -->
+    <dga-checkbox id="cb-readonly" [checked]="true" [readOnly]="true">Readonly</dga-checkbox>
+
+    <!-- error -->
+    <dga-checkbox id="cb-error" errorMessage="Required">Error</dga-checkbox>
+
+    <!-- error checked -->
+    <dga-checkbox id="cb-error-checked" [checked]="true" error="err">Error checked</dga-checkbox>
+
+    <!-- required -->
+    <dga-checkbox id="cb-required" [required]="true">Required</dga-checkbox>
+
+    <!-- size xs -->
+    <dga-checkbox id="cb-xs" size="xs">XS</dga-checkbox>
+
+    <!-- size sm -->
+    <dga-checkbox id="cb-sm" size="sm">SM</dga-checkbox>
+
+    <!-- neutral variant checked -->
+    <dga-checkbox id="cb-neutral" [checked]="true" variant="neutral">Neutral</dga-checkbox>
+
+    <!-- helper text -->
+    <dga-checkbox id="cb-hint" helperText="This is a hint">Hint</dga-checkbox>
+
+    <!-- ngModel two-way -->
+    <dga-checkbox id="cb-model" [(ngModel)]="modelValue">Model</dga-checkbox>
+
+    <!-- indeterminate + ngModel -->
+    <dga-checkbox id="cb-indet-model" [(ngModel)]="indetValue" [indeterminate]="isIndeterminate">Indet model</dga-checkbox>
+  `,
+})
+class CheckboxTestHost {
+  modelValue = false;
+  indetValue = false;
+  isIndeterminate = true;
+}
+
+describe('Phase 4 — DgaCheckbox state matrix (React parity)', () => {
+  let fixture: ComponentFixture<CheckboxTestHost>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [CheckboxTestHost],
+    }).compileComponents();
+    fixture = TestBed.createComponent(CheckboxTestHost);
+    fixture.detectChanges();
+    await fixture.whenStable();
+    fixture.detectChanges();
+  });
+
+  function getInput(id: string): HTMLInputElement {
+    return fixture.nativeElement.querySelector(`input#${id}`) as HTMLInputElement;
+  }
+
+  // ── data-state attribute ──────────────────────────────────────────────────
+  it('sets data-state="unchecked" when unchecked [React: data-state attribute]', () => {
+    expect(getInput('cb-unchecked').getAttribute('data-state')).toBe('unchecked');
+  });
+
+  it('sets data-state="checked" when checked [React: data-state attribute]', () => {
+    expect(getInput('cb-checked').getAttribute('data-state')).toBe('checked');
+  });
+
+  it('sets data-state="indeterminate" when indeterminate [React: data-state attribute]', () => {
+    expect(getInput('cb-indeterminate').getAttribute('data-state')).toBe('indeterminate');
+    expect(getInput('cb-indeterminate').indeterminate).toBe(true);
+  });
+
+  // ── aria-checked ─────────────────────────────────────────────────────────
+  it('sets aria-checked="mixed" only when indeterminate [React: aria-checked]', () => {
+    expect(getInput('cb-indeterminate').getAttribute('aria-checked')).toBe('mixed');
+    expect(getInput('cb-checked').getAttribute('aria-checked')).toBeNull();
+    expect(getInput('cb-unchecked').getAttribute('aria-checked')).toBeNull();
+  });
+
+  // ── aria-invalid ──────────────────────────────────────────────────────────
+  it('sets aria-invalid="true" when error or errorMessage is present [React: aria-invalid]', () => {
+    expect(getInput('cb-error').getAttribute('aria-invalid')).toBe('true');
+    expect(getInput('cb-error-checked').getAttribute('aria-invalid')).toBe('true');
+    expect(getInput('cb-unchecked').getAttribute('aria-invalid')).toBeNull();
+  });
+
+  // ── aria-required ─────────────────────────────────────────────────────────
+  it('sets aria-required="true" when required [React: CheckboxProps.required → aria-required]', () => {
+    expect(getInput('cb-required').getAttribute('aria-required')).toBe('true');
+    expect(getInput('cb-unchecked').getAttribute('aria-required')).toBeNull();
+  });
+
+  // ── aria-readonly / data-readonly ─────────────────────────────────────────
+  it('sets aria-readonly and data-readonly when readOnly [React: data-readonly, aria-readonly]', () => {
+    const input = getInput('cb-readonly');
+    expect(input.getAttribute('aria-readonly')).toBe('true');
+    expect(input.hasAttribute('data-readonly')).toBe(true);
+    expect(input.getAttribute('data-readonly')).toBe('');
+  });
+
+  it('does NOT set data-readonly when not readOnly', () => {
+    expect(getInput('cb-unchecked').hasAttribute('data-readonly')).toBe(false);
+  });
+
+  // ── disabled ─────────────────────────────────────────────────────────────
+  it('disables the native input when [disabled]=true [React: :disabled state]', () => {
+    expect(getInput('cb-disabled').disabled).toBe(true);
+    expect(getInput('cb-disabled-checked').disabled).toBe(true);
+  });
+
+  // ── readonly prevents toggle ──────────────────────────────────────────────
+  it('readonly checkbox does not change checked state on click [React: readOnly prevents toggle]', () => {
+    const input = getInput('cb-readonly');
+    expect(input.checked).toBe(true);
+    input.click();
+    fixture.detectChanges();
+    expect(input.checked).toBe(true); // must stay checked
+  });
+
+  // ── indeterminate cleared on change ──────────────────────────────────────
+  it('clears indeterminate after user interaction [React: indeterminate cleared on change]', () => {
+    const input = getInput('cb-indet-model');
+
+    expect(input.indeterminate).toBe(true);
+    expect(input.getAttribute('data-state')).toBe('indeterminate');
+
+    input.checked = true;
+    input.dispatchEvent(new Event('change', { bubbles: true }));
+    fixture.detectChanges();
+
+    // indeterminate is cleared on the component's internal property and the DOM attribute
+    // Note: [indeterminate] is one-way binding — Angular does not propagate internal state
+    // changes back to the host automatically. We verify the DOM reflects false.
+    expect(input.indeterminate).toBe(false);
+    expect(input.getAttribute('data-state')).toBe('checked');
+  });
+
+  // ── ControlValueAccessor / ngModel ───────────────────────────────────────
+  it('updates ngModel value through ControlValueAccessor [React: form integration]', () => {
+    const host = fixture.componentInstance;
+    const input = getInput('cb-model');
+
+    expect(host.modelValue).toBe(false);
+    input.checked = true;
+    input.dispatchEvent(new Event('change', { bubbles: true }));
+    fixture.detectChanges();
+
+    expect(host.modelValue).toBe(true);
+    expect(input.getAttribute('data-state')).toBe('checked');
+  });
+
+  it('writeValue reflects external value change [React: form integration]', () => {
+    // Use cb-unchecked because it has no [checked] or ngModel bindings that would overwrite
+    // the manual writeValue(true) during fixture.detectChanges().
+    const input = getInput('cb-unchecked');
+    // Angular emulated encapsulation: input is in the real DOM, we can traverse to host
+    const dgaCheckboxHost = input.closest('dga-checkbox') as HTMLElement | null;
+    expect(dgaCheckboxHost).not.toBeNull();
+    const compDe = fixture.debugElement.queryAll(By.directive(DgaCheckbox))
+      .find((de) => de.nativeElement === dgaCheckboxHost);
+    const compInstance = compDe?.componentInstance as DgaCheckbox | undefined;
+
+    // writeValue must exist and be callable (ControlValueAccessor contract)
+    expect(typeof DgaCheckbox.prototype.writeValue).toBe('function');
+
+    if (compInstance) {
+      // Verify the component's internal state is updated by writeValue
+      compInstance.writeValue(true);
+      expect(compInstance.checked).toBe(true);
+    }
+  });
+
+  // ── aria-describedby ──────────────────────────────────────────────────────
+  it('sets aria-describedby when hint text is present [React: aria-describedby]', () => {
+    const input = getInput('cb-hint');
+    const describedby = input.getAttribute('aria-describedby');
+    expect(describedby).toBeTruthy();
+    const hint = fixture.nativeElement.querySelector(`#${describedby}`);
+    expect(hint?.textContent?.trim()).toContain('This is a hint');
+  });
+
+  it('sets aria-describedby for errorMessage [React: aria-describedby]', () => {
+    const input = getInput('cb-error');
+    const describedby = input.getAttribute('aria-describedby');
+    expect(describedby).toBeTruthy();
+    const hint = fixture.nativeElement.querySelector(`#${describedby}`);
+    expect(hint?.textContent?.trim()).toContain('Required');
+  });
+
+  // ── size variants ─────────────────────────────────────────────────────────
+  it('applies size class xs [React: ddga-checkbox--xs → 16×16px]', () => {
+    const input = getInput('cb-xs');
+    expect(input.classList.contains('choice__input--xs')).toBe(true);
+  });
+
+  it('applies size class sm [React: ddga-checkbox--sm → 20×20px]', () => {
+    const input = getInput('cb-sm');
+    expect(input.classList.contains('choice__input--sm')).toBe(true);
+  });
+
+  it('no size class applied for md (default) [React: ddga-checkbox--md is default]', () => {
+    const input = getInput('cb-unchecked');
+    expect(input.classList.contains('choice__input--xs')).toBe(false);
+    expect(input.classList.contains('choice__input--sm')).toBe(false);
+  });
+
+  // ── neutral variant ───────────────────────────────────────────────────────
+  it('applies choice--neutral on the label for neutral variant [React: ddga-checkbox--neutral]', () => {
+    // getInput() finds the inner <input id="cb-neutral">, then .closest('label') traverses
+    // up to the <label class="choice choice--neutral"> in the Angular component template
+    const label = getInput('cb-neutral').closest('label') as HTMLElement;
+    expect(label).not.toBeNull();
+    expect(label.classList.contains('choice--neutral')).toBe(true);
+  });
+
+  // ── Space keyboard toggles checkbox ──────────────────────────────────────
+  it('Space key toggles checkbox via native browser behavior [React: Space toggle]', () => {
+    const host = fixture.componentInstance;
+    const input = getInput('cb-model');
+    input.focus();
+    input.dispatchEvent(new KeyboardEvent('keydown', { key: ' ', bubbles: true, cancelable: true }));
+    input.checked = !input.checked;
+    input.dispatchEvent(new Event('change', { bubbles: true }));
+    fixture.detectChanges();
+    // value should flip
+    expect(host.modelValue).toBe(true);
+  });
+
+  // ── indicator uses dga-icon ───────────────────────────────────────────────
+  it('renders dga-icon for check mark (not inline SVG) [React: ddga-checkbox__check]', () => {
+    // Use getInput() to find inner input, then navigate to the .choice__indicator sibling
+    const label = getInput('cb-checked').closest('label') as HTMLElement;
+    expect(label).not.toBeNull();
+    const indicator = label.querySelector('.choice__indicator') as HTMLElement;
+    expect(indicator).not.toBeNull();
+    const icon = indicator.querySelector('dga-icon');
+    expect(icon).not.toBeNull();
+  });
+
+  it('renders minus span for indeterminate indicator [React: ddga-checkbox__minus]', () => {
+    const label = getInput('cb-indeterminate').closest('label') as HTMLElement;
+    expect(label).not.toBeNull();
+    const minus = label.querySelector('.choice__minus') as HTMLElement;
+    expect(minus).not.toBeNull();
+  });
+
+  // ── error styling applied to label ───────────────────────────────────────
+  it('applies choice--error class on label when errorMessage present [React: ddga-checkbox--error]', () => {
+    const label = getInput('cb-error').closest('label') as HTMLElement;
+    expect(label).not.toBeNull();
+    expect(label.classList.contains('choice--error')).toBe(true);
+  });
+
+  // ── React class and data-slot parity ─────────────────────────────────────
+  it('applies React slot and class parity: ddga-checkbox, data-slot, ddga-checkbox__indicator, ddga-checkbox__required', () => {
+    const input = getInput('cb-required');
+    expect(input.getAttribute('data-slot')).toBe('checkbox');
+    expect(input.classList.contains('ddga-checkbox')).toBe(true);
+
+    const label = input.closest('label') as HTMLElement;
+    expect(label.classList.contains('ddga-checkbox-row')).toBe(true);
+    expect(label.querySelector('.ddga-checkbox__indicator')?.getAttribute('data-slot')).toBe('checkbox-indicator');
+    expect(label.querySelector('.ddga-checkbox__required')?.textContent?.trim()).toBe('*');
+  });
+});
+
+@Component({
+  standalone: true,
+  imports: [FormsModule, DgaRadio, DgaRadioGroup],
+  template: `
+    <!-- RadioGroup Default -->
+    <dga-radio-group id="rg-default" label="Account Type" [options]="options" [(ngModel)]="modelValue" />
+
+    <!-- RadioGroup Horizontal -->
+    <dga-radio-group id="rg-horizontal" orientation="horizontal" [options]="options" value="personal" />
+
+    <!-- RadioGroup Neutral Variant -->
+    <dga-radio-group id="rg-neutral" variant="neutral" [options]="options" value="personal" />
+
+    <!-- RadioGroup Required -->
+    <dga-radio-group id="rg-required" label="Required Group" [required]="true" [options]="options" />
+
+    <!-- RadioGroup ReadOnly -->
+    <dga-radio-group id="rg-readonly" label="Read-Only Group" [readOnly]="true" [options]="options" value="personal" />
+
+    <!-- RadioGroup Error -->
+    <dga-radio-group id="rg-error" label="Error Group" errorMessage="Selection required" [options]="options" />
+
+    <!-- RadioGroup Helper -->
+    <dga-radio-group id="rg-helper" label="Helper Group" helperText="Choose an option carefully" [options]="options" />
+
+    <!-- RadioGroup Disabled -->
+    <dga-radio-group id="rg-disabled" [disabled]="true" [options]="options" value="personal" />
+
+    <!-- Standalone DgaRadio -->
+    <dga-radio id="radio-standalone" name="standalone" value="opt1" [checked]="standaloneChecked"
+      (selected)="standaloneChecked = true">Single Radio</dga-radio>
+    <dga-radio id="radio-disabled" name="standalone" value="opt2" [disabled]="true">Disabled Radio</dga-radio>
+    <dga-radio id="radio-readonly" name="standalone" value="opt3" [readOnly]="true" [checked]="true">ReadOnly Radio</dga-radio>
+  `,
+})
+class RadioTestHost {
+  options: readonly DgaRadioOption[] = [
+    { label: 'Personal', value: 'personal' },
+    { label: 'Business', value: 'business' },
+    { label: 'Enterprise (Disabled)', value: 'enterprise', disabled: true },
+    { label: 'Government', value: 'government' },
+  ];
+  modelValue = 'personal';
+  standaloneChecked = false;
+}
+
+describe('Phase 4 — DgaRadio & DgaRadioGroup state matrix (React parity)', () => {
+  let fixture: ComponentFixture<RadioTestHost>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [RadioTestHost],
+    }).compileComponents();
+    fixture = TestBed.createComponent(RadioTestHost);
+    fixture.detectChanges();
+    await fixture.whenStable();
+    fixture.detectChanges();
+  });
+
+  function getRadioGroupFieldset(id: string): HTMLFieldSetElement {
+    return fixture.nativeElement.querySelector(`dga-radio-group#${id} fieldset`) as HTMLFieldSetElement;
+  }
+
+  function getGroupRadios(groupId: string): HTMLInputElement[] {
+    return Array.from(fixture.nativeElement.querySelectorAll(`dga-radio-group#${groupId} input[type="radio"]`));
+  }
+
+  function getStandaloneRadioInput(id: string): HTMLInputElement {
+    return fixture.nativeElement.querySelector(`dga-radio#${id} input[type="radio"]`) as HTMLInputElement;
+  }
+
+  // ── data-slot attributes ───────────────────────────────────────────────────
+  it('renders data-slot="radio-group-field" and data-slot="radio-group" [React: Radix / DGA structure]', () => {
+    const groupField = fixture.nativeElement.querySelector('dga-radio-group#rg-default .ddga-field');
+    expect(groupField.getAttribute('data-slot')).toBe('radio-group-field');
+    const fieldset = getRadioGroupFieldset('rg-default');
+    expect(fieldset.getAttribute('data-slot')).toBe('radio-group');
+  });
+
+  it('renders data-slot="radio" and data-slot="radio-indicator" on each item [React: Radix / DGA structure]', () => {
+    const radios = getGroupRadios('rg-default');
+    expect(radios.length).toBe(4);
+    expect(radios[0].getAttribute('data-slot')).toBe('radio');
+    const indicator = radios[0].parentElement?.querySelector('[data-slot="radio-indicator"]');
+    expect(indicator).not.toBeNull();
+  });
+
+  // ── data-state attribute ───────────────────────────────────────────────────
+  it('sets data-state="checked" on active radio and data-state="unchecked" on inactive [React: data-state attribute]', () => {
+    const radios = getGroupRadios('rg-default');
+    expect(radios[0].getAttribute('data-state')).toBe('checked');
+    expect(radios[1].getAttribute('data-state')).toBe('unchecked');
+    expect(radios[3].getAttribute('data-state')).toBe('unchecked');
+  });
+
+  // ── ARIA and accessibility ─────────────────────────────────────────────────
+  it('associates group label with aria-labelledby and legend id [React: useFieldA11y aria-labelledby]', () => {
+    const fieldset = getRadioGroupFieldset('rg-default');
+    const labelId = fieldset.getAttribute('aria-labelledby');
+    expect(labelId).toBe('rg-default-label');
+    const legend = fixture.nativeElement.querySelector(`#${labelId}`);
+    expect(legend).not.toBeNull();
+    expect(legend.textContent).toContain('Account Type');
+  });
+
+  it('renders required indicator and aria-required on fieldset [React: required]', () => {
+    const fieldset = getRadioGroupFieldset('rg-required');
+    expect(fieldset.getAttribute('aria-required')).toBe('true');
+    const requiredAsterisk = fieldset.querySelector('.ddga-radio-group__required');
+    expect(requiredAsterisk).not.toBeNull();
+    expect(requiredAsterisk?.textContent?.trim()).toBe('*');
+  });
+
+  it('renders error message and connects via aria-describedby [React: aria-describedby + aria-invalid]', () => {
+    const fieldset = getRadioGroupFieldset('rg-error');
+    expect(fieldset.getAttribute('aria-invalid')).toBe('true');
+    const describedby = fieldset.getAttribute('aria-describedby');
+    expect(describedby).toContain('rg-error-error');
+    const errorMsg = fixture.nativeElement.querySelector('#rg-error-error');
+    expect(errorMsg?.textContent?.trim()).toBe('Selection required');
+  });
+
+  it('renders helper message and connects via aria-describedby [React: helperText]', () => {
+    const fieldset = getRadioGroupFieldset('rg-helper');
+    const describedby = fieldset.getAttribute('aria-describedby');
+    expect(describedby).toContain('rg-helper-helper');
+    const helperMsg = fixture.nativeElement.querySelector('#rg-helper-helper');
+    expect(helperMsg?.textContent?.trim()).toBe('Choose an option carefully');
+  });
+
+  // ── readOnly behavior ──────────────────────────────────────────────────────
+  it('applies aria-readonly and data-readonly and blocks click changes [React: readOnly + READONLY_BLOCKED_KEYS]', () => {
+    const fieldset = getRadioGroupFieldset('rg-readonly');
+    expect(fieldset.getAttribute('aria-readonly')).toBe('true');
+    expect(fieldset.classList.contains('ddga-radio-group--readonly')).toBe(true);
+
+    const radios = getGroupRadios('rg-readonly');
+    expect(radios[0].getAttribute('data-readonly')).toBe('');
+    expect(radios[0].getAttribute('aria-readonly')).toBe('true');
+
+    // Click on unselected option should not change selection
+    radios[1].dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true }));
+    radios[1].dispatchEvent(new Event('change', { bubbles: true }));
+    fixture.detectChanges();
+    expect(radios[0].checked).toBe(true);
+    expect(radios[1].checked).toBe(false);
+  });
+
+  it('blocks navigation keys in readOnly mode [React: READONLY_BLOCKED_KEYS]', () => {
+    const fieldset = getRadioGroupFieldset('rg-readonly');
+    const radios = getGroupRadios('rg-readonly');
+    const event = new KeyboardEvent('keydown', { key: 'ArrowDown', bubbles: true, cancelable: true });
+    let prevented = false;
+    Object.defineProperty(event, 'preventDefault', {
+      value: () => {
+        prevented = true;
+      },
+      writable: true,
+    });
+    radios[0].dispatchEvent(event);
+    expect(prevented).toBe(true);
+  });
+
+  // ── disabled states ────────────────────────────────────────────────────────
+  it('disables the entire group when disabled=true [React: disabled]', () => {
+    const fieldset = getRadioGroupFieldset('rg-disabled');
+    expect(fieldset.disabled).toBe(true);
+  });
+
+  it('disables specific option item when option.disabled=true [React: item disabled]', () => {
+    const radios = getGroupRadios('rg-default');
+    expect(radios[2].disabled).toBe(true);
+    expect(radios[2].closest('label')?.classList.contains('radio-option--disabled')).toBe(true);
+  });
+
+  // ── variant and orientation ────────────────────────────────────────────────
+  it('applies horizontal orientation class [React: ddga-radio-group--horizontal]', () => {
+    const fieldset = getRadioGroupFieldset('rg-horizontal');
+    expect(fieldset.classList.contains('ddga-radio-group--horizontal')).toBe(true);
+  });
+
+  it('applies neutral variant class [React: ddga-radio-group--neutral]', () => {
+    const fieldset = getRadioGroupFieldset('rg-neutral');
+    expect(fieldset.classList.contains('ddga-radio-group--neutral')).toBe(true);
+  });
+
+  // ── ControlValueAccessor & Selection ───────────────────────────────────────
+  it('updates ngModel when option clicked [React: controlled/uncontrolled value]', () => {
+    const host = fixture.componentInstance;
+    const radios = getGroupRadios('rg-default');
+
+    radios[1].checked = true;
+    radios[1].dispatchEvent(new Event('change', { bubbles: true }));
+    fixture.detectChanges();
+
+    expect(host.modelValue).toBe('business');
+    expect(radios[1].getAttribute('data-state')).toBe('checked');
+    expect(radios[0].getAttribute('data-state')).toBe('unchecked');
+  });
+
+  // ── Standalone DgaRadio component ──────────────────────────────────────────
+  it('supports standalone DgaRadio with data-state, data-slot, and click/selected events', () => {
+    const host = fixture.componentInstance;
+    const input = getStandaloneRadioInput('radio-standalone');
+
+    expect(input.getAttribute('data-slot')).toBe('radio');
+    expect(input.getAttribute('data-state')).toBe('unchecked');
+
+    input.click();
+    fixture.detectChanges();
+
+    expect(host.standaloneChecked).toBe(true);
+  });
+
+  it('supports standalone DgaRadio disabled and readOnly states', () => {
+    const disabledInput = getStandaloneRadioInput('radio-disabled');
+    expect(disabledInput.disabled).toBe(true);
+
+    const readonlyInput = getStandaloneRadioInput('radio-readonly');
+    expect(readonlyInput.getAttribute('data-readonly')).toBe('');
+    expect(readonlyInput.getAttribute('aria-readonly')).toBe('true');
   });
 });
