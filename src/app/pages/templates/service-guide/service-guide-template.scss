@@ -14,8 +14,20 @@
 .sgt__intro { margin: 0 0 20px; font-size: 14.5px; line-height: 1.7; color: var(--ddga-text-secondary); max-inline-size: 70ch; }
 
 .sgt__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.sgt__grid dga-card { block-size: 100%; } /* even-height eligible-case cards */
 
-.sgt__docs { display: flex; flex-direction: column; gap: 16px; }
+/* Document cards in a row at an even height; stack below 768px. */
+.sgt__docs { display: flex; flex-direction: row; gap: 16px; align-items: stretch; }
+.sgt__docs dga-card { flex: 1 1 0; min-inline-size: 0; block-size: 100%; }
+
+/* Warning note: vertical accent bar on the inline-start edge via ::before, in the alert's own
+   DGA warning colour (currentColor), on top of its border. */
+.sgt__alert ::ng-deep .alert { position: relative; overflow: hidden; }
+.sgt__alert ::ng-deep .alert::before {
+  content: ''; position: absolute; inset-block: 0; inset-inline-start: 0; inline-size: 4px;
+  /* Vibrant mid DGA warning orange (brighter than the warning-800 icon/text), per the reference. */
+  background: var(--ddga-warning-500, #E8863A);
+}
 .sgt__doclist { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .sgt__doclist li { display: flex; align-items: flex-start; gap: 10px; font-size: 14.5px; line-height: 1.6; color: var(--ddga-text-secondary); }
 .sgt__doclist dga-icon { flex: none; color: var(--ddga-color-primary); font-size: 18px; margin-block-start: 1px; }
@@ -28,4 +40,5 @@
 .sgt__cta-body { margin: 0 0 20px; font-size: 14.5px; line-height: 1.7; color: var(--ddga-text-secondary); max-inline-size: 60ch; }
 .sgt__cta-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 
+@media (max-width: 768px) { .sgt__docs { flex-direction: column; } }
 @media (max-width: 640px) { .sgt__band-inner, .sgt__body { padding-inline: 16px; } }
