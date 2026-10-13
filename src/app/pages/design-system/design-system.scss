@@ -86,7 +86,12 @@ app-design-system {
 .type-meta > code, .usage code { padding: .35rem .5rem; border-radius: var(--ddga-radius-xs); background: var(--ddga-gray-50); color: var(--ddga-gray-700); font-size: .68rem; }
 .foundation-grid, .card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .foundation-card { padding: 1.4rem; }
-.foundation-card h3, .table-card__header h3 { margin: 0; font-size: var(--ddga-font-size-base); }
+.foundation-card h3, .table-card__header h3, .service-card h3 { margin: 0; font-size: var(--ddga-font-size-base); }
+.service-card { display: flex; flex-direction: column; gap: .75rem; }
+.service-card p { margin: 0; color: var(--ddga-gray-700); font-size: var(--ddga-font-size-sm); }
+.service-card__top { display: flex; justify-content: space-between; align-items: center; }
+.service-icon { display: inline-grid; place-items: center; inline-size: 2rem; block-size: 2rem; border-radius: var(--ddga-radius-sm); background: var(--ddga-sa-50); color: var(--ddga-sa-700); font-size: var(--ddga-font-size-xs); font-weight: var(--ddga-font-weight-bold); }
+.service-icon--gold { background: var(--ddga-gold-50); color: var(--ddga-gold-800); border: 1px solid var(--ddga-gold-300); }
 .muted { color: var(--soft-ink); font-size: var(--ddga-font-size-xs); }
 .foundation-card > .muted { margin: .35rem 0 1rem; }
 .space-list { display: grid; gap: .4rem; }

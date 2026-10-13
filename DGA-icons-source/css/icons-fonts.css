@@ -1,0 +1,511 @@
+/* ============================================
+   DGA ICONS - Font Loader
+   Corrected paths for loading from css/ dir
+   ============================================ */
+
+/* Icon Class Definitions */
+@import url("../utilities/Icons_Css/add-remove-delete.css");
+@import url("../utilities/Icons_Css/ai.css");
+@import url("../utilities/Icons_Css/alert.css");
+@import url("../utilities/Icons_Css/animation.css");
+@import url("../utilities/Icons_Css/arrows.css");
+@import url("../utilities/Icons_Css/award-reward.css");
+@import url("../utilities/Icons_Css/bookmark-favourite.css");
+@import url("../utilities/Icons_Css/building-landmark-places.css");
+@import url("../utilities/Icons_Css/business-finance.css");
+@import url("../utilities/Icons_Css/check-validation.css");
+@import url("../utilities/Icons_Css/cloth-accessories.css");
+@import url("../utilities/Icons_Css/communications.css");
+@import url("../utilities/Icons_Css/community.css");
+@import url("../utilities/Icons_Css/crypto.css");
+@import url("../utilities/Icons_Css/dashboard.css");
+@import url("../utilities/Icons_Css/date-time.css");
+@import url("../utilities/Icons_Css/devices.css");
+@import url("../utilities/Icons_Css/download-upload.css");
+@import url("../utilities/Icons_Css/e-commerce.css");
+@import url("../utilities/Icons_Css/edit-formatting.css");
+@import url("../utilities/Icons_Css/education.css");
+@import url("../utilities/Icons_Css/emojis.css");
+@import url("../utilities/Icons_Css/energy.css");
+@import url("../utilities/Icons_Css/files-folders.css");
+@import url("../utilities/Icons_Css/filter-sorting.css");
+@import url("../utilities/Icons_Css/food-drink.css");
+@import url("../utilities/Icons_Css/furnitures.css");
+@import url("../utilities/Icons_Css/game-sports.css");
+@import url("../utilities/Icons_Css/geometric-shapes.css");
+@import url("../utilities/Icons_Css/git.css");
+@import url("../utilities/Icons_Css/gym-fitness.css");
+@import url("../utilities/Icons_Css/hands-gestures.css");
+@import url("../utilities/Icons_Css/hierarchy.css");
+@import url("../utilities/Icons_Css/home.css");
+@import url("../utilities/Icons_Css/image-camera-video.css");
+@import url("../utilities/Icons_Css/islamic.css");
+@import url("../utilities/Icons_Css/kitchen.css");
+@import url("../utilities/Icons_Css/layout-borders.css");
+@import url("../utilities/Icons_Css/legal.css");
+@import url("../utilities/Icons_Css/link-unlink.css");
+@import url("../utilities/Icons_Css/location-maps.css");
+@import url("../utilities/Icons_Css/login-logout.css");
+@import url("../utilities/Icons_Css/logos.css");
+@import url("../utilities/Icons_Css/mathematics.css");
+@import url("../utilities/Icons_Css/media.css");
+@import url("../utilities/Icons_Css/medical.css");
+@import url("../utilities/Icons_Css/menu.css");
+@import url("../utilities/Icons_Css/mouse-cursors.css");
+@import url("../utilities/Icons_Css/notes-tasks.css");
+@import url("../utilities/Icons_Css/presentation.css");
+@import url("../utilities/Icons_Css/programming-languages.css");
+@import url("../utilities/Icons_Css/science-technology.css");
+@import url("../utilities/Icons_Css/search.css");
+@import url("../utilities/Icons_Css/security.css");
+@import url("../utilities/Icons_Css/settings.css");
+@import url("../utilities/Icons_Css/space-galaxy.css");
+@import url("../utilities/Icons_Css/transportation-logistics.css");
+@import url("../utilities/Icons_Css/users.css");
+@import url("../utilities/Icons_Css/weather.css");
+@import url("../utilities/Icons_Css/wifi-signal.css");
+
+/* Font Face Declarations */
+@font-face {
+    font-family: "dga-fonts-icons-add-remove-delete";
+    src: url("../utilities/Fonts/add-remove-delete.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-ai";
+    src: url("../utilities/Fonts/ai.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-alert";
+    src: url("../utilities/Fonts/alert.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-animation";
+    src: url("../utilities/Fonts/animation.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-arrows";
+    src: url("../utilities/Fonts/arrows.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-award-reward";
+    src: url("../utilities/Fonts/award-reward.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-bookmark-favourite";
+    src: url("../utilities/Fonts/bookmark-favourite.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-building-landmark-places";
+    src: url("../utilities/Fonts/building-landmark-places.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-business-finance";
+    src: url("../utilities/Fonts/business-finance.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-check-validation";
+    src: url("../utilities/Fonts/check-validation.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-cloth-accessories";
+    src: url("../utilities/Fonts/cloth-accessories.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-communications";
+    src: url("../utilities/Fonts/communications.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-community-2";
+    src: url("../utilities/Fonts/community-2.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-community";
+    src: url("../utilities/Fonts/community.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-crypto";
+    src: url("../utilities/Fonts/crypto.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-dashboard";
+    src: url("../utilities/Fonts/dashboard.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-date-time";
+    src: url("../utilities/Fonts/date-time.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-devices";
+    src: url("../utilities/Fonts/devices.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-download-upload";
+    src: url("../utilities/Fonts/download-upload.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-e-commerce";
+    src: url("../utilities/Fonts/e-commerce.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-edit-formatting";
+    src: url("../utilities/Fonts/edit-formatting.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-education";
+    src: url("../utilities/Fonts/education.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-emojis";
+    src: url("../utilities/Fonts/emojis.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-energy";
+    src: url("../utilities/Fonts/energy.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-files-folders";
+    src: url("../utilities/Fonts/files-folders.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-filter-sorting";
+    src: url("../utilities/Fonts/filter-sorting.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-food-drink";
+    src: url("../utilities/Fonts/food-drink.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-furnitures";
+    src: url("../utilities/Fonts/furnitures.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-game-sports";
+    src: url("../utilities/Fonts/game-sports.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-geometric-shapes";
+    src: url("../utilities/Fonts/geometric-shapes.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-git";
+    src: url("../utilities/Fonts/git.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-gym-fitness";
+    src: url("../utilities/Fonts/gym-fitness.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-hands-gestures";
+    src: url("../utilities/Fonts/hands-gestures.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-hierarchy";
+    src: url("../utilities/Fonts/hierarchy.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-home";
+    src: url("../utilities/Fonts/home.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-image-camera-video";
+    src: url("../utilities/Fonts/image-camera-video.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-islamic";
+    src: url("../utilities/Fonts/islamic.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-kitchen";
+    src: url("../utilities/Fonts/kitchen.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-layout-borders";
+    src: url("../utilities/Fonts/layout-borders.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-legal";
+    src: url("../utilities/Fonts/legal.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-link-unlink";
+    src: url("../utilities/Fonts/link-unlink.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-location-maps";
+    src: url("../utilities/Fonts/location-maps.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-login-logout";
+    src: url("../utilities/Fonts/login-logout.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-logos";
+    src: url("../utilities/Fonts/logos.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-mathematics";
+    src: url("../utilities/Fonts/mathematics.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-media";
+    src: url("../utilities/Fonts/media.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-medical";
+    src: url("../utilities/Fonts/medical.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-menu";
+    src: url("../utilities/Fonts/menu.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-mouse-cursors";
+    src: url("../utilities/Fonts/mouse-cursors.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-notes-tasks";
+    src: url("../utilities/Fonts/notes-tasks.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-presentation";
+    src: url("../utilities/Fonts/presentation.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-programming-languages";
+    src: url("../utilities/Fonts/programming-languages.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-science-technology";
+    src: url("../utilities/Fonts/science-technology.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-search";
+    src: url("../utilities/Fonts/search.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-security";
+    src: url("../utilities/Fonts/security.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-settings";
+    src: url("../utilities/Fonts/settings.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-space-galaxy";
+    src: url("../utilities/Fonts/space-galaxy.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-transportation-logistics";
+    src: url("../utilities/Fonts/transportation-logistics.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-users";
+    src: url("../utilities/Fonts/users.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-weather";
+    src: url("../utilities/Fonts/weather.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "dga-fonts-icons-wifi-signal";
+    src: url("../utilities/Fonts/wifi-signal.woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Common Icon Styles */
+.icon[class*="dga-icon-"],
+.icon[class*="dga-flag-"],
+.icon[class*="dga-pay-"],
+.icon[class*="dga-social-"],
+.icon[class*="dga-tel-"] {
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -3,5 +3,22 @@
   "dest": "../../dist/dga-angular",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    {
+      "glob": "styles.scss",
+      "input": "src/lib",
+      "output": "."
+    },
+    {
+      "glob": "**/*.scss",
+      "input": "src/lib/styles",
+      "output": "styles"
+    },
+    {
+      "glob": "**/*",
+      "input": "src/lib/icons/fonts",
+      "output": "icons/fonts"
+    }
+  ]
 }

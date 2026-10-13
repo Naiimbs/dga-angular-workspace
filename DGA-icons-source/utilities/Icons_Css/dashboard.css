@@ -1,0 +1,2602 @@
+.dga-icon-dashboard-browsing {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-browsing:before, 
+.dga-icon-dashboard-browsing.stroke.rounded:before {
+  content: "\e900";
+}
+body:has(.active-screen) .dga-icon-dashboard-browsing.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-browsing.twotone.rounded .path1:before {
+  content: "\e901";
+}
+.dga-icon-dashboard-browsing.twotone.rounded .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.twotone.rounded .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.twotone.rounded .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-browsing.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.twotone.rounded .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-browsing.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-browsing.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-browsing.duotone.rounded .path1:before {
+  content: "\e906";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-browsing.duotone.rounded .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.duotone.rounded .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.duotone.rounded .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.duotone.rounded .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.duotone.rounded .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.solid.rounded:before {
+  content: "\e90c";
+}
+body:has(.active-screen) .dga-icon-dashboard-browsing.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-browsing.bulk.rounded .path1:before {
+  content: "\e90d";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-browsing.bulk.rounded .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.bulk.rounded .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.bulk.rounded .path4:before {
+  content: "\e910";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-browsing.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-browsing.stroke.sharp:before {
+  content: "\e911";
+}
+.dga-icon-dashboard-browsing.solid.sharp:before {
+  content: "\e912";
+}
+.dga-icon-dashboard-circle {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-circle:before, 
+.dga-icon-dashboard-circle.stroke.rounded:before {
+  content: "\e913";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle.twotone.rounded .path1:before {
+  content: "\e914";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle.twotone.rounded .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.twotone.rounded .path3:before {
+  content: "\e916";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.twotone.rounded .path4:before {
+  content: "\e917";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-circle.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle.duotone.rounded .path1:before {
+  content: "\e918";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle.duotone.rounded .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.duotone.rounded .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.duotone.rounded .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.duotone.rounded .path5:before {
+  content: "\e91c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.duotone.rounded .path6:before {
+  content: "\e91d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.solid.rounded:before {
+  content: "\e91e";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle.bulk.rounded .path1:before {
+  content: "\e91f";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle.bulk.rounded .path2:before {
+  content: "\e920";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.bulk.rounded .path3:before {
+  content: "\e921";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.bulk.rounded .path4:before {
+  content: "\e922";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle.stroke.sharp:before {
+  content: "\e923";
+}
+.dga-icon-dashboard-circle.solid.sharp:before {
+  content: "\e924";
+}
+.dga-icon-dashboard-circle-add {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-circle-add:before, 
+.dga-icon-dashboard-circle-add.stroke.rounded:before {
+  content: "\e925";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-add.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-add.twotone.rounded .path1:before {
+  content: "\e926";
+}
+.dga-icon-dashboard-circle-add.twotone.rounded .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.twotone.rounded .path3:before {
+  content: "\e928";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.twotone.rounded .path4:before {
+  content: "\e929";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-add.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-add.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-add.duotone.rounded .path1:before {
+  content: "\e92a";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-add.duotone.rounded .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-add.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.duotone.rounded .path3:before {
+  content: "\e92c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.duotone.rounded .path4:before {
+  content: "\e92d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.duotone.rounded .path5:before {
+  content: "\e92e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.duotone.rounded .path6:before {
+  content: "\e92f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.solid.rounded:before {
+  content: "\e930";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-add.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-add.bulk.rounded .path1:before {
+  content: "\e931";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-add.bulk.rounded .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-add.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.bulk.rounded .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.bulk.rounded .path4:before {
+  content: "\e934";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-add.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-add.stroke.sharp:before {
+  content: "\e935";
+}
+.dga-icon-dashboard-circle-add.solid.sharp:before {
+  content: "\e936";
+}
+.dga-icon-dashboard-circle-edit {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-circle-edit:before, 
+.dga-icon-dashboard-circle-edit.stroke.rounded:before {
+  content: "\e937";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-edit.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-edit.twotone.rounded .path1:before {
+  content: "\e938";
+}
+.dga-icon-dashboard-circle-edit.twotone.rounded .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.twotone.rounded .path3:before {
+  content: "\e93a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.twotone.rounded .path4:before {
+  content: "\e93b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-edit.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-edit.duotone.rounded .path1:before {
+  content: "\e93c";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-edit.duotone.rounded .path2:before {
+  content: "\e93d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.duotone.rounded .path3:before {
+  content: "\e93e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.duotone.rounded .path4:before {
+  content: "\e93f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.duotone.rounded .path5:before {
+  content: "\e940";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.duotone.rounded .path6:before {
+  content: "\e941";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.solid.rounded:before {
+  content: "\e942";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-edit.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-edit.bulk.rounded .path1:before {
+  content: "\e943";
+}
+.dga-icon-dashboard-circle-edit.bulk.rounded .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.bulk.rounded .path3:before {
+  content: "\e945";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.bulk.rounded .path4:before {
+  content: "\e946";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-edit.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-edit.stroke.sharp:before {
+  content: "\e947";
+}
+.dga-icon-dashboard-circle-edit.solid.sharp:before {
+  content: "\e948";
+}
+.dga-icon-dashboard-circle-remove {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-circle-remove:before, 
+.dga-icon-dashboard-circle-remove.stroke.rounded:before {
+  content: "\e949";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-remove.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-remove.twotone.rounded .path1:before {
+  content: "\e94a";
+}
+.dga-icon-dashboard-circle-remove.twotone.rounded .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.twotone.rounded .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.twotone.rounded .path4:before {
+  content: "\e94d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-remove.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-remove.duotone.rounded .path1:before {
+  content: "\e94e";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-remove.duotone.rounded .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.duotone.rounded .path3:before {
+  content: "\e950";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.duotone.rounded .path4:before {
+  content: "\e951";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.duotone.rounded .path5:before {
+  content: "\e952";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.duotone.rounded .path6:before {
+  content: "\e953";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.solid.rounded:before {
+  content: "\e954";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-remove.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-remove.bulk.rounded .path1:before {
+  content: "\e955";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-remove.bulk.rounded .path2:before {
+  content: "\e956";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.bulk.rounded .path3:before {
+  content: "\e957";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.bulk.rounded .path4:before {
+  content: "\e958";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-remove.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-remove.stroke.sharp:before {
+  content: "\e959";
+}
+.dga-icon-dashboard-circle-remove.solid.sharp:before {
+  content: "\e95a";
+}
+.dga-icon-dashboard-circle-settings {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-circle-settings:before, 
+.dga-icon-dashboard-circle-settings.stroke.rounded:before {
+  content: "\e95b";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-settings.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-settings.twotone.rounded .path1:before {
+  content: "\e95c";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-settings.twotone.rounded .path2:before {
+  content: "\e95d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.twotone.rounded .path3:before {
+  content: "\e95e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.twotone.rounded .path4:before {
+  content: "\e95f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-settings.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-settings.duotone.rounded .path1:before {
+  content: "\e960";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-settings.duotone.rounded .path2:before {
+  content: "\e961";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.duotone.rounded .path3:before {
+  content: "\e962";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.duotone.rounded .path4:before {
+  content: "\e963";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.duotone.rounded .path5:before {
+  content: "\e964";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.duotone.rounded .path6:before {
+  content: "\e965";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.solid.rounded:before {
+  content: "\e966";
+}
+body:has(.active-screen) .dga-icon-dashboard-circle-settings.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-circle-settings.bulk.rounded .path1:before {
+  content: "\e967";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-circle-settings.bulk.rounded .path2:before {
+  content: "\e968";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.bulk.rounded .path3:before {
+  content: "\e969";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.bulk.rounded .path4:before {
+  content: "\e96a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-circle-settings.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-circle-settings.stroke.sharp:before {
+  content: "\e96b";
+}
+.dga-icon-dashboard-circle-settings.solid.sharp:before {
+  content: "\e96c";
+}
+.dga-icon-dashboard-speed-01 {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-speed-01:before, 
+.dga-icon-dashboard-speed-01.stroke.rounded:before {
+  content: "\e96d";
+}
+body:has(.active-screen) .dga-icon-dashboard-speed-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-speed-01.twotone.rounded .path1:before {
+  content: "\e96e";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-speed-01.twotone.rounded .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-speed-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-01.twotone.rounded .path3:before {
+  content: "\e970";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-speed-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-speed-01.duotone.rounded .path1:before {
+  content: "\e971";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-speed-01.duotone.rounded .path2:before {
+  content: "\e972";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-01.duotone.rounded .path3:before {
+  content: "\e973";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-01.duotone.rounded .path4:before {
+  content: "\e974";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-01.solid.rounded:before {
+  content: "\e975";
+}
+.dga-icon-dashboard-speed-01.bulk.rounded:before {
+  content: "\e976";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-speed-01.bulk.rounded:after {
+  content: "\e977";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-01.stroke.sharp:before {
+  content: "\e978";
+}
+.dga-icon-dashboard-speed-01.solid.sharp:before {
+  content: "\e979";
+}
+.dga-icon-dashboard-speed-02 {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-speed-02:before, 
+.dga-icon-dashboard-speed-02.stroke.rounded:before {
+  content: "\e97a";
+}
+.dga-icon-dashboard-speed-02.twotone.rounded:before {
+  content: "\e97b";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-speed-02.twotone.rounded:after {
+  content: "\e97c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-speed-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-speed-02.duotone.rounded .path1:before {
+  content: "\e97d";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-speed-02.duotone.rounded .path2:before {
+  content: "\e97e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-02.duotone.rounded .path3:before {
+  content: "\e97f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-02.solid.rounded:before {
+  content: "\e980";
+}
+.dga-icon-dashboard-speed-02.bulk.rounded:before {
+  content: "\e981";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-speed-02.bulk.rounded:after {
+  content: "\e982";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-speed-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-speed-02.stroke.sharp:before {
+  content: "\e983";
+}
+.dga-icon-dashboard-speed-02.solid.sharp:before {
+  content: "\e984";
+}
+.dga-icon-dashboard-square-01 {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-01:before, 
+.dga-icon-dashboard-square-01.stroke.rounded:before {
+  content: "\e985";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-01.twotone.rounded .path1:before {
+  content: "\e986";
+}
+.dga-icon-dashboard-square-01.twotone.rounded .path2:before {
+  content: "\e987";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.twotone.rounded .path3:before {
+  content: "\e988";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.twotone.rounded .path4:before {
+  content: "\e989";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-01.duotone.rounded .path1:before {
+  content: "\e98a";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-01.duotone.rounded .path2:before {
+  content: "\e98b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.duotone.rounded .path3:before {
+  content: "\e98c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.duotone.rounded .path4:before {
+  content: "\e98d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.duotone.rounded .path5:before {
+  content: "\e98e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-01.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.duotone.rounded .path6:before {
+  content: "\e98f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-01.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.solid.rounded:before {
+  content: "\e990";
+}
+.dga-icon-dashboard-square-01.bulk.rounded:before {
+  content: "\e991";
+}
+.dga-icon-dashboard-square-01.bulk.rounded:after {
+  content: "\e992";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-01.stroke.sharp:before {
+  content: "\e993";
+}
+.dga-icon-dashboard-square-01.solid.sharp:before {
+  content: "\e994";
+}
+.dga-icon-dashboard-square-02 {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-02:before, 
+.dga-icon-dashboard-square-02.stroke.rounded:before {
+  content: "\e995";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-02.twotone.rounded .path1:before {
+  content: "\e996";
+}
+.dga-icon-dashboard-square-02.twotone.rounded .path2:before {
+  content: "\e997";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.twotone.rounded .path3:before {
+  content: "\e998";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.twotone.rounded .path4:before {
+  content: "\e999";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-02.duotone.rounded .path1:before {
+  content: "\e99a";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-02.duotone.rounded .path2:before {
+  content: "\e99b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.duotone.rounded .path3:before {
+  content: "\e99c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.duotone.rounded .path4:before {
+  content: "\e99d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.duotone.rounded .path5:before {
+  content: "\e99e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.duotone.rounded .path6:before {
+  content: "\e99f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.solid.rounded:before {
+  content: "\e9a0";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-02.bulk.rounded .path1:before {
+  content: "\e9a1";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-02.bulk.rounded .path2:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.bulk.rounded .path3:before {
+  content: "\e9a3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.bulk.rounded .path4:before {
+  content: "\e9a4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-02.stroke.sharp:before {
+  content: "\e9a5";
+}
+.dga-icon-dashboard-square-02.solid.sharp:before {
+  content: "\e9a6";
+}
+.dga-icon-dashboard-square-03 {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-03:before, 
+.dga-icon-dashboard-square-03.stroke.rounded:before {
+  content: "\e9a7";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-03.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-03.twotone.rounded .path1:before {
+  content: "\e9a8";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-03.twotone.rounded .path2:before {
+  content: "\e9a9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.twotone.rounded .path3:before {
+  content: "\e9aa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.twotone.rounded .path4:before {
+  content: "\e9ab";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-03.duotone.rounded .path1:before {
+  content: "\e9ac";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-03.duotone.rounded .path2:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.duotone.rounded .path3:before {
+  content: "\e9ae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.duotone.rounded .path4:before {
+  content: "\e9af";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.duotone.rounded .path5:before {
+  content: "\e9b0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.duotone.rounded .path6:before {
+  content: "\e9b1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.solid.rounded:before {
+  content: "\e9b2";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-03.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-03.bulk.rounded .path1:before {
+  content: "\e9b3";
+}
+.dga-icon-dashboard-square-03.bulk.rounded .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-03.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.bulk.rounded .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-03.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.bulk.rounded .path4:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-03.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-03.stroke.sharp:before {
+  content: "\e9b7";
+}
+.dga-icon-dashboard-square-03.solid.sharp:before {
+  content: "\e9b8";
+}
+.dga-icon-dashboard-square-add {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-add:before, 
+.dga-icon-dashboard-square-add.stroke.rounded:before {
+  content: "\e9b9";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-add.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-add.twotone.rounded .path1:before {
+  content: "\e9ba";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-add.twotone.rounded .path2:before {
+  content: "\e9bb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.twotone.rounded .path3:before {
+  content: "\e9bc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.twotone.rounded .path4:before {
+  content: "\e9bd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-add.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-add.duotone.rounded .path1:before {
+  content: "\e9be";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-add.duotone.rounded .path2:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-add.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.duotone.rounded .path3:before {
+  content: "\e9c0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.duotone.rounded .path4:before {
+  content: "\e9c1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.duotone.rounded .path5:before {
+  content: "\e9c2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.duotone.rounded .path6:before {
+  content: "\e9c3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.solid.rounded:before {
+  content: "\e9c4";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-add.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-add.bulk.rounded .path1:before {
+  content: "\e9c5";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-add.bulk.rounded .path2:before {
+  content: "\e9c6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-add.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.bulk.rounded .path3:before {
+  content: "\e9c7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.bulk.rounded .path4:before {
+  content: "\e9c8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-add.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-add.stroke.sharp:before {
+  content: "\e9c9";
+}
+.dga-icon-dashboard-square-add.solid.sharp:before {
+  content: "\e9ca";
+}
+.dga-icon-dashboard-square-edit {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-edit:before, 
+.dga-icon-dashboard-square-edit.stroke.rounded:before {
+  content: "\e9cb";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-edit.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-edit.twotone.rounded .path1:before {
+  content: "\e9cc";
+}
+.dga-icon-dashboard-square-edit.twotone.rounded .path2:before {
+  content: "\e9cd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.twotone.rounded .path3:before {
+  content: "\e9ce";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.twotone.rounded .path4:before {
+  content: "\e9cf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-edit.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-edit.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-edit.duotone.rounded .path1:before {
+  content: "\e9d0";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-edit.duotone.rounded .path2:before {
+  content: "\e9d1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-edit.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.duotone.rounded .path3:before {
+  content: "\e9d2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.duotone.rounded .path4:before {
+  content: "\e9d3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.duotone.rounded .path5:before {
+  content: "\e9d4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.duotone.rounded .path6:before {
+  content: "\e9d5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.solid.rounded:before {
+  content: "\e9d6";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-edit.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-edit.bulk.rounded .path1:before {
+  content: "\e9d7";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-edit.bulk.rounded .path2:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-edit.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.bulk.rounded .path3:before {
+  content: "\e9d9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.bulk.rounded .path4:before {
+  content: "\e9da";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-edit.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-edit.stroke.sharp:before {
+  content: "\e9db";
+}
+.dga-icon-dashboard-square-edit.solid.sharp:before {
+  content: "\e9dc";
+}
+.dga-icon-dashboard-square-remove {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-remove:before, 
+.dga-icon-dashboard-square-remove.stroke.rounded:before {
+  content: "\e9dd";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-remove.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-remove.twotone.rounded .path1:before {
+  content: "\e9de";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-remove.twotone.rounded .path2:before {
+  content: "\e9df";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.twotone.rounded .path3:before {
+  content: "\e9e0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.twotone.rounded .path4:before {
+  content: "\e9e1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-remove.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-remove.duotone.rounded .path1:before {
+  content: "\e9e2";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-remove.duotone.rounded .path2:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-remove.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.duotone.rounded .path3:before {
+  content: "\e9e4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.duotone.rounded .path4:before {
+  content: "\e9e5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.duotone.rounded .path5:before {
+  content: "\e9e6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.duotone.rounded .path6:before {
+  content: "\e9e7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.solid.rounded:before {
+  content: "\e9e8";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-remove.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-remove.bulk.rounded .path1:before {
+  content: "\e9e9";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-remove.bulk.rounded .path2:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-remove.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.bulk.rounded .path3:before {
+  content: "\e9eb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.bulk.rounded .path4:before {
+  content: "\e9ec";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-remove.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-remove.stroke.sharp:before {
+  content: "\e9ed";
+}
+.dga-icon-dashboard-square-remove.solid.sharp:before {
+  content: "\e9ee";
+}
+.dga-icon-dashboard-square-setting {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-dashboard-square-setting:before, 
+.dga-icon-dashboard-square-setting.stroke.rounded:before {
+  content: "\e9ef";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-setting.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-setting.twotone.rounded .path1:before {
+  content: "\e9f0";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-setting.twotone.rounded .path2:before {
+  content: "\e9f1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.twotone.rounded .path3:before {
+  content: "\e9f2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.twotone.rounded .path4:before {
+  content: "\e9f3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dashboard-square-setting.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-setting.duotone.rounded .path1:before {
+  content: "\e9f4";
+  opacity: 0.4;
+}
+.dga-icon-dashboard-square-setting.duotone.rounded .path2:before {
+  content: "\e9f5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-setting.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.duotone.rounded .path3:before {
+  content: "\e9f6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.duotone.rounded .path4:before {
+  content: "\e9f7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.duotone.rounded .path5:before {
+  content: "\e9f8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.duotone.rounded .path6:before {
+  content: "\e9f9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.solid.rounded:before {
+  content: "\e9fa";
+}
+body:has(.active-screen) .dga-icon-dashboard-square-setting.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-dashboard-square-setting.bulk.rounded .path1:before {
+  content: "\e9fb";
+}
+.dga-icon-dashboard-square-setting.bulk.rounded .path2:before {
+  content: "\e9fc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dashboard-square-setting.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.bulk.rounded .path3:before {
+  content: "\e9fd";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-setting.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.bulk.rounded .path4:before {
+  content: "\e9fe";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dashboard-square-setting.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dashboard-square-setting.stroke.sharp:before {
+  content: "\e9ff";
+}
+.dga-icon-dashboard-square-setting.solid.sharp:before {
+  content: "\ea00";
+}
+.dga-icon-discover-circle {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-discover-circle:before, 
+.dga-icon-discover-circle.stroke.rounded:before {
+  content: "\ea01";
+}
+body:has(.active-screen) .dga-icon-discover-circle.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-discover-circle.twotone.rounded .path1:before {
+  content: "\ea02";
+}
+.dga-icon-discover-circle.twotone.rounded .path2:before {
+  content: "\ea03";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-discover-circle.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-circle.twotone.rounded .path3:before {
+  content: "\ea04";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-discover-circle.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-discover-circle.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-discover-circle.duotone.rounded .path1:before {
+  content: "\ea05";
+  opacity: 0.4;
+}
+.dga-icon-discover-circle.duotone.rounded .path2:before {
+  content: "\ea06";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-circle.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-circle.duotone.rounded .path3:before {
+  content: "\ea07";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-circle.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-circle.duotone.rounded .path4:before {
+  content: "\ea08";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-circle.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-circle.solid.rounded:before {
+  content: "\ea09";
+}
+.dga-icon-discover-circle.bulk.rounded:before {
+  content: "\ea0a";
+  opacity: 0.4;
+}
+.dga-icon-discover-circle.bulk.rounded:after {
+  content: "\ea0b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-circle.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-circle.stroke.sharp:before {
+  content: "\ea0c";
+}
+.dga-icon-discover-circle.solid.sharp:before {
+  content: "\ea0d";
+}
+.dga-icon-discover-square {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-discover-square:before, 
+.dga-icon-discover-square.stroke.rounded:before {
+  content: "\ea0e";
+}
+body:has(.active-screen) .dga-icon-discover-square.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-discover-square.twotone.rounded .path1:before {
+  content: "\ea0f";
+  opacity: 0.4;
+}
+.dga-icon-discover-square.twotone.rounded .path2:before {
+  content: "\ea10";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-discover-square.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-square.twotone.rounded .path3:before {
+  content: "\ea11";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-square.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-discover-square.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-discover-square.duotone.rounded .path1:before {
+  content: "\ea12";
+  opacity: 0.4;
+}
+.dga-icon-discover-square.duotone.rounded .path2:before {
+  content: "\ea13";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-square.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-square.duotone.rounded .path3:before {
+  content: "\ea14";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-square.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-square.duotone.rounded .path4:before {
+  content: "\ea15";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-square.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-square.solid.rounded:before {
+  content: "\ea16";
+}
+.dga-icon-discover-square.bulk.rounded:before {
+  content: "\ea17";
+  opacity: 0.4;
+}
+.dga-icon-discover-square.bulk.rounded:after {
+  content: "\ea18";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-discover-square.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-discover-square.stroke.sharp:before {
+  content: "\ea19";
+}
+.dga-icon-discover-square.solid.sharp:before {
+  content: "\ea1a";
+}
+.dga-icon-sidebar-bottom {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-sidebar-bottom:before, 
+.dga-icon-sidebar-bottom.stroke.rounded:before {
+  content: "\ea1b";
+}
+.dga-icon-sidebar-bottom.twotone.rounded:before {
+  content: "\ea1c";
+}
+.dga-icon-sidebar-bottom.twotone.rounded:after {
+  content: "\ea1d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-bottom.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-sidebar-bottom.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-sidebar-bottom.duotone.rounded .path1:before {
+  content: "\ea1e";
+  opacity: 0.4;
+}
+.dga-icon-sidebar-bottom.duotone.rounded .path2:before {
+  content: "\ea1f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-bottom.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-bottom.duotone.rounded .path3:before {
+  content: "\ea20";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-bottom.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-bottom.duotone.rounded .path4:before {
+  content: "\ea21";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-bottom.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-bottom.solid.rounded:before {
+  content: "\ea22";
+}
+.dga-icon-sidebar-bottom.bulk.rounded:before {
+  content: "\ea23";
+}
+.dga-icon-sidebar-bottom.bulk.rounded:after {
+  content: "\ea24";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-bottom.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-bottom.stroke.sharp:before {
+  content: "\ea25";
+}
+.dga-icon-sidebar-bottom.solid.sharp:before {
+  content: "\ea26";
+}
+.dga-icon-sidebar-left {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-sidebar-left:before, 
+.dga-icon-sidebar-left.stroke.rounded:before {
+  content: "\ea27";
+}
+.dga-icon-sidebar-left.twotone.rounded:before {
+  content: "\ea28";
+}
+.dga-icon-sidebar-left.twotone.rounded:after {
+  content: "\ea29";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-left.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-sidebar-left.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-sidebar-left.duotone.rounded .path1:before {
+  content: "\ea2a";
+  opacity: 0.4;
+}
+.dga-icon-sidebar-left.duotone.rounded .path2:before {
+  content: "\ea2b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-left.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-left.duotone.rounded .path3:before {
+  content: "\ea2c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-left.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-left.duotone.rounded .path4:before {
+  content: "\ea2d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-left.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-left.solid.rounded:before {
+  content: "\ea2e";
+}
+.dga-icon-sidebar-left.bulk.rounded:before {
+  content: "\ea2f";
+}
+.dga-icon-sidebar-left.bulk.rounded:after {
+  content: "\ea30";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-left.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-left.stroke.sharp:before {
+  content: "\ea31";
+}
+.dga-icon-sidebar-left.solid.sharp:before {
+  content: "\ea32";
+}
+.dga-icon-sidebar-right {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-sidebar-right:before, 
+.dga-icon-sidebar-right.stroke.rounded:before {
+  content: "\ea33";
+}
+.dga-icon-sidebar-right.twotone.rounded:before {
+  content: "\ea34";
+}
+.dga-icon-sidebar-right.twotone.rounded:after {
+  content: "\ea35";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-right.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-sidebar-right.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-sidebar-right.duotone.rounded .path1:before {
+  content: "\ea36";
+  opacity: 0.4;
+}
+.dga-icon-sidebar-right.duotone.rounded .path2:before {
+  content: "\ea37";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-right.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-right.duotone.rounded .path3:before {
+  content: "\ea38";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-right.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-right.duotone.rounded .path4:before {
+  content: "\ea39";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-right.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-right.solid.rounded:before {
+  content: "\ea3a";
+}
+.dga-icon-sidebar-right.bulk.rounded:before {
+  content: "\ea3b";
+}
+.dga-icon-sidebar-right.bulk.rounded:after {
+  content: "\ea3c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-right.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-right.stroke.sharp:before {
+  content: "\ea3d";
+}
+.dga-icon-sidebar-right.solid.sharp:before {
+  content: "\ea3e";
+}
+.dga-icon-sidebar-top {
+  font-family: 'dga-fonts-icons-dashboard' !important;
+}
+.dga-icon-sidebar-top:before, 
+.dga-icon-sidebar-top.stroke.rounded:before {
+  content: "\ea3f";
+}
+.dga-icon-sidebar-top.twotone.rounded:before {
+  content: "\ea40";
+}
+.dga-icon-sidebar-top.twotone.rounded:after {
+  content: "\ea41";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-top.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-sidebar-top.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-sidebar-top.duotone.rounded .path1:before {
+  content: "\ea42";
+  opacity: 0.4;
+}
+.dga-icon-sidebar-top.duotone.rounded .path2:before {
+  content: "\ea43";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-top.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-top.duotone.rounded .path3:before {
+  content: "\ea44";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-top.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-top.duotone.rounded .path4:before {
+  content: "\ea45";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sidebar-top.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-top.solid.rounded:before {
+  content: "\ea46";
+}
+.dga-icon-sidebar-top.bulk.rounded:before {
+  content: "\ea47";
+}
+.dga-icon-sidebar-top.bulk.rounded:after {
+  content: "\ea48";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sidebar-top.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sidebar-top.stroke.sharp:before {
+  content: "\ea49";
+}
+.dga-icon-sidebar-top.solid.sharp:before {
+  content: "\ea4a";
+}

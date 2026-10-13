@@ -1,0 +1,7118 @@
+.dga-icon-aids {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-aids:before, 
+.dga-icon-aids.stroke.rounded:before {
+  content: "\e900";
+}
+.dga-icon-aids.twotone.rounded:before {
+  content: "\e901";
+}
+.dga-icon-aids.twotone.rounded:after {
+  content: "\e902";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-aids.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-aids.duotone.rounded:before {
+  content: "\e903";
+  opacity: 0.4;
+}
+.dga-icon-aids.duotone.rounded:after {
+  content: "\e904";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-aids.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-aids.solid.rounded:before {
+  content: "\e905";
+}
+body:has(.active-screen) .dga-icon-aids.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-aids.bulk.rounded .path1:before {
+  content: "\e906";
+  opacity: 0.4;
+}
+.dga-icon-aids.bulk.rounded .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-aids.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-aids.bulk.rounded .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-aids.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-aids.stroke.sharp:before {
+  content: "\e909";
+}
+.dga-icon-aids.solid.sharp:before {
+  content: "\e90a";
+}
+.dga-icon-ampoule {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-ampoule:before, 
+.dga-icon-ampoule.stroke.rounded:before {
+  content: "\e90b";
+}
+body:has(.active-screen) .dga-icon-ampoule.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-ampoule.twotone.rounded .path1:before {
+  content: "\e90c";
+}
+.dga-icon-ampoule.twotone.rounded .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ampoule.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ampoule.twotone.rounded .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ampoule.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ampoule.twotone.rounded .path4:before {
+  content: "\e90f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ampoule.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ampoule.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ampoule.duotone.rounded .path1:before {
+  content: "\e910";
+  opacity: 0.4;
+}
+.dga-icon-ampoule.duotone.rounded .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ampoule.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ampoule.duotone.rounded .path3:before {
+  content: "\e912";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ampoule.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ampoule.duotone.rounded .path4:before {
+  content: "\e913";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ampoule.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ampoule.solid.rounded:before {
+  content: "\e914";
+}
+.dga-icon-ampoule.bulk.rounded:before {
+  content: "\e915";
+  opacity: 0.4;
+}
+.dga-icon-ampoule.bulk.rounded:after {
+  content: "\e916";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ampoule.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ampoule.stroke.sharp:before {
+  content: "\e917";
+}
+.dga-icon-ampoule.solid.sharp:before {
+  content: "\e918";
+}
+.dga-icon-bandage {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-bandage:before, 
+.dga-icon-bandage.stroke.rounded:before {
+  content: "\e919";
+}
+.dga-icon-bandage.twotone.rounded:before {
+  content: "\e91a";
+  opacity: 0.4;
+}
+.dga-icon-bandage.twotone.rounded:after {
+  content: "\e91b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-bandage.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-bandage.duotone.rounded .path1:before {
+  content: "\e91c";
+  opacity: 0.4;
+}
+.dga-icon-bandage.duotone.rounded .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bandage.duotone.rounded .path3:before {
+  content: "\e91e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bandage.duotone.rounded .path4:before {
+  content: "\e91f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bandage.solid.rounded:before {
+  content: "\e920";
+}
+body:has(.active-screen) .dga-icon-bandage.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-bandage.bulk.rounded .path1:before {
+  content: "\e921";
+  opacity: 0.4;
+}
+.dga-icon-bandage.bulk.rounded .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bandage.bulk.rounded .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bandage.bulk.rounded .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bandage.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bandage.stroke.sharp:before {
+  content: "\e925";
+}
+.dga-icon-bandage.solid.sharp:before {
+  content: "\e926";
+}
+.dga-icon-blood {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-blood:before, 
+.dga-icon-blood.stroke.rounded:before {
+  content: "\e927";
+}
+body:has(.active-screen) .dga-icon-blood.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-blood.twotone.rounded .path1:before {
+  content: "\e928";
+}
+.dga-icon-blood.twotone.rounded .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blood.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood.twotone.rounded .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blood.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-blood.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-blood.duotone.rounded .path1:before {
+  content: "\e92b";
+  opacity: 0.4;
+}
+.dga-icon-blood.duotone.rounded .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood.duotone.rounded .path3:before {
+  content: "\e92d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood.duotone.rounded .path4:before {
+  content: "\e92e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood.solid.rounded:before {
+  content: "\e92f";
+}
+body:has(.active-screen) .dga-icon-blood.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-blood.bulk.rounded .path1:before {
+  content: "\e930";
+  opacity: 0.4;
+}
+.dga-icon-blood.bulk.rounded .path2:before {
+  content: "\e931";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood.bulk.rounded .path3:before {
+  content: "\e932";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood.stroke.sharp:before {
+  content: "\e933";
+}
+.dga-icon-blood.solid.sharp:before {
+  content: "\e934";
+}
+.dga-icon-blood-bag {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-blood-bag:before, 
+.dga-icon-blood-bag.stroke.rounded:before {
+  content: "\e935";
+}
+body:has(.active-screen) .dga-icon-blood-bag.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-blood-bag.twotone.rounded .path1:before {
+  content: "\e936";
+}
+.dga-icon-blood-bag.twotone.rounded .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blood-bag.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bag.twotone.rounded .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blood-bag.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-blood-bag.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-blood-bag.duotone.rounded .path1:before {
+  content: "\e939";
+  opacity: 0.4;
+}
+.dga-icon-blood-bag.duotone.rounded .path2:before {
+  content: "\e93a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bag.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bag.duotone.rounded .path3:before {
+  content: "\e93b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bag.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bag.solid.rounded:before {
+  content: "\e93c";
+}
+body:has(.active-screen) .dga-icon-blood-bag.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-blood-bag.bulk.rounded .path1:before {
+  content: "\e93d";
+  opacity: 0.4;
+}
+.dga-icon-blood-bag.bulk.rounded .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bag.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bag.bulk.rounded .path3:before {
+  content: "\e93f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bag.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bag.stroke.sharp:before {
+  content: "\e940";
+}
+.dga-icon-blood-bag.solid.sharp:before {
+  content: "\e941";
+}
+.dga-icon-blood-bottle {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-blood-bottle:before, 
+.dga-icon-blood-bottle.stroke.rounded:before {
+  content: "\e942";
+}
+.dga-icon-blood-bottle.twotone.rounded:before {
+  content: "\e943";
+  opacity: 0.4;
+}
+.dga-icon-blood-bottle.twotone.rounded:after {
+  content: "\e944";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bottle.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bottle.duotone.rounded:before {
+  content: "\e945";
+  opacity: 0.4;
+}
+.dga-icon-blood-bottle.duotone.rounded:after {
+  content: "\e946";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bottle.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bottle.solid.rounded:before {
+  content: "\e947";
+}
+body:has(.active-screen) .dga-icon-blood-bottle.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-blood-bottle.bulk.rounded .path1:before {
+  content: "\e948";
+  opacity: 0.4;
+}
+.dga-icon-blood-bottle.bulk.rounded .path2:before {
+  content: "\e949";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bottle.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bottle.bulk.rounded .path3:before {
+  content: "\e94a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-bottle.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-bottle.stroke.sharp:before {
+  content: "\e94b";
+}
+.dga-icon-blood-bottle.solid.sharp:before {
+  content: "\e94c";
+}
+.dga-icon-blood-pressure {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-blood-pressure:before, 
+.dga-icon-blood-pressure.stroke.rounded:before {
+  content: "\e94d";
+}
+.dga-icon-blood-pressure.twotone.rounded:before {
+  content: "\e94e";
+  opacity: 0.4;
+}
+.dga-icon-blood-pressure.twotone.rounded:after {
+  content: "\e94f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-pressure.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-blood-pressure.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-blood-pressure.duotone.rounded .path1:before {
+  content: "\e950";
+  opacity: 0.4;
+}
+.dga-icon-blood-pressure.duotone.rounded .path2:before {
+  content: "\e951";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-pressure.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-pressure.duotone.rounded .path3:before {
+  content: "\e952";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-pressure.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-pressure.solid.rounded:before {
+  content: "\e953";
+}
+.dga-icon-blood-pressure.bulk.rounded:before {
+  content: "\e954";
+}
+.dga-icon-blood-pressure.bulk.rounded:after {
+  content: "\e955";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blood-pressure.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-pressure.stroke.sharp:before {
+  content: "\e956";
+}
+.dga-icon-blood-pressure.solid.sharp:before {
+  content: "\e957";
+}
+.dga-icon-blood-type {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-blood-type:before, 
+.dga-icon-blood-type.stroke.rounded:before {
+  content: "\e958";
+}
+.dga-icon-blood-type.twotone.rounded:before {
+  content: "\e959";
+}
+.dga-icon-blood-type.twotone.rounded:after {
+  content: "\e95a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-blood-type.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-blood-type.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-blood-type.duotone.rounded .path1:before {
+  content: "\e95b";
+  opacity: 0.4;
+}
+.dga-icon-blood-type.duotone.rounded .path2:before {
+  content: "\e95c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-type.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-type.duotone.rounded .path3:before {
+  content: "\e95d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-type.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-type.solid.rounded:before {
+  content: "\e95e";
+}
+.dga-icon-blood-type.bulk.rounded:before {
+  content: "\e95f";
+  opacity: 0.4;
+}
+.dga-icon-blood-type.bulk.rounded:after {
+  content: "\e960";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-blood-type.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-blood-type.stroke.sharp:before {
+  content: "\e961";
+}
+.dga-icon-blood-type.solid.sharp:before {
+  content: "\e962";
+}
+.dga-icon-bone-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-bone-01:before, 
+.dga-icon-bone-01.stroke.rounded:before {
+  content: "\e963";
+}
+.dga-icon-bone-01.twotone.rounded:before {
+  content: "\e964";
+  opacity: 0.4;
+}
+.dga-icon-bone-01.twotone.rounded:after {
+  content: "\e965";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-01.duotone.rounded:before {
+  content: "\e966";
+  opacity: 0.4;
+}
+.dga-icon-bone-01.duotone.rounded:after {
+  content: "\e967";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-01.solid.rounded:before {
+  content: "\e968";
+}
+.dga-icon-bone-01.bulk.rounded:before {
+  content: "\e969";
+}
+.dga-icon-bone-01.stroke.sharp:before {
+  content: "\e96a";
+}
+.dga-icon-bone-01.solid.sharp:before {
+  content: "\e96b";
+}
+.dga-icon-bone-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-bone-02:before, 
+.dga-icon-bone-02.stroke.rounded:before {
+  content: "\e96c";
+}
+body:has(.active-screen) .dga-icon-bone-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-bone-02.twotone.rounded .path1:before {
+  content: "\e96d";
+}
+.dga-icon-bone-02.twotone.rounded .path2:before {
+  content: "\e96e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.twotone.rounded .path3:before {
+  content: "\e96f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bone-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.twotone.rounded .path4:before {
+  content: "\e970";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bone-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.twotone.rounded .path5:before {
+  content: "\e971";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bone-02.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.twotone.rounded .path6:before {
+  content: "\e972";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bone-02.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-bone-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-bone-02.duotone.rounded .path1:before {
+  content: "\e973";
+  opacity: 0.4;
+}
+.dga-icon-bone-02.duotone.rounded .path2:before {
+  content: "\e974";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.duotone.rounded .path3:before {
+  content: "\e975";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.duotone.rounded .path4:before {
+  content: "\e976";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.duotone.rounded .path5:before {
+  content: "\e977";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.duotone.rounded .path6:before {
+  content: "\e978";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.duotone.rounded .path7:before {
+  content: "\e979";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.duotone.rounded .path8:before {
+  content: "\e97a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.duotone.rounded .path8:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.solid.rounded:before {
+  content: "\e97b";
+}
+body:has(.active-screen) .dga-icon-bone-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-bone-02.bulk.rounded .path1:before {
+  content: "\e97c";
+  opacity: 0.4;
+}
+.dga-icon-bone-02.bulk.rounded .path2:before {
+  content: "\e97d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-bone-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.bulk.rounded .path3:before {
+  content: "\e97e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.bulk.rounded .path4:before {
+  content: "\e97f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.bulk.rounded .path5:before {
+  content: "\e980";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.bulk.rounded .path6:before {
+  content: "\e981";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-bone-02.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-bone-02.stroke.sharp:before {
+  content: "\e982";
+}
+.dga-icon-bone-02.solid.sharp:before {
+  content: "\e983";
+}
+.dga-icon-brain-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-brain-01:before, 
+.dga-icon-brain-01.stroke.rounded:before {
+  content: "\e984";
+}
+.dga-icon-brain-01.twotone.rounded:before {
+  content: "\e985";
+  opacity: 0.4;
+}
+.dga-icon-brain-01.twotone.rounded:after {
+  content: "\e986";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-01.duotone.rounded:before {
+  content: "\e987";
+  opacity: 0.4;
+}
+.dga-icon-brain-01.duotone.rounded:after {
+  content: "\e988";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-01.solid.rounded:before {
+  content: "\e989";
+}
+body:has(.active-screen) .dga-icon-brain-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-brain-01.bulk.rounded .path1:before {
+  content: "\e98a";
+  opacity: 0.4;
+}
+.dga-icon-brain-01.bulk.rounded .path2:before {
+  content: "\e98b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-01.bulk.rounded .path3:before {
+  content: "\e98c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-01.stroke.sharp:before {
+  content: "\e98d";
+}
+.dga-icon-brain-01.solid.sharp:before {
+  content: "\e98e";
+}
+.dga-icon-brain-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-brain-02:before, 
+.dga-icon-brain-02.stroke.rounded:before {
+  content: "\e98f";
+}
+.dga-icon-brain-02.twotone.rounded:before {
+  content: "\e990";
+}
+.dga-icon-brain-02.twotone.rounded:after {
+  content: "\e991";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-brain-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-brain-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-brain-02.duotone.rounded .path1:before {
+  content: "\e992";
+  opacity: 0.4;
+}
+.dga-icon-brain-02.duotone.rounded .path2:before {
+  content: "\e993";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-02.duotone.rounded .path3:before {
+  content: "\e994";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-02.solid.rounded:before {
+  content: "\e995";
+}
+.dga-icon-brain-02.bulk.rounded:before {
+  content: "\e996";
+  opacity: 0.4;
+}
+.dga-icon-brain-02.bulk.rounded:after {
+  content: "\e997";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-brain-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-brain-02.stroke.sharp:before {
+  content: "\e998";
+}
+.dga-icon-brain-02.solid.sharp:before {
+  content: "\e999";
+}
+.dga-icon-broken-bone {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-broken-bone:before, 
+.dga-icon-broken-bone.stroke.rounded:before {
+  content: "\e99a";
+}
+body:has(.active-screen) .dga-icon-broken-bone.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-broken-bone.twotone.rounded .path1:before {
+  content: "\e99b";
+}
+.dga-icon-broken-bone.twotone.rounded .path2:before {
+  content: "\e99c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.twotone.rounded .path3:before {
+  content: "\e99d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-broken-bone.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.twotone.rounded .path4:before {
+  content: "\e99e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-broken-bone.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.twotone.rounded .path5:before {
+  content: "\e99f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-broken-bone.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.twotone.rounded .path6:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-broken-bone.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-broken-bone.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-broken-bone.duotone.rounded .path1:before {
+  content: "\e9a1";
+  opacity: 0.4;
+}
+.dga-icon-broken-bone.duotone.rounded .path2:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.duotone.rounded .path3:before {
+  content: "\e9a3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.duotone.rounded .path4:before {
+  content: "\e9a4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.duotone.rounded .path5:before {
+  content: "\e9a5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.duotone.rounded .path6:before {
+  content: "\e9a6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.duotone.rounded .path7:before {
+  content: "\e9a7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.duotone.rounded .path8:before {
+  content: "\e9a8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.duotone.rounded .path8:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.solid.rounded:before {
+  content: "\e9a9";
+}
+body:has(.active-screen) .dga-icon-broken-bone.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-broken-bone.bulk.rounded .path1:before {
+  content: "\e9aa";
+  opacity: 0.4;
+}
+.dga-icon-broken-bone.bulk.rounded .path2:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-broken-bone.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.bulk.rounded .path3:before {
+  content: "\e9ac";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.bulk.rounded .path4:before {
+  content: "\e9ad";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.bulk.rounded .path5:before {
+  content: "\e9ae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.bulk.rounded .path6:before {
+  content: "\e9af";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-broken-bone.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-broken-bone.stroke.sharp:before {
+  content: "\e9b0";
+}
+.dga-icon-broken-bone.solid.sharp:before {
+  content: "\e9b1";
+}
+.dga-icon-caduceus {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-caduceus:before, 
+.dga-icon-caduceus.stroke.rounded:before {
+  content: "\e9b2";
+}
+body:has(.active-screen) .dga-icon-caduceus.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-caduceus.twotone.rounded .path1:before {
+  content: "\e9b3";
+  opacity: 0.4;
+}
+.dga-icon-caduceus.twotone.rounded .path2:before {
+  content: "\e9b4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-caduceus.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-caduceus.twotone.rounded .path3:before {
+  content: "\e9b5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-caduceus.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-caduceus.twotone.rounded .path4:before {
+  content: "\e9b6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-caduceus.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-caduceus.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-caduceus.duotone.rounded .path1:before {
+  content: "\e9b7";
+  opacity: 0.4;
+}
+.dga-icon-caduceus.duotone.rounded .path2:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-caduceus.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-caduceus.duotone.rounded .path3:before {
+  content: "\e9b9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-caduceus.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-caduceus.solid.rounded:before {
+  content: "\e9ba";
+}
+body:has(.active-screen) .dga-icon-caduceus.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-caduceus.bulk.rounded .path1:before {
+  content: "\e9bb";
+  opacity: 0.4;
+}
+.dga-icon-caduceus.bulk.rounded .path2:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-caduceus.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-caduceus.bulk.rounded .path3:before {
+  content: "\e9bd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-caduceus.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-caduceus.stroke.sharp:before {
+  content: "\e9be";
+}
+.dga-icon-caduceus.solid.sharp:before {
+  content: "\e9bf";
+}
+.dga-icon-cardiogram-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-cardiogram-01:before, 
+.dga-icon-cardiogram-01.stroke.rounded:before {
+  content: "\e9c0";
+}
+body:has(.active-screen) .dga-icon-cardiogram-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-cardiogram-01.twotone.rounded .path1:before {
+  content: "\e9c1";
+}
+.dga-icon-cardiogram-01.twotone.rounded .path2:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cardiogram-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.twotone.rounded .path3:before {
+  content: "\e9c3";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cardiogram-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.twotone.rounded .path4:before {
+  content: "\e9c4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cardiogram-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-cardiogram-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-cardiogram-01.duotone.rounded .path1:before {
+  content: "\e9c5";
+  opacity: 0.4;
+}
+.dga-icon-cardiogram-01.duotone.rounded .path2:before {
+  content: "\e9c6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.duotone.rounded .path3:before {
+  content: "\e9c7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.duotone.rounded .path4:before {
+  content: "\e9c8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.duotone.rounded .path5:before {
+  content: "\e9c9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-01.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.solid.rounded:before {
+  content: "\e9ca";
+}
+body:has(.active-screen) .dga-icon-cardiogram-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-cardiogram-01.bulk.rounded .path1:before {
+  content: "\e9cb";
+  opacity: 0.4;
+}
+.dga-icon-cardiogram-01.bulk.rounded .path2:before {
+  content: "\e9cc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.bulk.rounded .path3:before {
+  content: "\e9cd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-01.stroke.sharp:before {
+  content: "\e9ce";
+}
+.dga-icon-cardiogram-01.solid.sharp:before {
+  content: "\e9cf";
+}
+.dga-icon-cardiogram-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-cardiogram-02:before, 
+.dga-icon-cardiogram-02.stroke.rounded:before {
+  content: "\e9d0";
+}
+.dga-icon-cardiogram-02.twotone.rounded:before {
+  content: "\e9d1";
+}
+.dga-icon-cardiogram-02.twotone.rounded:after {
+  content: "\e9d2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-cardiogram-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-02.duotone.rounded:before {
+  content: "\e9d3";
+  opacity: 0.4;
+}
+.dga-icon-cardiogram-02.duotone.rounded:after {
+  content: "\e9d4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-02.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-02.solid.rounded:before {
+  content: "\e9d5";
+}
+.dga-icon-cardiogram-02.bulk.rounded:before {
+  content: "\e9d6";
+  opacity: 0.4;
+}
+.dga-icon-cardiogram-02.bulk.rounded:after {
+  content: "\e9d7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-cardiogram-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-cardiogram-02.stroke.sharp:before {
+  content: "\e9d8";
+}
+.dga-icon-cardiogram-02.solid.sharp:before {
+  content: "\e9d9";
+}
+.dga-icon-clinic {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-clinic:before, 
+.dga-icon-clinic.stroke.rounded:before {
+  content: "\e9da";
+}
+.dga-icon-clinic.twotone.rounded:before {
+  content: "\e9db";
+}
+.dga-icon-clinic.twotone.rounded:after {
+  content: "\e9dc";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-clinic.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-clinic.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-clinic.duotone.rounded .path1:before {
+  content: "\e9dd";
+  opacity: 0.4;
+}
+.dga-icon-clinic.duotone.rounded .path2:before {
+  content: "\e9de";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-clinic.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clinic.duotone.rounded .path3:before {
+  content: "\e9df";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-clinic.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clinic.solid.rounded:before {
+  content: "\e9e0";
+}
+.dga-icon-clinic.bulk.rounded:before {
+  content: "\e9e1";
+  opacity: 0.4;
+}
+.dga-icon-clinic.bulk.rounded:after {
+  content: "\e9e2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-clinic.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-clinic.stroke.sharp:before {
+  content: "\e9e3";
+}
+.dga-icon-clinic.solid.sharp:before {
+  content: "\e9e4";
+}
+.dga-icon-covid-info {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-covid-info:before, 
+.dga-icon-covid-info.stroke.rounded:before {
+  content: "\e9e5";
+}
+.dga-icon-covid-info.twotone.rounded:before {
+  content: "\e9e6";
+  opacity: 0.4;
+}
+.dga-icon-covid-info.twotone.rounded:after {
+  content: "\e9e7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-covid-info.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-covid-info.duotone.rounded:before {
+  content: "\e9e8";
+  opacity: 0.4;
+}
+.dga-icon-covid-info.duotone.rounded:after {
+  content: "\e9e9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-covid-info.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-covid-info.solid.rounded:before {
+  content: "\e9ea";
+}
+body:has(.active-screen) .dga-icon-covid-info.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-covid-info.bulk.rounded .path1:before {
+  content: "\e9eb";
+  opacity: 0.4;
+}
+.dga-icon-covid-info.bulk.rounded .path2:before {
+  content: "\e9ec";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-covid-info.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-covid-info.bulk.rounded .path3:before {
+  content: "\e9ed";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-covid-info.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-covid-info.stroke.sharp:before {
+  content: "\e9ee";
+}
+.dga-icon-covid-info.solid.sharp:before {
+  content: "\e9ef";
+}
+.dga-icon-dental-braces {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-dental-braces:before, 
+.dga-icon-dental-braces.stroke.rounded:before {
+  content: "\e9f0";
+}
+.dga-icon-dental-braces.twotone.rounded:before {
+  content: "\e9f1";
+}
+.dga-icon-dental-braces.twotone.rounded:after {
+  content: "\e9f2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dental-braces.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-braces.duotone.rounded:before {
+  content: "\e9f3";
+  opacity: 0.4;
+}
+.dga-icon-dental-braces.duotone.rounded:after {
+  content: "\e9f4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-braces.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-braces.solid.rounded:before {
+  content: "\e9f5";
+}
+.dga-icon-dental-braces.bulk.rounded:before {
+  content: "\e9f6";
+  opacity: 0.4;
+}
+.dga-icon-dental-braces.bulk.rounded:after {
+  content: "\e9f7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-braces.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-braces.stroke.sharp:before {
+  content: "\e9f8";
+}
+.dga-icon-dental-braces.solid.sharp:before {
+  content: "\e9f9";
+}
+.dga-icon-dental-broken-tooth {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-dental-broken-tooth:before, 
+.dga-icon-dental-broken-tooth.stroke.rounded:before {
+  content: "\e9fa";
+}
+.dga-icon-dental-broken-tooth.twotone.rounded:before {
+  content: "\e9fb";
+  opacity: 0.4;
+}
+.dga-icon-dental-broken-tooth.twotone.rounded:after {
+  content: "\e9fc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-broken-tooth.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-broken-tooth.duotone.rounded:before {
+  content: "\e9fd";
+  opacity: 0.4;
+}
+.dga-icon-dental-broken-tooth.duotone.rounded:after {
+  content: "\e9fe";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-broken-tooth.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-broken-tooth.solid.rounded:before {
+  content: "\e9ff";
+}
+.dga-icon-dental-broken-tooth.bulk.rounded:before {
+  content: "\ea00";
+}
+.dga-icon-dental-broken-tooth.stroke.sharp:before {
+  content: "\ea01";
+}
+.dga-icon-dental-broken-tooth.solid.sharp:before {
+  content: "\ea02";
+}
+.dga-icon-dental-care {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-dental-care:before, 
+.dga-icon-dental-care.stroke.rounded:before {
+  content: "\ea03";
+}
+.dga-icon-dental-care.twotone.rounded:before {
+  content: "\ea04";
+}
+.dga-icon-dental-care.twotone.rounded:after {
+  content: "\ea05";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dental-care.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dental-care.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dental-care.duotone.rounded .path1:before {
+  content: "\ea06";
+  opacity: 0.4;
+}
+.dga-icon-dental-care.duotone.rounded .path2:before {
+  content: "\ea07";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-care.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-care.duotone.rounded .path3:before {
+  content: "\ea08";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-care.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-care.duotone.rounded .path4:before {
+  content: "\ea09";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-care.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-care.solid.rounded:before {
+  content: "\ea0a";
+}
+.dga-icon-dental-care.bulk.rounded:before {
+  content: "\ea0b";
+  opacity: 0.4;
+}
+.dga-icon-dental-care.bulk.rounded:after {
+  content: "\ea0c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-care.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-care.stroke.sharp:before {
+  content: "\ea0d";
+}
+.dga-icon-dental-care.solid.sharp:before {
+  content: "\ea0e";
+}
+.dga-icon-dental-tooth {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-dental-tooth:before, 
+.dga-icon-dental-tooth.stroke.rounded:before {
+  content: "\ea0f";
+}
+.dga-icon-dental-tooth.twotone.rounded:before {
+  content: "\ea10";
+  opacity: 0.4;
+}
+.dga-icon-dental-tooth.twotone.rounded:after {
+  content: "\ea11";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-tooth.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-tooth.duotone.rounded:before {
+  content: "\ea12";
+  opacity: 0.4;
+}
+.dga-icon-dental-tooth.duotone.rounded:after {
+  content: "\ea13";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dental-tooth.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dental-tooth.solid.rounded:before {
+  content: "\ea14";
+}
+.dga-icon-dental-tooth.bulk.rounded:before {
+  content: "\ea15";
+}
+.dga-icon-dental-tooth.stroke.sharp:before {
+  content: "\ea16";
+}
+.dga-icon-dental-tooth.solid.sharp:before {
+  content: "\ea17";
+}
+.dga-icon-digestion {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-digestion:before, 
+.dga-icon-digestion.stroke.rounded:before {
+  content: "\ea18";
+}
+body:has(.active-screen) .dga-icon-digestion.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-digestion.twotone.rounded .path1:before {
+  content: "\ea19";
+}
+.dga-icon-digestion.twotone.rounded .path2:before {
+  content: "\ea1a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-digestion.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-digestion.twotone.rounded .path3:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-digestion.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-digestion.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-digestion.duotone.rounded .path1:before {
+  content: "\ea1c";
+  opacity: 0.4;
+}
+.dga-icon-digestion.duotone.rounded .path2:before {
+  content: "\ea1d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-digestion.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-digestion.duotone.rounded .path3:before {
+  content: "\ea1e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-digestion.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-digestion.duotone.rounded .path4:before {
+  content: "\ea1f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-digestion.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-digestion.solid.rounded:before {
+  content: "\ea20";
+}
+.dga-icon-digestion.bulk.rounded:before {
+  content: "\ea21";
+  opacity: 0.4;
+}
+.dga-icon-digestion.bulk.rounded:after {
+  content: "\ea22";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-digestion.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-digestion.stroke.sharp:before {
+  content: "\ea23";
+}
+.dga-icon-digestion.solid.sharp:before {
+  content: "\ea24";
+}
+.dga-icon-disability-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-disability-01:before, 
+.dga-icon-disability-01.stroke.rounded:before {
+  content: "\ea25";
+}
+body:has(.active-screen) .dga-icon-disability-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-disability-01.twotone.rounded .path1:before {
+  content: "\ea26";
+}
+.dga-icon-disability-01.twotone.rounded .path2:before {
+  content: "\ea27";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-01.twotone.rounded .path3:before {
+  content: "\ea28";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-disability-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-disability-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-disability-01.duotone.rounded .path1:before {
+  content: "\ea29";
+  opacity: 0.4;
+}
+.dga-icon-disability-01.duotone.rounded .path2:before {
+  content: "\ea2a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-01.duotone.rounded .path3:before {
+  content: "\ea2b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-01.duotone.rounded .path4:before {
+  content: "\ea2c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-01.solid.rounded:before {
+  content: "\ea2d";
+}
+body:has(.active-screen) .dga-icon-disability-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-disability-01.bulk.rounded .path1:before {
+  content: "\ea2e";
+}
+.dga-icon-disability-01.bulk.rounded .path2:before {
+  content: "\ea2f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-01.bulk.rounded .path3:before {
+  content: "\ea30";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-disability-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-01.stroke.sharp:before {
+  content: "\ea31";
+}
+.dga-icon-disability-01.solid.sharp:before {
+  content: "\ea32";
+}
+.dga-icon-disability-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-disability-02:before, 
+.dga-icon-disability-02.stroke.rounded:before {
+  content: "\ea33";
+}
+body:has(.active-screen) .dga-icon-disability-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-disability-02.twotone.rounded .path1:before {
+  content: "\ea34";
+  opacity: 0.4;
+}
+.dga-icon-disability-02.twotone.rounded .path2:before {
+  content: "\ea35";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-02.twotone.rounded .path3:before {
+  content: "\ea36";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-disability-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-disability-02.duotone.rounded .path1:before {
+  content: "\ea37";
+  opacity: 0.4;
+}
+.dga-icon-disability-02.duotone.rounded .path2:before {
+  content: "\ea38";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-02.duotone.rounded .path3:before {
+  content: "\ea39";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-02.duotone.rounded .path4:before {
+  content: "\ea3a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-02.solid.rounded:before {
+  content: "\ea3b";
+}
+body:has(.active-screen) .dga-icon-disability-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-disability-02.bulk.rounded .path1:before {
+  content: "\ea3c";
+  opacity: 0.4;
+}
+.dga-icon-disability-02.bulk.rounded .path2:before {
+  content: "\ea3d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-02.bulk.rounded .path3:before {
+  content: "\ea3e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-disability-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-disability-02.stroke.sharp:before {
+  content: "\ea3f";
+}
+.dga-icon-disability-02.solid.sharp:before {
+  content: "\ea40";
+}
+.dga-icon-dna-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-dna-01:before, 
+.dga-icon-dna-01.stroke.rounded:before {
+  content: "\ea41";
+}
+body:has(.active-screen) .dga-icon-dna-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-dna-01.twotone.rounded .path1:before {
+  content: "\ea42";
+}
+.dga-icon-dna-01.twotone.rounded .path2:before {
+  content: "\ea43";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dna-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dna-01.twotone.rounded .path3:before {
+  content: "\ea44";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dna-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dna-01.duotone.rounded:before {
+  content: "\ea45";
+  opacity: 0.4;
+}
+.dga-icon-dna-01.duotone.rounded:after {
+  content: "\ea46";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dna-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dna-01.solid.rounded:before {
+  content: "\ea47";
+}
+.dga-icon-dna-01.bulk.rounded:before {
+  content: "\ea48";
+  opacity: 0.4;
+}
+.dga-icon-dna-01.bulk.rounded:after {
+  content: "\ea49";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dna-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dna-01.stroke.sharp:before {
+  content: "\ea4a";
+}
+.dga-icon-dna-01.solid.sharp:before {
+  content: "\ea4b";
+}
+.dga-icon-doctor-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-doctor-01:before, 
+.dga-icon-doctor-01.stroke.rounded:before {
+  content: "\ea4c";
+}
+body:has(.active-screen) .dga-icon-doctor-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-01.twotone.rounded .path1:before {
+  content: "\ea4d";
+  opacity: 0.4;
+}
+.dga-icon-doctor-01.twotone.rounded .path2:before {
+  content: "\ea4e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.twotone.rounded .path3:before {
+  content: "\ea4f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-doctor-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-01.duotone.rounded .path1:before {
+  content: "\ea50";
+  opacity: 0.4;
+}
+.dga-icon-doctor-01.duotone.rounded .path2:before {
+  content: "\ea51";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.duotone.rounded .path3:before {
+  content: "\ea52";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.duotone.rounded .path4:before {
+  content: "\ea53";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.solid.rounded:before {
+  content: "\ea54";
+}
+body:has(.active-screen) .dga-icon-doctor-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-01.bulk.rounded .path1:before {
+  content: "\ea55";
+  opacity: 0.4;
+}
+.dga-icon-doctor-01.bulk.rounded .path2:before {
+  content: "\ea56";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.bulk.rounded .path3:before {
+  content: "\ea57";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.bulk.rounded .path4:before {
+  content: "\ea58";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-01.stroke.sharp:before {
+  content: "\ea59";
+}
+.dga-icon-doctor-01.solid.sharp:before {
+  content: "\ea5a";
+}
+.dga-icon-doctor-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-doctor-02:before, 
+.dga-icon-doctor-02.stroke.rounded:before {
+  content: "\ea5b";
+}
+body:has(.active-screen) .dga-icon-doctor-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-02.twotone.rounded .path1:before {
+  content: "\ea5c";
+}
+.dga-icon-doctor-02.twotone.rounded .path2:before {
+  content: "\ea5d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.twotone.rounded .path3:before {
+  content: "\ea5e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.twotone.rounded .path4:before {
+  content: "\ea5f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-doctor-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-02.duotone.rounded .path1:before {
+  content: "\ea60";
+  opacity: 0.4;
+}
+.dga-icon-doctor-02.duotone.rounded .path2:before {
+  content: "\ea61";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.duotone.rounded .path3:before {
+  content: "\ea62";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.duotone.rounded .path4:before {
+  content: "\ea63";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.duotone.rounded .path5:before {
+  content: "\ea64";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-02.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.solid.rounded:before {
+  content: "\ea65";
+}
+.dga-icon-doctor-02.bulk.rounded:before {
+  content: "\ea66";
+  opacity: 0.4;
+}
+.dga-icon-doctor-02.bulk.rounded:after {
+  content: "\ea67";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-02.stroke.sharp:before {
+  content: "\ea68";
+}
+.dga-icon-doctor-02.solid.sharp:before {
+  content: "\ea69";
+}
+.dga-icon-doctor-03 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-doctor-03:before, 
+.dga-icon-doctor-03.stroke.rounded:before {
+  content: "\ea6a";
+}
+body:has(.active-screen) .dga-icon-doctor-03.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-03.twotone.rounded .path1:before {
+  content: "\ea6b";
+}
+.dga-icon-doctor-03.twotone.rounded .path2:before {
+  content: "\ea6c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-03.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.twotone.rounded .path3:before {
+  content: "\ea6d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-03.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-doctor-03.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-03.duotone.rounded .path1:before {
+  content: "\ea6e";
+  opacity: 0.4;
+}
+.dga-icon-doctor-03.duotone.rounded .path2:before {
+  content: "\ea6f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-03.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.duotone.rounded .path3:before {
+  content: "\ea70";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-03.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.duotone.rounded .path4:before {
+  content: "\ea71";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-03.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.duotone.rounded .path5:before {
+  content: "\ea72";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-03.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.solid.rounded:before {
+  content: "\ea73";
+}
+body:has(.active-screen) .dga-icon-doctor-03.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-doctor-03.bulk.rounded .path1:before {
+  content: "\ea74";
+  opacity: 0.4;
+}
+.dga-icon-doctor-03.bulk.rounded .path2:before {
+  content: "\ea75";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-doctor-03.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.bulk.rounded .path3:before {
+  content: "\ea76";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-doctor-03.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-doctor-03.stroke.sharp:before {
+  content: "\ea77";
+}
+.dga-icon-doctor-03.solid.sharp:before {
+  content: "\ea78";
+}
+.dga-icon-dropper {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-dropper:before, 
+.dga-icon-dropper.stroke.rounded:before {
+  content: "\ea79";
+}
+.dga-icon-dropper.twotone.rounded:before {
+  content: "\ea7a";
+  opacity: 0.4;
+}
+.dga-icon-dropper.twotone.rounded:after {
+  content: "\ea7b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dropper.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-dropper.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-dropper.duotone.rounded .path1:before {
+  content: "\ea7c";
+  opacity: 0.4;
+}
+.dga-icon-dropper.duotone.rounded .path2:before {
+  content: "\ea7d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dropper.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dropper.duotone.rounded .path3:before {
+  content: "\ea7e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-dropper.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dropper.solid.rounded:before {
+  content: "\ea7f";
+}
+.dga-icon-dropper.bulk.rounded:before {
+  content: "\ea80";
+}
+.dga-icon-dropper.bulk.rounded:after {
+  content: "\ea81";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-dropper.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-dropper.stroke.sharp:before {
+  content: "\ea82";
+}
+.dga-icon-dropper.solid.sharp:before {
+  content: "\ea83";
+}
+.dga-icon-ear {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-ear:before, 
+.dga-icon-ear.stroke.rounded:before {
+  content: "\ea84";
+}
+.dga-icon-ear.twotone.rounded:before {
+  content: "\ea85";
+}
+.dga-icon-ear.twotone.rounded:after {
+  content: "\ea86";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-ear.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-ear.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-ear.duotone.rounded .path1:before {
+  content: "\ea87";
+  opacity: 0.4;
+}
+.dga-icon-ear.duotone.rounded .path2:before {
+  content: "\ea88";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear.duotone.rounded .path3:before {
+  content: "\ea89";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear.solid.rounded:before {
+  content: "\ea8a";
+}
+.dga-icon-ear.bulk.rounded:before {
+  content: "\ea8b";
+  opacity: 0.4;
+}
+.dga-icon-ear.bulk.rounded:after {
+  content: "\ea8c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-ear.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-ear.stroke.sharp:before {
+  content: "\ea8d";
+}
+.dga-icon-ear.solid.sharp:before {
+  content: "\ea8e";
+}
+.dga-icon-eye {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-eye:before, 
+.dga-icon-eye.stroke.rounded:before {
+  content: "\ea8f";
+}
+body:has(.active-screen) .dga-icon-eye.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-eye.twotone.rounded .path1:before {
+  content: "\ea90";
+}
+.dga-icon-eye.twotone.rounded .path2:before {
+  content: "\ea91";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-eye.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eye.twotone.rounded .path3:before {
+  content: "\ea92";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-eye.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-eye.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-eye.duotone.rounded .path1:before {
+  content: "\ea93";
+  opacity: 0.4;
+}
+.dga-icon-eye.duotone.rounded .path2:before {
+  content: "\ea94";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-eye.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eye.duotone.rounded .path3:before {
+  content: "\ea95";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-eye.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eye.duotone.rounded .path4:before {
+  content: "\ea96";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-eye.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eye.solid.rounded:before {
+  content: "\ea97";
+}
+body:has(.active-screen) .dga-icon-eye.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-eye.bulk.rounded .path1:before {
+  content: "\ea98";
+  opacity: 0.4;
+}
+.dga-icon-eye.bulk.rounded .path2:before {
+  content: "\ea99";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-eye.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eye.bulk.rounded .path3:before {
+  content: "\ea9a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-eye.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-eye.stroke.sharp:before {
+  content: "\ea9b";
+}
+.dga-icon-eye.solid.sharp:before {
+  content: "\ea9c";
+}
+.dga-icon-first-aid-kit {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-first-aid-kit:before, 
+.dga-icon-first-aid-kit.stroke.rounded:before {
+  content: "\ea9d";
+}
+body:has(.active-screen) .dga-icon-first-aid-kit.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-first-aid-kit.twotone.rounded .path1:before {
+  content: "\ea9e";
+}
+.dga-icon-first-aid-kit.twotone.rounded .path2:before {
+  content: "\ea9f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-first-aid-kit.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-first-aid-kit.twotone.rounded .path3:before {
+  content: "\eaa0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-first-aid-kit.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-first-aid-kit.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-first-aid-kit.duotone.rounded .path1:before {
+  content: "\eaa1";
+  opacity: 0.4;
+}
+.dga-icon-first-aid-kit.duotone.rounded .path2:before {
+  content: "\eaa2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-first-aid-kit.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-first-aid-kit.duotone.rounded .path3:before {
+  content: "\eaa3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-first-aid-kit.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-first-aid-kit.solid.rounded:before {
+  content: "\eaa4";
+}
+body:has(.active-screen) .dga-icon-first-aid-kit.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-first-aid-kit.bulk.rounded .path1:before {
+  content: "\eaa5";
+  opacity: 0.4;
+}
+.dga-icon-first-aid-kit.bulk.rounded .path2:before {
+  content: "\eaa6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-first-aid-kit.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-first-aid-kit.bulk.rounded .path3:before {
+  content: "\eaa7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-first-aid-kit.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-first-aid-kit.stroke.sharp:before {
+  content: "\eaa8";
+}
+.dga-icon-first-aid-kit.solid.sharp:before {
+  content: "\eaa9";
+}
+.dga-icon-give-blood {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-give-blood:before, 
+.dga-icon-give-blood.stroke.rounded:before {
+  content: "\eaaa";
+}
+.dga-icon-give-blood.twotone.rounded:before {
+  content: "\eaab";
+  opacity: 0.4;
+}
+.dga-icon-give-blood.twotone.rounded:after {
+  content: "\eaac";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-give-blood.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-give-blood.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-give-blood.duotone.rounded .path1:before {
+  content: "\eaad";
+  opacity: 0.4;
+}
+.dga-icon-give-blood.duotone.rounded .path2:before {
+  content: "\eaae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-give-blood.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-blood.duotone.rounded .path3:before {
+  content: "\eaaf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-give-blood.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-blood.solid.rounded:before {
+  content: "\eab0";
+}
+.dga-icon-give-blood.bulk.rounded:before {
+  content: "\eab1";
+}
+.dga-icon-give-blood.bulk.rounded:after {
+  content: "\eab2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-give-blood.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-blood.stroke.sharp:before {
+  content: "\eab3";
+}
+.dga-icon-give-blood.solid.sharp:before {
+  content: "\eab4";
+}
+.dga-icon-give-pill {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-give-pill:before, 
+.dga-icon-give-pill.stroke.rounded:before {
+  content: "\eab5";
+}
+.dga-icon-give-pill.twotone.rounded:before {
+  content: "\eab6";
+  opacity: 0.4;
+}
+.dga-icon-give-pill.twotone.rounded:after {
+  content: "\eab7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-give-pill.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-give-pill.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-give-pill.duotone.rounded .path1:before {
+  content: "\eab8";
+  opacity: 0.4;
+}
+.dga-icon-give-pill.duotone.rounded .path2:before {
+  content: "\eab9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-give-pill.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-pill.duotone.rounded .path3:before {
+  content: "\eaba";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-give-pill.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-pill.duotone.rounded .path4:before {
+  content: "\eabb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-give-pill.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-pill.solid.rounded:before {
+  content: "\eabc";
+}
+body:has(.active-screen) .dga-icon-give-pill.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-give-pill.bulk.rounded .path1:before {
+  content: "\eabd";
+}
+.dga-icon-give-pill.bulk.rounded .path2:before {
+  content: "\eabe";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-give-pill.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-pill.bulk.rounded .path3:before {
+  content: "\eabf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-give-pill.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-give-pill.stroke.sharp:before {
+  content: "\eac0";
+}
+.dga-icon-give-pill.solid.sharp:before {
+  content: "\eac1";
+}
+.dga-icon-hand-sanitizer {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-hand-sanitizer:before, 
+.dga-icon-hand-sanitizer.stroke.rounded:before {
+  content: "\eac2";
+}
+body:has(.active-screen) .dga-icon-hand-sanitizer.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hand-sanitizer.twotone.rounded .path1:before {
+  content: "\eac3";
+}
+.dga-icon-hand-sanitizer.twotone.rounded .path2:before {
+  content: "\eac4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.twotone.rounded .path3:before {
+  content: "\eac5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.twotone.rounded .path4:before {
+  content: "\eac6";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.twotone.rounded .path5:before {
+  content: "\eac7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-hand-sanitizer.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-hand-sanitizer.duotone.rounded .path1:before {
+  content: "\eac8";
+  opacity: 0.4;
+}
+.dga-icon-hand-sanitizer.duotone.rounded .path2:before {
+  content: "\eac9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.duotone.rounded .path3:before {
+  content: "\eaca";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-sanitizer.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.duotone.rounded .path4:before {
+  content: "\eacb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-sanitizer.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.duotone.rounded .path5:before {
+  content: "\eacc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-sanitizer.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.duotone.rounded .path6:before {
+  content: "\eacd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-sanitizer.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.solid.rounded:before {
+  content: "\eace";
+}
+body:has(.active-screen) .dga-icon-hand-sanitizer.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hand-sanitizer.bulk.rounded .path1:before {
+  content: "\eacf";
+}
+.dga-icon-hand-sanitizer.bulk.rounded .path2:before {
+  content: "\ead0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-sanitizer.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.bulk.rounded .path3:before {
+  content: "\ead1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hand-sanitizer.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.bulk.rounded .path4:before {
+  content: "\ead2";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.bulk.rounded .path5:before {
+  content: "\ead3";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hand-sanitizer.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hand-sanitizer.stroke.sharp:before {
+  content: "\ead4";
+}
+.dga-icon-hand-sanitizer.solid.sharp:before {
+  content: "\ead5";
+}
+.dga-icon-healtcare {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-healtcare:before, 
+.dga-icon-healtcare.stroke.rounded:before {
+  content: "\ead6";
+}
+.dga-icon-healtcare.twotone.rounded:before {
+  content: "\ead7";
+  opacity: 0.4;
+}
+.dga-icon-healtcare.twotone.rounded:after {
+  content: "\ead8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-healtcare.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-healtcare.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-healtcare.duotone.rounded .path1:before {
+  content: "\ead9";
+  opacity: 0.4;
+}
+.dga-icon-healtcare.duotone.rounded .path2:before {
+  content: "\eada";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-healtcare.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-healtcare.duotone.rounded .path3:before {
+  content: "\eadb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-healtcare.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-healtcare.duotone.rounded .path4:before {
+  content: "\eadc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-healtcare.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-healtcare.solid.rounded:before {
+  content: "\eadd";
+}
+.dga-icon-healtcare.bulk.rounded:before {
+  content: "\eade";
+}
+.dga-icon-healtcare.bulk.rounded:after {
+  content: "\eadf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-healtcare.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-healtcare.stroke.sharp:before {
+  content: "\eae0";
+}
+.dga-icon-healtcare.solid.sharp:before {
+  content: "\eae1";
+}
+.dga-icon-health {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-health:before, 
+.dga-icon-health.stroke.rounded:before {
+  content: "\eae2";
+}
+.dga-icon-health.twotone.rounded:before {
+  content: "\eae3";
+}
+.dga-icon-health.twotone.rounded:after {
+  content: "\eae4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-health.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-health.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-health.duotone.rounded .path1:before {
+  content: "\eae5";
+  opacity: 0.4;
+}
+.dga-icon-health.duotone.rounded .path2:before {
+  content: "\eae6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-health.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-health.duotone.rounded .path3:before {
+  content: "\eae7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-health.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-health.solid.rounded:before {
+  content: "\eae8";
+}
+.dga-icon-health.bulk.rounded:before {
+  content: "\eae9";
+  opacity: 0.4;
+}
+.dga-icon-health.bulk.rounded:after {
+  content: "\eaea";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-health.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-health.stroke.sharp:before {
+  content: "\eaeb";
+}
+.dga-icon-health.solid.sharp:before {
+  content: "\eaec";
+}
+.dga-icon-hospital-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-hospital-01:before, 
+.dga-icon-hospital-01.stroke.rounded:before {
+  content: "\eaed";
+}
+body:has(.active-screen) .dga-icon-hospital-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-01.twotone.rounded .path1:before {
+  content: "\eaee";
+  opacity: 0.4;
+}
+.dga-icon-hospital-01.twotone.rounded .path2:before {
+  content: "\eaef";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.twotone.rounded .path3:before {
+  content: "\eaf0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.twotone.rounded .path4:before {
+  content: "\eaf1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.twotone.rounded .path5:before {
+  content: "\eaf2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.twotone.rounded .path6:before {
+  content: "\eaf3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.twotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-hospital-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-01.duotone.rounded .path1:before {
+  content: "\eaf4";
+  opacity: 0.4;
+}
+.dga-icon-hospital-01.duotone.rounded .path2:before {
+  content: "\eaf5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.duotone.rounded .path3:before {
+  content: "\eaf6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.duotone.rounded .path4:before {
+  content: "\eaf7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.duotone.rounded .path5:before {
+  content: "\eaf8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.duotone.rounded .path6:before {
+  content: "\eaf9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.duotone.rounded .path7:before {
+  content: "\eafa";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.duotone.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.solid.rounded:before {
+  content: "\eafb";
+}
+body:has(.active-screen) .dga-icon-hospital-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-01.bulk.rounded .path1:before {
+  content: "\eafc";
+  opacity: 0.4;
+}
+.dga-icon-hospital-01.bulk.rounded .path2:before {
+  content: "\eafd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.bulk.rounded .path3:before {
+  content: "\eafe";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.bulk.rounded .path4:before {
+  content: "\eaff";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.bulk.rounded .path5:before {
+  content: "\eb00";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.bulk.rounded .path6:before {
+  content: "\eb01";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.bulk.rounded .path7:before {
+  content: "\eb02";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-01.bulk.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-01.stroke.sharp:before {
+  content: "\eb03";
+}
+.dga-icon-hospital-01.solid.sharp:before {
+  content: "\eb04";
+}
+.dga-icon-hospital-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-hospital-02:before, 
+.dga-icon-hospital-02.stroke.rounded:before {
+  content: "\eb05";
+}
+body:has(.active-screen) .dga-icon-hospital-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-02.twotone.rounded .path1:before {
+  content: "\eb06";
+}
+.dga-icon-hospital-02.twotone.rounded .path2:before {
+  content: "\eb07";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.twotone.rounded .path3:before {
+  content: "\eb08";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.twotone.rounded .path4:before {
+  content: "\eb09";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-02.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.twotone.rounded .path5:before {
+  content: "\eb0a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-02.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-hospital-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-02.duotone.rounded .path1:before {
+  content: "\eb0b";
+  opacity: 0.4;
+}
+.dga-icon-hospital-02.duotone.rounded .path2:before {
+  content: "\eb0c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.duotone.rounded .path3:before {
+  content: "\eb0d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.duotone.rounded .path4:before {
+  content: "\eb0e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.duotone.rounded .path5:before {
+  content: "\eb0f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.duotone.rounded .path6:before {
+  content: "\eb10";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.solid.rounded:before {
+  content: "\eb11";
+}
+body:has(.active-screen) .dga-icon-hospital-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-02.bulk.rounded .path1:before {
+  content: "\eb12";
+}
+.dga-icon-hospital-02.bulk.rounded .path2:before {
+  content: "\eb13";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.bulk.rounded .path3:before {
+  content: "\eb14";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.bulk.rounded .path4:before {
+  content: "\eb15";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.bulk.rounded .path5:before {
+  content: "\eb16";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-02.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.bulk.rounded .path6:before {
+  content: "\eb17";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-02.bulk.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.bulk.rounded .path7:before {
+  content: "\eb18";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-02.bulk.rounded .path7:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-02.stroke.sharp:before {
+  content: "\eb19";
+}
+.dga-icon-hospital-02.solid.sharp:before {
+  content: "\eb1a";
+}
+.dga-icon-hospital-bed-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-hospital-bed-01:before, 
+.dga-icon-hospital-bed-01.stroke.rounded:before {
+  content: "\eb1b";
+}
+body:has(.active-screen) .dga-icon-hospital-bed-01.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-bed-01.twotone.rounded .path1:before {
+  content: "\eb1c";
+}
+.dga-icon-hospital-bed-01.twotone.rounded .path2:before {
+  content: "\eb1d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-01.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.twotone.rounded .path3:before {
+  content: "\eb1e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-01.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.twotone.rounded .path4:before {
+  content: "\eb1f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-bed-01.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.twotone.rounded .path5:before {
+  content: "\eb20";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-bed-01.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.duotone.rounded:before {
+  content: "\eb21";
+  opacity: 0.4;
+}
+.dga-icon-hospital-bed-01.duotone.rounded:after {
+  content: "\eb22";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-01.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.solid.rounded:before {
+  content: "\eb23";
+}
+body:has(.active-screen) .dga-icon-hospital-bed-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-bed-01.bulk.rounded .path1:before {
+  content: "\eb24";
+  opacity: 0.4;
+}
+.dga-icon-hospital-bed-01.bulk.rounded .path2:before {
+  content: "\eb25";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-bed-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.bulk.rounded .path3:before {
+  content: "\eb26";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-bed-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.bulk.rounded .path4:before {
+  content: "\eb27";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-01.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.bulk.rounded .path5:before {
+  content: "\eb28";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-01.bulk.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-01.stroke.sharp:before {
+  content: "\eb29";
+}
+.dga-icon-hospital-bed-01.solid.sharp:before {
+  content: "\eb2a";
+}
+.dga-icon-hospital-bed-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-hospital-bed-02:before, 
+.dga-icon-hospital-bed-02.stroke.rounded:before {
+  content: "\eb2b";
+}
+.dga-icon-hospital-bed-02.twotone.rounded:before {
+  content: "\eb2c";
+}
+.dga-icon-hospital-bed-02.twotone.rounded:after {
+  content: "\eb2d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-bed-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-02.duotone.rounded:before {
+  content: "\eb2e";
+  opacity: 0.4;
+}
+.dga-icon-hospital-bed-02.duotone.rounded:after {
+  content: "\eb2f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-02.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-02.solid.rounded:before {
+  content: "\eb30";
+}
+.dga-icon-hospital-bed-02.bulk.rounded:before {
+  content: "\eb31";
+  opacity: 0.4;
+}
+.dga-icon-hospital-bed-02.bulk.rounded:after {
+  content: "\eb32";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-bed-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-bed-02.stroke.sharp:before {
+  content: "\eb33";
+}
+.dga-icon-hospital-bed-02.solid.sharp:before {
+  content: "\eb34";
+}
+.dga-icon-hospital-location {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-hospital-location:before, 
+.dga-icon-hospital-location.stroke.rounded:before {
+  content: "\eb35";
+}
+.dga-icon-hospital-location.twotone.rounded:before {
+  content: "\eb36";
+}
+.dga-icon-hospital-location.twotone.rounded:after {
+  content: "\eb37";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-hospital-location.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-hospital-location.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-hospital-location.duotone.rounded .path1:before {
+  content: "\eb38";
+  opacity: 0.4;
+}
+.dga-icon-hospital-location.duotone.rounded .path2:before {
+  content: "\eb39";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-location.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-location.duotone.rounded .path3:before {
+  content: "\eb3a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-location.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-location.solid.rounded:before {
+  content: "\eb3b";
+}
+.dga-icon-hospital-location.bulk.rounded:before {
+  content: "\eb3c";
+  opacity: 0.4;
+}
+.dga-icon-hospital-location.bulk.rounded:after {
+  content: "\eb3d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-hospital-location.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-hospital-location.stroke.sharp:before {
+  content: "\eb3e";
+}
+.dga-icon-hospital-location.solid.sharp:before {
+  content: "\eb3f";
+}
+.dga-icon-injection {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-injection:before, 
+.dga-icon-injection.stroke.rounded:before {
+  content: "\eb40";
+}
+body:has(.active-screen) .dga-icon-injection.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-injection.twotone.rounded .path1:before {
+  content: "\eb41";
+}
+.dga-icon-injection.twotone.rounded .path2:before {
+  content: "\eb42";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-injection.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-injection.twotone.rounded .path3:before {
+  content: "\eb43";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-injection.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-injection.duotone.rounded:before {
+  content: "\eb44";
+  opacity: 0.4;
+}
+.dga-icon-injection.duotone.rounded:after {
+  content: "\eb45";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-injection.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-injection.solid.rounded:before {
+  content: "\eb46";
+}
+body:has(.active-screen) .dga-icon-injection.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-injection.bulk.rounded .path1:before {
+  content: "\eb47";
+  opacity: 0.4;
+}
+.dga-icon-injection.bulk.rounded .path2:before {
+  content: "\eb48";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-injection.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-injection.bulk.rounded .path3:before {
+  content: "\eb49";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-injection.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-injection.stroke.sharp:before {
+  content: "\eb4a";
+}
+.dga-icon-injection.solid.sharp:before {
+  content: "\eb4b";
+}
+.dga-icon-kidneys {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-kidneys:before, 
+.dga-icon-kidneys.stroke.rounded:before {
+  content: "\eb4c";
+}
+body:has(.active-screen) .dga-icon-kidneys.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-kidneys.twotone.rounded .path1:before {
+  content: "\eb4d";
+}
+.dga-icon-kidneys.twotone.rounded .path2:before {
+  content: "\eb4e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.twotone.rounded .path3:before {
+  content: "\eb4f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kidneys.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-kidneys.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-kidneys.duotone.rounded .path1:before {
+  content: "\eb50";
+  opacity: 0.4;
+}
+.dga-icon-kidneys.duotone.rounded .path2:before {
+  content: "\eb51";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kidneys.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.duotone.rounded .path3:before {
+  content: "\eb52";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.duotone.rounded .path4:before {
+  content: "\eb53";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.duotone.rounded .path5:before {
+  content: "\eb54";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.duotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.duotone.rounded .path6:before {
+  content: "\eb55";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.duotone.rounded .path6:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.solid.rounded:before {
+  content: "\eb56";
+}
+body:has(.active-screen) .dga-icon-kidneys.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-kidneys.bulk.rounded .path1:before {
+  content: "\eb57";
+  opacity: 0.4;
+}
+.dga-icon-kidneys.bulk.rounded .path2:before {
+  content: "\eb58";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-kidneys.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.bulk.rounded .path3:before {
+  content: "\eb59";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.bulk.rounded .path4:before {
+  content: "\eb5a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-kidneys.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-kidneys.stroke.sharp:before {
+  content: "\eb5b";
+}
+.dga-icon-kidneys.solid.sharp:before {
+  content: "\eb5c";
+}
+.dga-icon-labs {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-labs:before, 
+.dga-icon-labs.stroke.rounded:before {
+  content: "\eb5d";
+}
+body:has(.active-screen) .dga-icon-labs.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-labs.twotone.rounded .path1:before {
+  content: "\eb5e";
+}
+.dga-icon-labs.twotone.rounded .path2:before {
+  content: "\eb5f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-labs.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.twotone.rounded .path3:before {
+  content: "\eb60";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-labs.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.twotone.rounded .path4:before {
+  content: "\eb61";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-labs.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.twotone.rounded .path5:before {
+  content: "\eb62";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-labs.twotone.rounded .path5:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-labs.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-labs.duotone.rounded .path1:before {
+  content: "\eb63";
+  opacity: 0.4;
+}
+.dga-icon-labs.duotone.rounded .path2:before {
+  content: "\eb64";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-labs.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.duotone.rounded .path3:before {
+  content: "\eb65";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-labs.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.duotone.rounded .path4:before {
+  content: "\eb66";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-labs.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.solid.rounded:before {
+  content: "\eb67";
+}
+body:has(.active-screen) .dga-icon-labs.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-labs.bulk.rounded .path1:before {
+  content: "\eb68";
+  opacity: 0.4;
+}
+.dga-icon-labs.bulk.rounded .path2:before {
+  content: "\eb69";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-labs.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.bulk.rounded .path3:before {
+  content: "\eb6a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-labs.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.bulk.rounded .path4:before {
+  content: "\eb6b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-labs.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-labs.stroke.sharp:before {
+  content: "\eb6c";
+}
+.dga-icon-labs.solid.sharp:before {
+  content: "\eb6d";
+}
+.dga-icon-liver {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-liver:before, 
+.dga-icon-liver.stroke.rounded:before {
+  content: "\eb6e";
+}
+.dga-icon-liver.twotone.rounded:before {
+  content: "\eb6f";
+  opacity: 0.4;
+}
+.dga-icon-liver.twotone.rounded:after {
+  content: "\eb70";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-liver.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-liver.duotone.rounded:before {
+  content: "\eb71";
+  opacity: 0.4;
+}
+.dga-icon-liver.duotone.rounded:after {
+  content: "\eb72";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-liver.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-liver.solid.rounded:before {
+  content: "\eb73";
+}
+.dga-icon-liver.bulk.rounded:before {
+  content: "\eb74";
+}
+.dga-icon-liver.stroke.sharp:before {
+  content: "\eb75";
+}
+.dga-icon-liver.solid.sharp:before {
+  content: "\eb76";
+}
+.dga-icon-lungs {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-lungs:before, 
+.dga-icon-lungs.stroke.rounded:before {
+  content: "\eb77";
+}
+body:has(.active-screen) .dga-icon-lungs.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-lungs.twotone.rounded .path1:before {
+  content: "\eb78";
+}
+.dga-icon-lungs.twotone.rounded .path2:before {
+  content: "\eb79";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lungs.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lungs.twotone.rounded .path3:before {
+  content: "\eb7a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lungs.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-lungs.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-lungs.duotone.rounded .path1:before {
+  content: "\eb7b";
+  opacity: 0.4;
+}
+.dga-icon-lungs.duotone.rounded .path2:before {
+  content: "\eb7c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lungs.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lungs.duotone.rounded .path3:before {
+  content: "\eb7d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lungs.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lungs.solid.rounded:before {
+  content: "\eb7e";
+}
+body:has(.active-screen) .dga-icon-lungs.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-lungs.bulk.rounded .path1:before {
+  content: "\eb7f";
+  opacity: 0.4;
+}
+.dga-icon-lungs.bulk.rounded .path2:before {
+  content: "\eb80";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-lungs.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lungs.bulk.rounded .path3:before {
+  content: "\eb81";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-lungs.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-lungs.stroke.sharp:before {
+  content: "\eb82";
+}
+.dga-icon-lungs.solid.sharp:before {
+  content: "\eb83";
+}
+.dga-icon-mask {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-mask:before, 
+.dga-icon-mask.stroke.rounded:before {
+  content: "\eb84";
+}
+body:has(.active-screen) .dga-icon-mask.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-mask.twotone.rounded .path1:before {
+  content: "\eb85";
+  opacity: 0.4;
+}
+.dga-icon-mask.twotone.rounded .path2:before {
+  content: "\eb86";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mask.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask.twotone.rounded .path3:before {
+  content: "\eb87";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-mask.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-mask.duotone.rounded .path1:before {
+  content: "\eb88";
+  opacity: 0.4;
+}
+.dga-icon-mask.duotone.rounded .path2:before {
+  content: "\eb89";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask.duotone.rounded .path3:before {
+  content: "\eb8a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask.duotone.rounded .path4:before {
+  content: "\eb8b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask.solid.rounded:before {
+  content: "\eb8c";
+}
+body:has(.active-screen) .dga-icon-mask.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-mask.bulk.rounded .path1:before {
+  content: "\eb8d";
+  opacity: 0.4;
+}
+.dga-icon-mask.bulk.rounded .path2:before {
+  content: "\eb8e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask.bulk.rounded .path3:before {
+  content: "\eb8f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask.stroke.sharp:before {
+  content: "\eb90";
+}
+.dga-icon-mask.solid.sharp:before {
+  content: "\eb91";
+}
+.dga-icon-mask-love {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-mask-love:before, 
+.dga-icon-mask-love.stroke.rounded:before {
+  content: "\eb92";
+}
+.dga-icon-mask-love.twotone.rounded:before {
+  content: "\eb93";
+  opacity: 0.4;
+}
+.dga-icon-mask-love.twotone.rounded:after {
+  content: "\eb94";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask-love.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-mask-love.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-mask-love.duotone.rounded .path1:before {
+  content: "\eb95";
+  opacity: 0.4;
+}
+.dga-icon-mask-love.duotone.rounded .path2:before {
+  content: "\eb96";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask-love.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask-love.duotone.rounded .path3:before {
+  content: "\eb97";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mask-love.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask-love.solid.rounded:before {
+  content: "\eb98";
+}
+.dga-icon-mask-love.bulk.rounded:before {
+  content: "\eb99";
+}
+.dga-icon-mask-love.bulk.rounded:after {
+  content: "\eb9a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mask-love.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mask-love.stroke.sharp:before {
+  content: "\eb9b";
+}
+.dga-icon-mask-love.solid.sharp:before {
+  content: "\eb9c";
+}
+.dga-icon-medical-file {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-medical-file:before, 
+.dga-icon-medical-file.stroke.rounded:before {
+  content: "\eb9d";
+}
+.dga-icon-medical-file.twotone.rounded:before {
+  content: "\eb9e";
+  opacity: 0.4;
+}
+.dga-icon-medical-file.twotone.rounded:after {
+  content: "\eb9f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medical-file.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-medical-file.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-medical-file.duotone.rounded .path1:before {
+  content: "\eba0";
+  opacity: 0.4;
+}
+.dga-icon-medical-file.duotone.rounded .path2:before {
+  content: "\eba1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medical-file.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medical-file.duotone.rounded .path3:before {
+  content: "\eba2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medical-file.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medical-file.solid.rounded:before {
+  content: "\eba3";
+}
+.dga-icon-medical-file.bulk.rounded:before {
+  content: "\eba4";
+  opacity: 0.4;
+}
+.dga-icon-medical-file.bulk.rounded:after {
+  content: "\eba5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medical-file.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medical-file.stroke.sharp:before {
+  content: "\eba6";
+}
+.dga-icon-medical-file.solid.sharp:before {
+  content: "\eba7";
+}
+.dga-icon-medicine-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-medicine-01:before, 
+.dga-icon-medicine-01.stroke.rounded:before {
+  content: "\eba8";
+}
+.dga-icon-medicine-01.twotone.rounded:before {
+  content: "\eba9";
+}
+.dga-icon-medicine-01.twotone.rounded:after {
+  content: "\ebaa";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-medicine-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-01.duotone.rounded .path1:before {
+  content: "\ebab";
+  opacity: 0.4;
+}
+.dga-icon-medicine-01.duotone.rounded .path2:before {
+  content: "\ebac";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-01.duotone.rounded .path3:before {
+  content: "\ebad";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-01.duotone.rounded .path4:before {
+  content: "\ebae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-01.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-01.solid.rounded:before {
+  content: "\ebaf";
+}
+body:has(.active-screen) .dga-icon-medicine-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-01.bulk.rounded .path1:before {
+  content: "\ebb0";
+  opacity: 0.4;
+}
+.dga-icon-medicine-01.bulk.rounded .path2:before {
+  content: "\ebb1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-01.bulk.rounded .path3:before {
+  content: "\ebb2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-01.stroke.sharp:before {
+  content: "\ebb3";
+}
+.dga-icon-medicine-01.solid.sharp:before {
+  content: "\ebb4";
+}
+.dga-icon-medicine-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-medicine-02:before, 
+.dga-icon-medicine-02.stroke.rounded:before {
+  content: "\ebb5";
+}
+.dga-icon-medicine-02.twotone.rounded:before {
+  content: "\ebb6";
+}
+.dga-icon-medicine-02.twotone.rounded:after {
+  content: "\ebb7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-medicine-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-02.duotone.rounded .path1:before {
+  content: "\ebb8";
+  opacity: 0.4;
+}
+.dga-icon-medicine-02.duotone.rounded .path2:before {
+  content: "\ebb9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-02.duotone.rounded .path3:before {
+  content: "\ebba";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-02.duotone.rounded .path4:before {
+  content: "\ebbb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-02.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-02.solid.rounded:before {
+  content: "\ebbc";
+}
+body:has(.active-screen) .dga-icon-medicine-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-02.bulk.rounded .path1:before {
+  content: "\ebbd";
+}
+.dga-icon-medicine-02.bulk.rounded .path2:before {
+  content: "\ebbe";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-02.bulk.rounded .path3:before {
+  content: "\ebbf";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-02.stroke.sharp:before {
+  content: "\ebc0";
+}
+.dga-icon-medicine-02.solid.sharp:before {
+  content: "\ebc1";
+}
+.dga-icon-medicine-bottle-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-medicine-bottle-01:before, 
+.dga-icon-medicine-bottle-01.stroke.rounded:before {
+  content: "\ebc2";
+}
+.dga-icon-medicine-bottle-01.twotone.rounded:before {
+  content: "\ebc3";
+}
+.dga-icon-medicine-bottle-01.twotone.rounded:after {
+  content: "\ebc4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-bottle-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-medicine-bottle-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-bottle-01.duotone.rounded .path1:before {
+  content: "\ebc5";
+  opacity: 0.4;
+}
+.dga-icon-medicine-bottle-01.duotone.rounded .path2:before {
+  content: "\ebc6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-01.duotone.rounded .path3:before {
+  content: "\ebc7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-01.solid.rounded:before {
+  content: "\ebc8";
+}
+body:has(.active-screen) .dga-icon-medicine-bottle-01.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-bottle-01.bulk.rounded .path1:before {
+  content: "\ebc9";
+}
+.dga-icon-medicine-bottle-01.bulk.rounded .path2:before {
+  content: "\ebca";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-01.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-01.bulk.rounded .path3:before {
+  content: "\ebcb";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-bottle-01.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-01.stroke.sharp:before {
+  content: "\ebcc";
+}
+.dga-icon-medicine-bottle-01.solid.sharp:before {
+  content: "\ebcd";
+}
+.dga-icon-medicine-bottle-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-medicine-bottle-02:before, 
+.dga-icon-medicine-bottle-02.stroke.rounded:before {
+  content: "\ebce";
+}
+.dga-icon-medicine-bottle-02.twotone.rounded:before {
+  content: "\ebcf";
+}
+.dga-icon-medicine-bottle-02.twotone.rounded:after {
+  content: "\ebd0";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-bottle-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-medicine-bottle-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-bottle-02.duotone.rounded .path1:before {
+  content: "\ebd1";
+  opacity: 0.4;
+}
+.dga-icon-medicine-bottle-02.duotone.rounded .path2:before {
+  content: "\ebd2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-02.duotone.rounded .path3:before {
+  content: "\ebd3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-02.solid.rounded:before {
+  content: "\ebd4";
+}
+body:has(.active-screen) .dga-icon-medicine-bottle-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-bottle-02.bulk.rounded .path1:before {
+  content: "\ebd5";
+}
+.dga-icon-medicine-bottle-02.bulk.rounded .path2:before {
+  content: "\ebd6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-02.bulk.rounded .path3:before {
+  content: "\ebd7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-bottle-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-02.bulk.rounded .path4:before {
+  content: "\ebd8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-medicine-bottle-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-bottle-02.stroke.sharp:before {
+  content: "\ebd9";
+}
+.dga-icon-medicine-bottle-02.solid.sharp:before {
+  content: "\ebda";
+}
+.dga-icon-medicine-syrup {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-medicine-syrup:before, 
+.dga-icon-medicine-syrup.stroke.rounded:before {
+  content: "\ebdb";
+}
+.dga-icon-medicine-syrup.twotone.rounded:before {
+  content: "\ebdc";
+  opacity: 0.4;
+}
+.dga-icon-medicine-syrup.twotone.rounded:after {
+  content: "\ebdd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-syrup.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-medicine-syrup.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-syrup.duotone.rounded .path1:before {
+  content: "\ebde";
+  opacity: 0.4;
+}
+.dga-icon-medicine-syrup.duotone.rounded .path2:before {
+  content: "\ebdf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-syrup.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-syrup.duotone.rounded .path3:before {
+  content: "\ebe0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-syrup.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-syrup.solid.rounded:before {
+  content: "\ebe1";
+}
+body:has(.active-screen) .dga-icon-medicine-syrup.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-medicine-syrup.bulk.rounded .path1:before {
+  content: "\ebe2";
+  opacity: 0.4;
+}
+.dga-icon-medicine-syrup.bulk.rounded .path2:before {
+  content: "\ebe3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-syrup.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-syrup.bulk.rounded .path3:before {
+  content: "\ebe4";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-medicine-syrup.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-medicine-syrup.stroke.sharp:before {
+  content: "\ebe5";
+}
+.dga-icon-medicine-syrup.solid.sharp:before {
+  content: "\ebe6";
+}
+.dga-icon-mortar {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-mortar:before, 
+.dga-icon-mortar.stroke.rounded:before {
+  content: "\ebe7";
+}
+body:has(.active-screen) .dga-icon-mortar.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-mortar.twotone.rounded .path1:before {
+  content: "\ebe8";
+  opacity: 0.4;
+}
+.dga-icon-mortar.twotone.rounded .path2:before {
+  content: "\ebe9";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mortar.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.twotone.rounded .path3:before {
+  content: "\ebea";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mortar.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-mortar.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-mortar.duotone.rounded .path1:before {
+  content: "\ebeb";
+  opacity: 0.4;
+}
+.dga-icon-mortar.duotone.rounded .path2:before {
+  content: "\ebec";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mortar.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.duotone.rounded .path3:before {
+  content: "\ebed";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mortar.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.duotone.rounded .path4:before {
+  content: "\ebee";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mortar.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.solid.rounded:before {
+  content: "\ebef";
+}
+body:has(.active-screen) .dga-icon-mortar.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-mortar.bulk.rounded .path1:before {
+  content: "\ebf0";
+  opacity: 0.4;
+}
+.dga-icon-mortar.bulk.rounded .path2:before {
+  content: "\ebf1";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-mortar.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.bulk.rounded .path3:before {
+  content: "\ebf2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mortar.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.bulk.rounded .path4:before {
+  content: "\ebf3";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-mortar.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-mortar.stroke.sharp:before {
+  content: "\ebf4";
+}
+.dga-icon-mortar.solid.sharp:before {
+  content: "\ebf5";
+}
+.dga-icon-nose {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-nose:before, 
+.dga-icon-nose.stroke.rounded:before {
+  content: "\ebf6";
+}
+body:has(.active-screen) .dga-icon-nose.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-nose.twotone.rounded .path1:before {
+  content: "\ebf7";
+}
+.dga-icon-nose.twotone.rounded .path2:before {
+  content: "\ebf8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-nose.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-nose.twotone.rounded .path3:before {
+  content: "\ebf9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-nose.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-nose.duotone.rounded:before {
+  content: "\ebfa";
+  opacity: 0.4;
+}
+.dga-icon-nose.duotone.rounded:after {
+  content: "\ebfb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-nose.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-nose.solid.rounded:before {
+  content: "\ebfc";
+}
+.dga-icon-nose.bulk.rounded:before {
+  content: "\ebfd";
+}
+.dga-icon-nose.stroke.sharp:before {
+  content: "\ebfe";
+}
+.dga-icon-nose.solid.sharp:before {
+  content: "\ebff";
+}
+.dga-icon-patient {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-patient:before, 
+.dga-icon-patient.stroke.rounded:before {
+  content: "\ec00";
+}
+.dga-icon-patient.twotone.rounded:before {
+  content: "\ec01";
+}
+.dga-icon-patient.twotone.rounded:after {
+  content: "\ec02";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-patient.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-patient.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-patient.duotone.rounded .path1:before {
+  content: "\ec03";
+  opacity: 0.4;
+}
+.dga-icon-patient.duotone.rounded .path2:before {
+  content: "\ec04";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-patient.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-patient.duotone.rounded .path3:before {
+  content: "\ec05";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-patient.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-patient.duotone.rounded .path4:before {
+  content: "\ec06";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-patient.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-patient.solid.rounded:before {
+  content: "\ec07";
+}
+body:has(.active-screen) .dga-icon-patient.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-patient.bulk.rounded .path1:before {
+  content: "\ec08";
+}
+.dga-icon-patient.bulk.rounded .path2:before {
+  content: "\ec09";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-patient.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-patient.bulk.rounded .path3:before {
+  content: "\ec0a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-patient.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-patient.stroke.sharp:before {
+  content: "\ec0b";
+}
+.dga-icon-patient.solid.sharp:before {
+  content: "\ec0c";
+}
+.dga-icon-prescription {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-prescription:before, 
+.dga-icon-prescription.stroke.rounded:before {
+  content: "\ec0d";
+}
+.dga-icon-prescription.twotone.rounded:before {
+  content: "\ec0e";
+}
+.dga-icon-prescription.twotone.rounded:after {
+  content: "\ec0f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-prescription.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prescription.duotone.rounded:before {
+  content: "\ec10";
+  opacity: 0.4;
+}
+.dga-icon-prescription.duotone.rounded:after {
+  content: "\ec11";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prescription.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prescription.solid.rounded:before {
+  content: "\ec12";
+}
+.dga-icon-prescription.bulk.rounded:before {
+  content: "\ec13";
+  opacity: 0.4;
+}
+.dga-icon-prescription.bulk.rounded:after {
+  content: "\ec14";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-prescription.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-prescription.stroke.sharp:before {
+  content: "\ec15";
+}
+.dga-icon-prescription.solid.sharp:before {
+  content: "\ec16";
+}
+.dga-icon-protection-mask {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-protection-mask:before, 
+.dga-icon-protection-mask.stroke.rounded:before {
+  content: "\ec17";
+}
+.dga-icon-protection-mask.twotone.rounded:before {
+  content: "\ec18";
+}
+.dga-icon-protection-mask.twotone.rounded:after {
+  content: "\ec19";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-protection-mask.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-protection-mask.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-protection-mask.duotone.rounded .path1:before {
+  content: "\ec1a";
+  opacity: 0.4;
+}
+.dga-icon-protection-mask.duotone.rounded .path2:before {
+  content: "\ec1b";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-protection-mask.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-protection-mask.duotone.rounded .path3:before {
+  content: "\ec1c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-protection-mask.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-protection-mask.solid.rounded:before {
+  content: "\ec1d";
+}
+.dga-icon-protection-mask.bulk.rounded:before {
+  content: "\ec1e";
+}
+.dga-icon-protection-mask.bulk.rounded:after {
+  content: "\ec1f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-protection-mask.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-protection-mask.stroke.sharp:before {
+  content: "\ec20";
+}
+.dga-icon-protection-mask.solid.sharp:before {
+  content: "\ec21";
+}
+.dga-icon-pulse-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-pulse-01:before, 
+.dga-icon-pulse-01.stroke.rounded:before {
+  content: "\ec22";
+}
+.dga-icon-pulse-01.twotone.rounded:before {
+  content: "\ec23";
+}
+.dga-icon-pulse-01.twotone.rounded:after {
+  content: "\ec24";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-pulse-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-01.duotone.rounded:before {
+  content: "\ec25";
+}
+.dga-icon-pulse-01.solid.rounded:before {
+  content: "\ec26";
+}
+.dga-icon-pulse-01.bulk.rounded:before {
+  content: "\ec27";
+}
+.dga-icon-pulse-01.stroke.sharp:before {
+  content: "\ec28";
+}
+.dga-icon-pulse-01.solid.sharp:before {
+  content: "\ec29";
+}
+.dga-icon-pulse-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-pulse-02:before, 
+.dga-icon-pulse-02.stroke.rounded:before {
+  content: "\ec2a";
+}
+.dga-icon-pulse-02.twotone.rounded:before {
+  content: "\ec2b";
+}
+.dga-icon-pulse-02.twotone.rounded:after {
+  content: "\ec2c";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-pulse-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-02.duotone.rounded:before {
+  content: "\ec2d";
+}
+.dga-icon-pulse-02.solid.rounded:before {
+  content: "\ec2e";
+}
+.dga-icon-pulse-02.bulk.rounded:before {
+  content: "\ec2f";
+}
+.dga-icon-pulse-02.stroke.sharp:before {
+  content: "\ec30";
+}
+.dga-icon-pulse-02.solid.sharp:before {
+  content: "\ec31";
+}
+.dga-icon-pulse-rectangle-01 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-pulse-rectangle-01:before, 
+.dga-icon-pulse-rectangle-01.stroke.rounded:before {
+  content: "\ec32";
+}
+.dga-icon-pulse-rectangle-01.twotone.rounded:before {
+  content: "\ec33";
+}
+.dga-icon-pulse-rectangle-01.twotone.rounded:after {
+  content: "\ec34";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-pulse-rectangle-01.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-pulse-rectangle-01.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-pulse-rectangle-01.duotone.rounded .path1:before {
+  content: "\ec35";
+  opacity: 0.4;
+}
+.dga-icon-pulse-rectangle-01.duotone.rounded .path2:before {
+  content: "\ec36";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-pulse-rectangle-01.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-rectangle-01.duotone.rounded .path3:before {
+  content: "\ec37";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-pulse-rectangle-01.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-rectangle-01.solid.rounded:before {
+  content: "\ec38";
+}
+.dga-icon-pulse-rectangle-01.bulk.rounded:before {
+  content: "\ec39";
+  opacity: 0.4;
+}
+.dga-icon-pulse-rectangle-01.bulk.rounded:after {
+  content: "\ec3a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-pulse-rectangle-01.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-rectangle-01.stroke.sharp:before {
+  content: "\ec3b";
+}
+.dga-icon-pulse-rectangle-01.solid.sharp:before {
+  content: "\ec3c";
+}
+.dga-icon-pulse-rectangle-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-pulse-rectangle-02:before, 
+.dga-icon-pulse-rectangle-02.stroke.rounded:before {
+  content: "\ec3d";
+}
+.dga-icon-pulse-rectangle-02.twotone.rounded:before {
+  content: "\ec3e";
+}
+.dga-icon-pulse-rectangle-02.twotone.rounded:after {
+  content: "\ec3f";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-pulse-rectangle-02.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-pulse-rectangle-02.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-pulse-rectangle-02.duotone.rounded .path1:before {
+  content: "\ec40";
+  opacity: 0.4;
+}
+.dga-icon-pulse-rectangle-02.duotone.rounded .path2:before {
+  content: "\ec41";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-pulse-rectangle-02.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-rectangle-02.duotone.rounded .path3:before {
+  content: "\ec42";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-pulse-rectangle-02.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-rectangle-02.solid.rounded:before {
+  content: "\ec43";
+}
+.dga-icon-pulse-rectangle-02.bulk.rounded:before {
+  content: "\ec44";
+}
+.dga-icon-pulse-rectangle-02.bulk.rounded:after {
+  content: "\ec45";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-pulse-rectangle-02.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-pulse-rectangle-02.stroke.sharp:before {
+  content: "\ec46";
+}
+.dga-icon-pulse-rectangle-02.solid.sharp:before {
+  content: "\ec47";
+}
+.dga-icon-safe {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-safe:before, 
+.dga-icon-safe.stroke.rounded:before {
+  content: "\ec48";
+}
+.dga-icon-safe.twotone.rounded:before {
+  content: "\ec49";
+  opacity: 0.4;
+}
+.dga-icon-safe.twotone.rounded:after {
+  content: "\ec4a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safe.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-safe.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-safe.duotone.rounded .path1:before {
+  content: "\ec4b";
+  opacity: 0.4;
+}
+.dga-icon-safe.duotone.rounded .path2:before {
+  content: "\ec4c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safe.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safe.duotone.rounded .path3:before {
+  content: "\ec4d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safe.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safe.duotone.rounded .path4:before {
+  content: "\ec4e";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safe.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safe.solid.rounded:before {
+  content: "\ec4f";
+}
+.dga-icon-safe.bulk.rounded:before {
+  content: "\ec50";
+  opacity: 0.4;
+}
+.dga-icon-safe.bulk.rounded:after {
+  content: "\ec51";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-safe.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-safe.stroke.sharp:before {
+  content: "\ec52";
+}
+.dga-icon-safe.solid.sharp:before {
+  content: "\ec53";
+}
+.dga-icon-skull {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-skull:before, 
+.dga-icon-skull.stroke.rounded:before {
+  content: "\ec54";
+}
+.dga-icon-skull.twotone.rounded:before {
+  content: "\ec55";
+}
+.dga-icon-skull.twotone.rounded:after {
+  content: "\ec56";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-skull.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-skull.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-skull.duotone.rounded .path1:before {
+  content: "\ec57";
+  opacity: 0.4;
+}
+.dga-icon-skull.duotone.rounded .path2:before {
+  content: "\ec58";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-skull.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-skull.duotone.rounded .path3:before {
+  content: "\ec59";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-skull.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-skull.solid.rounded:before {
+  content: "\ec5a";
+}
+body:has(.active-screen) .dga-icon-skull.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-skull.bulk.rounded .path1:before {
+  content: "\ec5b";
+  opacity: 0.4;
+}
+.dga-icon-skull.bulk.rounded .path2:before {
+  content: "\ec5c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-skull.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-skull.bulk.rounded .path3:before {
+  content: "\ec5d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-skull.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-skull.stroke.sharp:before {
+  content: "\ec5e";
+}
+.dga-icon-skull.solid.sharp:before {
+  content: "\ec5f";
+}
+.dga-icon-sperm {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-sperm:before, 
+.dga-icon-sperm.stroke.rounded:before {
+  content: "\ec60";
+}
+.dga-icon-sperm.twotone.rounded:before {
+  content: "\ec61";
+}
+.dga-icon-sperm.twotone.rounded:after {
+  content: "\ec62";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-sperm.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sperm.duotone.rounded:before {
+  content: "\ec63";
+  opacity: 0.4;
+}
+.dga-icon-sperm.duotone.rounded:after {
+  content: "\ec64";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sperm.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sperm.solid.rounded:before {
+  content: "\ec65";
+}
+.dga-icon-sperm.bulk.rounded:before {
+  content: "\ec66";
+  opacity: 0.4;
+}
+.dga-icon-sperm.bulk.rounded:after {
+  content: "\ec67";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-sperm.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-sperm.stroke.sharp:before {
+  content: "\ec68";
+}
+.dga-icon-sperm.solid.sharp:before {
+  content: "\ec69";
+}
+.dga-icon-stethoscope {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-stethoscope:before, 
+.dga-icon-stethoscope.stroke.rounded:before {
+  content: "\ec6a";
+}
+body:has(.active-screen) .dga-icon-stethoscope.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-stethoscope.twotone.rounded .path1:before {
+  content: "\ec6b";
+}
+.dga-icon-stethoscope.twotone.rounded .path2:before {
+  content: "\ec6c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.twotone.rounded .path3:before {
+  content: "\ec6d";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-stethoscope.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.twotone.rounded .path4:before {
+  content: "\ec6e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-stethoscope.twotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-stethoscope.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-stethoscope.duotone.rounded .path1:before {
+  content: "\ec6f";
+  opacity: 0.4;
+}
+.dga-icon-stethoscope.duotone.rounded .path2:before {
+  content: "\ec70";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-stethoscope.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.duotone.rounded .path3:before {
+  content: "\ec71";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.duotone.rounded .path4:before {
+  content: "\ec72";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.solid.rounded:before {
+  content: "\ec73";
+}
+body:has(.active-screen) .dga-icon-stethoscope.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-stethoscope.bulk.rounded .path1:before {
+  content: "\ec74";
+  opacity: 0.4;
+}
+.dga-icon-stethoscope.bulk.rounded .path2:before {
+  content: "\ec75";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-stethoscope.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.bulk.rounded .path3:before {
+  content: "\ec76";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.bulk.rounded .path4:before {
+  content: "\ec77";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope.stroke.sharp:before {
+  content: "\ec78";
+}
+.dga-icon-stethoscope.solid.sharp:before {
+  content: "\ec79";
+}
+.dga-icon-stethoscope-02 {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-stethoscope-02:before, 
+.dga-icon-stethoscope-02.stroke.rounded:before {
+  content: "\ec7a";
+}
+body:has(.active-screen) .dga-icon-stethoscope-02.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-stethoscope-02.twotone.rounded .path1:before {
+  content: "\ec7b";
+  opacity: 0.4;
+}
+.dga-icon-stethoscope-02.twotone.rounded .path2:before {
+  content: "\ec7c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope-02.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope-02.twotone.rounded .path3:before {
+  content: "\ec7d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope-02.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope-02.duotone.rounded:before {
+  content: "\ec7e";
+  opacity: 0.4;
+}
+.dga-icon-stethoscope-02.duotone.rounded:after {
+  content: "\ec7f";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope-02.duotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope-02.solid.rounded:before {
+  content: "\ec80";
+}
+body:has(.active-screen) .dga-icon-stethoscope-02.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-stethoscope-02.bulk.rounded .path1:before {
+  content: "\ec81";
+  opacity: 0.4;
+}
+.dga-icon-stethoscope-02.bulk.rounded .path2:before {
+  content: "\ec82";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope-02.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope-02.bulk.rounded .path3:before {
+  content: "\ec83";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope-02.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope-02.bulk.rounded .path4:before {
+  content: "\ec84";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-stethoscope-02.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-stethoscope-02.stroke.sharp:before {
+  content: "\ec85";
+}
+.dga-icon-stethoscope-02.solid.sharp:before {
+  content: "\ec86";
+}
+.dga-icon-thermometer {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-thermometer:before, 
+.dga-icon-thermometer.stroke.rounded:before {
+  content: "\ec87";
+}
+body:has(.active-screen) .dga-icon-thermometer.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-thermometer.twotone.rounded .path1:before {
+  content: "\ec88";
+}
+.dga-icon-thermometer.twotone.rounded .path2:before {
+  content: "\ec89";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-thermometer.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-thermometer.twotone.rounded .path3:before {
+  content: "\ec8a";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-thermometer.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-thermometer.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-thermometer.duotone.rounded .path1:before {
+  content: "\ec8b";
+  opacity: 0.4;
+}
+.dga-icon-thermometer.duotone.rounded .path2:before {
+  content: "\ec8c";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-thermometer.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-thermometer.duotone.rounded .path3:before {
+  content: "\ec8d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-thermometer.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-thermometer.solid.rounded:before {
+  content: "\ec8e";
+}
+body:has(.active-screen) .dga-icon-thermometer.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-thermometer.bulk.rounded .path1:before {
+  content: "\ec8f";
+  opacity: 0.4;
+}
+.dga-icon-thermometer.bulk.rounded .path2:before {
+  content: "\ec90";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-thermometer.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-thermometer.bulk.rounded .path3:before {
+  content: "\ec91";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-thermometer.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-thermometer.stroke.sharp:before {
+  content: "\ec92";
+}
+.dga-icon-thermometer.solid.sharp:before {
+  content: "\ec93";
+}
+.dga-icon-tissue-paper {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-tissue-paper:before, 
+.dga-icon-tissue-paper.stroke.rounded:before {
+  content: "\ec94";
+}
+body:has(.active-screen) .dga-icon-tissue-paper.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-tissue-paper.twotone.rounded .path1:before {
+  content: "\ec95";
+  opacity: 0.4;
+}
+.dga-icon-tissue-paper.twotone.rounded .path2:before {
+  content: "\ec96";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tissue-paper.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tissue-paper.twotone.rounded .path3:before {
+  content: "\ec97";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tissue-paper.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-tissue-paper.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-tissue-paper.duotone.rounded .path1:before {
+  content: "\ec98";
+  opacity: 0.4;
+}
+.dga-icon-tissue-paper.duotone.rounded .path2:before {
+  content: "\ec99";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tissue-paper.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tissue-paper.duotone.rounded .path3:before {
+  content: "\ec9a";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tissue-paper.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tissue-paper.solid.rounded:before {
+  content: "\ec9b";
+}
+body:has(.active-screen) .dga-icon-tissue-paper.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-tissue-paper.bulk.rounded .path1:before {
+  content: "\ec9c";
+}
+.dga-icon-tissue-paper.bulk.rounded .path2:before {
+  content: "\ec9d";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tissue-paper.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tissue-paper.bulk.rounded .path3:before {
+  content: "\ec9e";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tissue-paper.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tissue-paper.stroke.sharp:before {
+  content: "\ec9f";
+}
+.dga-icon-tissue-paper.solid.sharp:before {
+  content: "\eca0";
+}
+.dga-icon-tongue {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-tongue:before, 
+.dga-icon-tongue.stroke.rounded:before {
+  content: "\eca1";
+}
+.dga-icon-tongue.twotone.rounded:before {
+  content: "\eca2";
+}
+.dga-icon-tongue.twotone.rounded:after {
+  content: "\eca3";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tongue.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-tongue.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-tongue.duotone.rounded .path1:before {
+  content: "\eca4";
+  opacity: 0.4;
+}
+.dga-icon-tongue.duotone.rounded .path2:before {
+  content: "\eca5";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tongue.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tongue.duotone.rounded .path3:before {
+  content: "\eca6";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-tongue.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tongue.solid.rounded:before {
+  content: "\eca7";
+}
+.dga-icon-tongue.bulk.rounded:before {
+  content: "\eca8";
+}
+.dga-icon-tongue.bulk.rounded:after {
+  content: "\eca9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-tongue.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-tongue.stroke.sharp:before {
+  content: "\ecaa";
+}
+.dga-icon-tongue.solid.sharp:before {
+  content: "\ecab";
+}
+.dga-icon-treatment {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-treatment:before, 
+.dga-icon-treatment.stroke.rounded:before {
+  content: "\ecac";
+}
+.dga-icon-treatment.twotone.rounded:before {
+  content: "\ecad";
+  opacity: 0.4;
+}
+.dga-icon-treatment.twotone.rounded:after {
+  content: "\ecae";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-treatment.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-treatment.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-treatment.duotone.rounded .path1:before {
+  content: "\ecaf";
+  opacity: 0.4;
+}
+.dga-icon-treatment.duotone.rounded .path2:before {
+  content: "\ecb0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-treatment.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-treatment.duotone.rounded .path3:before {
+  content: "\ecb1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-treatment.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-treatment.solid.rounded:before {
+  content: "\ecb2";
+}
+.dga-icon-treatment.bulk.rounded:before {
+  content: "\ecb3";
+}
+.dga-icon-treatment.bulk.rounded:after {
+  content: "\ecb4";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-treatment.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-treatment.stroke.sharp:before {
+  content: "\ecb5";
+}
+.dga-icon-treatment.solid.sharp:before {
+  content: "\ecb6";
+}
+.dga-icon-vaccine {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-vaccine:before, 
+.dga-icon-vaccine.stroke.rounded:before {
+  content: "\ecb7";
+}
+.dga-icon-vaccine.twotone.rounded:before {
+  content: "\ecb8";
+}
+.dga-icon-vaccine.twotone.rounded:after {
+  content: "\ecb9";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-vaccine.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-vaccine.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-vaccine.duotone.rounded .path1:before {
+  content: "\ecba";
+  opacity: 0.4;
+}
+.dga-icon-vaccine.duotone.rounded .path2:before {
+  content: "\ecbb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vaccine.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vaccine.duotone.rounded .path3:before {
+  content: "\ecbc";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vaccine.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vaccine.duotone.rounded .path4:before {
+  content: "\ecbd";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vaccine.duotone.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vaccine.solid.rounded:before {
+  content: "\ecbe";
+}
+body:has(.active-screen) .dga-icon-vaccine.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-vaccine.bulk.rounded .path1:before {
+  content: "\ecbf";
+  opacity: 0.4;
+}
+.dga-icon-vaccine.bulk.rounded .path2:before {
+  content: "\ecc0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vaccine.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vaccine.bulk.rounded .path3:before {
+  content: "\ecc1";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vaccine.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vaccine.bulk.rounded .path4:before {
+  content: "\ecc2";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-vaccine.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-vaccine.stroke.sharp:before {
+  content: "\ecc3";
+}
+.dga-icon-vaccine.solid.sharp:before {
+  content: "\ecc4";
+}
+.dga-icon-wheelchair {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-wheelchair:before, 
+.dga-icon-wheelchair.stroke.rounded:before {
+  content: "\ecc5";
+}
+body:has(.active-screen) .dga-icon-wheelchair.twotone.rounded:before {
+  display: none;
+}
+.dga-icon-wheelchair.twotone.rounded .path1:before {
+  content: "\ecc6";
+}
+.dga-icon-wheelchair.twotone.rounded .path2:before {
+  content: "\ecc7";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-wheelchair.twotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wheelchair.twotone.rounded .path3:before {
+  content: "\ecc8";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-wheelchair.twotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-wheelchair.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-wheelchair.duotone.rounded .path1:before {
+  content: "\ecc9";
+  opacity: 0.4;
+}
+.dga-icon-wheelchair.duotone.rounded .path2:before {
+  content: "\ecca";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wheelchair.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wheelchair.duotone.rounded .path3:before {
+  content: "\eccb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wheelchair.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wheelchair.solid.rounded:before {
+  content: "\eccc";
+}
+body:has(.active-screen) .dga-icon-wheelchair.bulk.rounded:before {
+  display: none;
+}
+.dga-icon-wheelchair.bulk.rounded .path1:before {
+  content: "\eccd";
+  opacity: 0.4;
+}
+.dga-icon-wheelchair.bulk.rounded .path2:before {
+  content: "\ecce";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-wheelchair.bulk.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wheelchair.bulk.rounded .path3:before {
+  content: "\eccf";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wheelchair.bulk.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wheelchair.bulk.rounded .path4:before {
+  content: "\ecd0";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-wheelchair.bulk.rounded .path4:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-wheelchair.stroke.sharp:before {
+  content: "\ecd1";
+}
+.dga-icon-wheelchair.solid.sharp:before {
+  content: "\ecd2";
+}
+.dga-icon-x-ray {
+  font-family: 'dga-fonts-icons-medical' !important;
+}
+.dga-icon-x-ray:before, 
+.dga-icon-x-ray.stroke.rounded:before {
+  content: "\ecd3";
+}
+.dga-icon-x-ray.twotone.rounded:before {
+  content: "\ecd4";
+}
+.dga-icon-x-ray.twotone.rounded:after {
+  content: "\ecd5";
+  margin-left: -1em;
+  opacity: 0.4;
+}
+.is-rtl .dga-icon-x-ray.twotone.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+body:has(.active-screen) .dga-icon-x-ray.duotone.rounded:before {
+  display: none;
+}
+.dga-icon-x-ray.duotone.rounded .path1:before {
+  content: "\ecd6";
+  opacity: 0.4;
+}
+.dga-icon-x-ray.duotone.rounded .path2:before {
+  content: "\ecd7";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-x-ray.duotone.rounded .path2:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-x-ray.duotone.rounded .path3:before {
+  content: "\ecd8";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-x-ray.duotone.rounded .path3:before {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-x-ray.solid.rounded:before {
+  content: "\ecd9";
+}
+.dga-icon-x-ray.bulk.rounded:before {
+  content: "\ecda";
+  opacity: 0.4;
+}
+.dga-icon-x-ray.bulk.rounded:after {
+  content: "\ecdb";
+  margin-left: -1em;
+}
+.is-rtl .dga-icon-x-ray.bulk.rounded:after {
+  margin-left: auto;
+  margin-right: -1em;
+  position: relative;
+  right: 1em;
+}
+.dga-icon-x-ray.stroke.sharp:before {
+  content: "\ecdc";
+}
+.dga-icon-x-ray.solid.sharp:before {
+  content: "\ecdd";
+}

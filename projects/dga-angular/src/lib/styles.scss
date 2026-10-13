@@ -1,0 +1,3 @@
+// Root-level shim — allows @use '@dev-dga/angular/styles' via node_modules load-path resolution
+// Consumers: this is the package entry point for the DGA design system tokens and mixins.
+@forward './styles/styles';
