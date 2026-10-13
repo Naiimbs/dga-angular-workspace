@@ -1,0 +1,77 @@
+<section class="ct">
+  <header class="ct__band">
+    <div class="ct__band-inner">
+      <dga-breadcrumb [items]="crumbs" />
+      <h1 class="ct__title">Contact us</h1>
+      <p class="ct__subtitle">For inquiries, technical support or feedback, reach us through the channels below.</p>
+    </div>
+  </header>
+
+  <div class="ct__body">
+    <!-- Message form -->
+    <section class="ct__form">
+      <div class="ct__row2">
+        <dga-input label="First name" placeholder="Enter your first name" [required]="true" />
+        <dga-input label="Last name" placeholder="Enter your last name" [required]="true" />
+      </div>
+      <div class="ct__row2">
+        <dga-input label="Email" type="email" placeholder="you@example.com" [required]="true" />
+        <div class="ct__phone">
+          <span class="ct__cc"><bdi dir="ltr">+966</bdi></span>
+          <dga-input label="Phone" type="tel" placeholder="00 000 0000" />
+        </div>
+      </div>
+      <div class="ct__row2">
+        <dga-input label="Subject" placeholder="Type your subject" />
+        <dga-select label="Category" placeholder="Choose an option" [options]="categories" />
+      </div>
+      <dga-textarea label="How can we help?" [rows]="5" placeholder="Write your message…" />
+      <dga-file-upload label="Upload files" hint="Maximum file size 2 MB. Supported formats: .jpg, .png, .pdf." />
+      <div class="ct__actions">
+        <dga-button variant="primary">Send message</dga-button>
+      </div>
+    </section>
+
+    <!-- Contact info card (overlaps the band) -->
+    <aside class="ct__aside">
+      <dga-card variant="default" padding="lg">
+        <dga-card-header><dga-card-title>Location &amp; contact information</dga-card-title></dga-card-header>
+        <dga-card-content>
+          <ul class="ct__info">
+            <li>
+              <span class="ct__ic"><dga-icon name="dga-icon-call" /></span>
+              <div><h3>Phone directory</h3><p><bdi dir="ltr">+966 11 477 7714</bdi></p></div>
+            </li>
+            <li>
+              <span class="ct__ic"><dga-icon name="dga-icon-mail-01" /></span>
+              <div><h3>Email</h3><p class="ct__ltr">support&#64;example.gov.sa</p></div>
+            </li>
+            <li>
+              <span class="ct__ic"><dga-icon name="location-01" /></span>
+              <div><h3>Head office</h3><p>King Abdulaziz Road, Al-Wizarat District, Riyadh 11165</p></div>
+            </li>
+          </ul>
+
+          <div class="ct__follow">
+            <h3>Follow us</h3>
+            <div class="ct__follow-icons">
+              <a class="ct__follow-btn" href="#" aria-label="X"><dga-icon name="new-twitter" /></a>
+              <a class="ct__follow-btn" href="#" aria-label="LinkedIn"><dga-icon name="linkedin-01" /></a>
+              <a class="ct__follow-btn" href="#" aria-label="Instagram"><dga-icon name="instagram" /></a>
+            </div>
+          </div>
+
+          <div class="ct__emergency">
+            <h3>Emergency contacts</h3>
+            @for (e of emergency; track e.label) {
+              <div class="ct__emergency-row">
+                <span>{{ e.label }}</span>
+                <bdi dir="ltr" class="ct__emergency-num">{{ e.number }}</bdi>
+              </div>
+            }
+          </div>
+        </dga-card-content>
+      </dga-card>
+    </aside>
+  </div>
+</section>

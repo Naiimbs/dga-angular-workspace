@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import {
   DgaAlert,
   DgaAccordion,
@@ -84,6 +85,7 @@ import { inject } from '@angular/core';
     TitleCasePipe,
     UpperCasePipe,
     FormsModule,
+    RouterLink,
     DgaAlert,
     DgaAccordion,
     DgaAvatar,
