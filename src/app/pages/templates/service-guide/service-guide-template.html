@@ -1,0 +1,110 @@
+<section class="sgt">
+  <header class="sgt__band">
+    <div class="sgt__band-inner">
+      <dga-breadcrumb [items]="crumbs" />
+      <h1 class="sgt__title">Service guide</h1>
+      <p class="sgt__subtitle">Learn about the service, the cases that may benefit, the steps to submit a request, and the documents that help speed up the review.</p>
+    </div>
+  </header>
+
+  <div class="sgt__body">
+    <!-- What is the service -->
+    <dga-card variant="default" padding="lg">
+      <dga-card-header>
+        <dga-card-icon featured><dga-icon name="info" /></dga-card-icon>
+        <dga-card-title>What is this service?</dga-card-title>
+      </dga-card-header>
+      <dga-card-content>
+        <p class="sgt__p">This service transports patients when their condition requires an urgent or specialized transfer, or when transport by other means is unsuitable.</p>
+        <p class="sgt__p">It coordinates moving the patient from their current location to a facility capable of providing the appropriate care.</p>
+      </dga-card-content>
+    </dga-card>
+
+    <!-- Eligible cases -->
+    <section class="sgt__section">
+      <h2 class="sgt__h2">Cases eligible for the service</h2>
+      <p class="sgt__intro">Eligibility varies with the medical assessment and the approved procedures. Submitting a request does not mean final approval.</p>
+      <div class="sgt__grid">
+        @for (e of eligible; track e.title) {
+          <dga-card variant="default" padding="lg">
+            <dga-card-header>
+              <dga-card-icon featured><dga-icon name="check-circle" /></dga-card-icon>
+              <dga-card-title>{{ e.title }}</dga-card-title>
+              <dga-card-description>{{ e.body }}</dga-card-description>
+            </dga-card-header>
+          </dga-card>
+        }
+      </div>
+    </section>
+
+    <!-- Documents — expandable cards -->
+    <section class="sgt__section">
+      <h2 class="sgt__h2">Documents and data required</h2>
+      <p class="sgt__intro">Mandatory fields and documents are marked in the request form; attachments are accepted as PDF, JPG or PNG.</p>
+      <div class="sgt__docs">
+        <dga-card [expandable]="true" variant="default" padding="lg">
+          <dga-card-header>
+            <dga-card-icon featured><dga-icon name="dga-icon-file-01" /></dga-card-icon>
+            <dga-card-title>Basic documents and data</dga-card-title>
+          </dga-card-header>
+          <dga-card-expandable-content>
+            <ul class="sgt__doclist">
+              @for (d of basicDocs; track d) { <li><dga-icon name="check-circle" /><span>{{ d }}</span></li> }
+            </ul>
+          </dga-card-expandable-content>
+        </dga-card>
+
+        <dga-card [expandable]="true" variant="default" padding="lg">
+          <dga-card-header>
+            <dga-card-icon featured><dga-icon name="dga-icon-file-validation" /></dga-card-icon>
+            <dga-card-title>Documents required depending on the case</dga-card-title>
+          </dga-card-header>
+          <dga-card-expandable-content>
+            <ul class="sgt__doclist">
+              @for (d of conditionalDocs; track d.title) {
+                <li><dga-icon name="dga-icon-file-validation" /><span><strong>{{ d.title }}</strong><small>{{ d.when }}</small></span></li>
+              }
+            </ul>
+          </dga-card-expandable-content>
+        </dga-card>
+
+        <dga-card [expandable]="true" variant="default" padding="lg">
+          <dga-card-header>
+            <dga-card-icon featured><dga-icon name="dga-icon-file-add" /></dga-card-icon>
+            <dga-card-title>Optional documents</dga-card-title>
+          </dga-card-header>
+          <dga-card-expandable-content>
+            <ul class="sgt__doclist">
+              @for (d of optionalDocs; track d.title) {
+                <li><dga-icon name="dga-icon-file-add" /><span><strong>{{ d.title }}</strong><small>{{ d.when }}</small></span></li>
+              }
+            </ul>
+          </dga-card-expandable-content>
+        </dga-card>
+      </div>
+    </section>
+
+    <!-- Steps -->
+    <section class="sgt__section">
+      <h2 class="sgt__h2">Steps to submit and track your request</h2>
+      <dga-stepper [steps]="steps" />
+    </section>
+
+    <!-- Pre-submit note -->
+    @if (showNote()) {
+      <dga-alert variant="warning" title="Before submitting the request" [dismissible]="true" (dismissed)="showNote.set(false)">
+        Make sure the data is accurate, the attachments are clear and the required information is complete. Missing or unclear documents may delay the review.
+      </dga-alert>
+    }
+
+    <!-- Ready to submit -->
+    <section class="sgt__cta">
+      <h2 class="sgt__cta-title">Ready to submit a request?</h2>
+      <p class="sgt__cta-body">Start by filling in the form, attach the required documents, then track the request status through the platform.</p>
+      <div class="sgt__cta-actions">
+        <dga-button variant="primary">Submit a request</dga-button>
+        <dga-button variant="outline">Track my requests</dga-button>
+      </div>
+    </section>
+  </div>
+</section>

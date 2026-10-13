@@ -93,6 +93,7 @@ export type { DgaFooterLink, DgaFooterLinkGroup, DgaFooterLogo } from './lib/sec
 export {
   DgaAccordion,
   DgaProgress,
+  DgaStepper,
   DgaEmptyState,
   DgaDigitalStamp,
 } from './lib/composite';
@@ -101,6 +102,7 @@ export type {
   DgaAccordionValue,
   DgaProgressVariant,
   DgaProgressState,
+  DgaStepperItem,
   DgaEmptyStateVariant,
   DgaDigitalStampExtension,
 } from './lib/composite';
