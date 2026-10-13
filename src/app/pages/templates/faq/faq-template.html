@@ -1,0 +1,31 @@
+<section class="faqt">
+  <!-- Page-header band: breadcrumb + title + description -->
+  <header class="faqt__band">
+    <div class="faqt__band-inner">
+      <dga-breadcrumb [items]="crumbs" />
+      <h1 class="faqt__title">FAQs</h1>
+      <p class="faqt__subtitle">Find answers to common questions about our products, services, and policies.</p>
+    </div>
+  </header>
+
+  <div class="faqt__body">
+    <dga-accordion class="faqt__accordion" [items]="faqItems" [defaultValue]="'q1'" />
+
+    <!-- Contact support card -->
+    <dga-card class="faqt__cta" variant="outline" padding="lg">
+      <dga-card-icon><dga-icon name="dga-icon-mail-01" [size]="24" /></dga-card-icon>
+      <dga-card-title>Comments &amp; suggestions</dga-card-title>
+      <dga-card-description>For any inquiry or feedback, please fill in the required information.</dga-card-description>
+      <div class="faqt__cta-action">
+        <dga-button variant="primary" size="sm">Contact us</dga-button>
+      </div>
+    </dga-card>
+
+    <!-- Was this page useful? -->
+    <div class="faqt__feedback">
+      <span class="faqt__fb-q">Was this page useful?</span>
+      <dga-button variant="primary" size="sm">Yes</dga-button>
+      <dga-button variant="secondary" size="sm">No</dga-button>
+    </div>
+  </div>
+</section>

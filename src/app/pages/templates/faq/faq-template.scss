@@ -1,0 +1,61 @@
+:host { display: block; background: var(--ddga-color-background, #fff); }
+
+/* Page-header band — light SA-Flag green tint, full width; content body below stays on the page bg. */
+.faqt__band {
+  background: #F7FDF9;
+  border-block-end: 1px solid var(--ddga-color-border, #e5e7eb);
+}
+.faqt__band-inner {
+  max-inline-size: 1000px;
+  margin-inline: auto;
+  padding: 24px;
+}
+.faqt__title {
+  margin: 16px 0 8px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ddga-text-primary, #161616);
+}
+.faqt__subtitle {
+  margin: 0;
+  max-inline-size: 60ch;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ddga-text-secondary, #4d5761);
+}
+
+.faqt__body {
+  max-inline-size: 1000px;
+  margin-inline: auto;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Contact-support card — full width, tightened via the card's own gap token; green mail icon. */
+.faqt__cta {
+  inline-size: 100%;
+  --ddga-card-gap: var(--ddga-space-1);
+  dga-card-icon { color: var(--ddga-color-primary, #1B8354); }
+}
+.faqt__cta-action { margin-block-start: var(--ddga-space-3); }
+
+/* "Was this page useful?" bar — primary-green top rule. */
+.faqt__feedback {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-block-start: 16px;
+  padding-block-start: 16px;
+  border-block-start: 2px solid var(--ddga-color-primary, #1B8354);
+}
+.faqt__fb-q { font-size: 15px; font-weight: 600; color: var(--ddga-text-primary, #111927); }
+
+@media (max-width: 640px) {
+  .faqt__band-inner, .faqt__body { padding-inline: 16px; }
+  .faqt__title { font-size: 24px; }
+  .faqt__subtitle { font-size: 15px; }
+}

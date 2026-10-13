@@ -357,10 +357,11 @@ export class DgaTabs {
     .breadcrumb__menu a, .breadcrumb__menu span { padding: var(--ddga-space-2) var(--ddga-space-3); border-radius: var(--ddga-radius-sm); color: inherit; white-space: nowrap; }
     .breadcrumb__menu a:hover { background: var(--ddga-color-muted); text-decoration: none; }
     .breadcrumb__menu a:focus-visible { outline: 2px solid var(--ddga-color-ring); outline-offset: -2px; }
-    a { color: var(--ddga-color-primary); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a { color: var(--ddga-color-foreground); font-weight: var(--ddga-font-weight-medium); text-decoration: none; }
+    a:hover { color: var(--ddga-color-primary); text-decoration: underline; }
     a:focus-visible { outline: 2px solid var(--ddga-color-ring); outline-offset: 2px; }
-    [aria-current='page'] { color: var(--ddga-color-foreground); font-weight: var(--ddga-font-weight-medium); }
+    /* Current (last) crumb reads as muted light-gray; clickable crumbs stay dark (DGA reference). */
+    [aria-current='page'] { color: var(--ddga-color-muted-foreground); }
   `],
 })
 export class DgaBreadcrumb {
