@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import {
   DgaBreadcrumb,
   DgaCard, DgaCardHeader, DgaCardIcon, DgaCardTitle, DgaCardDescription, DgaCardContent, DgaCardExpandableContent,
@@ -60,6 +60,4 @@ export class ServiceGuideTemplate {
     { title: 'Coordination and scheduling', description: 'On approval, the relevant parties coordinate to determine the flight details.' },
     { title: 'Execution and follow-up', description: 'The request is tracked until the flight is carried out and the patient arrives.' },
   ];
-
-  readonly showNote = signal(true);
 }

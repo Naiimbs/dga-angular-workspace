@@ -90,12 +90,10 @@
       <dga-stepper [steps]="steps" />
     </section>
 
-    <!-- Pre-submit note -->
-    @if (showNote()) {
-      <dga-alert variant="warning" title="Before submitting the request" [dismissible]="true" (dismissed)="showNote.set(false)">
-        Make sure the data is accurate, the attachments are clear and the required information is complete. Missing or unclear documents may delay the review.
-      </dga-alert>
-    }
+    <!-- Pre-submit note — warning alert with a vertical accent, not dismissible -->
+    <dga-alert class="sgt__alert" variant="warning" title="Before submitting the request">
+      Make sure the data is accurate, the attachments are clear and the required information is complete. Missing or unclear documents may delay the review.
+    </dga-alert>
 
     <!-- Ready to submit -->
     <section class="sgt__cta">
